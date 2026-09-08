@@ -1,0 +1,1603 @@
+[
+  {
+    "country": "PL",
+    "name_key": "park zamkowy",
+    "source_ids": [
+      "PL-0038",
+      "PL-0066"
+    ]
+  },
+  {
+    "country": "PL",
+    "name_key": "wodospad w sopotni wielkiej",
+    "source_ids": [
+      "PL-0082",
+      "PL-0092"
+    ]
+  },
+  {
+    "country": "PL",
+    "name_key": "zamkowa góra",
+    "source_ids": [
+      "PL-0100",
+      "PL-0440"
+    ]
+  },
+  {
+    "country": "PL",
+    "name_key": "zamek czorsztyn",
+    "source_ids": [
+      "PL-0231",
+      "PL-0250"
+    ]
+  },
+  {
+    "country": "PL",
+    "name_key": "wołowiec",
+    "source_ids": [
+      "PL-0268",
+      "PL-0439"
+    ]
+  },
+  {
+    "country": "PL",
+    "name_key": "polana chochołowska",
+    "source_ids": [
+      "PL-0270",
+      "PL-0332"
+    ]
+  },
+  {
+    "country": "PL",
+    "name_key": "jaskinia mylna",
+    "source_ids": [
+      "PL-0278",
+      "PL-0335"
+    ]
+  },
+  {
+    "country": "PL",
+    "name_key": "jaskinia raptawicka",
+    "source_ids": [
+      "PL-0279",
+      "PL-0337"
+    ]
+  },
+  {
+    "country": "PL",
+    "name_key": "przedni staw polski",
+    "source_ids": [
+      "PL-0287",
+      "PL-0340"
+    ]
+  },
+  {
+    "country": "PL",
+    "name_key": "siklawa",
+    "source_ids": [
+      "PL-0288",
+      "PL-0341"
+    ]
+  },
+  {
+    "country": "PL",
+    "name_key": "wielki staw polski",
+    "source_ids": [
+      "PL-0289",
+      "PL-0342"
+    ]
+  },
+  {
+    "country": "PL",
+    "name_key": "wodogrzmoty mickiewicza",
+    "source_ids": [
+      "PL-0290",
+      "PL-0354"
+    ]
+  },
+  {
+    "country": "PL",
+    "name_key": "dolina pięciu stawów polskich",
+    "source_ids": [
+      "PL-0292",
+      "PL-0344"
+    ]
+  },
+  {
+    "country": "PL",
+    "name_key": "dolina roztoki",
+    "source_ids": [
+      "PL-0293",
+      "PL-0355"
+    ]
+  },
+  {
+    "country": "PL",
+    "name_key": "siklawica",
+    "source_ids": [
+      "PL-0296",
+      "PL-0345"
+    ]
+  },
+  {
+    "country": "PL",
+    "name_key": "dolina strążyska",
+    "source_ids": [
+      "PL-0298",
+      "PL-0347"
+    ]
+  },
+  {
+    "country": "PL",
+    "name_key": "czarny staw gąsienicowy",
+    "source_ids": [
+      "PL-0300",
+      "PL-0348"
+    ]
+  },
+  {
+    "country": "PL",
+    "name_key": "zielony staw gąsienicowy",
+    "source_ids": [
+      "PL-0302",
+      "PL-0349"
+    ]
+  },
+  {
+    "country": "PL",
+    "name_key": "hala gąsienicowa",
+    "source_ids": [
+      "PL-0307",
+      "PL-0350"
+    ]
+  },
+  {
+    "country": "PL",
+    "name_key": "schronisko murowaniec",
+    "source_ids": [
+      "PL-0303",
+      "PL-0351"
+    ]
+  },
+  {
+    "country": "PL",
+    "name_key": "czarny staw pod rysami",
+    "source_ids": [
+      "PL-0315",
+      "PL-0352"
+    ]
+  },
+  {
+    "country": "PL",
+    "name_key": "morskie oko",
+    "source_ids": [
+      "PL-0316",
+      "PL-0353"
+    ]
+  },
+  {
+    "country": "PL",
+    "name_key": "wodospad wilczki",
+    "source_ids": [
+      "PL-0378",
+      "PL-0388"
+    ]
+  },
+  {
+    "country": "PL",
+    "name_key": "błędne skały",
+    "source_ids": [
+      "PL-0401",
+      "PL-0415"
+    ]
+  },
+  {
+    "country": "PL",
+    "name_key": "fort karola",
+    "source_ids": [
+      "PL-0402",
+      "PL-0418"
+    ]
+  },
+  {
+    "country": "PL",
+    "name_key": "radkowskie skały",
+    "source_ids": [
+      "PL-0405",
+      "PL-0416"
+    ]
+  },
+  {
+    "country": "PL",
+    "name_key": "skalne grzyby",
+    "source_ids": [
+      "PL-0406",
+      "PL-0417"
+    ]
+  },
+  {
+    "country": "PL",
+    "name_key": "wieżyca",
+    "source_ids": [
+      "PL-0476",
+      "PL-0881"
+    ]
+  },
+  {
+    "country": "PL",
+    "name_key": "wilcza góra",
+    "source_ids": [
+      "PL-0501",
+      "PL-0515"
+    ]
+  },
+  {
+    "country": "PL",
+    "name_key": "czartowska skała",
+    "source_ids": [
+      "PL-0502",
+      "PL-0513"
+    ]
+  },
+  {
+    "country": "PL",
+    "name_key": "kolorowe jeziorka",
+    "source_ids": [
+      "PL-0508",
+      "PL-0523"
+    ]
+  },
+  {
+    "country": "PL",
+    "name_key": "miedzianka",
+    "source_ids": [
+      "PL-0521",
+      "PL-0632"
+    ]
+  },
+  {
+    "country": "PL",
+    "name_key": "dziki wodospad",
+    "source_ids": [
+      "PL-0539",
+      "PL-0579"
+    ]
+  },
+  {
+    "country": "PL",
+    "name_key": "wodospad szklarki",
+    "source_ids": [
+      "PL-0546",
+      "PL-0585"
+    ]
+  },
+  {
+    "country": "PL",
+    "name_key": "hala izerska",
+    "source_ids": [
+      "PL-0553",
+      "PL-0573"
+    ]
+  },
+  {
+    "country": "PL",
+    "name_key": "torfowiska doliny izery",
+    "source_ids": [
+      "PL-0555",
+      "PL-0574"
+    ]
+  },
+  {
+    "country": "PL",
+    "name_key": "wieża książęca w siedlęcinie",
+    "source_ids": [
+      "PL-0563",
+      "PL-0571"
+    ]
+  },
+  {
+    "country": "PL",
+    "name_key": "wodospad magurski",
+    "source_ids": [
+      "PL-0596",
+      "PL-0619"
+    ]
+  },
+  {
+    "country": "PL",
+    "name_key": "diabli kamień",
+    "source_ids": [
+      "PL-0597",
+      "PL-0620"
+    ]
+  },
+  {
+    "country": "PL",
+    "name_key": "jaskinia raj",
+    "source_ids": [
+      "PL-0633",
+      "PL-0651"
+    ]
+  },
+  {
+    "country": "PL",
+    "name_key": "bukowa góra",
+    "source_ids": [
+      "PL-0636",
+      "PL-0807"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "dhünntal",
+    "source_ids": [
+      "DE-0022",
+      "DE-0041"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "eifgenbachtal",
+    "source_ids": [
+      "DE-0023",
+      "DE-0042"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "bergischer panoramasteig",
+    "source_ids": [
+      "DE-0024",
+      "DE-0045"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "bergischer weg",
+    "source_ids": [
+      "DE-0025",
+      "DE-0046"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "klosterruine heisterbach",
+    "source_ids": [
+      "DE-0064",
+      "DE-0072"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "obersee",
+    "source_ids": [
+      "DE-0084",
+      "DE-1429",
+      "DE-1463"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "dreiborner hochfläche",
+    "source_ids": [
+      "DE-0090",
+      "DE-0101"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "hirschley",
+    "source_ids": [
+      "DE-0092",
+      "DE-0102"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "vogelsang ip",
+    "source_ids": [
+      "DE-0087",
+      "DE-0099"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "wüstung wollseifen",
+    "source_ids": [
+      "DE-0088",
+      "DE-0100"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "ahrschleife altenahr",
+    "source_ids": [
+      "DE-0123",
+      "DE-0127"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "burg are",
+    "source_ids": [
+      "DE-0121",
+      "DE-0128"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "rotweinwanderweg",
+    "source_ids": [
+      "DE-0124",
+      "DE-0130"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "hochstein",
+    "source_ids": [
+      "DE-0132",
+      "DE-1258"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "ettringer lay",
+    "source_ids": [
+      "DE-0139",
+      "DE-0141"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "kottenheimer winfeld",
+    "source_ids": [
+      "DE-0140",
+      "DE-0146"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "druidenstein",
+    "source_ids": [
+      "DE-0166",
+      "DE-0176"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "ginsburg",
+    "source_ids": [
+      "DE-0178",
+      "DE-0243"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "biggesee",
+    "source_ids": [
+      "DE-0189",
+      "DE-0192"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "biggeblick",
+    "source_ids": [
+      "DE-0191",
+      "DE-0195"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "grotenburg",
+    "source_ids": [
+      "DE-0249",
+      "DE-0260"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "donoper teich",
+    "source_ids": [
+      "DE-0255",
+      "DE-0265"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "externsteine",
+    "source_ids": [
+      "DE-0256",
+      "DE-0261"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "hermannsdenkmal",
+    "source_ids": [
+      "DE-0254",
+      "DE-0263"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "burg trendelburg",
+    "source_ids": [
+      "DE-0267",
+      "DE-0635"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "rittersturz",
+    "source_ids": [
+      "DE-0279",
+      "DE-0305"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "deutsches eck",
+    "source_ids": [
+      "DE-0280",
+      "DE-0306"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "festung ehrenbreitstein",
+    "source_ids": [
+      "DE-0281",
+      "DE-0307"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "bleidenberg",
+    "source_ids": [
+      "DE-0319",
+      "DE-0329"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "burg thurant",
+    "source_ids": [
+      "DE-0321",
+      "DE-0324"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "ehrenburg",
+    "source_ids": [
+      "DE-0322",
+      "DE-0325"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "pyrmonter wasserfall",
+    "source_ids": [
+      "DE-0336",
+      "DE-0340"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "burg pyrmont",
+    "source_ids": [
+      "DE-0338",
+      "DE-0343"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "elzbachtal",
+    "source_ids": [
+      "DE-0341",
+      "DE-0346"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "burg eltz",
+    "source_ids": [
+      "DE-0342",
+      "DE-0347"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "brauselay",
+    "source_ids": [
+      "DE-0356",
+      "DE-0366"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "pinnerkreuz",
+    "source_ids": [
+      "DE-0361",
+      "DE-0370"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "cochemer ritterrunde",
+    "source_ids": [
+      "DE-0364",
+      "DE-0371"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "mörschieder burr",
+    "source_ids": [
+      "DE-0431",
+      "DE-0447"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "wildenburg",
+    "source_ids": [
+      "DE-0430",
+      "DE-0446"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "baybachklamm",
+    "source_ids": [
+      "DE-0434",
+      "DE-0450"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "ehrbachklamm",
+    "source_ids": [
+      "DE-0436",
+      "DE-0451"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "saar-hunsrück-steig",
+    "source_ids": [
+      "DE-0438",
+      "DE-0453"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "soonwaldsteig",
+    "source_ids": [
+      "DE-0439",
+      "DE-0454"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "burg greifenstein",
+    "source_ids": [
+      "DE-0480",
+      "DE-0494"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "schloss weilburg",
+    "source_ids": [
+      "DE-0486",
+      "DE-0491"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "festungsruine mont royal",
+    "source_ids": [
+      "DE-0511",
+      "DE-0518"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "grevenburg",
+    "source_ids": [
+      "DE-0512",
+      "DE-0519"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "starkenburg",
+    "source_ids": [
+      "DE-0520",
+      "DE-0716"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "ürziger felsen",
+    "source_ids": [
+      "DE-0522",
+      "DE-0540"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "maria-zill-aussicht",
+    "source_ids": [
+      "DE-0529",
+      "DE-0538"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "doctorberg",
+    "source_ids": [
+      "DE-0533",
+      "DE-0537"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "burg landshut",
+    "source_ids": [
+      "DE-0531",
+      "DE-0541"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "bernkasteler bärensteig",
+    "source_ids": [
+      "DE-0535",
+      "DE-0542"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "porta nigra",
+    "source_ids": [
+      "DE-0574",
+      "DE-0583"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "burg hanstein",
+    "source_ids": [
+      "DE-0633",
+      "DE-0848"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "steinwand",
+    "source_ids": [
+      "DE-0661",
+      "DE-0665"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "rotes moor",
+    "source_ids": [
+      "DE-0662",
+      "DE-0672"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "schwarzes moor",
+    "source_ids": [
+      "DE-0663",
+      "DE-0673"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "noahs segel",
+    "source_ids": [
+      "DE-0657",
+      "DE-0671"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "asselstein",
+    "source_ids": [
+      "DE-0680",
+      "DE-0694"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "felsenmeer lautertal",
+    "source_ids": [
+      "DE-0708",
+      "DE-0722"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "eberstadter tropfsteinhöhle",
+    "source_ids": [
+      "DE-0710",
+      "DE-0721"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "margarethenschlucht",
+    "source_ids": [
+      "DE-0711",
+      "DE-0725"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "wolfsschlucht zwingenberg",
+    "source_ids": [
+      "DE-0712",
+      "DE-0726"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "hafenlohrtal",
+    "source_ids": [
+      "DE-0730",
+      "DE-0734"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "schloss mespelbrunn",
+    "source_ids": [
+      "DE-0731",
+      "DE-0738"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "scharfenstein",
+    "source_ids": [
+      "DE-0763",
+      "DE-1235"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "okertalsperre",
+    "source_ids": [
+      "DE-0767",
+      "DE-0808"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "oderteich",
+    "source_ids": [
+      "DE-0784",
+      "DE-0804"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "einhornhöhle",
+    "source_ids": [
+      "DE-0788",
+      "DE-0810"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "heimkehle",
+    "source_ids": [
+      "DE-0789",
+      "DE-0857"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "drachenschlucht",
+    "source_ids": [
+      "DE-0817",
+      "DE-0832"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "landgrafenschlucht",
+    "source_ids": [
+      "DE-0818",
+      "DE-0833"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "wartburg",
+    "source_ids": [
+      "DE-0819",
+      "DE-0830"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "rennsteig",
+    "source_ids": [
+      "DE-0820",
+      "DE-0834"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "trusetaler wasserfall",
+    "source_ids": [
+      "DE-0831",
+      "DE-0840"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "ködeltalsperre",
+    "source_ids": [
+      "DE-0872",
+      "DE-0875"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "höllental",
+    "source_ids": [
+      "DE-0873",
+      "DE-1344"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "weissmainquelle",
+    "source_ids": [
+      "DE-0890",
+      "DE-0905"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "nusshardt",
+    "source_ids": [
+      "DE-0886",
+      "DE-0904"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "haberstein",
+    "source_ids": [
+      "DE-0892",
+      "DE-0903"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "luisenburg-felsenlabyrinth",
+    "source_ids": [
+      "DE-0893",
+      "DE-0896"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "rudolfstein",
+    "source_ids": [
+      "DE-0894",
+      "DE-0897"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "binghöhle",
+    "source_ids": [
+      "DE-0913",
+      "DE-0928"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "quackenschloss",
+    "source_ids": [
+      "DE-0916",
+      "DE-0931"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "riesenburg",
+    "source_ids": [
+      "DE-0917",
+      "DE-0932"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "sophienhöhle",
+    "source_ids": [
+      "DE-0918",
+      "DE-0933"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "teufelshöhle pottenstein",
+    "source_ids": [
+      "DE-0919",
+      "DE-0934"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "druidenhain",
+    "source_ids": [
+      "DE-0920",
+      "DE-0935"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "burgruine neideck",
+    "source_ids": [
+      "DE-0909",
+      "DE-0926"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "streitburg",
+    "source_ids": [
+      "DE-0911",
+      "DE-0927"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "blautopf",
+    "source_ids": [
+      "DE-0961",
+      "DE-0991"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "gütersteiner wasserfall",
+    "source_ids": [
+      "DE-0962",
+      "DE-0993"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "uracher wasserfall",
+    "source_ids": [
+      "DE-0963",
+      "DE-0996"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "bärenhöhle",
+    "source_ids": [
+      "DE-0964",
+      "DE-0980"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "nebelhöhle",
+    "source_ids": [
+      "DE-0966",
+      "DE-0982"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "eichfelsen",
+    "source_ids": [
+      "DE-0968",
+      "DE-0999"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "knopfmacherfelsen",
+    "source_ids": [
+      "DE-0969",
+      "DE-1000"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "burg hohenzollern",
+    "source_ids": [
+      "DE-0957",
+      "DE-0975"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "schloss lichtenstein",
+    "source_ids": [
+      "DE-0959",
+      "DE-0979"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "schloss werenwag",
+    "source_ids": [
+      "DE-0960",
+      "DE-1003"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "hohle fels",
+    "source_ids": [
+      "DE-0981",
+      "DE-1010"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "kolbinger höhle",
+    "source_ids": [
+      "DE-0988",
+      "DE-1004"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "lotharpfad",
+    "source_ids": [
+      "DE-1023",
+      "DE-1036"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "allerheiligen-wasserfälle",
+    "source_ids": [
+      "DE-1033",
+      "DE-1039"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "gertelbach-wasserfälle",
+    "source_ids": [
+      "DE-1034",
+      "DE-1041"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "geroldsauer wasserfall",
+    "source_ids": [
+      "DE-1038",
+      "DE-1040"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "triberger wasserfälle",
+    "source_ids": [
+      "DE-1044",
+      "DE-1046"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "todtnauer wasserfall",
+    "source_ids": [
+      "DE-1065",
+      "DE-1085"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "lotenbachklamm",
+    "source_ids": [
+      "DE-1070",
+      "DE-1079"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "wutachschlucht",
+    "source_ids": [
+      "DE-1071",
+      "DE-1084"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "haslachschlucht",
+    "source_ids": [
+      "DE-1072",
+      "DE-1078"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "ravennaschlucht",
+    "source_ids": [
+      "DE-1073",
+      "DE-1080"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "rötenbachschlucht",
+    "source_ids": [
+      "DE-1074",
+      "DE-1081"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "greifensteine",
+    "source_ids": [
+      "DE-1116",
+      "DE-1126"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "schwarzwassertal",
+    "source_ids": [
+      "DE-1117",
+      "DE-1134"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "amselsee",
+    "source_ids": [
+      "DE-1139",
+      "DE-1143"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "ferdinandstein",
+    "source_ids": [
+      "DE-1136",
+      "DE-1145"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "schwedenlöcher",
+    "source_ids": [
+      "DE-1140",
+      "DE-1147"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "basteibrücke",
+    "source_ids": [
+      "DE-1138",
+      "DE-1144"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "breite kluft",
+    "source_ids": [
+      "DE-1150",
+      "DE-1161"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "carolafelsen",
+    "source_ids": [
+      "DE-1151",
+      "DE-1158"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "schrammsteinaussicht",
+    "source_ids": [
+      "DE-1154",
+      "DE-1162"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "schrammtor",
+    "source_ids": [
+      "DE-1155",
+      "DE-1160"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "jägersteig",
+    "source_ids": [
+      "DE-1156",
+      "DE-1163"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "wildschützensteig",
+    "source_ids": [
+      "DE-1157",
+      "DE-1164"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "festung königstein",
+    "source_ids": [
+      "DE-1180",
+      "DE-1199"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "bennohöhle",
+    "source_ids": [
+      "DE-1181",
+      "DE-1190"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "herkulessäulen",
+    "source_ids": [
+      "DE-1182",
+      "DE-1192"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "johanniswacht",
+    "source_ids": [
+      "DE-1183",
+      "DE-1193"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "labyrinth langenhennersdorf",
+    "source_ids": [
+      "DE-1184",
+      "DE-1194"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "sachsenstein",
+    "source_ids": [
+      "DE-1185",
+      "DE-1195"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "grenzplatte",
+    "source_ids": [
+      "DE-1186",
+      "DE-1191"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "malerweg",
+    "source_ids": [
+      "DE-1189",
+      "DE-1200"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "kelchstein",
+    "source_ids": [
+      "DE-1226",
+      "DE-1237"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "jonsdorfer felsenstadt",
+    "source_ids": [
+      "DE-1232",
+      "DE-1236"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "nonnenfelsen",
+    "source_ids": [
+      "DE-1234",
+      "DE-1239"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "burg und kloster oybin",
+    "source_ids": [
+      "DE-1228",
+      "DE-1240"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "grosser arbersee",
+    "source_ids": [
+      "DE-1244",
+      "DE-1274"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "kleiner arbersee",
+    "source_ids": [
+      "DE-1245",
+      "DE-1275"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "rieslochfälle",
+    "source_ids": [
+      "DE-1246",
+      "DE-1276"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "rauchröhren",
+    "source_ids": [
+      "DE-1266",
+      "DE-1277"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "schloss hohenschwangau",
+    "source_ids": [
+      "DE-1307",
+      "DE-1322"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "schloss neuschwanstein",
+    "source_ids": [
+      "DE-1308",
+      "DE-1323"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "kenzenwasserfall",
+    "source_ids": [
+      "DE-1324",
+      "DE-1325"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "höllentalklamm",
+    "source_ids": [
+      "DE-1340",
+      "DE-1358"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "partnachklamm",
+    "source_ids": [
+      "DE-1349",
+      "DE-1359"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "ferchensee",
+    "source_ids": [
+      "DE-1365",
+      "DE-1374"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "lautersee",
+    "source_ids": [
+      "DE-1366",
+      "DE-1375"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "walchensee",
+    "source_ids": [
+      "DE-1384",
+      "DE-1405"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "königssee",
+    "source_ids": [
+      "DE-1428",
+      "DE-1462"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "röthbachfall",
+    "source_ids": [
+      "DE-1430",
+      "DE-1464"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "malerwinkel",
+    "source_ids": [
+      "DE-1433",
+      "DE-1467"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "st. bartholomä",
+    "source_ids": [
+      "DE-1431",
+      "DE-1465"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "hintersee",
+    "source_ids": [
+      "DE-1443",
+      "DE-1461"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "schellenberger eishöhle",
+    "source_ids": [
+      "DE-1450",
+      "DE-1470"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "kehlsteinhaus",
+    "source_ids": [
+      "DE-1451",
+      "DE-1472"
+    ]
+  },
+  {
+    "country": "DE",
+    "name_key": "almbachklamm",
+    "source_ids": [
+      "DE-1466",
+      "DE-1474"
+    ]
+  }
+]

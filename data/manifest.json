@@ -1,0 +1,21 @@
+{
+  "sources": [
+    {
+      "filename": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+      "sha256": "93802a3c53dd776db43f46634cb44d13df249d94bd3993e14744db065994255d"
+    },
+    {
+      "filename": "Summit_Passport_Nowe_Wpisy_Gory_Natura_Szlaki_v2.pdf",
+      "sha256": "da34f7d6d6d702dd29f67e01fe29aaeea1b2317ce246a963826a9f982c47ec6e"
+    }
+  ],
+  "counts": {
+    "baseline_PL": 984,
+    "baseline_DE": 1532,
+    "additions_PL": 154,
+    "additions_DE": 119,
+    "total_source_occurrences": 2789,
+    "duplicate_name_groups": 200
+  },
+  "map_ready_count": 0
+}
