@@ -1,0 +1,65 @@
+{
+  "PL-0089": [
+    {
+      "osm_type": "N",
+      "osm_id": 11688213981,
+      "basis": "Przegibek at Kozy/Beskid Mały is not the source Przegibek in the Wielka Racza/Rycerzowa group."
+    }
+  ],
+  "PL-0135": [
+    {
+      "osm_type": "W",
+      "osm_id": 259669470,
+      "basis": "Zamek Mirów in Książ Wielki is not the source castle in Mirów/Bobolice."
+    }
+  ],
+  "PL-0178": [
+    {
+      "osm_type": "N",
+      "osm_id": 4719016298,
+      "basis": "Kopiec Kościuszki in Olkusz is not the source monument in Kraków."
+    }
+  ],
+  "PL-0147": [
+    {
+      "osm_type": "R",
+      "osm_id": 6297175,
+      "basis": "Dolina Prądnika nature reserve near Kraków is not the source Ojców valley; independent point differs by 12.7 km."
+    }
+  ],
+  "PL-0268": [
+    {
+      "osm_type": "N",
+      "osm_id": 7848647752,
+      "basis": "Wołowiec candidate is 28 km from the 2064 m Tatra summit in source; wrong homonym."
+    }
+  ],
+  "PL-0294": [
+    {
+      "osm_type": "N",
+      "osm_id": 10796701159,
+      "basis": "Giewont candidate 79 km from Tatra summit; wrong homonym."
+    }
+  ],
+  "PL-0499": [
+    {
+      "osm_type": "N",
+      "osm_id": 1325148103,
+      "basis": "Ostrzyca candidate 54 km from source Kaczawskie 501 m peak; wrong homonym."
+    }
+  ],
+  "PL-0262": [
+    {
+      "osm_type": "N",
+      "osm_id": 8809914835,
+      "basis": "This Grześ at 49.2595,19.8104 differs from the source 1653 m border summit near 49.2367,19.7664. Identity cross-check: https://www.wikidata.org/wiki/Q11702821 and https://peakbagger.com/peak.aspx?pid=89626"
+    }
+  ],
+  "PL-0782": [
+    {
+      "osm_type": "N",
+      "osm_id": 1765155037,
+      "basis": "Parchatka viewpoint is distinct from Góra Trzech Krzyży in source Kazimierz Dolny."
+    }
+  ]
+}

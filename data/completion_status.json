@@ -1,0 +1,21 @@
+{
+  "source_records": 2789,
+  "working_entities": 2584,
+  "merged_occurrences": 205,
+  "duplicate_groups_reviewed": 216,
+  "unresolved_exact_name_groups": 1,
+  "entities_with_coordinate_candidates": 638,
+  "map_ready": 349,
+  "complete": false,
+  "notes": "Further aliases and coordinate conflicts still require review. Working entity count is not final.",
+  "photon_source_records_checked": 1226,
+  "entities_with_matched_coordinates": 462,
+  "coordinate_status_counts": {
+    "cross_checked_osm_geonames": 170,
+    "reviewed_source_context": 179,
+    "needs_location_research": 1801,
+    "route_geometry_required": 321,
+    "coordinate_sources_disagree": 3,
+    "automatic_match_needs_review": 110
+  }
+}

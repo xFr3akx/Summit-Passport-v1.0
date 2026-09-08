@@ -1,0 +1,7120 @@
+[
+  {
+    "name": "park zamkowy",
+    "source_ids": [
+      "PL-0038",
+      "PL-0066"
+    ],
+    "decision": "distinct_source_contexts",
+    "result_groups": [
+      [
+        "PL-0038"
+      ],
+      [
+        "PL-0066"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "PL-0038",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 6,
+        "region": "PSZCZYNA / RACIBÓRZ / GÓRNY ŚLĄSK",
+        "subregion": "PSZCZYNA",
+        "elevation_m": null
+      },
+      {
+        "source_id": "PL-0066",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 7,
+        "region": "BESKID MAŁY / BIELSKO / ŻYWIEC",
+        "subregion": "ŻYWIEC",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "wodospad w sopotni wielkiej",
+    "source_ids": [
+      "PL-0082",
+      "PL-0092"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "PL-0082",
+        "PL-0092"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "PL-0082",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 7,
+        "region": "BESKID ŻYWIECKI",
+        "subregion": "PILSKO - RYSIANKA - ROMANKA",
+        "elevation_m": null
+      },
+      {
+        "source_id": "PL-0092",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 8,
+        "region": "BESKID ŻYWIECKI",
+        "subregion": "SOPOTNIA WIELKA",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "zamkowa góra",
+    "source_ids": [
+      "PL-0100",
+      "PL-0440"
+    ],
+    "decision": "distinct_source_contexts",
+    "result_groups": [
+      [
+        "PL-0100"
+      ],
+      [
+        "PL-0440"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "PL-0100",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 8,
+        "region": "GÓRY OPAWSKIE / OPOLSZCZYZNA",
+        "subregion": "BISKUPIA KOPA - GWARKOWA PERĆ",
+        "elevation_m": 571.0
+      },
+      {
+        "source_id": "PL-0440",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 16,
+        "region": "SUDETY ŚRODKOWE / GÓRY SOWIE",
+        "subregion": "WAŁBRZYCH - TRÓJGARB",
+        "elevation_m": 618.0
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "zamek czorsztyn",
+    "source_ids": [
+      "PL-0231",
+      "PL-0250"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "PL-0231",
+        "PL-0250"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "PL-0231",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 11,
+        "region": "PIENINY / SPISZ",
+        "subregion": "CZORSZTYN - NIEDZICA",
+        "elevation_m": null
+      },
+      {
+        "source_id": "PL-0250",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 11,
+        "region": "PIENINY / SPISZ",
+        "subregion": "CZORSZTYN / NIEDZICA",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "wołowiec",
+    "source_ids": [
+      "PL-0268",
+      "PL-0439"
+    ],
+    "decision": "distinct_source_contexts",
+    "result_groups": [
+      [
+        "PL-0268"
+      ],
+      [
+        "PL-0439"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "PL-0268",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 12,
+        "region": "TATRY",
+        "subregion": "CHOCHOŁOWSKA - WOŁOWIEC",
+        "elevation_m": 2064.0
+      },
+      {
+        "source_id": "PL-0439",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 16,
+        "region": "SUDETY ŚRODKOWE / GÓRY SOWIE",
+        "subregion": "WAŁBRZYCH - TRÓJGARB",
+        "elevation_m": 776.0
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "polana chochołowska",
+    "source_ids": [
+      "PL-0270",
+      "PL-0332"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "PL-0270",
+        "PL-0332"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "PL-0270",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 12,
+        "region": "TATRY",
+        "subregion": "CHOCHOŁOWSKA - WOŁOWIEC",
+        "elevation_m": null
+      },
+      {
+        "source_id": "PL-0332",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 13,
+        "region": "TATRY",
+        "subregion": "DOLINA CHOCHOŁOWSKA",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "jaskinia mylna",
+    "source_ids": [
+      "PL-0278",
+      "PL-0335"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "PL-0278",
+        "PL-0335"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "PL-0278",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 12,
+        "region": "TATRY",
+        "subregion": "DOLINA KOŚCIELISKA",
+        "elevation_m": null
+      },
+      {
+        "source_id": "PL-0335",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 13,
+        "region": "TATRY",
+        "subregion": "DOLINA KOŚCIELISKA - JASKINIE",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "jaskinia raptawicka",
+    "source_ids": [
+      "PL-0279",
+      "PL-0337"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "PL-0279",
+        "PL-0337"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "PL-0279",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 12,
+        "region": "TATRY",
+        "subregion": "DOLINA KOŚCIELISKA",
+        "elevation_m": null
+      },
+      {
+        "source_id": "PL-0337",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 13,
+        "region": "TATRY",
+        "subregion": "DOLINA KOŚCIELISKA - JASKINIE",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "przedni staw polski",
+    "source_ids": [
+      "PL-0287",
+      "PL-0340"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "PL-0287",
+        "PL-0340"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "PL-0287",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 12,
+        "region": "TATRY",
+        "subregion": "DOLINA PIĘCIU STAWÓW - SZPIGLAS",
+        "elevation_m": null
+      },
+      {
+        "source_id": "PL-0340",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 13,
+        "region": "TATRY",
+        "subregion": "DOLINA PIĘCIU STAWÓW",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "siklawa",
+    "source_ids": [
+      "PL-0288",
+      "PL-0341"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "PL-0288",
+        "PL-0341"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "PL-0288",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 12,
+        "region": "TATRY",
+        "subregion": "DOLINA PIĘCIU STAWÓW - SZPIGLAS",
+        "elevation_m": null
+      },
+      {
+        "source_id": "PL-0341",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 13,
+        "region": "TATRY",
+        "subregion": "DOLINA PIĘCIU STAWÓW",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "wielki staw polski",
+    "source_ids": [
+      "PL-0289",
+      "PL-0342"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "PL-0289",
+        "PL-0342"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "PL-0289",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 12,
+        "region": "TATRY",
+        "subregion": "DOLINA PIĘCIU STAWÓW - SZPIGLAS",
+        "elevation_m": null
+      },
+      {
+        "source_id": "PL-0342",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 13,
+        "region": "TATRY",
+        "subregion": "DOLINA PIĘCIU STAWÓW",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "wodogrzmoty mickiewicza",
+    "source_ids": [
+      "PL-0290",
+      "PL-0354"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "PL-0290",
+        "PL-0354"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "PL-0290",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 12,
+        "region": "TATRY",
+        "subregion": "DOLINA PIĘCIU STAWÓW - SZPIGLAS",
+        "elevation_m": null
+      },
+      {
+        "source_id": "PL-0354",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 13,
+        "region": "TATRY",
+        "subregion": "MORSKIE OKO / ROZTOKA",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "dolina pięciu stawów polskich",
+    "source_ids": [
+      "PL-0292",
+      "PL-0344"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "PL-0292",
+        "PL-0344"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "PL-0292",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 12,
+        "region": "TATRY",
+        "subregion": "DOLINA PIĘCIU STAWÓW - SZPIGLAS",
+        "elevation_m": null
+      },
+      {
+        "source_id": "PL-0344",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 13,
+        "region": "TATRY",
+        "subregion": "DOLINA PIĘCIU STAWÓW",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "dolina roztoki",
+    "source_ids": [
+      "PL-0293",
+      "PL-0355"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "PL-0293",
+        "PL-0355"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "PL-0293",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 12,
+        "region": "TATRY",
+        "subregion": "DOLINA PIĘCIU STAWÓW - SZPIGLAS",
+        "elevation_m": null
+      },
+      {
+        "source_id": "PL-0355",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 13,
+        "region": "TATRY",
+        "subregion": "MORSKIE OKO / ROZTOKA",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "siklawica",
+    "source_ids": [
+      "PL-0296",
+      "PL-0345"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "PL-0296",
+        "PL-0345"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "PL-0296",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 12,
+        "region": "TATRY",
+        "subregion": "GIEWONT - DOLINA STRĄŻYSKA",
+        "elevation_m": null
+      },
+      {
+        "source_id": "PL-0345",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 13,
+        "region": "TATRY",
+        "subregion": "DOLINA STRĄŻYSKA / WODOSPADY",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "dolina strążyska",
+    "source_ids": [
+      "PL-0298",
+      "PL-0347"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "PL-0298",
+        "PL-0347"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "PL-0298",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 12,
+        "region": "TATRY",
+        "subregion": "GIEWONT - DOLINA STRĄŻYSKA",
+        "elevation_m": null
+      },
+      {
+        "source_id": "PL-0347",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 13,
+        "region": "TATRY",
+        "subregion": "DOLINA STRĄŻYSKA / WODOSPADY",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "czarny staw gąsienicowy",
+    "source_ids": [
+      "PL-0300",
+      "PL-0348"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "PL-0300",
+        "PL-0348"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "PL-0300",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 12,
+        "region": "TATRY",
+        "subregion": "HALA GĄSIENICOWA - KOŚCIELEC",
+        "elevation_m": null
+      },
+      {
+        "source_id": "PL-0348",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 13,
+        "region": "TATRY",
+        "subregion": "HALA GĄSIENICOWA",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "zielony staw gąsienicowy",
+    "source_ids": [
+      "PL-0302",
+      "PL-0349"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "PL-0302",
+        "PL-0349"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "PL-0302",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 12,
+        "region": "TATRY",
+        "subregion": "HALA GĄSIENICOWA - KOŚCIELEC",
+        "elevation_m": null
+      },
+      {
+        "source_id": "PL-0349",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 13,
+        "region": "TATRY",
+        "subregion": "HALA GĄSIENICOWA",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "hala gąsienicowa",
+    "source_ids": [
+      "PL-0307",
+      "PL-0350"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "PL-0307",
+        "PL-0350"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "PL-0307",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 12,
+        "region": "TATRY",
+        "subregion": "HALA GĄSIENICOWA - KOŚCIELEC",
+        "elevation_m": null
+      },
+      {
+        "source_id": "PL-0350",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 13,
+        "region": "TATRY",
+        "subregion": "HALA GĄSIENICOWA",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "schronisko murowaniec",
+    "source_ids": [
+      "PL-0303",
+      "PL-0351"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "PL-0303",
+        "PL-0351"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "PL-0303",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 12,
+        "region": "TATRY",
+        "subregion": "HALA GĄSIENICOWA - KOŚCIELEC",
+        "elevation_m": null
+      },
+      {
+        "source_id": "PL-0351",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 13,
+        "region": "TATRY",
+        "subregion": "HALA GĄSIENICOWA",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "czarny staw pod rysami",
+    "source_ids": [
+      "PL-0315",
+      "PL-0352"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "PL-0315",
+        "PL-0352"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "PL-0315",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 13,
+        "region": "TATRY",
+        "subregion": "MORSKIE OKO - RYSY",
+        "elevation_m": null
+      },
+      {
+        "source_id": "PL-0352",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 13,
+        "region": "TATRY",
+        "subregion": "MORSKIE OKO / ROZTOKA",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "morskie oko",
+    "source_ids": [
+      "PL-0316",
+      "PL-0353"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "PL-0316",
+        "PL-0353"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "PL-0316",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 13,
+        "region": "TATRY",
+        "subregion": "MORSKIE OKO - RYSY",
+        "elevation_m": null
+      },
+      {
+        "source_id": "PL-0353",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 13,
+        "region": "TATRY",
+        "subregion": "MORSKIE OKO / ROZTOKA",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "wodospad wilczki",
+    "source_ids": [
+      "PL-0378",
+      "PL-0388"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "PL-0378",
+        "PL-0388"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "PL-0378",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 14,
+        "region": "SUDETY WSCHODNIE / MASYW ŚNIEŻNIKA",
+        "subregion": "ŚNIEŻNIK - MIĘDZYGÓRZE",
+        "elevation_m": null
+      },
+      {
+        "source_id": "PL-0388",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 14,
+        "region": "SUDETY WSCHODNIE / MASYW ŚNIEŻNIKA",
+        "subregion": "MIĘDZYGÓRZE",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "błędne skały",
+    "source_ids": [
+      "PL-0401",
+      "PL-0415"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "PL-0401",
+        "PL-0415"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "PL-0401",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 15,
+        "region": "ZIEMIA KŁODZKA / GÓRY STOŁOWE",
+        "subregion": "BŁĘDNE SKAŁY - SKALNIAK",
+        "elevation_m": null
+      },
+      {
+        "source_id": "PL-0415",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 15,
+        "region": "ZIEMIA KŁODZKA / GÓRY STOŁOWE",
+        "subregion": "GÓRY STOŁOWE - FORMACJE",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "fort karola",
+    "source_ids": [
+      "PL-0402",
+      "PL-0418"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "PL-0402",
+        "PL-0418"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "PL-0402",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 15,
+        "region": "ZIEMIA KŁODZKA / GÓRY STOŁOWE",
+        "subregion": "BŁĘDNE SKAŁY - SKALNIAK",
+        "elevation_m": null
+      },
+      {
+        "source_id": "PL-0418",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 15,
+        "region": "ZIEMIA KŁODZKA / GÓRY STOŁOWE",
+        "subregion": "GÓRY STOŁOWE - FORMACJE",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "radkowskie skały",
+    "source_ids": [
+      "PL-0405",
+      "PL-0416"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "PL-0405",
+        "PL-0416"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "PL-0405",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 15,
+        "region": "ZIEMIA KŁODZKA / GÓRY STOŁOWE",
+        "subregion": "NAROŻNIK - SKALNE GRZYBY",
+        "elevation_m": null
+      },
+      {
+        "source_id": "PL-0416",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 15,
+        "region": "ZIEMIA KŁODZKA / GÓRY STOŁOWE",
+        "subregion": "GÓRY STOŁOWE - FORMACJE",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "skalne grzyby",
+    "source_ids": [
+      "PL-0406",
+      "PL-0417"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "PL-0406",
+        "PL-0417"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "PL-0406",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 15,
+        "region": "ZIEMIA KŁODZKA / GÓRY STOŁOWE",
+        "subregion": "NAROŻNIK - SKALNE GRZYBY",
+        "elevation_m": null
+      },
+      {
+        "source_id": "PL-0417",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 15,
+        "region": "ZIEMIA KŁODZKA / GÓRY STOŁOWE",
+        "subregion": "GÓRY STOŁOWE - FORMACJE",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "wieżyca",
+    "source_ids": [
+      "PL-0476",
+      "PL-0881"
+    ],
+    "decision": "distinct_source_contexts",
+    "result_groups": [
+      [
+        "PL-0476"
+      ],
+      [
+        "PL-0881"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "PL-0476",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 16,
+        "region": "WROCŁAW / ŚLĘŻA / DOLNY ŚLĄSK",
+        "subregion": "ŚLĘŻA",
+        "elevation_m": 415.0
+      },
+      {
+        "source_id": "PL-0881",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 26,
+        "region": "KASZUBY / BORY TUCHOLSKIE",
+        "subregion": "SZWAJCARIA KASZUBSKA",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "wilcza góra",
+    "source_ids": [
+      "PL-0501",
+      "PL-0515"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "PL-0501",
+        "PL-0515"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "PL-0501",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 17,
+        "region": "RUDAWY JANOWICKIE / GÓRY KACZAWSKIE",
+        "subregion": "KRAINA WYGASŁYCH WULKANÓW",
+        "elevation_m": 367.0
+      },
+      {
+        "source_id": "PL-0515",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 17,
+        "region": "RUDAWY JANOWICKIE / GÓRY KACZAWSKIE",
+        "subregion": "KRAINA WYGASŁYCH WULKANÓW",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "czartowska skała",
+    "source_ids": [
+      "PL-0502",
+      "PL-0513"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "PL-0502",
+        "PL-0513"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "PL-0502",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 17,
+        "region": "RUDAWY JANOWICKIE / GÓRY KACZAWSKIE",
+        "subregion": "KRAINA WYGASŁYCH WULKANÓW",
+        "elevation_m": null
+      },
+      {
+        "source_id": "PL-0513",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 17,
+        "region": "RUDAWY JANOWICKIE / GÓRY KACZAWSKIE",
+        "subregion": "KRAINA WYGASŁYCH WULKANÓW",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "kolorowe jeziorka",
+    "source_ids": [
+      "PL-0508",
+      "PL-0523"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "PL-0508",
+        "PL-0523"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "PL-0508",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 17,
+        "region": "RUDAWY JANOWICKIE / GÓRY KACZAWSKIE",
+        "subregion": "SKALNIK - KOLOROWE JEZIORKA",
+        "elevation_m": null
+      },
+      {
+        "source_id": "PL-0523",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 17,
+        "region": "RUDAWY JANOWICKIE / GÓRY KACZAWSKIE",
+        "subregion": "RUDAWY JANOWICKIE - DISCOVERY",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "miedzianka",
+    "source_ids": [
+      "PL-0521",
+      "PL-0632"
+    ],
+    "decision": "distinct_source_contexts",
+    "result_groups": [
+      [
+        "PL-0521"
+      ],
+      [
+        "PL-0632"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "PL-0521",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 17,
+        "region": "RUDAWY JANOWICKIE / GÓRY KACZAWSKIE",
+        "subregion": "RUDAWY JANOWICKIE - DISCOVERY",
+        "elevation_m": null
+      },
+      {
+        "source_id": "PL-0632",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 20,
+        "region": "GÓRY ŚWIĘTOKRZYSKIE",
+        "subregion": "CHĘCINY - MIEDZIANKA",
+        "elevation_m": 356.0
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "dziki wodospad",
+    "source_ids": [
+      "PL-0539",
+      "PL-0579"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "PL-0539",
+        "PL-0579"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "PL-0539",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 18,
+        "region": "KARKONOSZE / GÓRY IZERSKIE",
+        "subregion": "KARPACZ - ŚNIEŻKA",
+        "elevation_m": null
+      },
+      {
+        "source_id": "PL-0579",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 19,
+        "region": "KARKONOSZE / GÓRY IZERSKIE",
+        "subregion": "KARPACZ / CHOJNIK",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "wodospad szklarki",
+    "source_ids": [
+      "PL-0546",
+      "PL-0585"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "PL-0546",
+        "PL-0585"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "PL-0546",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 18,
+        "region": "KARKONOSZE / GÓRY IZERSKIE",
+        "subregion": "SZKLARSKA PORĘBA - SZRENICA - SNIEZNE KOTLY",
+        "elevation_m": null
+      },
+      {
+        "source_id": "PL-0585",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 19,
+        "region": "KARKONOSZE / GÓRY IZERSKIE",
+        "subregion": "SZKLARSKA PORĘBA",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "hala izerska",
+    "source_ids": [
+      "PL-0553",
+      "PL-0573"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "PL-0553",
+        "PL-0573"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "PL-0553",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 18,
+        "region": "KARKONOSZE / GÓRY IZERSKIE",
+        "subregion": "ŚWIERADÓW - HALA IZERSKA",
+        "elevation_m": null
+      },
+      {
+        "source_id": "PL-0573",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 19,
+        "region": "KARKONOSZE / GÓRY IZERSKIE",
+        "subregion": "IZERA / JAKUSZYCE",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "torfowiska doliny izery",
+    "source_ids": [
+      "PL-0555",
+      "PL-0574"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "PL-0555",
+        "PL-0574"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "PL-0555",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 18,
+        "region": "KARKONOSZE / GÓRY IZERSKIE",
+        "subregion": "ŚWIERADÓW - HALA IZERSKA",
+        "elevation_m": null
+      },
+      {
+        "source_id": "PL-0574",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 19,
+        "region": "KARKONOSZE / GÓRY IZERSKIE",
+        "subregion": "IZERA / JAKUSZYCE",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "wieża książęca w siedlęcinie",
+    "source_ids": [
+      "PL-0563",
+      "PL-0571"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "PL-0563",
+        "PL-0571"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "PL-0563",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 18,
+        "region": "KARKONOSZE / GÓRY IZERSKIE",
+        "subregion": "DOLINA BOBRU",
+        "elevation_m": null
+      },
+      {
+        "source_id": "PL-0571",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 18,
+        "region": "KARKONOSZE / GÓRY IZERSKIE",
+        "subregion": "DOLINA PAŁACÓW I OGRODÓW",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "wodospad magurski",
+    "source_ids": [
+      "PL-0596",
+      "PL-0619"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "PL-0596",
+        "PL-0619"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "PL-0596",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 19,
+        "region": "BESKID NISKI / POGÓRZA",
+        "subregion": "MAGURSKI PARK NARODOWY",
+        "elevation_m": null
+      },
+      {
+        "source_id": "PL-0619",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 20,
+        "region": "BESKID NISKI / POGÓRZA",
+        "subregion": "MAGURSKI PARK NARODOWY - DISCOVERY",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "diabli kamień",
+    "source_ids": [
+      "PL-0597",
+      "PL-0620"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "PL-0597",
+        "PL-0620"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "PL-0597",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 19,
+        "region": "BESKID NISKI / POGÓRZA",
+        "subregion": "MAGURSKI PARK NARODOWY",
+        "elevation_m": null
+      },
+      {
+        "source_id": "PL-0620",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 20,
+        "region": "BESKID NISKI / POGÓRZA",
+        "subregion": "MAGURSKI PARK NARODOWY - DISCOVERY",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "jaskinia raj",
+    "source_ids": [
+      "PL-0633",
+      "PL-0651"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "PL-0633",
+        "PL-0651"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "PL-0633",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 20,
+        "region": "GÓRY ŚWIĘTOKRZYSKIE",
+        "subregion": "CHĘCINY - MIEDZIANKA",
+        "elevation_m": null
+      },
+      {
+        "source_id": "PL-0651",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 20,
+        "region": "GÓRY ŚWIĘTOKRZYSKIE",
+        "subregion": "CHĘCINY",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "bukowa góra",
+    "source_ids": [
+      "PL-0636",
+      "PL-0807"
+    ],
+    "decision": "distinct_source_contexts",
+    "result_groups": [
+      [
+        "PL-0636"
+      ],
+      [
+        "PL-0807"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "PL-0636",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 20,
+        "region": "GÓRY ŚWIĘTOKRZYSKIE",
+        "subregion": "PASMO JELENIOWSKIE - KLONOWSKIE - MASLOWSK",
+        "elevation_m": 484.0
+      },
+      {
+        "source_id": "PL-0807",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 24,
+        "region": "LUBELSZCZYZNA / ROZTOCZE / POLESIE",
+        "subregion": "ZWIERZYNIEC / ROZTOCZAŃSKI PN",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "dhünntal",
+    "source_ids": [
+      "DE-0022",
+      "DE-0041"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0022",
+        "DE-0041"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0022",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 33,
+        "region": "OVERATH / BERGISCHES LAND",
+        "subregion": "BERGISCHES LAND - DHÜNN / AGGER",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0041",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 33,
+        "region": "OVERATH / BERGISCHES LAND",
+        "subregion": "BERGISCHES LAND - BURGEN / TÄLER",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "eifgenbachtal",
+    "source_ids": [
+      "DE-0023",
+      "DE-0042"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0023",
+        "DE-0042"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0023",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 33,
+        "region": "OVERATH / BERGISCHES LAND",
+        "subregion": "BERGISCHES LAND - DHÜNN / AGGER",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0042",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 33,
+        "region": "OVERATH / BERGISCHES LAND",
+        "subregion": "BERGISCHES LAND - BURGEN / TÄLER",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "bergischer panoramasteig",
+    "source_ids": [
+      "DE-0024",
+      "DE-0045"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0024",
+        "DE-0045"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0024",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 33,
+        "region": "OVERATH / BERGISCHES LAND",
+        "subregion": "BERGISCHES LAND - DHÜNN / AGGER",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0045",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 33,
+        "region": "OVERATH / BERGISCHES LAND",
+        "subregion": "BERGISCHES LAND - BURGEN / TÄLER",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "bergischer weg",
+    "source_ids": [
+      "DE-0025",
+      "DE-0046"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0025",
+        "DE-0046"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0025",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 33,
+        "region": "OVERATH / BERGISCHES LAND",
+        "subregion": "BERGISCHES LAND - DHÜNN / AGGER",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0046",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 33,
+        "region": "OVERATH / BERGISCHES LAND",
+        "subregion": "BERGISCHES LAND - BURGEN / TÄLER",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "klosterruine heisterbach",
+    "source_ids": [
+      "DE-0064",
+      "DE-0072"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0064",
+        "DE-0072"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0064",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 34,
+        "region": "SIEBENGEBIRGE / BONN / RHEIN-SIEG",
+        "subregion": "SIEBENGEBIRGE - KÖNIGSWINTER",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0072",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 34,
+        "region": "SIEBENGEBIRGE / BONN / RHEIN-SIEG",
+        "subregion": "SIEBENGEBIRGE - WEITERE GIPFEL",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "obersee",
+    "source_ids": [
+      "DE-0084",
+      "DE-1429",
+      "DE-1463"
+    ],
+    "decision": "split_homonyms_merge_alpine_occurrences",
+    "result_groups": [
+      [
+        "DE-0084"
+      ],
+      [
+        "DE-1429",
+        "DE-1463"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0084",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 34,
+        "region": "NORDEIFEL / NATIONALPARK EIFEL",
+        "subregion": "NATIONALPARK EIFEL - RURSEE",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1429",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 61,
+        "region": "BERCHTESGADENER ALPEN",
+        "subregion": "KÖNIGSSEE / JENNER",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1463",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 62,
+        "region": "BERCHTESGADENER ALPEN",
+        "subregion": "KÖNIGSSEE / RAMSAU - NATUR",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "dreiborner hochfläche",
+    "source_ids": [
+      "DE-0090",
+      "DE-0101"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0090",
+        "DE-0101"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0090",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 34,
+        "region": "NORDEIFEL / NATIONALPARK EIFEL",
+        "subregion": "NATIONALPARK EIFEL - RURSEE",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0101",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 34,
+        "region": "NORDEIFEL / NATIONALPARK EIFEL",
+        "subregion": "HEIMBACH / RURSEE - KULTUR",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "hirschley",
+    "source_ids": [
+      "DE-0092",
+      "DE-0102"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0092",
+        "DE-0102"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0092",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 34,
+        "region": "NORDEIFEL / NATIONALPARK EIFEL",
+        "subregion": "NATIONALPARK EIFEL - RURSEE",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0102",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 34,
+        "region": "NORDEIFEL / NATIONALPARK EIFEL",
+        "subregion": "HEIMBACH / RURSEE - KULTUR",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "vogelsang ip",
+    "source_ids": [
+      "DE-0087",
+      "DE-0099"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0087",
+        "DE-0099"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0087",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 34,
+        "region": "NORDEIFEL / NATIONALPARK EIFEL",
+        "subregion": "NATIONALPARK EIFEL - RURSEE",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0099",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 35,
+        "region": "NORDEIFEL / NATIONALPARK EIFEL",
+        "subregion": "HEIMBACH / RURSEE - KULTUR",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "wüstung wollseifen",
+    "source_ids": [
+      "DE-0088",
+      "DE-0100"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0088",
+        "DE-0100"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0088",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 34,
+        "region": "NORDEIFEL / NATIONALPARK EIFEL",
+        "subregion": "NATIONALPARK EIFEL - RURSEE",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0100",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 35,
+        "region": "NORDEIFEL / NATIONALPARK EIFEL",
+        "subregion": "HEIMBACH / RURSEE - KULTUR",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "ahrschleife altenahr",
+    "source_ids": [
+      "DE-0123",
+      "DE-0127"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0123",
+        "DE-0127"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0123",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 35,
+        "region": "AHRTAL / AHRGEBIRGE",
+        "subregion": "AHRGEBIRGE",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0127",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 35,
+        "region": "AHRTAL / AHRGEBIRGE",
+        "subregion": "ALTENAHR / AHRSCHLEIFE",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "burg are",
+    "source_ids": [
+      "DE-0121",
+      "DE-0128"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0121",
+        "DE-0128"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0121",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 35,
+        "region": "AHRTAL / AHRGEBIRGE",
+        "subregion": "AHRGEBIRGE",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0128",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 35,
+        "region": "AHRTAL / AHRGEBIRGE",
+        "subregion": "ALTENAHR / AHRSCHLEIFE",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "rotweinwanderweg",
+    "source_ids": [
+      "DE-0124",
+      "DE-0130"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0124",
+        "DE-0130"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0124",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 35,
+        "region": "AHRTAL / AHRGEBIRGE",
+        "subregion": "AHRGEBIRGE",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0130",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 35,
+        "region": "AHRTAL / AHRGEBIRGE",
+        "subregion": "ALTENAHR / AHRSCHLEIFE",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "hochstein",
+    "source_ids": [
+      "DE-0132",
+      "DE-1258"
+    ],
+    "decision": "distinct_source_contexts",
+    "result_groups": [
+      [
+        "DE-0132"
+      ],
+      [
+        "DE-1258"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0132",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 35,
+        "region": "OSTEIFEL / LAACHER SEE / HOHE EIFEL",
+        "subregion": "LAACHER SEE / OSTEIFEL",
+        "elevation_m": 563.0
+      },
+      {
+        "source_id": "DE-1258",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 58,
+        "region": "BAYERISCHER WALD",
+        "subregion": "DREISESSEL / OSSER",
+        "elevation_m": 1332.0
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "ettringer lay",
+    "source_ids": [
+      "DE-0139",
+      "DE-0141"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0139",
+        "DE-0141"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0139",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 35,
+        "region": "OSTEIFEL / LAACHER SEE / HOHE EIFEL",
+        "subregion": "LAACHER SEE / OSTEIFEL",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0141",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 35,
+        "region": "OSTEIFEL / LAACHER SEE / HOHE EIFEL",
+        "subregion": "MAYEN / VULKANPARK",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "kottenheimer winfeld",
+    "source_ids": [
+      "DE-0140",
+      "DE-0146"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0140",
+        "DE-0146"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0140",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 35,
+        "region": "OSTEIFEL / LAACHER SEE / HOHE EIFEL",
+        "subregion": "LAACHER SEE / OSTEIFEL",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0146",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 35,
+        "region": "OSTEIFEL / LAACHER SEE / HOHE EIFEL",
+        "subregion": "MAYEN / VULKANPARK",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "druidenstein",
+    "source_ids": [
+      "DE-0166",
+      "DE-0176"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0166",
+        "DE-0176"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0166",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 36,
+        "region": "WESTERWALD / SIEGERLAND",
+        "subregion": "HOHER WESTERWALD",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0176",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 36,
+        "region": "WESTERWALD / SIEGERLAND",
+        "subregion": "DRUIDENSTEIN / SIEGTAL",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "ginsburg",
+    "source_ids": [
+      "DE-0178",
+      "DE-0243"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0178",
+        "DE-0243"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0178",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 36,
+        "region": "WESTERWALD / SIEGERLAND",
+        "subregion": "DRUIDENSTEIN / SIEGTAL",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0243",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 37,
+        "region": "SAUERLAND / ROTHAARGEBIRGE",
+        "subregion": "WITTGENSTEIN / SIEGERLAND",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "biggesee",
+    "source_ids": [
+      "DE-0189",
+      "DE-0192"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0189",
+        "DE-0192"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0189",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 36,
+        "region": "SAUERLAND / ROTHAARGEBIRGE",
+        "subregion": "BIGGE / HOMERT",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0192",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 36,
+        "region": "SAUERLAND / ROTHAARGEBIRGE",
+        "subregion": "ATTENDORN / BIGGESEE",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "biggeblick",
+    "source_ids": [
+      "DE-0191",
+      "DE-0195"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0191",
+        "DE-0195"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0191",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 36,
+        "region": "SAUERLAND / ROTHAARGEBIRGE",
+        "subregion": "BIGGE / HOMERT",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0195",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 36,
+        "region": "SAUERLAND / ROTHAARGEBIRGE",
+        "subregion": "ATTENDORN / BIGGESEE",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "grotenburg",
+    "source_ids": [
+      "DE-0249",
+      "DE-0260"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0249",
+        "DE-0260"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0249",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 38,
+        "region": "TEUTOBURGER WALD / EGGE / WESERBERGLAND",
+        "subregion": "TEUTOBURGER WALD / EGGE",
+        "elevation_m": 386.0
+      },
+      {
+        "source_id": "DE-0260",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 38,
+        "region": "TEUTOBURGER WALD / EGGE / WESERBERGLAND",
+        "subregion": "DETMOLD / EXTERNSTEINE",
+        "elevation_m": 386.0
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "donoper teich",
+    "source_ids": [
+      "DE-0255",
+      "DE-0265"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0255",
+        "DE-0265"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0255",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 38,
+        "region": "TEUTOBURGER WALD / EGGE / WESERBERGLAND",
+        "subregion": "TEUTOBURGER WALD / EGGE",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0265",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 38,
+        "region": "TEUTOBURGER WALD / EGGE / WESERBERGLAND",
+        "subregion": "DETMOLD / EXTERNSTEINE",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "externsteine",
+    "source_ids": [
+      "DE-0256",
+      "DE-0261"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0256",
+        "DE-0261"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0256",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 38,
+        "region": "TEUTOBURGER WALD / EGGE / WESERBERGLAND",
+        "subregion": "TEUTOBURGER WALD / EGGE",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0261",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 38,
+        "region": "TEUTOBURGER WALD / EGGE / WESERBERGLAND",
+        "subregion": "DETMOLD / EXTERNSTEINE",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "hermannsdenkmal",
+    "source_ids": [
+      "DE-0254",
+      "DE-0263"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0254",
+        "DE-0263"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0254",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 38,
+        "region": "TEUTOBURGER WALD / EGGE / WESERBERGLAND",
+        "subregion": "TEUTOBURGER WALD / EGGE",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0263",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 38,
+        "region": "TEUTOBURGER WALD / EGGE / WESERBERGLAND",
+        "subregion": "DETMOLD / EXTERNSTEINE",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "burg trendelburg",
+    "source_ids": [
+      "DE-0267",
+      "DE-0635"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0267",
+        "DE-0635"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0267",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 38,
+        "region": "TEUTOBURGER WALD / EGGE / WESERBERGLAND",
+        "subregion": "WESER-SKYWALK / BAD KARLSHAFEN",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0635",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 45,
+        "region": "NORDHESSEN / KELLERWALD / HABICHTSWALD",
+        "subregion": "GRIMMHEIMAT - BURGEN",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "rittersturz",
+    "source_ids": [
+      "DE-0279",
+      "DE-0305"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0279",
+        "DE-0305"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0279",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 38,
+        "region": "MITTELRHEIN / KOBLENZ / LORELEY",
+        "subregion": "KOBLENZ / EHRENBREITSTEIN",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0305",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 39,
+        "region": "UNTERMOSEL",
+        "subregion": "KOBLENZ",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "deutsches eck",
+    "source_ids": [
+      "DE-0280",
+      "DE-0306"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0280",
+        "DE-0306"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0280",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 38,
+        "region": "MITTELRHEIN / KOBLENZ / LORELEY",
+        "subregion": "KOBLENZ / EHRENBREITSTEIN",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0306",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 39,
+        "region": "UNTERMOSEL",
+        "subregion": "KOBLENZ",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "festung ehrenbreitstein",
+    "source_ids": [
+      "DE-0281",
+      "DE-0307"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0281",
+        "DE-0307"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0281",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 38,
+        "region": "MITTELRHEIN / KOBLENZ / LORELEY",
+        "subregion": "KOBLENZ / EHRENBREITSTEIN",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0307",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 39,
+        "region": "UNTERMOSEL",
+        "subregion": "KOBLENZ",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "bleidenberg",
+    "source_ids": [
+      "DE-0319",
+      "DE-0329"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0319",
+        "DE-0329"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0319",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 39,
+        "region": "UNTERMOSEL",
+        "subregion": "BRODENBACH / ALKEN",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0329",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 39,
+        "region": "UNTERMOSEL",
+        "subregion": "UNTERMOSEL - BURGEN & AUSSICHT",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "burg thurant",
+    "source_ids": [
+      "DE-0321",
+      "DE-0324"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0321",
+        "DE-0324"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0321",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 39,
+        "region": "UNTERMOSEL",
+        "subregion": "BRODENBACH / ALKEN",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0324",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 39,
+        "region": "UNTERMOSEL",
+        "subregion": "UNTERMOSEL - BURGEN & AUSSICHT",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "ehrenburg",
+    "source_ids": [
+      "DE-0322",
+      "DE-0325"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0322",
+        "DE-0325"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0322",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 39,
+        "region": "UNTERMOSEL",
+        "subregion": "BRODENBACH / ALKEN",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0325",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 39,
+        "region": "UNTERMOSEL",
+        "subregion": "UNTERMOSEL - BURGEN & AUSSICHT",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "pyrmonter wasserfall",
+    "source_ids": [
+      "DE-0336",
+      "DE-0340"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0336",
+        "DE-0340"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0336",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 39,
+        "region": "UNTERMOSEL",
+        "subregion": "PYRMONT",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0340",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 39,
+        "region": "UNTERMOSEL",
+        "subregion": "PYRMONT / ELZBACHTAL",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "burg pyrmont",
+    "source_ids": [
+      "DE-0338",
+      "DE-0343"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0338",
+        "DE-0343"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0338",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 39,
+        "region": "UNTERMOSEL",
+        "subregion": "PYRMONT",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0343",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 39,
+        "region": "UNTERMOSEL",
+        "subregion": "PYRMONT / ELZBACHTAL",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "elzbachtal",
+    "source_ids": [
+      "DE-0341",
+      "DE-0346"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0341",
+        "DE-0346"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0341",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 39,
+        "region": "UNTERMOSEL",
+        "subregion": "PYRMONT / ELZBACHTAL",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0346",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 40,
+        "region": "UNTERMOSEL",
+        "subregion": "BURG ELTZ / MOSELKERN",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "burg eltz",
+    "source_ids": [
+      "DE-0342",
+      "DE-0347"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0342",
+        "DE-0347"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0342",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 39,
+        "region": "UNTERMOSEL",
+        "subregion": "PYRMONT / ELZBACHTAL",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0347",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 40,
+        "region": "UNTERMOSEL",
+        "subregion": "BURG ELTZ / MOSELKERN",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "brauselay",
+    "source_ids": [
+      "DE-0356",
+      "DE-0366"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0356",
+        "DE-0366"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0356",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 40,
+        "region": "UNTERMOSEL",
+        "subregion": "COCHEM",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0366",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 40,
+        "region": "UNTERMOSEL",
+        "subregion": "COCHEM / ENDERTTAL - ERWEITERUNG",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "pinnerkreuz",
+    "source_ids": [
+      "DE-0361",
+      "DE-0370"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0361",
+        "DE-0370"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0361",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 40,
+        "region": "UNTERMOSEL",
+        "subregion": "COCHEM",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0370",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 40,
+        "region": "UNTERMOSEL",
+        "subregion": "COCHEM / ENDERTTAL - ERWEITERUNG",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "cochemer ritterrunde",
+    "source_ids": [
+      "DE-0364",
+      "DE-0371"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0364",
+        "DE-0371"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0364",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 40,
+        "region": "UNTERMOSEL",
+        "subregion": "COCHEM",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0371",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 40,
+        "region": "UNTERMOSEL",
+        "subregion": "COCHEM / ENDERTTAL - ERWEITERUNG",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "mörschieder burr",
+    "source_ids": [
+      "DE-0431",
+      "DE-0447"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0431",
+        "DE-0447"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0431",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 41,
+        "region": "HUNSRÜCK",
+        "subregion": "ERBESKOPF / NATIONALPARK",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0447",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 41,
+        "region": "HUNSRÜCK",
+        "subregion": "HUNSRÜCK - BURGEN / KELTEN",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "wildenburg",
+    "source_ids": [
+      "DE-0430",
+      "DE-0446"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0430",
+        "DE-0446"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0430",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 41,
+        "region": "HUNSRÜCK",
+        "subregion": "ERBESKOPF / NATIONALPARK",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0446",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 42,
+        "region": "HUNSRÜCK",
+        "subregion": "HUNSRÜCK - BURGEN / KELTEN",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "baybachklamm",
+    "source_ids": [
+      "DE-0434",
+      "DE-0450"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0434",
+        "DE-0450"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0434",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 41,
+        "region": "HUNSRÜCK",
+        "subregion": "HUNSRÜCK - SCHLUCHTEN",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0450",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 42,
+        "region": "HUNSRÜCK",
+        "subregion": "SAAR-HUNSRÜCK",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "ehrbachklamm",
+    "source_ids": [
+      "DE-0436",
+      "DE-0451"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0436",
+        "DE-0451"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0436",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 41,
+        "region": "HUNSRÜCK",
+        "subregion": "HUNSRÜCK - SCHLUCHTEN",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0451",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 42,
+        "region": "HUNSRÜCK",
+        "subregion": "SAAR-HUNSRÜCK",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "saar-hunsrück-steig",
+    "source_ids": [
+      "DE-0438",
+      "DE-0453"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0438",
+        "DE-0453"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0438",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 41,
+        "region": "HUNSRÜCK",
+        "subregion": "HUNSRÜCK - SCHLUCHTEN",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0453",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 42,
+        "region": "HUNSRÜCK",
+        "subregion": "SAAR-HUNSRÜCK",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "soonwaldsteig",
+    "source_ids": [
+      "DE-0439",
+      "DE-0454"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0439",
+        "DE-0454"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0439",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 41,
+        "region": "HUNSRÜCK",
+        "subregion": "HUNSRÜCK - SCHLUCHTEN",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0454",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 42,
+        "region": "HUNSRÜCK",
+        "subregion": "SAAR-HUNSRÜCK",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "burg greifenstein",
+    "source_ids": [
+      "DE-0480",
+      "DE-0494"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0480",
+        "DE-0494"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0480",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 42,
+        "region": "LAHNTAL / MITTELHESSEN",
+        "subregion": "LAHN - BURGEN & SCHLÖSSER",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0494",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 43,
+        "region": "LAHNTAL / MITTELHESSEN",
+        "subregion": "DILLENBURG / DILLTAL",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "schloss weilburg",
+    "source_ids": [
+      "DE-0486",
+      "DE-0491"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0486",
+        "DE-0491"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0486",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 42,
+        "region": "LAHNTAL / MITTELHESSEN",
+        "subregion": "LAHN - BURGEN & SCHLÖSSER",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0491",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 42,
+        "region": "LAHNTAL / MITTELHESSEN",
+        "subregion": "WEILBURG / KUBACH",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "festungsruine mont royal",
+    "source_ids": [
+      "DE-0511",
+      "DE-0518"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0511",
+        "DE-0518"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0511",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 43,
+        "region": "MITTELMOSEL",
+        "subregion": "TRABEN-TRARBACH",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0518",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 43,
+        "region": "MITTELMOSEL",
+        "subregion": "TRABEN-TRARBACH - BURGENROUTE",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "grevenburg",
+    "source_ids": [
+      "DE-0512",
+      "DE-0519"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0512",
+        "DE-0519"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0512",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 43,
+        "region": "MITTELMOSEL",
+        "subregion": "TRABEN-TRARBACH",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0519",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 43,
+        "region": "MITTELMOSEL",
+        "subregion": "TRABEN-TRARBACH - BURGENROUTE",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "starkenburg",
+    "source_ids": [
+      "DE-0520",
+      "DE-0716"
+    ],
+    "decision": "distinct_source_contexts",
+    "result_groups": [
+      [
+        "DE-0520"
+      ],
+      [
+        "DE-0716"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0520",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 43,
+        "region": "MITTELMOSEL",
+        "subregion": "TRABEN-TRARBACH - BURGENROUTE",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0716",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 47,
+        "region": "ODENWALD / BERGSTRASSE",
+        "subregion": "BERGSTRASSE - BURGENSTEIG",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "ürziger felsen",
+    "source_ids": [
+      "DE-0522",
+      "DE-0540"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0522",
+        "DE-0540"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0522",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 43,
+        "region": "MITTELMOSEL",
+        "subregion": "ZELTINGEN / ÜRZIG",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0540",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 43,
+        "region": "MITTELMOSEL",
+        "subregion": "BERNKASTEL / ZELTINGEN - ERWEITERUNG",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "maria-zill-aussicht",
+    "source_ids": [
+      "DE-0529",
+      "DE-0538"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0529",
+        "DE-0538"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0529",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 43,
+        "region": "MITTELMOSEL",
+        "subregion": "BERNKASTEL-KUES",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0538",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 43,
+        "region": "MITTELMOSEL",
+        "subregion": "BERNKASTEL / ZELTINGEN - ERWEITERUNG",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "doctorberg",
+    "source_ids": [
+      "DE-0533",
+      "DE-0537"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0533",
+        "DE-0537"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0533",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 43,
+        "region": "MITTELMOSEL",
+        "subregion": "BERNKASTEL-KUES",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0537",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 43,
+        "region": "MITTELMOSEL",
+        "subregion": "BERNKASTEL / ZELTINGEN - ERWEITERUNG",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "burg landshut",
+    "source_ids": [
+      "DE-0531",
+      "DE-0541"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0531",
+        "DE-0541"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0531",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 43,
+        "region": "MITTELMOSEL",
+        "subregion": "BERNKASTEL-KUES",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0541",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 44,
+        "region": "MITTELMOSEL",
+        "subregion": "BERNKASTEL / ZELTINGEN - ERWEITERUNG",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "bernkasteler bärensteig",
+    "source_ids": [
+      "DE-0535",
+      "DE-0542"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0535",
+        "DE-0542"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0535",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 43,
+        "region": "MITTELMOSEL",
+        "subregion": "BERNKASTEL-KUES",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0542",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 44,
+        "region": "MITTELMOSEL",
+        "subregion": "BERNKASTEL / ZELTINGEN - ERWEITERUNG",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "porta nigra",
+    "source_ids": [
+      "DE-0574",
+      "DE-0583"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0574",
+        "DE-0583"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0574",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 44,
+        "region": "OBERMOSEL / TRIER",
+        "subregion": "TRIER",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0583",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 44,
+        "region": "OBERMOSEL / TRIER",
+        "subregion": "TRIER / SAARMÜNDUNG - KULTUR",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "burg hanstein",
+    "source_ids": [
+      "DE-0633",
+      "DE-0848"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0633",
+        "DE-0848"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0633",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 45,
+        "region": "NORDHESSEN / KELLERWALD / HABICHTSWALD",
+        "subregion": "GRIMMHEIMAT - BURGEN",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0848",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 50,
+        "region": "HAINICH / EICHSFELD / KYFFHÄUSER",
+        "subregion": "EICHSFELD / WERRA",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "steinwand",
+    "source_ids": [
+      "DE-0661",
+      "DE-0665"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0661",
+        "DE-0665"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0661",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 46,
+        "region": "RHÖN",
+        "subregion": "WASSERKUPPE / KREUZBERG",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0665",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 46,
+        "region": "RHÖN",
+        "subregion": "RHÖN - MOORE / BASALT / KULTUR",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "rotes moor",
+    "source_ids": [
+      "DE-0662",
+      "DE-0672"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0662",
+        "DE-0672"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0662",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 46,
+        "region": "RHÖN",
+        "subregion": "WASSERKUPPE / KREUZBERG",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0672",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 46,
+        "region": "RHÖN",
+        "subregion": "RHÖN - MOORE / BASALT / KULTUR",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "schwarzes moor",
+    "source_ids": [
+      "DE-0663",
+      "DE-0673"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0663",
+        "DE-0673"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0663",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 46,
+        "region": "RHÖN",
+        "subregion": "WASSERKUPPE / KREUZBERG",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0673",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 46,
+        "region": "RHÖN",
+        "subregion": "RHÖN - MOORE / BASALT / KULTUR",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "noahs segel",
+    "source_ids": [
+      "DE-0657",
+      "DE-0671"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0657",
+        "DE-0671"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0657",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 46,
+        "region": "RHÖN",
+        "subregion": "WASSERKUPPE / KREUZBERG",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0671",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 46,
+        "region": "RHÖN",
+        "subregion": "RHÖN - MOORE / BASALT / KULTUR",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "asselstein",
+    "source_ids": [
+      "DE-0680",
+      "DE-0694"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0680",
+        "DE-0694"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0680",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 46,
+        "region": "PFÄLZERWALD / DAHNER FELSENLAND",
+        "subregion": "TRIFELS / ANNWEILER",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0694",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 47,
+        "region": "PFÄLZERWALD / DAHNER FELSENLAND",
+        "subregion": "DAHNER FELSENLAND - FELSEN",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "felsenmeer lautertal",
+    "source_ids": [
+      "DE-0708",
+      "DE-0722"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0708",
+        "DE-0722"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0708",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 47,
+        "region": "ODENWALD / BERGSTRASSE",
+        "subregion": "ODENWALD",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0722",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 47,
+        "region": "ODENWALD / BERGSTRASSE",
+        "subregion": "ODENWALD - NATUR / HÖHLEN",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "eberstadter tropfsteinhöhle",
+    "source_ids": [
+      "DE-0710",
+      "DE-0721"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0710",
+        "DE-0721"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0710",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 47,
+        "region": "ODENWALD / BERGSTRASSE",
+        "subregion": "ODENWALD",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0721",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 47,
+        "region": "ODENWALD / BERGSTRASSE",
+        "subregion": "ODENWALD - NATUR / HÖHLEN",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "margarethenschlucht",
+    "source_ids": [
+      "DE-0711",
+      "DE-0725"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0711",
+        "DE-0725"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0711",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 47,
+        "region": "ODENWALD / BERGSTRASSE",
+        "subregion": "ODENWALD",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0725",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 47,
+        "region": "ODENWALD / BERGSTRASSE",
+        "subregion": "ODENWALD - NATUR / HÖHLEN",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "wolfsschlucht zwingenberg",
+    "source_ids": [
+      "DE-0712",
+      "DE-0726"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0712",
+        "DE-0726"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0712",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 47,
+        "region": "ODENWALD / BERGSTRASSE",
+        "subregion": "ODENWALD",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0726",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 47,
+        "region": "ODENWALD / BERGSTRASSE",
+        "subregion": "ODENWALD - NATUR / HÖHLEN",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "hafenlohrtal",
+    "source_ids": [
+      "DE-0730",
+      "DE-0734"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0730",
+        "DE-0734"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0730",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 47,
+        "region": "SPESSART",
+        "subregion": "SPESSART",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0734",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 47,
+        "region": "SPESSART",
+        "subregion": "SPESSART - BURGEN / TÄLER",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "schloss mespelbrunn",
+    "source_ids": [
+      "DE-0731",
+      "DE-0738"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0731",
+        "DE-0738"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0731",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 47,
+        "region": "SPESSART",
+        "subregion": "SPESSART",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0738",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 48,
+        "region": "SPESSART",
+        "subregion": "SPESSART - BURGEN / TÄLER",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "scharfenstein",
+    "source_ids": [
+      "DE-0763",
+      "DE-1235"
+    ],
+    "decision": "distinct_source_contexts",
+    "result_groups": [
+      [
+        "DE-0763"
+      ],
+      [
+        "DE-1235"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0763",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 48,
+        "region": "HARZ",
+        "subregion": "ILSETAL",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1235",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 57,
+        "region": "VOGTLAND / OBERLAUSITZ / ZITTAUER GEBIRGE",
+        "subregion": "ZITTAUER GEBIRGE",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "okertalsperre",
+    "source_ids": [
+      "DE-0767",
+      "DE-0808"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0767",
+        "DE-0808"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0767",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 48,
+        "region": "HARZ",
+        "subregion": "OKERTAL",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0808",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 49,
+        "region": "HARZ",
+        "subregion": "HARZ - BERGBAU / WASSER",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "oderteich",
+    "source_ids": [
+      "DE-0784",
+      "DE-0804"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0784",
+        "DE-0804"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0784",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 48,
+        "region": "HARZ",
+        "subregion": "HOCHHARZ",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0804",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 49,
+        "region": "HARZ",
+        "subregion": "HARZ - BERGBAU / WASSER",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "einhornhöhle",
+    "source_ids": [
+      "DE-0788",
+      "DE-0810"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0788",
+        "DE-0810"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0788",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 49,
+        "region": "HARZ",
+        "subregion": "HARZ - HÖHLEN",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0810",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 49,
+        "region": "HARZ",
+        "subregion": "SÜDHARZ / HERAUSFORDERUNGEN",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "heimkehle",
+    "source_ids": [
+      "DE-0789",
+      "DE-0857"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0789",
+        "DE-0857"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0789",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 49,
+        "region": "HARZ",
+        "subregion": "HARZ - HÖHLEN",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0857",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 50,
+        "region": "HAINICH / EICHSFELD / KYFFHÄUSER",
+        "subregion": "KYFFHÄUSER / SÜDHARZ",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "drachenschlucht",
+    "source_ids": [
+      "DE-0817",
+      "DE-0832"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0817",
+        "DE-0832"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0817",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 49,
+        "region": "THÜRINGER WALD / EISENACH",
+        "subregion": "EISENACH / WARTBURG / SCHLUCHTEN",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0832",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 49,
+        "region": "THÜRINGER WALD / EISENACH",
+        "subregion": "RENNSTEIG / INSELSBERG",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "landgrafenschlucht",
+    "source_ids": [
+      "DE-0818",
+      "DE-0833"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0818",
+        "DE-0833"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0818",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 49,
+        "region": "THÜRINGER WALD / EISENACH",
+        "subregion": "EISENACH / WARTBURG / SCHLUCHTEN",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0833",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 49,
+        "region": "THÜRINGER WALD / EISENACH",
+        "subregion": "RENNSTEIG / INSELSBERG",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "wartburg",
+    "source_ids": [
+      "DE-0819",
+      "DE-0830"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0819",
+        "DE-0830"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0819",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 49,
+        "region": "THÜRINGER WALD / EISENACH",
+        "subregion": "EISENACH / WARTBURG / SCHLUCHTEN",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0830",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 49,
+        "region": "THÜRINGER WALD / EISENACH",
+        "subregion": "RENNSTEIG / INSELSBERG",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "rennsteig",
+    "source_ids": [
+      "DE-0820",
+      "DE-0834"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0820",
+        "DE-0834"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0820",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 49,
+        "region": "THÜRINGER WALD / EISENACH",
+        "subregion": "EISENACH / WARTBURG / SCHLUCHTEN",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0834",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 49,
+        "region": "THÜRINGER WALD / EISENACH",
+        "subregion": "RENNSTEIG / INSELSBERG",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "trusetaler wasserfall",
+    "source_ids": [
+      "DE-0831",
+      "DE-0840"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0831",
+        "DE-0840"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0831",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 49,
+        "region": "THÜRINGER WALD / EISENACH",
+        "subregion": "RENNSTEIG / INSELSBERG",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0840",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 49,
+        "region": "THÜRINGER WALD / EISENACH",
+        "subregion": "THÜRINGER WALD - KULTUR / NATUR",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "ködeltalsperre",
+    "source_ids": [
+      "DE-0872",
+      "DE-0875"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0872",
+        "DE-0875"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0872",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 50,
+        "region": "FRANKENWALD",
+        "subregion": "FRANKENWALD",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0875",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 50,
+        "region": "FRANKENWALD",
+        "subregion": "FRANKENWALD - BURGEN / NATUR",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "höllental",
+    "source_ids": [
+      "DE-0873",
+      "DE-1344"
+    ],
+    "decision": "distinct_source_contexts",
+    "result_groups": [
+      [
+        "DE-0873"
+      ],
+      [
+        "DE-1344"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0873",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 50,
+        "region": "FRANKENWALD",
+        "subregion": "FRANKENWALD",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1344",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 60,
+        "region": "WETTERSTEIN / GARMISCH",
+        "subregion": "ALPSPITZE / HÖLLENTAL",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "weissmainquelle",
+    "source_ids": [
+      "DE-0890",
+      "DE-0905"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0890",
+        "DE-0905"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0890",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 51,
+        "region": "FICHTELGEBIRGE",
+        "subregion": "FICHTELGEBIRGE",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0905",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 51,
+        "region": "FICHTELGEBIRGE",
+        "subregion": "FICHTELGEBIRGE - FELSEN / BURGEN",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "nusshardt",
+    "source_ids": [
+      "DE-0886",
+      "DE-0904"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0886",
+        "DE-0904"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0886",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 51,
+        "region": "FICHTELGEBIRGE",
+        "subregion": "FICHTELGEBIRGE",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0904",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 51,
+        "region": "FICHTELGEBIRGE",
+        "subregion": "FICHTELGEBIRGE - FELSEN / BURGEN",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "haberstein",
+    "source_ids": [
+      "DE-0892",
+      "DE-0903"
+    ],
+    "decision": "unresolved_homonym",
+    "result_groups": [
+      [
+        "DE-0892"
+      ],
+      [
+        "DE-0903"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0892",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 51,
+        "region": "FICHTELGEBIRGE",
+        "subregion": "FICHTELGEBIRGE",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0903",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 51,
+        "region": "FICHTELGEBIRGE",
+        "subregion": "FICHTELGEBIRGE - FELSEN / BURGEN",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "luisenburg-felsenlabyrinth",
+    "source_ids": [
+      "DE-0893",
+      "DE-0896"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0893",
+        "DE-0896"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0893",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 51,
+        "region": "FICHTELGEBIRGE",
+        "subregion": "FICHTELGEBIRGE",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0896",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 51,
+        "region": "FICHTELGEBIRGE",
+        "subregion": "FICHTELGEBIRGE - FELSEN / BURGEN",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "rudolfstein",
+    "source_ids": [
+      "DE-0894",
+      "DE-0897"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0894",
+        "DE-0897"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0894",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 51,
+        "region": "FICHTELGEBIRGE",
+        "subregion": "FICHTELGEBIRGE",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0897",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 51,
+        "region": "FICHTELGEBIRGE",
+        "subregion": "FICHTELGEBIRGE - FELSEN / BURGEN",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "binghöhle",
+    "source_ids": [
+      "DE-0913",
+      "DE-0928"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0913",
+        "DE-0928"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0913",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 51,
+        "region": "FRÄNKISCHE SCHWEIZ",
+        "subregion": "FRÄNKISCHE SCHWEIZ",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0928",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 51,
+        "region": "FRÄNKISCHE SCHWEIZ",
+        "subregion": "FRÄNKISCHE SCHWEIZ - HÖHLEN / FELSEN",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "quackenschloss",
+    "source_ids": [
+      "DE-0916",
+      "DE-0931"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0916",
+        "DE-0931"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0916",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 51,
+        "region": "FRÄNKISCHE SCHWEIZ",
+        "subregion": "FRÄNKISCHE SCHWEIZ",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0931",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 51,
+        "region": "FRÄNKISCHE SCHWEIZ",
+        "subregion": "FRÄNKISCHE SCHWEIZ - HÖHLEN / FELSEN",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "riesenburg",
+    "source_ids": [
+      "DE-0917",
+      "DE-0932"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0917",
+        "DE-0932"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0917",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 51,
+        "region": "FRÄNKISCHE SCHWEIZ",
+        "subregion": "FRÄNKISCHE SCHWEIZ",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0932",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 51,
+        "region": "FRÄNKISCHE SCHWEIZ",
+        "subregion": "FRÄNKISCHE SCHWEIZ - HÖHLEN / FELSEN",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "sophienhöhle",
+    "source_ids": [
+      "DE-0918",
+      "DE-0933"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0918",
+        "DE-0933"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0918",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 51,
+        "region": "FRÄNKISCHE SCHWEIZ",
+        "subregion": "FRÄNKISCHE SCHWEIZ",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0933",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 51,
+        "region": "FRÄNKISCHE SCHWEIZ",
+        "subregion": "FRÄNKISCHE SCHWEIZ - HÖHLEN / FELSEN",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "teufelshöhle pottenstein",
+    "source_ids": [
+      "DE-0919",
+      "DE-0934"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0919",
+        "DE-0934"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0919",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 51,
+        "region": "FRÄNKISCHE SCHWEIZ",
+        "subregion": "FRÄNKISCHE SCHWEIZ",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0934",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 52,
+        "region": "FRÄNKISCHE SCHWEIZ",
+        "subregion": "FRÄNKISCHE SCHWEIZ - HÖHLEN / FELSEN",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "druidenhain",
+    "source_ids": [
+      "DE-0920",
+      "DE-0935"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0920",
+        "DE-0935"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0920",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 51,
+        "region": "FRÄNKISCHE SCHWEIZ",
+        "subregion": "FRÄNKISCHE SCHWEIZ",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0935",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 52,
+        "region": "FRÄNKISCHE SCHWEIZ",
+        "subregion": "FRÄNKISCHE SCHWEIZ - HÖHLEN / FELSEN",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "burgruine neideck",
+    "source_ids": [
+      "DE-0909",
+      "DE-0926"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0909",
+        "DE-0926"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0909",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 51,
+        "region": "FRÄNKISCHE SCHWEIZ",
+        "subregion": "FRÄNKISCHE SCHWEIZ",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0926",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 51,
+        "region": "FRÄNKISCHE SCHWEIZ",
+        "subregion": "FRÄNKISCHE SCHWEIZ - BURGEN",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "streitburg",
+    "source_ids": [
+      "DE-0911",
+      "DE-0927"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0911",
+        "DE-0927"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0911",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 51,
+        "region": "FRÄNKISCHE SCHWEIZ",
+        "subregion": "FRÄNKISCHE SCHWEIZ",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0927",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 51,
+        "region": "FRÄNKISCHE SCHWEIZ",
+        "subregion": "FRÄNKISCHE SCHWEIZ - BURGEN",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "blautopf",
+    "source_ids": [
+      "DE-0961",
+      "DE-0991"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0961",
+        "DE-0991"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0961",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 52,
+        "region": "SCHWÄBISCHE ALB - NORD / WEST",
+        "subregion": "SCHWÄBISCHE ALB",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0991",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 53,
+        "region": "SCHWÄBISCHE ALB - NORD / WEST",
+        "subregion": "SCHWÄBISCHE ALB - QUELLEN / WASSERFÄLLE",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "gütersteiner wasserfall",
+    "source_ids": [
+      "DE-0962",
+      "DE-0993"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0962",
+        "DE-0993"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0962",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 52,
+        "region": "SCHWÄBISCHE ALB - NORD / WEST",
+        "subregion": "SCHWÄBISCHE ALB",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0993",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 53,
+        "region": "SCHWÄBISCHE ALB - NORD / WEST",
+        "subregion": "SCHWÄBISCHE ALB - QUELLEN / WASSERFÄLLE",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "uracher wasserfall",
+    "source_ids": [
+      "DE-0963",
+      "DE-0996"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0963",
+        "DE-0996"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0963",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 52,
+        "region": "SCHWÄBISCHE ALB - NORD / WEST",
+        "subregion": "SCHWÄBISCHE ALB",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0996",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 53,
+        "region": "SCHWÄBISCHE ALB - NORD / WEST",
+        "subregion": "SCHWÄBISCHE ALB - QUELLEN / WASSERFÄLLE",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "bärenhöhle",
+    "source_ids": [
+      "DE-0964",
+      "DE-0980"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0964",
+        "DE-0980"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0964",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 52,
+        "region": "SCHWÄBISCHE ALB - NORD / WEST",
+        "subregion": "SCHWÄBISCHE ALB",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0980",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 52,
+        "region": "SCHWÄBISCHE ALB - NORD / WEST",
+        "subregion": "SCHWÄBISCHE ALB - SCHAUHÖHLEN",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "nebelhöhle",
+    "source_ids": [
+      "DE-0966",
+      "DE-0982"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0966",
+        "DE-0982"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0966",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 52,
+        "region": "SCHWÄBISCHE ALB - NORD / WEST",
+        "subregion": "SCHWÄBISCHE ALB",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0982",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 52,
+        "region": "SCHWÄBISCHE ALB - NORD / WEST",
+        "subregion": "SCHWÄBISCHE ALB - SCHAUHÖHLEN",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "eichfelsen",
+    "source_ids": [
+      "DE-0968",
+      "DE-0999"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0968",
+        "DE-0999"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0968",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 52,
+        "region": "SCHWÄBISCHE ALB - NORD / WEST",
+        "subregion": "SCHWÄBISCHE ALB",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0999",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 53,
+        "region": "SCHWÄBISCHE ALB - SÜD / DONAUTAL",
+        "subregion": "OBERES DONAUTAL / BEURON",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "knopfmacherfelsen",
+    "source_ids": [
+      "DE-0969",
+      "DE-1000"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0969",
+        "DE-1000"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0969",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 52,
+        "region": "SCHWÄBISCHE ALB - NORD / WEST",
+        "subregion": "SCHWÄBISCHE ALB",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1000",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 53,
+        "region": "SCHWÄBISCHE ALB - SÜD / DONAUTAL",
+        "subregion": "OBERES DONAUTAL / BEURON",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "burg hohenzollern",
+    "source_ids": [
+      "DE-0957",
+      "DE-0975"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0957",
+        "DE-0975"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0957",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 52,
+        "region": "SCHWÄBISCHE ALB - NORD / WEST",
+        "subregion": "SCHWÄBISCHE ALB",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0975",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 52,
+        "region": "SCHWÄBISCHE ALB - NORD / WEST",
+        "subregion": "SCHWÄBISCHE ALB - BURGEN",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "schloss lichtenstein",
+    "source_ids": [
+      "DE-0959",
+      "DE-0979"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0959",
+        "DE-0979"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0959",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 52,
+        "region": "SCHWÄBISCHE ALB - NORD / WEST",
+        "subregion": "SCHWÄBISCHE ALB",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-0979",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 52,
+        "region": "SCHWÄBISCHE ALB - NORD / WEST",
+        "subregion": "SCHWÄBISCHE ALB - BURGEN",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "schloss werenwag",
+    "source_ids": [
+      "DE-0960",
+      "DE-1003"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0960",
+        "DE-1003"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0960",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 52,
+        "region": "SCHWÄBISCHE ALB - NORD / WEST",
+        "subregion": "SCHWÄBISCHE ALB",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1003",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 53,
+        "region": "SCHWÄBISCHE ALB - SÜD / DONAUTAL",
+        "subregion": "OBERES DONAUTAL / BEURON",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "hohle fels",
+    "source_ids": [
+      "DE-0981",
+      "DE-1010"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0981",
+        "DE-1010"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0981",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 52,
+        "region": "SCHWÄBISCHE ALB - NORD / WEST",
+        "subregion": "SCHWÄBISCHE ALB - SCHAUHÖHLEN",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1010",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 53,
+        "region": "SCHWÄBISCHE ALB - SÜD / DONAUTAL",
+        "subregion": "UNESCO HÖHLEN / LONETAL / ACHTAL",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Inferred same Hohle Fels at Schelklingen: source show-cave entry and UNESCO Achtal/Lonetal entry refer to the public UNESCO cave, confirmed by city and UNESCO descriptions.",
+    "supporting_urls": [
+      "https://www.schelklingen.de/freizeit-tourismus/sehenswuerdigkeiten/unesco-welterbe-hohle-fels",
+      "https://whc.unesco.org/document/155785"
+    ]
+  },
+  {
+    "name": "kolbinger höhle",
+    "source_ids": [
+      "DE-0988",
+      "DE-1004"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-0988",
+        "DE-1004"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-0988",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 53,
+        "region": "SCHWÄBISCHE ALB - NORD / WEST",
+        "subregion": "SCHWÄBISCHE ALB - SCHAUHÖHLEN",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1004",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 53,
+        "region": "SCHWÄBISCHE ALB - SÜD / DONAUTAL",
+        "subregion": "OBERES DONAUTAL / BEURON",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "lotharpfad",
+    "source_ids": [
+      "DE-1023",
+      "DE-1036"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1023",
+        "DE-1036"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1023",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 53,
+        "region": "NORDSCHWARZWALD",
+        "subregion": "NORDSCHWARZWALD",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1036",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 54,
+        "region": "NORDSCHWARZWALD",
+        "subregion": "NORDSCHWARZWALD - WASSER / SCHLUCHTEN",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "allerheiligen-wasserfälle",
+    "source_ids": [
+      "DE-1033",
+      "DE-1039"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1033",
+        "DE-1039"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1033",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 53,
+        "region": "NORDSCHWARZWALD",
+        "subregion": "NORDSCHWARZWALD - WASSER / SCHLUCHTEN",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1039",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 54,
+        "region": "MITTLERER SCHWARZWALD",
+        "subregion": "WASSERFÄLLE / MITTLERER SCHWARZWALD",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "gertelbach-wasserfälle",
+    "source_ids": [
+      "DE-1034",
+      "DE-1041"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1034",
+        "DE-1041"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1034",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 53,
+        "region": "NORDSCHWARZWALD",
+        "subregion": "NORDSCHWARZWALD - WASSER / SCHLUCHTEN",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1041",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 54,
+        "region": "MITTLERER SCHWARZWALD",
+        "subregion": "WASSERFÄLLE / MITTLERER SCHWARZWALD",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "geroldsauer wasserfall",
+    "source_ids": [
+      "DE-1038",
+      "DE-1040"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1038",
+        "DE-1040"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1038",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 54,
+        "region": "NORDSCHWARZWALD",
+        "subregion": "NORDSCHWARZWALD - WASSER / SCHLUCHTEN",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1040",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 54,
+        "region": "MITTLERER SCHWARZWALD",
+        "subregion": "WASSERFÄLLE / MITTLERER SCHWARZWALD",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "triberger wasserfälle",
+    "source_ids": [
+      "DE-1044",
+      "DE-1046"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1044",
+        "DE-1046"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1044",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 54,
+        "region": "MITTLERER SCHWARZWALD",
+        "subregion": "WASSERFÄLLE / MITTLERER SCHWARZWALD",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1046",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 54,
+        "region": "MITTLERER SCHWARZWALD",
+        "subregion": "MITTLERER SCHWARZWALD - BURGEN / TÄLER",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "todtnauer wasserfall",
+    "source_ids": [
+      "DE-1065",
+      "DE-1085"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1065",
+        "DE-1085"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1065",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 54,
+        "region": "SÜDSCHWARZWALD",
+        "subregion": "BELCHEN / SCHAUINSLAND",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1085",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 55,
+        "region": "SÜDSCHWARZWALD",
+        "subregion": "SÜDSCHWARZWALD - WASSER / KULTUR",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "lotenbachklamm",
+    "source_ids": [
+      "DE-1070",
+      "DE-1079"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1070",
+        "DE-1079"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1070",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 54,
+        "region": "SÜDSCHWARZWALD",
+        "subregion": "SCHLUCHTEN / HERAUSFORDERUNGEN",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1079",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 54,
+        "region": "SÜDSCHWARZWALD",
+        "subregion": "SÜDSCHWARZWALD - SCHLUCHTEN",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "wutachschlucht",
+    "source_ids": [
+      "DE-1071",
+      "DE-1084"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1071",
+        "DE-1084"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1071",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 54,
+        "region": "SÜDSCHWARZWALD",
+        "subregion": "SCHLUCHTEN / HERAUSFORDERUNGEN",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1084",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 54,
+        "region": "SÜDSCHWARZWALD",
+        "subregion": "SÜDSCHWARZWALD - SCHLUCHTEN",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "haslachschlucht",
+    "source_ids": [
+      "DE-1072",
+      "DE-1078"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1072",
+        "DE-1078"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1072",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 54,
+        "region": "SÜDSCHWARZWALD",
+        "subregion": "SCHLUCHTEN / HERAUSFORDERUNGEN",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1078",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 54,
+        "region": "SÜDSCHWARZWALD",
+        "subregion": "SÜDSCHWARZWALD - SCHLUCHTEN",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "ravennaschlucht",
+    "source_ids": [
+      "DE-1073",
+      "DE-1080"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1073",
+        "DE-1080"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1073",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 54,
+        "region": "SÜDSCHWARZWALD",
+        "subregion": "SCHLUCHTEN / HERAUSFORDERUNGEN",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1080",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 54,
+        "region": "SÜDSCHWARZWALD",
+        "subregion": "SÜDSCHWARZWALD - SCHLUCHTEN",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "rötenbachschlucht",
+    "source_ids": [
+      "DE-1074",
+      "DE-1081"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1074",
+        "DE-1081"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1074",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 54,
+        "region": "SÜDSCHWARZWALD",
+        "subregion": "SCHLUCHTEN / HERAUSFORDERUNGEN",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1081",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 54,
+        "region": "SÜDSCHWARZWALD",
+        "subregion": "SÜDSCHWARZWALD - SCHLUCHTEN",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "greifensteine",
+    "source_ids": [
+      "DE-1116",
+      "DE-1126"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1116",
+        "DE-1126"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1116",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 55,
+        "region": "ERZGEBIRGE",
+        "subregion": "ERZGEBIRGE",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1126",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 55,
+        "region": "ERZGEBIRGE",
+        "subregion": "ERZGEBIRGE - BURGEN / NATUR",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "schwarzwassertal",
+    "source_ids": [
+      "DE-1117",
+      "DE-1134"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1117",
+        "DE-1134"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1117",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 55,
+        "region": "ERZGEBIRGE",
+        "subregion": "ERZGEBIRGE",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1134",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 55,
+        "region": "ERZGEBIRGE",
+        "subregion": "ERZGEBIRGE - BURGEN / NATUR",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "amselsee",
+    "source_ids": [
+      "DE-1139",
+      "DE-1143"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1139",
+        "DE-1143"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1139",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 56,
+        "region": "SÄCHSISCHE SCHWEIZ",
+        "subregion": "BASTEI / RATHEN",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1143",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 56,
+        "region": "SÄCHSISCHE SCHWEIZ",
+        "subregion": "BASTEI / RATHEN - ERWEITERUNG",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "ferdinandstein",
+    "source_ids": [
+      "DE-1136",
+      "DE-1145"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1136",
+        "DE-1145"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1136",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 56,
+        "region": "SÄCHSISCHE SCHWEIZ",
+        "subregion": "BASTEI / RATHEN",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1145",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 56,
+        "region": "SÄCHSISCHE SCHWEIZ",
+        "subregion": "BASTEI / RATHEN - ERWEITERUNG",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "schwedenlöcher",
+    "source_ids": [
+      "DE-1140",
+      "DE-1147"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1140",
+        "DE-1147"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1140",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 56,
+        "region": "SÄCHSISCHE SCHWEIZ",
+        "subregion": "BASTEI / RATHEN",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1147",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 56,
+        "region": "SÄCHSISCHE SCHWEIZ",
+        "subregion": "BASTEI / RATHEN - ERWEITERUNG",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "basteibrücke",
+    "source_ids": [
+      "DE-1138",
+      "DE-1144"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1138",
+        "DE-1144"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1138",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 56,
+        "region": "SÄCHSISCHE SCHWEIZ",
+        "subregion": "BASTEI / RATHEN",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1144",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 56,
+        "region": "SÄCHSISCHE SCHWEIZ",
+        "subregion": "BASTEI / RATHEN - ERWEITERUNG",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "breite kluft",
+    "source_ids": [
+      "DE-1150",
+      "DE-1161"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1150",
+        "DE-1161"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1150",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 56,
+        "region": "SÄCHSISCHE SCHWEIZ",
+        "subregion": "SCHRAMMSTEINE",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1161",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 56,
+        "region": "SÄCHSISCHE SCHWEIZ",
+        "subregion": "SCHRAMMSTEINE / AFFENSTEINE - ERWEITERUNG",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "carolafelsen",
+    "source_ids": [
+      "DE-1151",
+      "DE-1158"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1151",
+        "DE-1158"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1151",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 56,
+        "region": "SÄCHSISCHE SCHWEIZ",
+        "subregion": "SCHRAMMSTEINE",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1158",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 56,
+        "region": "SÄCHSISCHE SCHWEIZ",
+        "subregion": "SCHRAMMSTEINE / AFFENSTEINE - ERWEITERUNG",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "schrammsteinaussicht",
+    "source_ids": [
+      "DE-1154",
+      "DE-1162"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1154",
+        "DE-1162"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1154",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 56,
+        "region": "SÄCHSISCHE SCHWEIZ",
+        "subregion": "SCHRAMMSTEINE",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1162",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 56,
+        "region": "SÄCHSISCHE SCHWEIZ",
+        "subregion": "SCHRAMMSTEINE / AFFENSTEINE - ERWEITERUNG",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "schrammtor",
+    "source_ids": [
+      "DE-1155",
+      "DE-1160"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1155",
+        "DE-1160"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1155",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 56,
+        "region": "SÄCHSISCHE SCHWEIZ",
+        "subregion": "SCHRAMMSTEINE",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1160",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 56,
+        "region": "SÄCHSISCHE SCHWEIZ",
+        "subregion": "SCHRAMMSTEINE / AFFENSTEINE - ERWEITERUNG",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "jägersteig",
+    "source_ids": [
+      "DE-1156",
+      "DE-1163"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1156",
+        "DE-1163"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1156",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 56,
+        "region": "SÄCHSISCHE SCHWEIZ",
+        "subregion": "SCHRAMMSTEINE",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1163",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 56,
+        "region": "SÄCHSISCHE SCHWEIZ",
+        "subregion": "SCHRAMMSTEINE / AFFENSTEINE - ERWEITERUNG",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "wildschützensteig",
+    "source_ids": [
+      "DE-1157",
+      "DE-1164"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1157",
+        "DE-1164"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1157",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 56,
+        "region": "SÄCHSISCHE SCHWEIZ",
+        "subregion": "SCHRAMMSTEINE",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1164",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 56,
+        "region": "SÄCHSISCHE SCHWEIZ",
+        "subregion": "SCHRAMMSTEINE / AFFENSTEINE - ERWEITERUNG",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "festung königstein",
+    "source_ids": [
+      "DE-1180",
+      "DE-1199"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1180",
+        "DE-1199"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1180",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 56,
+        "region": "SÄCHSISCHE SCHWEIZ",
+        "subregion": "TAFELBERGE",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1199",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 57,
+        "region": "SÄCHSISCHE SCHWEIZ",
+        "subregion": "KÖNIGSTEIN / HOHNSTEIN",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "bennohöhle",
+    "source_ids": [
+      "DE-1181",
+      "DE-1190"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1181",
+        "DE-1190"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1181",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 56,
+        "region": "SÄCHSISCHE SCHWEIZ",
+        "subregion": "BIELATAL / HERAUSFORDERUNGEN",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1190",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 57,
+        "region": "SÄCHSISCHE SCHWEIZ",
+        "subregion": "BIELATAL / FELSEN",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "herkulessäulen",
+    "source_ids": [
+      "DE-1182",
+      "DE-1192"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1182",
+        "DE-1192"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1182",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 56,
+        "region": "SÄCHSISCHE SCHWEIZ",
+        "subregion": "BIELATAL / HERAUSFORDERUNGEN",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1192",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 57,
+        "region": "SÄCHSISCHE SCHWEIZ",
+        "subregion": "BIELATAL / FELSEN",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "johanniswacht",
+    "source_ids": [
+      "DE-1183",
+      "DE-1193"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1183",
+        "DE-1193"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1183",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 56,
+        "region": "SÄCHSISCHE SCHWEIZ",
+        "subregion": "BIELATAL / HERAUSFORDERUNGEN",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1193",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 57,
+        "region": "SÄCHSISCHE SCHWEIZ",
+        "subregion": "BIELATAL / FELSEN",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "labyrinth langenhennersdorf",
+    "source_ids": [
+      "DE-1184",
+      "DE-1194"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1184",
+        "DE-1194"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1184",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 56,
+        "region": "SÄCHSISCHE SCHWEIZ",
+        "subregion": "BIELATAL / HERAUSFORDERUNGEN",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1194",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 57,
+        "region": "SÄCHSISCHE SCHWEIZ",
+        "subregion": "BIELATAL / FELSEN",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "sachsenstein",
+    "source_ids": [
+      "DE-1185",
+      "DE-1195"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1185",
+        "DE-1195"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1185",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 56,
+        "region": "SÄCHSISCHE SCHWEIZ",
+        "subregion": "BIELATAL / HERAUSFORDERUNGEN",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1195",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 57,
+        "region": "SÄCHSISCHE SCHWEIZ",
+        "subregion": "BIELATAL / FELSEN",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "grenzplatte",
+    "source_ids": [
+      "DE-1186",
+      "DE-1191"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1186",
+        "DE-1191"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1186",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 57,
+        "region": "SÄCHSISCHE SCHWEIZ",
+        "subregion": "BIELATAL / HERAUSFORDERUNGEN",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1191",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 57,
+        "region": "SÄCHSISCHE SCHWEIZ",
+        "subregion": "BIELATAL / FELSEN",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "malerweg",
+    "source_ids": [
+      "DE-1189",
+      "DE-1200"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1189",
+        "DE-1200"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1189",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 57,
+        "region": "SÄCHSISCHE SCHWEIZ",
+        "subregion": "BIELATAL / HERAUSFORDERUNGEN",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1200",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 57,
+        "region": "SÄCHSISCHE SCHWEIZ",
+        "subregion": "KÖNIGSTEIN / HOHNSTEIN",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "kelchstein",
+    "source_ids": [
+      "DE-1226",
+      "DE-1237"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1226",
+        "DE-1237"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1226",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 57,
+        "region": "VOGTLAND / OBERLAUSITZ / ZITTAUER GEBIRGE",
+        "subregion": "ZITTAUER GEBIRGE",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1237",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 58,
+        "region": "VOGTLAND / OBERLAUSITZ / ZITTAUER GEBIRGE",
+        "subregion": "OYBIN / JONSDORF - ERWEITERUNG",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "jonsdorfer felsenstadt",
+    "source_ids": [
+      "DE-1232",
+      "DE-1236"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1232",
+        "DE-1236"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1232",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 57,
+        "region": "VOGTLAND / OBERLAUSITZ / ZITTAUER GEBIRGE",
+        "subregion": "ZITTAUER GEBIRGE",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1236",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 58,
+        "region": "VOGTLAND / OBERLAUSITZ / ZITTAUER GEBIRGE",
+        "subregion": "OYBIN / JONSDORF - ERWEITERUNG",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "nonnenfelsen",
+    "source_ids": [
+      "DE-1234",
+      "DE-1239"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1234",
+        "DE-1239"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1234",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 57,
+        "region": "VOGTLAND / OBERLAUSITZ / ZITTAUER GEBIRGE",
+        "subregion": "ZITTAUER GEBIRGE",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1239",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 58,
+        "region": "VOGTLAND / OBERLAUSITZ / ZITTAUER GEBIRGE",
+        "subregion": "OYBIN / JONSDORF - ERWEITERUNG",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "burg und kloster oybin",
+    "source_ids": [
+      "DE-1228",
+      "DE-1240"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1228",
+        "DE-1240"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1228",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 57,
+        "region": "VOGTLAND / OBERLAUSITZ / ZITTAUER GEBIRGE",
+        "subregion": "ZITTAUER GEBIRGE",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1240",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 58,
+        "region": "VOGTLAND / OBERLAUSITZ / ZITTAUER GEBIRGE",
+        "subregion": "OYBIN / JONSDORF - ERWEITERUNG",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "grosser arbersee",
+    "source_ids": [
+      "DE-1244",
+      "DE-1274"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1244",
+        "DE-1274"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1244",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 58,
+        "region": "BAYERISCHER WALD",
+        "subregion": "GROSSER ARBER",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1274",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 58,
+        "region": "BAYERISCHER WALD",
+        "subregion": "BAYERISCHER WALD - FELSEN / NATUR",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "kleiner arbersee",
+    "source_ids": [
+      "DE-1245",
+      "DE-1275"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1245",
+        "DE-1275"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1245",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 58,
+        "region": "BAYERISCHER WALD",
+        "subregion": "GROSSER ARBER",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1275",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 58,
+        "region": "BAYERISCHER WALD",
+        "subregion": "BAYERISCHER WALD - FELSEN / NATUR",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "rieslochfälle",
+    "source_ids": [
+      "DE-1246",
+      "DE-1276"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1246",
+        "DE-1276"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1246",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 58,
+        "region": "BAYERISCHER WALD",
+        "subregion": "GROSSER ARBER",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1276",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 58,
+        "region": "BAYERISCHER WALD",
+        "subregion": "BAYERISCHER WALD - FELSEN / NATUR",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "rauchröhren",
+    "source_ids": [
+      "DE-1266",
+      "DE-1277"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1266",
+        "DE-1277"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1266",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 58,
+        "region": "BAYERISCHER WALD",
+        "subregion": "DREISESSEL / OSSER",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1277",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 58,
+        "region": "BAYERISCHER WALD",
+        "subregion": "BAYERISCHER WALD - FELSEN / NATUR",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "schloss hohenschwangau",
+    "source_ids": [
+      "DE-1307",
+      "DE-1322"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1307",
+        "DE-1322"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1307",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 59,
+        "region": "AMMERGAUER ALPEN / FÜSSEN",
+        "subregion": "FÜSSEN / KÖNIGSSCHLÖSSER",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1322",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 59,
+        "region": "AMMERGAUER ALPEN / FÜSSEN",
+        "subregion": "AMMERGAUER ALPEN",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "schloss neuschwanstein",
+    "source_ids": [
+      "DE-1308",
+      "DE-1323"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1308",
+        "DE-1323"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1308",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 59,
+        "region": "AMMERGAUER ALPEN / FÜSSEN",
+        "subregion": "FÜSSEN / KÖNIGSSCHLÖSSER",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1323",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 59,
+        "region": "AMMERGAUER ALPEN / FÜSSEN",
+        "subregion": "AMMERGAUER ALPEN",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "kenzenwasserfall",
+    "source_ids": [
+      "DE-1324",
+      "DE-1325"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1324",
+        "DE-1325"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1324",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 59,
+        "region": "AMMERGAUER ALPEN / FÜSSEN",
+        "subregion": "AMMERGAUER ALPEN",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1325",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 59,
+        "region": "AMMERGAUER ALPEN / FÜSSEN",
+        "subregion": "LINDERHOF / ETTAL",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "höllentalklamm",
+    "source_ids": [
+      "DE-1340",
+      "DE-1358"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1340",
+        "DE-1358"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1340",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 60,
+        "region": "WETTERSTEIN / GARMISCH",
+        "subregion": "ALPSPITZE / HÖLLENTAL",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1358",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 60,
+        "region": "WETTERSTEIN / GARMISCH",
+        "subregion": "GARMISCH - KLAMMEN / KULTUR",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "partnachklamm",
+    "source_ids": [
+      "DE-1349",
+      "DE-1359"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1349",
+        "DE-1359"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1349",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 60,
+        "region": "WETTERSTEIN / GARMISCH",
+        "subregion": "PARTNACH / KRAMER / WANK",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1359",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 60,
+        "region": "WETTERSTEIN / GARMISCH",
+        "subregion": "GARMISCH - KLAMMEN / KULTUR",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "ferchensee",
+    "source_ids": [
+      "DE-1365",
+      "DE-1374"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1365",
+        "DE-1374"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1365",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 60,
+        "region": "KARWENDEL / ESTERGEBIRGE",
+        "subregion": "KARWENDEL",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1374",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 60,
+        "region": "KARWENDEL / ESTERGEBIRGE",
+        "subregion": "MITTENWALD / LEUTASCH",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "lautersee",
+    "source_ids": [
+      "DE-1366",
+      "DE-1375"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1366",
+        "DE-1375"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1366",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 60,
+        "region": "KARWENDEL / ESTERGEBIRGE",
+        "subregion": "KARWENDEL",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1375",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 60,
+        "region": "KARWENDEL / ESTERGEBIRGE",
+        "subregion": "MITTENWALD / LEUTASCH",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "walchensee",
+    "source_ids": [
+      "DE-1384",
+      "DE-1405"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1384",
+        "DE-1405"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1384",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 61,
+        "region": "BAYERISCHE VORALPEN / TEGERNSEE / WALCHENSEE",
+        "subregion": "WALCHENSEE",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1405",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 61,
+        "region": "BAYERISCHE VORALPEN / TEGERNSEE / WALCHENSEE",
+        "subregion": "TEGERNSEE / SCHLIERSEE - NATUR",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "königssee",
+    "source_ids": [
+      "DE-1428",
+      "DE-1462"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1428",
+        "DE-1462"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1428",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 61,
+        "region": "BERCHTESGADENER ALPEN",
+        "subregion": "KÖNIGSSEE / JENNER",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1462",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 62,
+        "region": "BERCHTESGADENER ALPEN",
+        "subregion": "KÖNIGSSEE / RAMSAU - NATUR",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "röthbachfall",
+    "source_ids": [
+      "DE-1430",
+      "DE-1464"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1430",
+        "DE-1464"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1430",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 62,
+        "region": "BERCHTESGADENER ALPEN",
+        "subregion": "KÖNIGSSEE / JENNER",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1464",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 62,
+        "region": "BERCHTESGADENER ALPEN",
+        "subregion": "KÖNIGSSEE / RAMSAU - NATUR",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "malerwinkel",
+    "source_ids": [
+      "DE-1433",
+      "DE-1467"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1433",
+        "DE-1467"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1433",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 62,
+        "region": "BERCHTESGADENER ALPEN",
+        "subregion": "KÖNIGSSEE / JENNER",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1467",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 62,
+        "region": "BERCHTESGADENER ALPEN",
+        "subregion": "KÖNIGSSEE / RAMSAU - NATUR",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "st. bartholomä",
+    "source_ids": [
+      "DE-1431",
+      "DE-1465"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1431",
+        "DE-1465"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1431",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 62,
+        "region": "BERCHTESGADENER ALPEN",
+        "subregion": "KÖNIGSSEE / JENNER",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1465",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 62,
+        "region": "BERCHTESGADENER ALPEN",
+        "subregion": "KÖNIGSSEE / RAMSAU - NATUR",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "hintersee",
+    "source_ids": [
+      "DE-1443",
+      "DE-1461"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1443",
+        "DE-1461"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1443",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 62,
+        "region": "BERCHTESGADENER ALPEN",
+        "subregion": "HOCHKALTER",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1461",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 62,
+        "region": "BERCHTESGADENER ALPEN",
+        "subregion": "KÖNIGSSEE / RAMSAU - NATUR",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "schellenberger eishöhle",
+    "source_ids": [
+      "DE-1450",
+      "DE-1470"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1450",
+        "DE-1470"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1450",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 62,
+        "region": "BERCHTESGADENER ALPEN",
+        "subregion": "HOHER GÖLL / UNTERSBERG",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1470",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 62,
+        "region": "BERCHTESGADENER ALPEN",
+        "subregion": "OBERSALZBERG / UNTERSBERG",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "kehlsteinhaus",
+    "source_ids": [
+      "DE-1451",
+      "DE-1472"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1451",
+        "DE-1472"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1451",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 62,
+        "region": "BERCHTESGADENER ALPEN",
+        "subregion": "HOHER GÖLL / UNTERSBERG",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1472",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 62,
+        "region": "BERCHTESGADENER ALPEN",
+        "subregion": "OBERSALZBERG / UNTERSBERG",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "name": "almbachklamm",
+    "source_ids": [
+      "DE-1466",
+      "DE-1474"
+    ],
+    "decision": "merged_source_context_review",
+    "result_groups": [
+      [
+        "DE-1466",
+        "DE-1474"
+      ]
+    ],
+    "evidence": [
+      {
+        "source_id": "DE-1466",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 62,
+        "region": "BERCHTESGADENER ALPEN",
+        "subregion": "KÖNIGSSEE / RAMSAU - NATUR",
+        "elevation_m": null
+      },
+      {
+        "source_id": "DE-1474",
+        "source_document": "Summit_Passport_Audyt_Bazy_PL_DE_v1.pdf",
+        "pdf_page": 62,
+        "region": "BERCHTESGADENER ALPEN",
+        "subregion": "OBERSALZBERG / UNTERSBERG",
+        "elevation_m": null
+      }
+    ],
+    "basis": "Name and geographical context review of supplied audit; this is separate from coordinate verification."
+  },
+  {
+    "source_ids": [
+      "PL-0230",
+      "PL-0249"
+    ],
+    "decision": "merged_reviewed_spelling_variants",
+    "result_groups": [
+      [
+        "PL-0230",
+        "PL-0249"
+      ]
+    ],
+    "basis": "Individually reviewed spelling variants and matching geographical subregion in supplied audit. Original categories are preserved as multiple facets, not separate visits.",
+    "evidence": [
+      {
+        "source_id": "PL-0230",
+        "name": "Jezioro Czorsztynskie",
+        "pdf_page": 11,
+        "region": "PIENINY / SPISZ",
+        "subregion": "CZORSZTYN - NIEDZICA"
+      },
+      {
+        "source_id": "PL-0249",
+        "name": "Jezioro Czorsztyńskie",
+        "pdf_page": 11,
+        "region": "PIENINY / SPISZ",
+        "subregion": "CZORSZTYN / NIEDZICA"
+      }
+    ]
+  },
+  {
+    "source_ids": [
+      "PL-0238",
+      "PL-0258"
+    ],
+    "decision": "merged_reviewed_spelling_variants",
+    "result_groups": [
+      [
+        "PL-0238",
+        "PL-0258"
+      ]
+    ],
+    "basis": "Individually reviewed spelling variants and matching geographical subregion in supplied audit. Original categories are preserved as multiple facets, not separate visits.",
+    "evidence": [
+      {
+        "source_id": "PL-0238",
+        "name": "Wawoz Homole",
+        "pdf_page": 11,
+        "region": "PIENINY / SPISZ",
+        "subregion": "MAŁE PIENINY - HOMOLE"
+      },
+      {
+        "source_id": "PL-0258",
+        "name": "Wąwóz Homole",
+        "pdf_page": 12,
+        "region": "PIENINY / SPISZ",
+        "subregion": "SZCZAWNICA / DUNAJEC"
+      }
+    ]
+  },
+  {
+    "source_ids": [
+      "PL-0248",
+      "PL-0260"
+    ],
+    "decision": "merged_reviewed_spelling_variants",
+    "result_groups": [
+      [
+        "PL-0248",
+        "PL-0260"
+      ]
+    ],
+    "basis": "Individually reviewed spelling variants and matching geographical subregion in supplied audit. Original categories are preserved as multiple facets, not separate visits.",
+    "evidence": [
+      {
+        "source_id": "PL-0248",
+        "name": "Droga Pieninska",
+        "pdf_page": 11,
+        "region": "PIENINY / SPISZ",
+        "subregion": "TRZY KORONY - SOKOLICA"
+      },
+      {
+        "source_id": "PL-0260",
+        "name": "Droga Pienińska",
+        "pdf_page": 12,
+        "region": "PIENINY / SPISZ",
+        "subregion": "SZCZAWNICA / DUNAJEC"
+      }
+    ]
+  },
+  {
+    "source_ids": [
+      "PL-0282",
+      "PL-0339"
+    ],
+    "decision": "merged_reviewed_spelling_variants",
+    "result_groups": [
+      [
+        "PL-0282",
+        "PL-0339"
+      ]
+    ],
+    "basis": "Individually reviewed spelling variants and matching geographical subregion in supplied audit. Original categories are preserved as multiple facets, not separate visits.",
+    "evidence": [
+      {
+        "source_id": "PL-0282",
+        "name": "Smreczynski Staw",
+        "pdf_page": 12,
+        "region": "TATRY",
+        "subregion": "DOLINA KOŚCIELISKA"
+      },
+      {
+        "source_id": "PL-0339",
+        "name": "Smreczyński Staw",
+        "pdf_page": 13,
+        "region": "TATRY",
+        "subregion": "DOLINA KOŚCIELISKA - JASKINIE"
+      }
+    ]
+  },
+  {
+    "source_ids": [
+      "PL-0277",
+      "PL-0334"
+    ],
+    "decision": "merged_reviewed_spelling_variants",
+    "result_groups": [
+      [
+        "PL-0277",
+        "PL-0334"
+      ]
+    ],
+    "basis": "Individually reviewed spelling variants and matching geographical subregion in supplied audit. Original categories are preserved as multiple facets, not separate visits.",
+    "evidence": [
+      {
+        "source_id": "PL-0277",
+        "name": "Jaskinia Mrozna",
+        "pdf_page": 12,
+        "region": "TATRY",
+        "subregion": "DOLINA KOŚCIELISKA"
+      },
+      {
+        "source_id": "PL-0334",
+        "name": "Jaskinia Mroźna",
+        "pdf_page": 13,
+        "region": "TATRY",
+        "subregion": "DOLINA KOŚCIELISKA - JASKINIE"
+      }
+    ]
+  },
+  {
+    "source_ids": [
+      "PL-0367",
+      "PL-0379"
+    ],
+    "decision": "merged_reviewed_spelling_variants",
+    "result_groups": [
+      [
+        "PL-0367",
+        "PL-0379"
+      ]
+    ],
+    "basis": "Individually reviewed spelling variants and matching geographical subregion in supplied audit. Original categories are preserved as multiple facets, not separate visits.",
+    "evidence": [
+      {
+        "source_id": "PL-0367",
+        "name": "Torfowisko pod Zielencem",
+        "pdf_page": 14,
+        "region": "SUDETY WSCHODNIE / MASYW ŚNIEŻNIKA",
+        "subregion": "ORLICA - ZIELENIEC"
+      },
+      {
+        "source_id": "PL-0379",
+        "name": "Torfowisko pod Zieleńcem",
+        "pdf_page": 14,
+        "region": "SUDETY WSCHODNIE / MASYW ŚNIEŻNIKA",
+        "subregion": "DUSZNIKI / ZIELENIEC"
+      }
+    ]
+  },
+  {
+    "source_ids": [
+      "PL-0376",
+      "PL-0382"
+    ],
+    "decision": "merged_reviewed_spelling_variants",
+    "result_groups": [
+      [
+        "PL-0376",
+        "PL-0382"
+      ]
+    ],
+    "basis": "Individually reviewed spelling variants and matching geographical subregion in supplied audit. Original categories are preserved as multiple facets, not separate visits.",
+    "evidence": [
+      {
+        "source_id": "PL-0376",
+        "name": "Jaskinia Niedzwiedzia",
+        "pdf_page": 14,
+        "region": "SUDETY WSCHODNIE / MASYW ŚNIEŻNIKA",
+        "subregion": "ŚNIEŻNIK - MIĘDZYGÓRZE"
+      },
+      {
+        "source_id": "PL-0382",
+        "name": "Jaskinia Niedźwiedzia",
+        "pdf_page": 14,
+        "region": "SUDETY WSCHODNIE / MASYW ŚNIEŻNIKA",
+        "subregion": "KLETNO"
+      }
+    ]
+  },
+  {
+    "source_ids": [
+      "PL-0404",
+      "PL-0414"
+    ],
+    "decision": "merged_reviewed_spelling_variants",
+    "result_groups": [
+      [
+        "PL-0404",
+        "PL-0414"
+      ]
+    ],
+    "basis": "Individually reviewed spelling variants and matching geographical subregion in supplied audit. Original categories are preserved as multiple facets, not separate visits.",
+    "evidence": [
+      {
+        "source_id": "PL-0404",
+        "name": "Biale Skały",
+        "pdf_page": 15,
+        "region": "ZIEMIA KŁODZKA / GÓRY STOŁOWE",
+        "subregion": "NAROŻNIK - SKALNE GRZYBY"
+      },
+      {
+        "source_id": "PL-0414",
+        "name": "Białe Skały",
+        "pdf_page": 15,
+        "region": "ZIEMIA KŁODZKA / GÓRY STOŁOWE",
+        "subregion": "GÓRY STOŁOWE - FORMACJE"
+      }
+    ]
+  },
+  {
+    "source_ids": [
+      "PL-0503",
+      "PL-0514"
+    ],
+    "decision": "merged_reviewed_spelling_variants",
+    "result_groups": [
+      [
+        "PL-0503",
+        "PL-0514"
+      ]
+    ],
+    "basis": "Individually reviewed spelling variants and matching geographical subregion in supplied audit. Original categories are preserved as multiple facets, not separate visits.",
+    "evidence": [
+      {
+        "source_id": "PL-0503",
+        "name": "Organy Wielislawskie",
+        "pdf_page": 17,
+        "region": "RUDAWY JANOWICKIE / GÓRY KACZAWSKIE",
+        "subregion": "KRAINA WYGASŁYCH WULKANÓW"
+      },
+      {
+        "source_id": "PL-0514",
+        "name": "Organy Wielisławskie",
+        "pdf_page": 17,
+        "region": "RUDAWY JANOWICKIE / GÓRY KACZAWSKIE",
+        "subregion": "KRAINA WYGASŁYCH WULKANÓW"
+      }
+    ]
+  },
+  {
+    "source_ids": [
+      "PL-0516",
+      "PL-0504"
+    ],
+    "decision": "merged_reviewed_spelling_variants",
+    "result_groups": [
+      [
+        "PL-0516",
+        "PL-0504"
+      ]
+    ],
+    "basis": "Individually reviewed spelling variants and matching geographical subregion in supplied audit. Original categories are preserved as multiple facets, not separate visits.",
+    "evidence": [
+      {
+        "source_id": "PL-0516",
+        "name": "Wąwóz Myśliborski",
+        "pdf_page": 17,
+        "region": "RUDAWY JANOWICKIE / GÓRY KACZAWSKIE",
+        "subregion": "KRAINA WYGASŁYCH WULKANÓW"
+      },
+      {
+        "source_id": "PL-0504",
+        "name": "Wawoz Mysliborski",
+        "pdf_page": 17,
+        "region": "RUDAWY JANOWICKIE / GÓRY KACZAWSKIE",
+        "subregion": "KRAINA WYGASŁYCH WULKANÓW"
+      }
+    ]
+  },
+  {
+    "source_ids": [
+      "PL-0538",
+      "PL-0581"
+    ],
+    "decision": "merged_reviewed_spelling_variants",
+    "result_groups": [
+      [
+        "PL-0538",
+        "PL-0581"
+      ]
+    ],
+    "basis": "Individually reviewed spelling variants and matching geographical subregion in supplied audit. Original categories are preserved as multiple facets, not separate visits.",
+    "evidence": [
+      {
+        "source_id": "PL-0538",
+        "name": "Swiatynia Wang",
+        "pdf_page": 18,
+        "region": "KARKONOSZE / GÓRY IZERSKIE",
+        "subregion": "KARPACZ - ŚNIEŻKA"
+      },
+      {
+        "source_id": "PL-0581",
+        "name": "Świątynia Wang",
+        "pdf_page": 19,
+        "region": "KARKONOSZE / GÓRY IZERSKIE",
+        "subregion": "KARPACZ / CHOJNIK"
+      }
+    ]
+  },
+  {
+    "source_ids": [
+      "PL-0545",
+      "PL-0584"
+    ],
+    "decision": "merged_reviewed_spelling_variants",
+    "result_groups": [
+      [
+        "PL-0545",
+        "PL-0584"
+      ]
+    ],
+    "basis": "Individually reviewed spelling variants and matching geographical subregion in supplied audit. Original categories are preserved as multiple facets, not separate visits.",
+    "evidence": [
+      {
+        "source_id": "PL-0545",
+        "name": "Wodospad Kamienczyka",
+        "pdf_page": 18,
+        "region": "KARKONOSZE / GÓRY IZERSKIE",
+        "subregion": "SZKLARSKA PORĘBA - SZRENICA - SNIEZNE KOTLY"
+      },
+      {
+        "source_id": "PL-0584",
+        "name": "Wodospad Kamieńczyka",
+        "pdf_page": 19,
+        "region": "KARKONOSZE / GÓRY IZERSKIE",
+        "subregion": "SZKLARSKA PORĘBA"
+      }
+    ]
+  },
+  {
+    "source_ids": [
+      "PL-0547",
+      "PL-0589"
+    ],
+    "decision": "merged_reviewed_spelling_variants",
+    "result_groups": [
+      [
+        "PL-0547",
+        "PL-0589"
+      ]
+    ],
+    "basis": "Individually reviewed spelling variants and matching geographical subregion in supplied audit. Original categories are preserved as multiple facets, not separate visits.",
+    "evidence": [
+      {
+        "source_id": "PL-0547",
+        "name": "Sniezne Kotly",
+        "pdf_page": 18,
+        "region": "KARKONOSZE / GÓRY IZERSKIE",
+        "subregion": "SZKLARSKA PORĘBA - SZRENICA - SNIEZNE KOTLY"
+      },
+      {
+        "source_id": "PL-0589",
+        "name": "Śnieżne Kotły",
+        "pdf_page": 19,
+        "region": "KARKONOSZE / GÓRY IZERSKIE",
+        "subregion": "ŚNIEŻNE KOTŁY"
+      }
+    ]
+  },
+  {
+    "source_ids": [
+      "PL-0556",
+      "PL-0575"
+    ],
+    "decision": "merged_reviewed_spelling_variants",
+    "result_groups": [
+      [
+        "PL-0556",
+        "PL-0575"
+      ]
+    ],
+    "basis": "Individually reviewed spelling variants and matching geographical subregion in supplied audit. Original categories are preserved as multiple facets, not separate visits.",
+    "evidence": [
+      {
+        "source_id": "PL-0556",
+        "name": "Chatka Gorzystow",
+        "pdf_page": 18,
+        "region": "KARKONOSZE / GÓRY IZERSKIE",
+        "subregion": "ŚWIERADÓW - HALA IZERSKA"
+      },
+      {
+        "source_id": "PL-0575",
+        "name": "Chatka Górzystów",
+        "pdf_page": 19,
+        "region": "KARKONOSZE / GÓRY IZERSKIE",
+        "subregion": "IZERA / JAKUSZYCE"
+      }
+    ]
+  },
+  {
+    "source_ids": [
+      "PL-0631",
+      "PL-0649"
+    ],
+    "decision": "merged_reviewed_spelling_variants",
+    "result_groups": [
+      [
+        "PL-0631",
+        "PL-0649"
+      ]
+    ],
+    "basis": "Individually reviewed spelling variants and matching geographical subregion in supplied audit. Original categories are preserved as multiple facets, not separate visits.",
+    "evidence": [
+      {
+        "source_id": "PL-0631",
+        "name": "Góra Żelejowa",
+        "pdf_page": 20,
+        "region": "GÓRY ŚWIĘTOKRZYSKIE",
+        "subregion": "CHĘCINY - MIEDZIANKA"
+      },
+      {
+        "source_id": "PL-0649",
+        "name": "Góra Zelejowa",
+        "pdf_page": 20,
+        "region": "GÓRY ŚWIĘTOKRZYSKIE",
+        "subregion": "CHĘCINY"
+      }
+    ]
+  },
+  {
+    "source_ids": [
+      "PL-0635",
+      "PL-0652"
+    ],
+    "decision": "merged_reviewed_spelling_variants",
+    "result_groups": [
+      [
+        "PL-0635",
+        "PL-0652"
+      ]
+    ],
+    "basis": "Individually reviewed spelling variants and matching geographical subregion in supplied audit. Original categories are preserved as multiple facets, not separate visits.",
+    "evidence": [
+      {
+        "source_id": "PL-0635",
+        "name": "Zamek Krolewski w Chęcinach",
+        "pdf_page": 20,
+        "region": "GÓRY ŚWIĘTOKRZYSKIE",
+        "subregion": "CHĘCINY - MIEDZIANKA"
+      },
+      {
+        "source_id": "PL-0652",
+        "name": "Zamek Królewski w Chęcinach",
+        "pdf_page": 20,
+        "region": "GÓRY ŚWIĘTOKRZYSKIE",
+        "subregion": "CHĘCINY"
+      }
+    ]
+  }
+]

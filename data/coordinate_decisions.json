@@ -1,0 +1,1076 @@
+{
+  "PL-0002": {
+    "osm_type": "N",
+    "osm_id": 404505138,
+    "basis": "Bilingual Soszów Wielki / Velký Sošov peak at Nýdek, in the source Beskid Śląski region; border feature. Keep catalog country PL separately from OSM location country.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0003": {
+    "osm_type": "N",
+    "osm_id": 1353553063,
+    "basis": "Bilingual Stożek Wielki / Velký Stožek peak near Návsí, Beskid Śląski. Excludes the homonymous peak at Unisław Śląski.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0004": {
+    "osm_type": "N",
+    "osm_id": 1382141179,
+    "basis": "Wodospad Kaskady Rodła: waterfall in Wisła, matching source name and Beskid Śląski context.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0011": {
+    "osm_type": "W",
+    "osm_id": 421956343,
+    "basis": "Schronisko PTTK Klimczok, alpine hut at Szczyrk. Selected hut rather than information map.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0012": {
+    "osm_type": "W",
+    "osm_id": 154303181,
+    "basis": "Schronisko PTTK Szyndzielnia: alpine hut matching named shelter.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0020": {
+    "osm_type": "N",
+    "osm_id": 658734058,
+    "basis": "Bilingual Czantoria Wielka peak at Nýdek; border feature in source Beskid Śląski context.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0027": {
+    "osm_type": "N",
+    "osm_id": 12398743114,
+    "basis": "Wenecja Cieszyńska, attraction at Cieszyn. Source uses reversed word order Cieszyńska Wenecja.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0028": {
+    "osm_type": "W",
+    "osm_id": 404219056,
+    "basis": "Palmiarnia Miejska at Gliwice matches Palmiarnia Gliwicka; representative building point.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0032": {
+    "osm_type": "R",
+    "osm_id": 9628355,
+    "basis": "Jezioro Goczałkowickie reservoir at Goczałkowice. Representative waterbody point, not visitor entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0035": {
+    "osm_type": "W",
+    "osm_id": 306149015,
+    "basis": "Muzeum Śląskie museum at Katowice. Selected museum object rather than another building in its complex.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0036": {
+    "osm_type": "N",
+    "osm_id": 31901028,
+    "basis": "Nikiszowiec quarter at Katowice; representative district point.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0037": {
+    "osm_type": "N",
+    "osm_id": 8100876581,
+    "basis": "Strefa Kultury neighbourhood at Katowice; representative district point.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0038": {
+    "osm_type": "W",
+    "osm_id": 172576408,
+    "basis": "Park Zamkowy in Pszczyna source context. Distinct from Park Zamkowy in Żywiec.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0043": {
+    "osm_type": "N",
+    "osm_id": 2133506918,
+    "basis": "Arboretum Brama Morawska attraction at Racibórz, matching named arboretum.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0048": {
+    "osm_type": "N",
+    "osm_id": 1188117210,
+    "basis": "Kopalnia Ignacy museum at Rybnik. Selected museum result.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0055": {
+    "osm_type": "N",
+    "osm_id": 3046822323,
+    "basis": "Czupel peak at Łodygowice in Beskid Mały. Other candidates at Kozy, Brenna and Wisła excluded by source context.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0062": {
+    "osm_type": "R",
+    "osm_id": 16864830,
+    "basis": "Jezioro Międzybrodzkie reservoir, source spelling Miedzybrodzkie. Representative waterbody point.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0065": {
+    "osm_type": "W",
+    "osm_id": 27120240,
+    "basis": "Żywieckie Lake reservoir is translated name of Jezioro Żywieckie. Representative waterbody point.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0066": {
+    "osm_type": "W",
+    "osm_id": 48002297,
+    "basis": "Park Zamkowy at Żywiec, matching source context. Distinct from Pszczyna park.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0067": {
+    "osm_type": "W",
+    "osm_id": 240437724,
+    "basis": "Nowy Zamek museum at Żywiec, corresponding to Nowy Zamek Habsburgów.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0068": {
+    "osm_type": "W",
+    "osm_id": 240434076,
+    "basis": "Muzeum Miejskie Stary Zamek at Żywiec, corresponding to source Stary Zamek.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0069": {
+    "osm_type": "N",
+    "osm_id": 477984782,
+    "basis": "Bilingual Babia Góra / Diablak peak at Zawoja matching source combined name.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0071": {
+    "osm_type": "N",
+    "osm_id": 478060244,
+    "basis": "Kępa peak at Zawoja on Babia Góra, excludes homonymous peak near Trzebinia.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0072": {
+    "osm_type": "N",
+    "osm_id": 653952691,
+    "basis": "Bilingual Mała Babia Góra / Cyl peak at Zawoja. Selected peak rather than information object.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0074": {
+    "osm_type": "N",
+    "osm_id": 8403293391,
+    "basis": "Markowe Szczawiny alpine hut; source heritage category denotes the shelter, not the similarly named locality.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0076": {
+    "osm_type": "N",
+    "osm_id": 3623674243,
+    "basis": "Brána / Przełęcz Brona saddle at the PL/SK border; source Babia Góra context.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0079": {
+    "osm_type": "N",
+    "osm_id": 26864278,
+    "basis": "Pilsko peak in Oravské Veselé, Slovakia, matches Beskid Żywiecki source entry. Catalog country PL is not a claim that summit lies inside Poland.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0083": {
+    "osm_type": "W",
+    "osm_id": 92337427,
+    "basis": "Hala Miziowa grassland. Selected named pasture rather than larger nature reserve; representative point.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0090": {
+    "osm_type": "R",
+    "osm_id": 14387930,
+    "basis": "Hala Rycerzowa grassland. Selected pasture rather than viewpoint; representative point.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0100": {
+    "osm_type": "N",
+    "osm_id": 1164764784,
+    "basis": "Zamkowa Góra peak at Pokrzywna, source Góry Opawskie 571 m; excludes Modliszów 618 m homonym.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0104": {
+    "osm_type": "W",
+    "osm_id": 230535120,
+    "basis": "Brzeg Silesian Piasts Castle museum at Brzeg is the English rendering of Zamek Piastów Śląskich.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0105": {
+    "osm_type": "N",
+    "osm_id": 4486437069,
+    "basis": "Park Geologiczny attraction at Góra Świętej Anny matches named geopark.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0111": {
+    "osm_type": "W",
+    "osm_id": 73054209,
+    "basis": "Moszna Castle is the named historic castle now tagged as hotel. Representative building point, not booking or access data.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0112": {
+    "osm_type": "R",
+    "osm_id": 2908769,
+    "basis": "Jezioro Nyskie reservoir. Representative waterbody point.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0113": {
+    "osm_type": "R",
+    "osm_id": 3148151,
+    "basis": "Jezioro Otmuchowskie reservoir. Representative waterbody point.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0114": {
+    "osm_type": "W",
+    "osm_id": 255471010,
+    "basis": "Bastion św. Jadwigi fort at Nysa matching named bastion.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0115": {
+    "osm_type": "W",
+    "osm_id": 1313448794,
+    "basis": "Fort Prusy at Nysa matching named component of Twierdza Nysa.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0116": {
+    "osm_type": "W",
+    "osm_id": 221471869,
+    "basis": "Zamek w Otmuchowie building at Otmuchów matches Zamek Otmuchów.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0005": {
+    "osm_type": "N",
+    "osm_id": 2836791822,
+    "basis": "Reviewed source name 'Wykapy Czarnej Wisełki', subregion 'BARANIA GÓRA - ŹRÓDŁA WISŁY', and feature category against OSM 'Wykapy Czarnej Wisełki' (natural=spring) in Wisła, Cieszyn County. Locality and named feature agree. Area coordinates represent the feature, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0006": {
+    "osm_type": "W",
+    "osm_id": 1446237767,
+    "basis": "Reviewed source name 'Dolina Białej Wisełki', subregion 'BARANIA GÓRA - ŹRÓDŁA WISŁY', and feature category against OSM 'Dolina Białej Wisełki' (natural=valley) in Wisła, Cieszyn County. Locality and named feature agree. Area coordinates represent the feature, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0010": {
+    "osm_type": "W",
+    "osm_id": 173530172,
+    "basis": "Reviewed source name 'Hala Jaworowa', subregion 'KLIMCZOK - SZYNDZIELNIA - BŁATNIA', and feature category against OSM 'Hala Jaworowa' (natural=fell) in Brenna, Cieszyn County. Locality and named feature agree. Area coordinates represent the feature, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0017": {
+    "osm_type": "N",
+    "osm_id": 492330223,
+    "basis": "Reviewed source name 'Przełęcz Salmopolska', subregion 'PRZEŁĘCZ SALMOPOLSKA - SKRZYCZNE', and feature category against OSM 'Przełęcz Salmopolska' (mountain_pass=yes) in Brenna, Cieszyn County. Locality and named feature agree. Area coordinates represent the feature, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0018": {
+    "osm_type": "N",
+    "osm_id": 5630885234,
+    "basis": "Reviewed source name 'Jaskinia Malinowska', subregion 'PRZEŁĘCZ SALMOPOLSKA - SKRZYCZNE', and feature category against OSM 'Jaskinia Malinowska' (natural=cave_entrance) in Wisła, Cieszyn County. Locality and named feature agree. Area coordinates represent the feature, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0022": {
+    "osm_type": "N",
+    "osm_id": 1431015637,
+    "basis": "Reviewed source name 'Muzeum Drukarstwa', subregion 'CIESZYN', and feature category against OSM 'Muzeum Drukarstwa' (tourism=museum) in Cieszyn, Cieszyn County. Locality and named feature agree. Area coordinates represent the feature, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0024": {
+    "osm_type": "W",
+    "osm_id": 166865637,
+    "basis": "Reviewed source name 'Studnia Trzech Braci', subregion 'CIESZYN', and feature category against OSM 'Studnia Trzech Braci' (building=roof) in Cieszyn, Cieszyn County. Locality and named feature agree. Area coordinates represent the feature, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0025": {
+    "osm_type": "W",
+    "osm_id": 166850543,
+    "basis": "Reviewed source name 'Wieża Piastowska', subregion 'CIESZYN', and feature category against OSM 'Wieża Piastowska' (tourism=attraction) in Cieszyn, Cieszyn County. Locality and named feature agree. Area coordinates represent the feature, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0030": {
+    "osm_type": "N",
+    "osm_id": 7376034624,
+    "basis": "Reviewed source name 'Radiostacja Gliwicka', subregion 'GLIWICE / PŁAWNIOWICE / TOSZEK', and feature category against OSM 'Radiostacja Gliwicka' (man_made=tower) in Gliwice, Metropolis GZM. Locality and named feature agree. Area coordinates represent the feature, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0040": {
+    "osm_type": "W",
+    "osm_id": 176438915,
+    "basis": "Reviewed source name 'Skansen Zagroda Wsi Pszczyńskiej', subregion 'PSZCZYNA', and feature category against OSM 'Skansen \"Zagroda Wsi Pszczyńskiej\"' (tourism=museum) in Pszczyna, Pszczyna County. Locality and named feature agree. Area coordinates represent the feature, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0044": {
+    "osm_type": "R",
+    "osm_id": 2781149,
+    "basis": "Reviewed source name 'Rezerwat Łężczok', subregion 'RUDY / RACIBÓRZ', and feature category against OSM 'Rezerwat Łężczok' (leisure=nature_reserve) in Babice, Racibórz County. Locality and named feature agree. Area coordinates represent the feature, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0046": {
+    "osm_type": "W",
+    "osm_id": 1334316727,
+    "basis": "Reviewed source name 'Zamek Piastowski w Raciborzu', subregion 'RUDY / RACIBÓRZ', and feature category against OSM 'Zamek Piastowski w Raciborzu' (tourism=attraction) in Racibórz, Racibórz County. Locality and named feature agree. Area coordinates represent the feature, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0049": {
+    "osm_type": "N",
+    "osm_id": 4962418650,
+    "basis": "Reviewed source name 'Sztolnia Czarnego Pstrąga', subregion 'TARNOWSKIE GÓRY', and feature category against OSM 'Sztolnia Czarnego Pstrąga' (tourism=museum) in Tarnowskie Góry, Tarnowskie Góry County. Locality and named feature agree. Area coordinates represent the feature, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0053": {
+    "osm_type": "W",
+    "osm_id": 421789902,
+    "basis": "Reviewed source name 'Kopalnia Guido', subregion 'ZABRZE - PODZIEMIA', and feature category against OSM 'Kopalnia Guido' (tourism=theme_park) in Zabrze, Metropolis GZM. Locality and named feature agree. Area coordinates represent the feature, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0054": {
+    "osm_type": "W",
+    "osm_id": 421787802,
+    "basis": "Reviewed source name 'Sztolnia Królowa Luiza', subregion 'ZABRZE - PODZIEMIA', and feature category against OSM 'Sztolnia Królowa Luiza' (tourism=theme_park) in Zabrze, Metropolis GZM. Locality and named feature agree. Area coordinates represent the feature, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0070": {
+    "osm_type": "N",
+    "osm_id": 478027497,
+    "basis": "Reviewed source name 'Gówniak', subregion 'BABIA GÓRA', and feature category against OSM 'Gówniak' (natural=peak) in Lipnica Wielka, Nowy Targ County. Locality and named feature agree. Area coordinates represent the feature, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0077": {
+    "osm_type": "N",
+    "osm_id": 569645734,
+    "basis": "Reviewed source name 'Góra Pięciu Kopców', subregion 'PILSKO - RYSIANKA - ROMANKA', and feature category against OSM 'Góra Pięciu Kopców' (natural=peak) in Korbielów, Żywiec County. Locality and named feature agree. Area coordinates represent the feature, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0085": {
+    "osm_type": "N",
+    "osm_id": 1771188970,
+    "basis": "Reviewed source name 'Bendoszka Wielka', subregion 'WIELKA RACZA - RYCERZOWA', and feature category against OSM 'Bendoszka Wielka' (natural=peak) in Rycerka Górna, Żywiec County. Locality and named feature agree. Area coordinates represent the feature, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0088": {
+    "osm_type": "N",
+    "osm_id": 5538203159,
+    "basis": "Reviewed source name 'Wielka Rycerzowa', subregion 'WIELKA RACZA - RYCERZOWA', and feature category against OSM 'Wielka Rycerzowa / Rycierova hora' (natural=peak) in Soblówka, Żywiec County. Locality and named feature agree. Area coordinates represent the feature, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0086": {
+    "osm_type": "N",
+    "osm_id": 1616994875,
+    "basis": "Reviewed source name 'Mała Rycerzowa', subregion 'WIELKA RACZA - RYCERZOWA', and feature category against OSM 'Mała Rycerzowa' (natural=peak) in Soblówka, Żywiec County. Locality and named feature agree. Area coordinates represent the feature, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0097": {
+    "osm_type": "N",
+    "osm_id": 2706039947,
+    "basis": "Reviewed source name 'Wodospad na Mosornym Potoku', subregion 'ZAWOJA / MOSORNY GROŃ', and feature category against OSM 'Wodospad na Mosornym Potoku' (waterway=waterfall) in Zawoja, Sucha County. Locality and named feature agree. Area coordinates represent the feature, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0101": {
+    "osm_type": "W",
+    "osm_id": 191626837,
+    "basis": "Reviewed source name 'Żabie Oczko', subregion 'BISKUPIA KOPA - GWARKOWA PERĆ', and feature category against OSM 'Żabie Oczko' (natural=water) in Pokrzywna, Nysa County. Locality and named feature agree. Area coordinates represent the feature, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0102": {
+    "osm_type": "W",
+    "osm_id": 746565268,
+    "basis": "Reviewed source name 'Gwarkowa Perć', subregion 'BISKUPIA KOPA - GWARKOWA PERĆ', and feature category against OSM 'Gwarkowa Perć' (natural=bare_rock) in Jarnołtówek, Nysa County. Locality and named feature agree. Area coordinates represent the feature, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0103": {
+    "osm_type": "W",
+    "osm_id": 746575764,
+    "basis": "Reviewed source name 'Piekielko', subregion 'BISKUPIA KOPA - GWARKOWA PERĆ', and feature category against OSM 'Piekiełko' (natural=bare_rock) in Jarnołtówek, Nysa County. Locality and named feature agree. Area coordinates represent the feature, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0106": {
+    "osm_type": "W",
+    "osm_id": 273446637,
+    "basis": "Reviewed source name 'Amfiteatr na Górze Świętej Anny', subregion 'GÓRA ŚWIĘTEJ ANNY', and feature category against OSM 'Amfiteatr na Górze Świętej Anny' (amenity=theatre) in Góra Świętej Anny, Strzelce County. Locality and named feature agree. Area coordinates represent the feature, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0109": {
+    "osm_type": "W",
+    "osm_id": 520218787,
+    "basis": "Reviewed source name 'Park Nauki i Ewolucji Człowieka', subregion 'KRASIEJÓW', and feature category against OSM 'Park Nauki i Ewolucji Człowieka' (tourism=theme_park) in Krasiejów, Opole County. Locality and named feature agree. Area coordinates represent the feature, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0110": {
+    "osm_type": "W",
+    "osm_id": 203754119,
+    "basis": "Reviewed source name 'Pawilon Paleontologiczny', subregion 'KRASIEJÓW', and feature category against OSM 'Pawilon Paleontologiczny' (tourism=museum) in Krasiejów, Opole County. Locality and named feature agree. Area coordinates represent the feature, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0120": {
+    "osm_type": "N",
+    "osm_id": 13004060760,
+    "basis": "Reviewed source name 'Dolina Bolechowicka', subregion 'DOLINKI KRAKOWSKIE', and feature category against OSM 'Dolina Bolechowicka' (natural=valley) in Karniowice, Kraków County. Locality and named feature agree. Area coordinates represent the feature, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0121": {
+    "osm_type": "W",
+    "osm_id": 1444228315,
+    "basis": "Reviewed source name 'Dolina Będkowska', subregion 'DOLINKI KRAKOWSKIE', and feature category against OSM 'Dolina Będkowska' (natural=valley) in Łazy, Kraków County. Locality and named feature agree. Area coordinates represent the feature, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0125": {
+    "osm_type": "N",
+    "osm_id": 841718250,
+    "basis": "Reviewed source name 'Jaskinia Głęboka', subregion 'GÓRA ZBORÓW / PODLESICE', and feature category against OSM 'Jaskinia Głęboka' (natural=cave_entrance) in Podlesice, Zawiercie County. Locality and named feature agree. Area coordinates represent the feature, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0126": {
+    "osm_type": "R",
+    "osm_id": 10413112,
+    "basis": "Reviewed source name 'Okiennik Wielki', subregion 'GÓRA ZBORÓW / PODLESICE', and feature category against OSM 'Okiennik Wielki' (natural=bare_rock) in Piaseczno, Zawiercie County. Locality and named feature agree. Area coordinates represent the feature, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0139": {
+    "osm_type": "W",
+    "osm_id": 1056654314,
+    "basis": "Reviewed source name 'Zamek Bąkowiec w Morsku', subregion 'MORSKO / MNIEJSZE ORLE GNIAZDA', and feature category against OSM 'Zamek Bąkowiec w Morsku' (building=yes) in Zawiercie, Zawiercie County. Locality and named feature agree. Area coordinates represent the feature, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0140": {
+    "osm_type": "R",
+    "osm_id": 4196223,
+    "basis": "Reviewed source name 'Brama Krakowska', subregion 'OJCÓW', and feature category against OSM 'Brama Krakowska' (natural=bare_rock) in Ojców, Kraków County. Locality and named feature agree. Area coordinates represent the feature, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0141": {
+    "osm_type": "N",
+    "osm_id": 1357752673,
+    "basis": "Reviewed source name 'Jaskinia Ciemna', subregion 'OJCÓW', and feature category against OSM 'Jaskinia Ciemna' (natural=cave_entrance) in Ojców, Kraków County. Locality and named feature agree. Area coordinates represent the feature, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0145": {
+    "osm_type": "W",
+    "osm_id": 373997108,
+    "basis": "Reviewed source name 'Igła Deotymy', subregion 'OJCÓW', and feature category against OSM 'Igła Deotymy' (natural=rock) in Ojców, Kraków County. Locality and named feature agree. Area coordinates represent the feature, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0146": {
+    "osm_type": "N",
+    "osm_id": 1352968114,
+    "basis": "Reviewed source name 'Rękawica', subregion 'OJCÓW', and feature category against OSM 'Rękawica' (natural=rock) in Ojców, Kraków County. Locality and named feature agree. Area coordinates represent the feature, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0155": {
+    "osm_type": "W",
+    "osm_id": 234160621,
+    "basis": "Reviewed source name 'Maczuga Herkulesa', subregion 'PIESKOWA SKAŁA', and feature category against OSM 'Maczuga Herkulesa' (natural=bare_rock) in Sułoszowa, Kraków County. Locality and named feature agree. Area coordinates represent the feature, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0156": {
+    "osm_type": "W",
+    "osm_id": 1329687872,
+    "basis": "Reviewed source name 'Zamek Pieskowa Skała', subregion 'PIESKOWA SKAŁA', and feature category against OSM 'Zamek Pieskowa Skała' (tourism=attraction) in Sułoszowa, Kraków County. Locality and named feature agree. Area coordinates represent the feature, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0158": {
+    "osm_type": "W",
+    "osm_id": 111622004,
+    "basis": "Reviewed source name 'Gród na Górze Birów', subregion 'PODZAMCZE / OGRODZIENIEC', and feature category against OSM 'Gród na Górze Birów' (tourism=museum) in Podzamcze, Zawiercie County. Locality and named feature agree. Area coordinates represent the feature, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0159": {
+    "osm_type": "W",
+    "osm_id": 14149043,
+    "basis": "Reviewed source name 'Zamek Ogrodzieniec', subregion 'PODZAMCZE / OGRODZIENIEC', and feature category against OSM 'Zamek Ogrodzieniec' (tourism=attraction) in Podzamcze, Zawiercie County. Locality and named feature agree. Area coordinates represent the feature, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0186": {
+    "osm_type": "W",
+    "osm_id": 93705192,
+    "basis": "Reviewed source name 'Zamek Lipowiec', subregion 'LIPOWIEC / WYGIEŁZÓW', and feature category against OSM 'Zamek Lipowiec' (tourism=museum) in Babice, Chrzanów County. Locality and named feature agree. Area coordinates represent the feature, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0194": {
+    "osm_type": "R",
+    "osm_id": 17496260,
+    "basis": "Reviewed source name 'Ruiny Zamku Melsztyn', subregion 'ZAMKI NAD DUNAJCEM', and feature category against OSM 'Ruiny Zamku Melsztyn' (historic=castle) in Melsztyn, Tarnów County. Locality and named feature agree. Area coordinates represent the feature, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0196": {
+    "osm_type": "R",
+    "osm_id": 6517939,
+    "basis": "Reviewed source name 'Zamek Tropsztyn', subregion 'ZAMKI NAD DUNAJCEM', and feature category against OSM 'Zamek Tropsztyn' (building=yes) in Wytrzyszczka, Brzesko County. Locality and named feature agree. Area coordinates represent the feature, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0200": {
+    "osm_type": "N",
+    "osm_id": 3440756227,
+    "basis": "Reviewed source name 'Koskowa Góra', subregion 'LUBOMIR - KOSKOWA GÓRA', and feature category against OSM 'Koskowa Góra' (natural=peak) in Bogdanówka, Myślenice County. Locality and named feature agree. Area coordinates represent the feature, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0198": {
+    "osm_type": "N",
+    "osm_id": 3440753846,
+    "basis": "Reviewed source name 'Babica', subregion 'LUBOMIR - KOSKOWA GÓRA', and feature category against OSM 'Babica' (natural=peak) in Trzebunia, Myślenice County. Locality and named feature agree. Area coordinates represent the feature, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0208": {
+    "osm_type": "N",
+    "osm_id": 1236685520,
+    "basis": "Reviewed source name 'Mogielica', subregion 'MOGIELICA - LUBOŃ - MODYŃ', and feature category against OSM 'Mogielica' (natural=peak) in Chyszówki, Limanowa County. Locality and named feature agree. Area coordinates represent the feature, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0134": {
+    "osm_type": "W",
+    "osm_id": 1329695357,
+    "basis": "Individually reviewed source 'Zamek Bobolice', subregion 'MIRÓW / BOBOLICE', against OSM 'Zamek Bobolice' (tourism=attraction) at Hucisko, Zawiercie County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0163": {
+    "osm_type": "W",
+    "osm_id": 150068559,
+    "basis": "Individually reviewed source 'Zamek Rabsztyn', subregion 'RABSZTYN / PUSTYNIA BŁĘDOWSKA', against OSM 'Zamek Rabsztyn' (building=yes) at Rabsztyn, Olkusz County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0210": {
+    "osm_type": "N",
+    "osm_id": 1939588898,
+    "basis": "Individually reviewed source 'Szczebel', subregion 'MOGIELICA - LUBOŃ - MODYŃ', against OSM 'Szczebel' (natural=peak) at Kasinka Mała, Limanowa County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0207": {
+    "osm_type": "N",
+    "osm_id": 3909071361,
+    "basis": "Individually reviewed source 'Modyń', subregion 'MOGIELICA - LUBOŃ - MODYŃ', against OSM 'Modyń' (natural=peak) at Wola Kosnowa, Nowy Sącz County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0209": {
+    "osm_type": "N",
+    "osm_id": 2007789469,
+    "basis": "Individually reviewed source 'Sałasz', subregion 'MOGIELICA - LUBOŃ - MODYŃ', against OSM 'Sałasz' (natural=peak) at Żmiąca, Limanowa County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0205": {
+    "osm_type": "N",
+    "osm_id": 2007077683,
+    "basis": "Individually reviewed source 'Jaworz', subregion 'MOGIELICA - LUBOŃ - MODYŃ', against OSM 'Jaworz' (natural=peak) at Męcina, Limanowa County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0214": {
+    "osm_type": "W",
+    "osm_id": 183454071,
+    "basis": "Individually reviewed source 'Polana Stumorgowa', subregion 'MOGIELICA - LUBOŃ - MODYŃ', against OSM 'Polana Stumorgowa' (natural=grassland) at Półrzeczki, Limanowa County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0216": {
+    "osm_type": "N",
+    "osm_id": 1196049580,
+    "basis": "Individually reviewed source 'Gorc', subregion 'GORC - KUDŁOŃ - LUBAŃ', against OSM 'Gorc' (natural=peak) at Zasadne, Limanowa County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0235": {
+    "osm_type": "N",
+    "osm_id": 2623552434,
+    "basis": "Individually reviewed source 'Szafranówka', subregion 'MAŁE PIENINY - HOMOLE', against OSM 'Szafranówka / Šafranovka' (natural=peak) at Szczawnica, Nowy Targ County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0240": {
+    "osm_type": "N",
+    "osm_id": 4958975280,
+    "basis": "Individually reviewed source 'Kamienne Ksiegi', subregion 'MAŁE PIENINY - HOMOLE', against OSM 'Kamienne Księgi' (natural=rock) at Jaworki, Nowy Targ County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0247": {
+    "osm_type": "W",
+    "osm_id": 1334907573,
+    "basis": "Individually reviewed source 'Przelom Dunajca', subregion 'TRZY KORONY - SOKOLICA', against OSM 'Przełom Dunajca' (natural=gorge) at Sromowce Niżne, Nowy Targ County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0257": {
+    "osm_type": "N",
+    "osm_id": 3740851963,
+    "basis": "Individually reviewed source 'Wodospad Zaskalnik', subregion 'SZCZAWNICA / DUNAJEC', against OSM 'Wodospad Zaskalnik' (waterway=waterfall) at Szczawnica, Nowy Targ County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0259": {
+    "osm_type": "R",
+    "osm_id": 2118788,
+    "basis": "Individually reviewed source 'Rezerwat Biała Woda', subregion 'SZCZAWNICA / DUNAJEC', against OSM 'Rezerwat Biała Woda' (leisure=nature_reserve) at Jaworki, Nowy Targ County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0264": {
+    "osm_type": "N",
+    "osm_id": 1294543842,
+    "basis": "Individually reviewed source 'Kończysty Wierch', subregion 'CHOCHOŁOWSKA - WOŁOWIEC', against OSM 'Končistá / Kończysty Wierch' (natural=peak) at Witów, Tatra County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0275": {
+    "osm_type": "W",
+    "osm_id": 834622578,
+    "basis": "Individually reviewed source 'Dolina Malej Laki', subregion 'CZERWONE WIERCHY', against OSM 'Dolina Małej Łąki' (natural=valley) at Kościelisko, Tatra County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0279": {
+    "osm_type": "N",
+    "osm_id": 1294577918,
+    "basis": "Individually reviewed source 'Jaskinia Raptawicka', subregion 'DOLINA KOŚCIELISKA', against OSM 'Jaskinia Raptawicka' (natural=cave_entrance) at Kościelisko, Tatra County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0280": {
+    "osm_type": "N",
+    "osm_id": 1852697241,
+    "basis": "Individually reviewed source 'Smocza Jama', subregion 'DOLINA KOŚCIELISKA', against OSM 'Smocza Jama' (natural=cave_entrance) at Kościelisko, Tatra County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0283": {
+    "osm_type": "W",
+    "osm_id": 834622581,
+    "basis": "Individually reviewed source 'Dolina Kościeliska', subregion 'DOLINA KOŚCIELISKA', against OSM 'Dolina Kościeliska' (natural=valley) at Kościelisko, Tatra County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0291": {
+    "osm_type": "N",
+    "osm_id": 11189254686,
+    "basis": "Individually reviewed source 'Szpiglasowa Przełęcz', subregion 'DOLINA PIĘCIU STAWÓW - SZPIGLAS', against OSM 'Szpiglasowa Przełęcz' (mountain_pass=yes) at Brzegi, Tatra County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0288": {
+    "osm_type": "N",
+    "osm_id": 3503513134,
+    "basis": "Individually reviewed source 'Siklawa', subregion 'DOLINA PIĘCIU STAWÓW - SZPIGLAS', against OSM 'Siklawa' (waterway=waterfall) at Brzegi, Tatra County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0292": {
+    "osm_type": "W",
+    "osm_id": 554989163,
+    "basis": "Individually reviewed source 'Dolina Pięciu Stawów Polskich', subregion 'DOLINA PIĘCIU STAWÓW - SZPIGLAS', against OSM 'Dolina Pięciu Stawów Polskich' (natural=valley) at Brzegi, Tatra County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0293": {
+    "osm_type": "W",
+    "osm_id": 834951919,
+    "basis": "Individually reviewed source 'Dolina Roztoki', subregion 'DOLINA PIĘCIU STAWÓW - SZPIGLAS', against OSM 'Dolina Roztoki' (natural=valley) at Brzegi, Tatra County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0296": {
+    "osm_type": "N",
+    "osm_id": 1333271083,
+    "basis": "Individually reviewed source 'Siklawica', subregion 'GIEWONT - DOLINA STRĄŻYSKA', against OSM 'Siklawica' (waterway=waterfall) at Zakopane, Tatra County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0297": {
+    "osm_type": "W",
+    "osm_id": 834951931,
+    "basis": "Individually reviewed source 'Dolina Bialego', subregion 'GIEWONT - DOLINA STRĄŻYSKA', against OSM 'Dolina Białego' (natural=valley) at Zakopane, Tatra County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0298": {
+    "osm_type": "W",
+    "osm_id": 834951927,
+    "basis": "Individually reviewed source 'Dolina Strążyska', subregion 'GIEWONT - DOLINA STRĄŻYSKA', against OSM 'Dolina Strążyska' (natural=valley) at Zakopane, Tatra County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0304": {
+    "osm_type": "N",
+    "osm_id": 355985946,
+    "basis": "Individually reviewed source 'Karb', subregion 'HALA GĄSIENICOWA - KOŚCIELEC', against OSM 'Karb' (mountain_pass=yes) at Zakopane, Tatra County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0307": {
+    "osm_type": "R",
+    "osm_id": 15663439,
+    "basis": "Individually reviewed source 'Hala Gąsienicowa', subregion 'HALA GĄSIENICOWA - KOŚCIELEC', against OSM 'Hala Gąsienicowa' (natural=grassland) at Zakopane, Tatra County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0313": {
+    "osm_type": "N",
+    "osm_id": 3508700214,
+    "basis": "Individually reviewed source 'Kazalnica Mięguszowiecka', subregion 'MORSKIE OKO - RYSY', against OSM 'Kazalnica Mięguszowiecka' (natural=peak) at Brzegi, Tatra County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0317": {
+    "osm_type": "N",
+    "osm_id": 3508693152,
+    "basis": "Individually reviewed source 'Bula pod Rysami', subregion 'MORSKIE OKO - RYSY', against OSM 'Bula pod Rysami' (natural=peak) at Brzegi, Tatra County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0325": {
+    "osm_type": "N",
+    "osm_id": 460927985,
+    "basis": "Individually reviewed source 'Zawrat', subregion 'ORLA PERĆ', against OSM 'Zawrat' (mountain_pass=yes) at Brzegi, Tatra County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0327": {
+    "osm_type": "N",
+    "osm_id": 460928198,
+    "basis": "Individually reviewed source 'Kozia Przełęcz', subregion 'ORLA PERĆ', against OSM 'Kozia Przełęcz' (mountain_pass=yes) at Zakopane, Tatra County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0336": {
+    "osm_type": "N",
+    "osm_id": 5914026732,
+    "basis": "Individually reviewed source 'Jaskinia Obłazkowa', subregion 'DOLINA KOŚCIELISKA - JASKINIE', against OSM 'Jaskinia Obłazkowa' (natural=cave_entrance) at Kościelisko, Tatra County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0364": {
+    "osm_type": "N",
+    "osm_id": 2368119768,
+    "basis": "Individually reviewed source 'Trojak', subregion 'KOWADŁO - TROJAK', against OSM 'Trojak' (natural=peak) at Lądek-Zdrój, Kłodzko County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0375": {
+    "osm_type": "N",
+    "osm_id": 2470127421,
+    "basis": "Individually reviewed source 'Żmijowiec', subregion 'ŚNIEŻNIK - MIĘDZYGÓRZE', against OSM 'Żmijowiec' (natural=peak) at gmina Stronie Śląskie, Kłodzko County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0376": {
+    "osm_type": "N",
+    "osm_id": 1825505514,
+    "basis": "Individually reviewed source 'Jaskinia Niedzwiedzia', subregion 'ŚNIEŻNIK - MIĘDZYGÓRZE', against OSM 'Jaskinia Niedźwiedzia' (natural=cave_entrance) at Kletno, Kłodzko County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0381": {
+    "osm_type": "R",
+    "osm_id": 3739860,
+    "basis": "Individually reviewed source 'Pałac Marianny Orańskiej', subregion 'KAMIENIEC ZĄBKOWICKI', against OSM 'Pałac Marianny Orańskiej' (tourism=attraction) at Kamieniec Ząbkowicki, Ząbkowice Śląskie County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0385": {
+    "osm_type": "N",
+    "osm_id": 611088550,
+    "basis": "Individually reviewed source 'Jaskinia Radochowska', subregion 'LĄDEK-ZDRÓJ / RADOCHÓW', against OSM 'Jaskinia Radochowska' (natural=cave_entrance) at Trzebieszowice, Kłodzko County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0394": {
+    "osm_type": "N",
+    "osm_id": 1940007629,
+    "basis": "Individually reviewed source 'Sztolnia Gertruda', subregion 'ZŁOTY STOK', against OSM 'Sztolnia Gertruda' (man_made=adit) at Złoty Stok, Ząbkowice Śląskie County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0395": {
+    "osm_type": "W",
+    "osm_id": 77415810,
+    "basis": "Individually reviewed source 'Średniowieczna Osada Górnicza', subregion 'ZŁOTY STOK', against OSM 'Średniowieczna Osada Górnicza' (tourism=theme_park) at Złoty Stok, Ząbkowice Śląskie County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0402": {
+    "osm_type": "N",
+    "osm_id": 492775176,
+    "basis": "Individually reviewed source 'Fort Karola', subregion 'BŁĘDNE SKAŁY - SKALNIAK', against OSM 'Fort Karola' (tourism=attraction) at Karłów, Kłodzko County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0420": {
+    "osm_type": "W",
+    "osm_id": 292939943,
+    "basis": "Individually reviewed source 'Kaplica Czaszek', subregion 'KUDOWA / CZERMNA', against OSM 'Kaplica Czaszek' (amenity=place_of_worship) at Kudowa-Zdrój, Kłodzko County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0438": {
+    "osm_type": "N",
+    "osm_id": 2353834758,
+    "basis": "Individually reviewed source 'Trójgarb', subregion 'WAŁBRZYCH - TRÓJGARB', against OSM 'Trójgarb' (natural=peak) at Witków, Wałbrzych County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0448": {
+    "osm_type": "W",
+    "osm_id": 373732990,
+    "basis": "Individually reviewed source 'Podziemne Miasto Osówka', subregion 'KOMPLEKS RIESE', against OSM 'Podziemne Miasto \"Osówka\"' (tourism=attraction) at Sierpnica, powiat wałbrzyski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0456": {
+    "osm_type": "W",
+    "osm_id": 239074431,
+    "basis": "Individually reviewed source 'Stary Książ', subregion 'KSIĄŻ / WAŁBRZYCH', against OSM 'Stary Książ' (tourism=attraction) at Wałbrzych, . Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0468": {
+    "osm_type": "W",
+    "osm_id": 453306475,
+    "basis": "Individually reviewed source 'Hala Łabowska', subregion 'JAWORZYNA KRYNICKA - HALA ŁABOWSKA', against OSM 'Hala Łabowska' (landuse=meadow) at Łabowiec, powiat nowosądecki. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0480": {
+    "osm_type": "W",
+    "osm_id": 166155705,
+    "basis": "Individually reviewed source 'Zamek Bolków', subregion 'BOLKÓW / ŚWINY', against OSM 'Zamek Bolków' (tourism=attraction) at Bolków, powiat jaworski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0481": {
+    "osm_type": "W",
+    "osm_id": 372001522,
+    "basis": "Individually reviewed source 'Zamek Świny', subregion 'BOLKÓW / ŚWINY', against OSM 'Zamek Świny' (tourism=attraction) at Świny, powiat jaworski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0490": {
+    "osm_type": "W",
+    "osm_id": 301787142,
+    "basis": "Individually reviewed source 'Hydropolis', subregion 'WROCŁAW', against OSM 'Hydropolis' (tourism=museum) at Wrocław, . Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0517": {
+    "osm_type": "W",
+    "osm_id": 261497103,
+    "basis": "Individually reviewed source 'Zamek Grodziec', subregion 'KRAINA WYGASŁYCH WULKANÓW', against OSM 'Zamek Grodziec' (tourism=attraction) at Grodziec, powiat złotoryjski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0505": {
+    "osm_type": "N",
+    "osm_id": 2143973743,
+    "basis": "Individually reviewed source 'Ostra Mała', subregion 'SKALNIK - KOLOROWE JEZIORKA', against OSM 'Ostra Mała' (natural=peak) at Gruszków, powiat karkonoski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0518": {
+    "osm_type": "W",
+    "osm_id": 283835547,
+    "basis": "Individually reviewed source 'Piec', subregion 'RUDAWY JANOWICKIE - DISCOVERY', against OSM 'Piec' (natural=bare_rock) at Janowice Wielkie, powiat karkonoski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0519": {
+    "osm_type": "W",
+    "osm_id": 283835560,
+    "basis": "Individually reviewed source 'Skalny Most', subregion 'RUDAWY JANOWICKIE - DISCOVERY', against OSM 'Skalny Most' (natural=bare_rock) at Janowice Wielkie, powiat karkonoski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0522": {
+    "osm_type": "W",
+    "osm_id": 195135125,
+    "basis": "Individually reviewed source 'Zamek Bolczów', subregion 'RUDAWY JANOWICKIE - DISCOVERY', against OSM 'Zamek Bolczów' (tourism=attraction) at Janowice Wielkie, powiat karkonoski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0524": {
+    "osm_type": "N",
+    "osm_id": 576469980,
+    "basis": "Individually reviewed source 'Smogornia', subregion 'CENTRALNA GRAN - WIELKI SZYSZAK', against OSM 'Smogornia / Stříbrný hřbet' (natural=peak) at Borowice, powiat karkonoski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0535": {
+    "osm_type": "W",
+    "osm_id": 19921121,
+    "basis": "Individually reviewed source 'Dom Śląski', subregion 'KARPACZ - ŚNIEŻKA', against OSM 'Dom Śląski' (tourism=alpine_hut) at Karpacz, powiat karkonoski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0538": {
+    "osm_type": "W",
+    "osm_id": 269213674,
+    "basis": "Individually reviewed source 'Swiatynia Wang', subregion 'KARPACZ - ŚNIEŻKA', against OSM 'Świątynia Wang' (amenity=place_of_worship) at Karpacz, powiat karkonoski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0546": {
+    "osm_type": "N",
+    "osm_id": 3018067667,
+    "basis": "Individually reviewed source 'Wodospad Szklarki', subregion 'SZKLARSKA PORĘBA - SZRENICA - SNIEZNE KOTLY', against OSM 'Wodospad Szklarki' (waterway=waterfall) at Piechowice, powiat karkonoski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0551": {
+    "osm_type": "N",
+    "osm_id": 4560354312,
+    "basis": "Individually reviewed source 'Smrek', subregion 'ŚWIERADÓW - HALA IZERSKA', against OSM 'Smrek' (natural=peak) at gmina Mirsk, powiat lwówecki. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0553": {
+    "osm_type": "W",
+    "osm_id": 107221485,
+    "basis": "Individually reviewed source 'Hala Izerska', subregion 'ŚWIERADÓW - HALA IZERSKA', against OSM 'Hala Izerska' (landuse=meadow) at gmina Mirsk, powiat lwówecki. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0559": {
+    "osm_type": "W",
+    "osm_id": 1329470087,
+    "basis": "Individually reviewed source 'Zamek Czocha', subregion 'CZOCHA / LEŚNA', against OSM 'Zamek Czocha' (tourism=attraction) at Kościelniki Górne, powiat lubański. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0563": {
+    "osm_type": "W",
+    "osm_id": 129531536,
+    "basis": "Individually reviewed source 'Wieża Książęca w Siedlęcinie', subregion 'DOLINA BOBRU', against OSM 'Wieża Książęca w Siedlęcinie' (tourism=museum) at Siedlęcin, powiat karkonoski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0569": {
+    "osm_type": "W",
+    "osm_id": 161156744,
+    "basis": "Individually reviewed source 'Pałac Wojanów', subregion 'DOLINA PAŁACÓW I OGRODÓW', against OSM 'Pałac Wojanów' (building=yes) at Łomnica, powiat karkonoski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0586": {
+    "osm_type": "N",
+    "osm_id": 1866308278,
+    "basis": "Individually reviewed source 'Chybotek', subregion 'SZKLARSKA PORĘBA', against OSM 'Chybotek' (natural=stone) at Szklarska Poręba, powiat karkonoski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0596": {
+    "osm_type": "N",
+    "osm_id": 35180661,
+    "basis": "Individually reviewed source 'Wodospad Magurski', subregion 'MAGURSKI PARK NARODOWY', against OSM 'Wodospad Magurski' (waterway=waterfall) at Folusz, powiat jasielski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0610": {
+    "osm_type": "N",
+    "osm_id": 4185081019,
+    "basis": "Individually reviewed source 'Wodospad Ciężkowicki', subregion 'CIĘŻKOWICE', against OSM 'Wodospad Ciężkowicki' (waterway=waterfall) at Ciężkowice, powiat tarnowski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0612": {
+    "osm_type": "W",
+    "osm_id": 844725692,
+    "basis": "Individually reviewed source 'Wąwóz Czarownic', subregion 'CIĘŻKOWICE', against OSM 'Wąwóz Czarownic' (natural=cliff) at Ciężkowice, powiat tarnowski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0632": {
+    "osm_type": "N",
+    "osm_id": 6883765015,
+    "basis": "Individually reviewed source 'Miedzianka', subregion 'CHĘCINY - MIEDZIANKA', against OSM 'Miedzianka' (natural=peak) at Miedzianka, powiat kielecki. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0635": {
+    "osm_type": "W",
+    "osm_id": 623240258,
+    "basis": "Individually reviewed source 'Zamek Krolewski w Chęcinach', subregion 'CHĘCINY - MIEDZIANKA', against OSM 'Zamek Królewski w Chęcinach' (historic=castle) at Chęciny, powiat kielecki. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0640": {
+    "osm_type": "N",
+    "osm_id": 2908983994,
+    "basis": "Individually reviewed source 'Szczytniak', subregion 'PASMO JELENIOWSKIE - KLONOWSKIE - MASLOWSK', against OSM 'Szczytniak' (natural=peak) at Nowy Skoszyn, powiat ostrowiecki. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0638": {
+    "osm_type": "N",
+    "osm_id": 2696628917,
+    "basis": "Individually reviewed source 'Klonówka', subregion 'PASMO JELENIOWSKIE - KLONOWSKIE - MASLOWSK', against OSM 'Klonówka' (natural=peak) at Masłów Pierwszy, powiat kielecki. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0672": {
+    "osm_type": "W",
+    "osm_id": 88672231,
+    "basis": "Individually reviewed source 'Pałac w Nieborowie', subregion 'NIEBORÓW / ARKADIA', against OSM 'Pałac w Nieborowie' (tourism=museum) at Nieborów, powiat łowicki. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0676": {
+    "osm_type": "R",
+    "osm_id": 17671058,
+    "basis": "Individually reviewed source 'Zamek w Oporowie', subregion 'OPORÓW / ŁĘCZYCA / TUM', against OSM 'Zamek w Oporowie' (building=yes) at Dobrzelin, powiat kutnowski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0682": {
+    "osm_type": "W",
+    "osm_id": 758410083,
+    "basis": "Individually reviewed source 'Opactwo Cystersów w Sulejowie', subregion 'SULEJÓW / TOMASZÓW MAZOWIECKI', against OSM 'Opactwo Cystersów w Sulejowie' (historic=castle) at Sulejów, powiat piotrkowski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0685": {
+    "osm_type": "W",
+    "osm_id": 375002193,
+    "basis": "Individually reviewed source 'EC1 Łódź', subregion 'ŁÓDŹ PRZEMYSŁOWA', against OSM 'EC1 Łódź' (tourism=attraction) at Łódź, . Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0691": {
+    "osm_type": "N",
+    "osm_id": 1883623132,
+    "basis": "Individually reviewed source 'Wodospad Szepit', subregion 'MNIEJ OCZYWISTE BIESZCZADY', against OSM 'Wodospad Szepit' (waterway=waterfall) at Zatwarnica, powiat bieszczadzki. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0695": {
+    "osm_type": "N",
+    "osm_id": 513454971,
+    "basis": "Individually reviewed source 'Kruhly Wierch', subregion 'POŁONINA CARYŃSKA', against OSM 'Kruhly Wierch' (natural=peak) at Brzegi Górne, powiat bieszczadzki. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0698": {
+    "osm_type": "N",
+    "osm_id": 513454916,
+    "basis": "Individually reviewed source 'Osadzki Wierch', subregion 'POŁONINA WETLIŃSKA - SMEREK', against OSM 'Osadzki Wierch' (natural=peak) at Zatwarnica, powiat bieszczadzki. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0700": {
+    "osm_type": "N",
+    "osm_id": 513454697,
+    "basis": "Individually reviewed source 'Smerek', subregion 'POŁONINA WETLIŃSKA - SMEREK', against OSM 'Smerek' (natural=peak) at Smerek, powiat leski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0713": {
+    "osm_type": "N",
+    "osm_id": 33809868,
+    "basis": "Individually reviewed source 'Przełęcz pod Tarnica', subregion 'TARNICA - HALICZ - BUKOWE BERDO', against OSM 'Przełęcz pod Tarnicą' (natural=saddle) at Wołosate, powiat bieszczadzki. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0731": {
+    "osm_type": "N",
+    "osm_id": 2587185069,
+    "basis": "Individually reviewed source 'Wodospad na Olszance', subregion 'SOLINA / UHERCE', against OSM 'Wodospad na Olszance' (waterway=waterfall) at Uherce Mineralne, powiat leski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0740": {
+    "osm_type": "R",
+    "osm_id": 3653291,
+    "basis": "Individually reviewed source 'Zamek w Rydzynie', subregion 'GOŁUCHÓW / RYDZYNA', against OSM 'Zamek w Rydzynie' (historic=castle) at Rydzyna, powiat leszczyński. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0741": {
+    "osm_type": "W",
+    "osm_id": 35162001,
+    "basis": "Individually reviewed source 'Arboretum Kórnickie', subregion 'KÓRNIK / ROGALIN', against OSM 'Arboretum Kórnickie' (leisure=garden) at Kórnik, powiat poznański. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0751": {
+    "osm_type": "R",
+    "osm_id": 1483520,
+    "basis": "Individually reviewed source 'Zamek Cesarski', subregion 'POZNAŃ', against OSM 'Zamek Cesarski' (building=yes) at Poznań, . Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0759": {
+    "osm_type": "N",
+    "osm_id": 9270519258,
+    "basis": "Individually reviewed source 'Osowa Góra', subregion 'WIELKOPOLSKI PARK NARODOWY', against OSM 'Osowa Góra' (natural=peak) at Mosina, powiat poznański. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0760": {
+    "osm_type": "W",
+    "osm_id": 951808510,
+    "basis": "Individually reviewed source 'Parowozownia Wolsztyn', subregion 'WOLSZTYN', against OSM 'Parowozownia Wolsztyn' (tourism=museum) at Wolsztyn, powiat wolsztyński. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0763": {
+    "osm_type": "W",
+    "osm_id": 88014194,
+    "basis": "Individually reviewed source 'Twierdza Kostrzyn', subregion 'KOSTRZYN NAD ODRĄ', against OSM 'Twierdza Kostrzyn' (tourism=attraction) at Kostrzyn nad Odrą, powiat gorzowski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0789": {
+    "osm_type": "W",
+    "osm_id": 157961105,
+    "basis": "Individually reviewed source 'Rezerwat Święty Roch', subregion 'KRASNOBRÓD / JÓZEFÓW', against OSM 'Rezerwat Święty Roch' (leisure=nature_reserve) at Hutki, powiat zamojski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0791": {
+    "osm_type": "N",
+    "osm_id": 2439781377,
+    "basis": "Individually reviewed source 'Lubelska Trasa Podziemna', subregion 'LUBLIN', against OSM 'Lubelska Trasa Podziemna' (tourism=museum) at Lublin, . Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0794": {
+    "osm_type": "R",
+    "osm_id": 4099009,
+    "basis": "Individually reviewed source 'Bagno Bubnów', subregion 'POLESKI PARK NARODOWY', against OSM 'Bagno Bubnów' (natural=wetland) at Karczunek, powiat chełmski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0799": {
+    "osm_type": "N",
+    "osm_id": 1928105283,
+    "basis": "Individually reviewed source 'Wodospad na Jeleniu', subregion 'SUSIEC / TANEW', against OSM 'Wodospad na Jeleniu' (waterway=waterfall) at Susiec, powiat tomaszowski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0801": {
+    "osm_type": "W",
+    "osm_id": 157961068,
+    "basis": "Individually reviewed source 'Rezerwat Nad Tanwią', subregion 'SUSIEC / TANEW', against OSM 'Rezerwat Nad Tanwią' (leisure=nature_reserve) at Oseredek, powiat tomaszowski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0802": {
+    "osm_type": "W",
+    "osm_id": 145670309,
+    "basis": "Individually reviewed source 'Arsenał', subregion 'ZAMOŚĆ', against OSM 'Arsenał' (building=yes) at Zamość, . Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0809": {
+    "osm_type": "R",
+    "osm_id": 2125165,
+    "basis": "Individually reviewed source 'Roztoczański Park Narodowy', subregion 'ZWIERZYNIEC / ROZTOCZAŃSKI PN', against OSM 'Roztoczański Park Narodowy' (boundary=national_park) at , powiat zamojski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0810": {
+    "osm_type": "W",
+    "osm_id": 1329709920,
+    "basis": "Individually reviewed source 'Zamek Książąt Mazowieckich w Ciechanowie', subregion 'CZERSK / CIECHANÓW / LIW', against OSM 'Zamek Książąt Mazowieckich w Ciechanowie' (historic=castle) at Ciechanów, powiat ciechanowski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0819": {
+    "osm_type": "W",
+    "osm_id": 408536276,
+    "basis": "Individually reviewed source 'Wieża Czerwona', subregion 'TWIERDZA MODLIN', against OSM 'Wieża Czerwona' (man_made=tower) at Nowy Dwór Mazowiecki, powiat nowodworski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  }
+}
