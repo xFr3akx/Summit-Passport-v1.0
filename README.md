@@ -1,3 +1,11 @@
+# Summit Passport 0.4.1 — poprawka uruchamiania
+
+[Pobierz aktualizację 0.4.1](https://github.com/xFr3akx/Summit-Passport-v1.0/raw/refs/heads/main/downloads/Summit_Passport_0.4.1.apk)
+
+Naprawia błąd „Nie udało się wczytać katalogu” przy uruchamianiu 0.4.0. Instaluj jako aktualizację, bez usuwania danych aplikacji. Zachowano ten sam klucz podpisu; wizyty, zdjęcia i listy nie są usuwane. Korzystaj z 0.4.1 zamiast 0.4.0.
+
+---
+
 # Summit Passport 0.4.0 — etap 4
 
 [Pobierz APK 0.4.0](https://github.com/xFr3akx/Summit-Passport-v1.0/raw/refs/heads/main/downloads/Summit_Passport_0.4.0.apk)

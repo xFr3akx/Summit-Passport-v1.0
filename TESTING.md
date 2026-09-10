@@ -1,3 +1,15 @@
+# Poprawka 0.4.1 — błąd startu katalogu
+
+W 0.4.0 `start()` wywoływano podczas wykonywania app.js, przed kolejnymi skryptami visits.js i collections.js. Szybki odczyt lokalnych danych mógł zakończyć się przed inicjalizacją collectionData. Błąd odtworzono przez opóźnienie collections.js przy symulowanym synchronicznym mostku Androida: ReferenceError: collectionData is not defined, a następnie zgłoszony komunikat o katalogu.
+
+Poprawka uruchamia start po DOMContentLoaded, kiedy wszystkie skrypty funkcji są już wykonane. Nie zmienia schematu ani zapisanej bazy, list, zdjęć czy współrzędnych.
+
+`test_startup.cjs` przed zmianą FAIL; po zmianie PASS dla ekranu głównego i zapamiętanego PL/DE, z zachowaną wizytą i własną listą. Test używa symulowanego mostka, nie urządzenia Android. `test_collections.cjs` PASS. Gradle assembleDebug/testDebugUnitTest/lintDebug: BUILD SUCCESSFUL. Podpis APK sprawdzony i zgodny z poprzednimi wersjami. W APK potwierdzono poprawkę i niezmieniony katalog. Test na telefonie użytkownika pozostaje do wykonania.
+
+SHA-256 APK 0.4.1: `143eb35dffcbd4d650c137b10ac13b365aa5c2b10f57df3064709b205cc9573a`.
+
+---
+
 # Etap 4 / 0.4.0 — 10.09.2026
 
 Gotowe: 79 kolekcji (31 PL / 48 DE), 24 grupy tematyczne i 55 grup szczytów według regionów źródłowych. Postęp liczy unikalne odwiedzone miejsca. Kolekcje mają klikane karty, wyszukiwarkę i sortowanie odwiedzone najpierw. Propozycje pokazują stałą kolejność (nie są sortowane według odwiedzin). Własne listy mają zapis, edycję, przestawianie, usuwanie elementów i całych list z potwierdzeniem. Kliknięcie punktu otwiera kartę i umożliwia wizytę lub przejście do mapy.
