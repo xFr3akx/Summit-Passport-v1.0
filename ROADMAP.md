@@ -1,12 +1,12 @@
 # Plan budowy Summit Passport
 
-Stan uzgodnień: 09.09.2026. Baza zostaje zamrożona na czas kończenia aplikacji. Near Me przeniesiono do etapu 7.
+Stan uzgodnień: 10.09.2026. Baza zostaje zamrożona na czas kończenia aplikacji. Near Me przeniesiono do etapu 7.
 
 | Etap | Zakres i warunek zakończenia | Stan |
 | --- | --- | --- |
-| 1. Szkielet | Repozytorium, struktura Android, ekrany i lokalny model danych. Osobno należy potwierdzić kompilację APK. | Szkielet zapisany; APK niezweryfikowane lokalnie. |
+| 1. Szkielet | Repozytorium, struktura Android, ekrany i lokalny model danych. Osobno należy potwierdzić kompilację APK. | Szkielet zapisany; testowy APK zbudowany i podpis sprawdzony. |
 | 2. Baza PL/DE | Zachowany materiał obu PDF-ów. Do aplikacji trafia zamrożony katalog: 1065 punktów po kontroli, 1198 miejsc bez publikowanej lokalizacji. | Uzupełnianie wstrzymane decyzją użytkownika. |
-| 3. Wygląd i mapa | L4/T4 Light/Dark, symbole S1, mapa 451 punktów PL i 614 DE, grupowanie znaczników, filtry nazwy/kategorii/nieodwiedzonych, lista i szczegóły lokalizacji. Bez Near Me. | Implementacja gotowa; kontrola Androida i zapis repozytorium w toku. |
+| 3. Wygląd i mapa | L4/T4 Light/Dark, symbole S1, mapa 451 punktów PL i 614 DE, grupowanie znaczników, filtry nazwy/kategorii/nieodwiedzonych, lista i szczegóły lokalizacji. Bez Near Me. | Zakończony. Kod zapisany na GitHubie, testowy APK zbudowany; raport w TESTING.md. |
 | 4. Odwiedziny i kolekcje | Wiele wizyt jednego miejsca, zdjęcia, dziennik, kolekcje, klikane listy i propozycje kolejności odwiedzin. | Przed nami. |
 | 5. Odznaki i ustawienia | Rodziny odznak, jednakowa liczba poziomów w każdej rodzinie, uzgodnione progi, PL/DE/EN, motywy, eksport/import. | Przed nami. |
 | 6. Testy i APK | Kompilacja, instalacja na telefonie, działanie bez internetu, trwałość wizyt i importu, kontrola mapy i końcowy APK. | Przed nami. |
