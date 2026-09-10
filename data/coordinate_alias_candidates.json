@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "osm_url": "https://www.openstreetmap.org/way/799794213",
+    "entities": [
+      {
+        "stable_id": "SP-ad200a7c-bf10-5637-948a-270ab31a68d4",
+        "name": "Haberstein",
+        "source_ids": [
+          "DE-0892"
+        ],
+        "categories": [
+          "⬡"
+        ]
+      },
+      {
+        "stable_id": "SP-7c817088-5b8c-5bcb-a312-78e61d2c3f1d",
+        "name": "Haberstein",
+        "source_ids": [
+          "DE-0903"
+        ],
+        "categories": [
+          "⬡"
+        ]
+      }
+    ]
+  }
+]

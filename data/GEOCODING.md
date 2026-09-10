@@ -11,9 +11,12 @@ Praca trwa. `completion_status.json` zawiera aktualne liczby; `complete: false` 
 * `automatic_match_needs_review`: kandydat wyszukany automatycznie, wymagający przeglądu; `map_ready: false`.
 * `coordinate_sources_disagree`: źródła różnią się o ponad 2 km, wymagana kontrola tożsamości obiektu; `map_ready: false`.
 * `needs_location_research`: brak zaakceptowanego dopasowania. Nie oznacza braku istnienia miejsca.
-* `route_geometry_required`: szlak lub doświadczenie wymagające osobnego modelu trasy. Nie ma arbitralnej współrzędnej udającej całą trasę.
+* `identity_requires_clarification`: podobna nazwa i położenie nie rozstrzygają, który obiekt opisuje PDF. Taki rekord pozostaje poza mapą, nawet gdy wyszukiwarki zwracają zgodne współrzędne.
+* `ordered_places_review_required`: źródłowy szlak lub doświadczenie oczekujące na przegląd jako propozycja kolejności odwiedzin. Nie wymaga geometrii szlaku; model opisuje `VISIT_PROPOSALS.md`.
 
 Obecność liczb latitude/longitude sama nie uprawnia do publikacji punktu. Import mapy musi sprawdzać `map_ready`. Liczniki końcowe i osiągnięcia wymagają zakończenia deduplikacji całego katalogu.
+
+Dobór kandydatów uwzględnia nazwę dosłowną lub dwujęzyczną; dopuszcza również inny zapis nazwy OSM w promieniu 300 m od kandydata GeoNames. W obu przypadkach obowiązuje zgodność rodzaju i obszaru poszukiwań. To pomoc w wyszukiwaniu, a nie dowód tożsamości; niejednoznaczne wyniki wymagają przeglądu. OSM i GeoNames mogą korzystać ze wspólnych danych, więc ich zgodność nie jest niezależnym pomiarem terenowym.
 
 ## Rodzaj położenia
 

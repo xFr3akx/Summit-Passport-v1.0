@@ -1,60 +1,61 @@
 package com.summitpassport.app;
-
 import android.app.Activity;
-import android.app.AlertDialog;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
-import android.content.res.Configuration;
-import android.graphics.Color;
-import android.view.View;
-import android.widget.*;
+import android.webkit.*;
+import android.widget.TextView;
+import org.json.*;
+import java.io.*;
+import java.nio.charset.StandardCharsets;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 public final class MainActivity extends Activity {
- private String country;
- private int tab = 0;
- private boolean dark;
- private LinearLayout root;
+ private static final String ORIGIN="https://appassets.androidplatform.net";
+ private WebView web;
  private PassportDatabase database;
+ private final ExecutorService worker=Executors.newSingleThreadExecutor();
+ private volatile String snapshot="{}";
  @Override public void onCreate(Bundle state) {
-  super.onCreate(state);
-  database = new PassportDatabase(this);
-  database.getWritableDatabase();
-  if(state != null) { country=state.getString("country"); tab=state.getInt("tab"); }
-  render();
+  super.onCreate(state); database=new PassportDatabase(this);
+  TextView loading=new TextView(this);loading.setText("Summit Passport · przygotowanie mapy…");loading.setPadding(24,64,24,24);setContentView(loading);
+  worker.execute(()->{try {
+   JSONObject catalog=new JSONObject(readAsset("ui/catalog.json"));database.importCatalog(catalog);snapshot=database.snapshot(catalog).toString();
+   runOnUiThread(()->{if(!isFinishing()&&!isDestroyed())showApp();});
+  }catch(Exception e){runOnUiThread(()->loading.setText("Nie udało się otworzyć katalogu. Uruchom aplikację ponownie."));}});
  }
- @Override protected void onSaveInstanceState(Bundle out) { super.onSaveInstanceState(out); out.putString("country",country); out.putInt("tab",tab); }
- @Override protected void onDestroy() { database.close(); super.onDestroy(); }
- private int dp(int n) { return (int)(n*getResources().getDisplayMetrics().density); }
- private TextView text(String value,int size) {
-  TextView view=new TextView(this); view.setText(value); view.setTextSize(size); view.setTextColor(Color.parseColor(dark?"#F5F4EA":"#183D32")); view.setPadding(0,dp(12),0,dp(12)); root.addView(view); return view;
+ private String readAsset(String path)throws IOException {try(InputStream in=getAssets().open(path);ByteArrayOutputStream out=new ByteArrayOutputStream()){byte[] b=new byte[8192];int n;while((n=in.read(b))!=-1)out.write(b,0,n);return out.toString(StandardCharsets.UTF_8.name());}}
+ @android.annotation.SuppressLint("SetJavaScriptEnabled")
+ private void showApp(){
+  web=new WebView(this);setContentView(web);
+  web.setOnApplyWindowInsetsListener((v,i)->{v.setPadding(i.getSystemWindowInsetLeft(),i.getSystemWindowInsetTop(),i.getSystemWindowInsetRight(),i.getSystemWindowInsetBottom());return i;});web.requestApplyInsets();
+  WebSettings s=web.getSettings();s.setJavaScriptEnabled(true);s.setDomStorageEnabled(true);s.setAllowFileAccess(false);s.setAllowContentAccess(false);s.setGeolocationEnabled(false);s.setMixedContentMode(WebSettings.MIXED_CONTENT_NEVER_ALLOW);
+  s.setUserAgentString(s.getUserAgentString()+" SummitPassport/0.3 (https://github.com/xFr3akx/Summit-Passport-v1.0)");
+  web.addJavascriptInterface(new Bridge(),"Passport");
+  web.setWebViewClient(new WebViewClient(){
+   @Override public WebResourceResponse shouldInterceptRequest(WebView view,WebResourceRequest request){
+    Uri u=request.getUrl();if(!"appassets.androidplatform.net".equals(u.getHost()))return null;String p=u.getPath();
+    if(p==null||!p.startsWith("/ui/")||p.contains(".."))return new WebResourceResponse("text/plain","UTF-8",new ByteArrayInputStream(new byte[0]));
+    try{String mime=p.endsWith(".js")?"text/javascript":p.endsWith(".css")?"text/css":p.endsWith(".json")?"application/json":p.endsWith(".png")?"image/png":p.endsWith(".svg")?"image/svg+xml":"text/html";return new WebResourceResponse(mime,"UTF-8",getAssets().open(p.substring(1)));}
+    catch(IOException e){return new WebResourceResponse("text/plain","UTF-8",404,"Not Found",null,new ByteArrayInputStream(new byte[0]));}
+   }
+   @Override public boolean shouldOverrideUrlLoading(WebView view,WebResourceRequest request){
+    Uri u=request.getUrl();if(ORIGIN.equals(u.getScheme()+"://"+u.getHost())&&"/ui/index.html".equals(u.getPath()))return false;
+    if(request.isForMainFrame()&&"https".equals(u.getScheme())){try{startActivity(new Intent(Intent.ACTION_VIEW,u));}catch(android.content.ActivityNotFoundException ignored){}}return true;
+   }
+  });web.loadUrl(ORIGIN+"/ui/index.html");
  }
- private void button(String value,Runnable action) { Button b=new Button(this); b.setText(value); b.setAllCaps(false); root.addView(b,new LinearLayout.LayoutParams(-1,dp(60))); b.setOnClickListener(v->action.run()); }
- private void render() {
-  int mode=getPreferences(MODE_PRIVATE).getInt("theme",0);
-  dark=mode==2 || (mode==0 && (getResources().getConfiguration().uiMode & Configuration.UI_MODE_NIGHT_MASK)==Configuration.UI_MODE_NIGHT_YES);
-  ScrollView scroll=new ScrollView(this); scroll.setFillViewport(true);
-  root=new LinearLayout(this); root.setOrientation(LinearLayout.VERTICAL); root.setPadding(dp(24),dp(24),dp(24),dp(24)); root.setBackgroundColor(Color.parseColor(dark?"#102923":"#F7F5ED")); scroll.addView(root); setContentView(scroll);
-  scroll.setOnApplyWindowInsetsListener((v,insets)-> { v.setPadding(insets.getSystemWindowInsetLeft(),insets.getSystemWindowInsetTop(),insets.getSystemWindowInsetRight(),insets.getSystemWindowInsetBottom()); return insets; }); scroll.requestApplyInsets();
-  text("SUMMIT\nPASSPORT",32);
-  if(country==null) {
-   text("Wybierz kraj",20);
-   countryCard("PL","🇵🇱  Polska"); countryCard("DE","🇩🇪  Niemcy");
-   text("Kolejne kraje w przyszłości",14);
-  } else {
-   button("‹ Wybór kraju",()->{country=null;render();});
-   text(country.equals("PL")?"Polska":"Niemcy",24);
-   String[] tabs={"Mapa","Kolekcje","Dziennik","Osiągnięcia"};
-   for(int i=0;i<tabs.length;i++){ final int next=i; button((tab==i?"●  ":"")+tabs[i],()->{tab=next;render();}); }
-   text(tabs[tab],22);
-   text(tab==0?"Katalog miejsc oczekuje na import. Mapa pojawi się w kolejnym etapie.":tab==1?"Kolekcje pojawią się po imporcie katalogu.":tab==2?"Nie zapisano jeszcze żadnej wizyty.":"Każda rodzina: 12 poziomów, od Brązu I do Master ★★★.",16);
-  }
-  button("Ustawienia · motyw",this::settings);
+ public final class Bridge {
+  @JavascriptInterface public String getSnapshot(){return snapshot;}
+  @JavascriptInterface public String getCountry(){return getPreferences(MODE_PRIVATE).getString("country","");}
+  @JavascriptInterface public void setCountry(String value){if("PL".equals(value)||"DE".equals(value)||"".equals(value))getPreferences(MODE_PRIVATE).edit().putString("country",value).apply();}
+  @JavascriptInterface public void setTheme(String value){if(!"light".equals(value)&&!"dark".equals(value))return;runOnUiThread(()->{
+   boolean dark="dark".equals(value);int color=android.graphics.Color.parseColor(dark?"#0c1c21":"#f6f4ed");
+   getWindow().setStatusBarColor(color);getWindow().setNavigationBarColor(color);if(web!=null)web.setBackgroundColor(color);
+   getWindow().getDecorView().setSystemUiVisibility(dark?0:android.view.View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR|android.view.View.SYSTEM_UI_FLAG_LIGHT_NAVIGATION_BAR);
+  });}
  }
- private void countryCard(String code,String label) {
-  button(label,()->{country=code;tab=0;render();});
-  text("Brak zaimportowanego katalogu",14);
-  ProgressBar bar=new ProgressBar(this,null,android.R.attr.progressBarStyleHorizontal); bar.setMax(100); bar.setProgress(0); bar.setContentDescription("Postęp niedostępny do czasu importu katalogu"); root.addView(bar);
- }
- private void settings() {
-  new AlertDialog.Builder(this).setTitle("Motyw").setSingleChoiceItems(new String[]{"System","Light","Dark"},getPreferences(MODE_PRIVATE).getInt("theme",0),(dialog,which)->{getPreferences(MODE_PRIVATE).edit().putInt("theme",which).apply();dialog.dismiss();render();}).setNegativeButton("Zamknij",null).show();
- }
+ @Override public void onBackPressed(){if(web!=null)web.evaluateJavascript("window.handleBack && window.handleBack()",value->{if(!"true".equals(value))finish();});else super.onBackPressed();}
+ @Override protected void onDestroy(){if(web!=null){web.removeJavascriptInterface("Passport");web.destroy();}worker.execute(()->database.close());worker.shutdown();super.onDestroy();}
 }

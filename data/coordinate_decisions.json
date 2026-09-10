@@ -1072,5 +1072,2825 @@
     "osm_id": 408536276,
     "basis": "Individually reviewed source 'Wieża Czerwona', subregion 'TWIERDZA MODLIN', against OSM 'Wieża Czerwona' (man_made=tower) at Nowy Dwór Mazowiecki, powiat nowodworski. Feature and local geographical context agree. Area point is representative, not an entrance.",
     "reviewed_on": "2026-09-08"
+  },
+  "PL-0822": {
+    "osm_type": "W",
+    "osm_id": 8106732,
+    "basis": "Individually reviewed source 'Pałac w Wilanowie', subregion 'WARSZAWA', against OSM 'Pałac w Wilanowie' (tourism=museum) at Warszawa, . Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0829": {
+    "osm_type": "W",
+    "osm_id": 76359001,
+    "basis": "Individually reviewed source 'Młyny Rothera', subregion 'BYDGOSZCZ - INDUSTRIAL', against OSM 'Młyny Rothera' (tourism=attraction) at Bydgoszcz, . Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0831": {
+    "osm_type": "W",
+    "osm_id": 376696623,
+    "basis": "Individually reviewed source 'Warzelnia Soli', subregion 'CIECHOCINEK', against OSM 'Warzelnia soli' (building=industrial) at Ciechocinek, powiat aleksandrowski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0838": {
+    "osm_type": "W",
+    "osm_id": 314246994,
+    "basis": "Individually reviewed source 'Mysia Wieża', subregion 'KRUSZWICA / GOPŁO', against OSM 'Mysia Wieża' (man_made=tower) at Kruszwica, powiat inowrocławski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0850": {
+    "osm_type": "W",
+    "osm_id": 23554892,
+    "basis": "Individually reviewed source 'Wilczy Szaniec', subregion 'GIERŁOŻ / MAMERKI', against OSM 'Wilczy Szaniec' (tourism=museum) at Pożarki, powiat kętrzyński. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0852": {
+    "osm_type": "W",
+    "osm_id": 368061833,
+    "basis": "Individually reviewed source 'Most obrotowy w Giżycku', subregion 'GIŻYCKO / RYN', against OSM 'Most obrotowy w Giżycku' (man_made=bridge) at Giżycko, powiat giżycki. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0853": {
+    "osm_type": "W",
+    "osm_id": 175612582,
+    "basis": "Individually reviewed source 'Twierdza Boyen', subregion 'GIŻYCKO / RYN', against OSM 'Twierdza Boyen' (tourism=attraction) at Giżycko, powiat giżycki. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0856": {
+    "osm_type": "W",
+    "osm_id": 1334908242,
+    "basis": "Individually reviewed source 'Pole Bitwy pod Grunwaldem', subregion 'GRUNWALD', against OSM 'Pole Bitwy pod Grunwaldem' (historic=battlefield) at Stębark, powiat ostródzki. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0866": {
+    "osm_type": "R",
+    "osm_id": 6615256,
+    "basis": "Individually reviewed source 'Rezerwat Zakręt', subregion 'KRUTYNIA / PUSZCZA PISKA', against OSM 'Rezerwat Zakręt' (leisure=nature_reserve) at Krutyński Piecek, powiat mrągowski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0870": {
+    "osm_type": "W",
+    "osm_id": 279411310,
+    "basis": "Individually reviewed source 'Zamek w Reszlu', subregion 'OLSZTYN / LIDZBARK / RESZEL', against OSM 'Zamek w Reszlu' (tourism=attraction) at Reszel, powiat kętrzyński. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0874": {
+    "osm_type": "W",
+    "osm_id": 173368173,
+    "basis": "Individually reviewed source 'Piramida w Rapie', subregion 'STAŃCZYKI / GOŁDAP / RAPA', against OSM 'Piramida w Rapie' (tourism=attraction) at Rapa, powiat gołdapski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0876": {
+    "osm_type": "R",
+    "osm_id": 3425382,
+    "basis": "Individually reviewed source 'Park Narodowy Bory Tucholskie', subregion 'BORY TUCHOLSKIE', against OSM 'Park Narodowy Bory Tucholskie' (boundary=national_park) at Chociński Młyn, powiat chojnicki. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0881": {
+    "osm_type": "N",
+    "osm_id": 444759924,
+    "basis": "Individually reviewed source 'Wieżyca', subregion 'SZWAJCARIA KASZUBSKA', against OSM 'Wieżyca' (natural=peak) at Kolano, powiat kartuski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0882": {
+    "osm_type": "N",
+    "osm_id": 1893851380,
+    "basis": "Individually reviewed source 'Złota Góra', subregion 'SZWAJCARIA KASZUBSKA', against OSM 'Złota Góra' (tourism=viewpoint) at Ręboszewo, powiat kartuski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0900": {
+    "osm_type": "W",
+    "osm_id": 1173729130,
+    "basis": "Individually reviewed source 'Zamek w Sztumie', subregion 'GNIEW / KWIDZYN / SZTUM', against OSM 'Zamek w Sztumie' (tourism=museum) at Sztum, powiat sztumski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0902": {
+    "osm_type": "W",
+    "osm_id": 172671466,
+    "basis": "Individually reviewed source 'Molo w Sopocie', subregion 'SOPOT', against OSM 'Molo w Sopocie' (man_made=pier) at Sopot, . Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0903": {
+    "osm_type": "R",
+    "osm_id": 252148,
+    "basis": "Individually reviewed source 'Białowieski Park Narodowy', subregion 'BIAŁOWIEŻA', against OSM 'Białowieski Park Narodowy' (boundary=national_park) at , powiat hajnowski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0931": {
+    "osm_type": "N",
+    "osm_id": 1747326748,
+    "basis": "Individually reviewed source 'Muzeum Ikon', subregion 'TYKOCIN / SUPRAŚL', against OSM 'Muzeum Ikon' (tourism=museum) at Supraśl, powiat białostocki. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0933": {
+    "osm_type": "W",
+    "osm_id": 301338999,
+    "basis": "Individually reviewed source 'Zamek w Tykocinie', subregion 'TYKOCIN / SUPRAŚL', against OSM 'Zamek w Tykocinie' (building=yes) at Tykocin, powiat białostocki. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0935": {
+    "osm_type": "R",
+    "osm_id": 271443,
+    "basis": "Individually reviewed source 'Wigierski Park Narodowy', subregion 'WIGRY / CZARNA HAŃCZA', against OSM 'Wigierski Park Narodowy' (boundary=national_park) at , powiat suwalski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0940": {
+    "osm_type": "W",
+    "osm_id": 197865279,
+    "basis": "Individually reviewed source 'Wydma Czołpińska', subregion 'CZOŁPINO', against OSM 'Wydma Czołpińska' (natural=sand) at Smołdzino, powiat słupski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0941": {
+    "osm_type": "N",
+    "osm_id": 463446232,
+    "basis": "Individually reviewed source 'Latarnia Morska Czołpino', subregion 'CZOŁPINO', against OSM 'Latarnia morska Czołpino' (tourism=viewpoint) at Smołdzino, powiat słupski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0953": {
+    "osm_type": "W",
+    "osm_id": 300878445,
+    "basis": "Individually reviewed source 'Latarnia Morska Stilo', subregion 'STILO', against OSM 'Latarnia morska Stilo' (tourism=viewpoint) at Osetnik, powiat wejherowski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0956": {
+    "osm_type": "W",
+    "osm_id": 449351880,
+    "basis": "Individually reviewed source 'Wydma Łącka', subregion 'SŁOWIŃSKI PARK NARODOWY - ŁEBA', against OSM 'Wydma Łącka' (natural=dune) at Smołdzino, powiat słupski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0958": {
+    "osm_type": "N",
+    "osm_id": 4228835819,
+    "basis": "Individually reviewed source 'Bunkry Blüchera', subregion 'USTKA', against OSM 'Bunkry Blüchera' (tourism=museum) at Ustka, powiat słupski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0959": {
+    "osm_type": "W",
+    "osm_id": 300399010,
+    "basis": "Individually reviewed source 'Latarnia Morska Ustka', subregion 'USTKA', against OSM 'Latarnia morska Ustka' (tourism=viewpoint) at Ustka, powiat słupski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0965": {
+    "osm_type": "W",
+    "osm_id": 300384923,
+    "basis": "Individually reviewed source 'Latarnia Morska Kołobrzeg', subregion 'KOŁOBRZEG / GĄSKI / DARŁOWO', against OSM 'Latarnia morska Kołobrzeg' (man_made=lighthouse) at Kołobrzeg, powiat kołobrzeski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0969": {
+    "osm_type": "N",
+    "osm_id": 318409950,
+    "basis": "Individually reviewed source 'Wały Chrobrego', subregion 'SZCZECIN', against OSM 'Wały Chrobrego' (tourism=viewpoint) at Szczecin, . Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0970": {
+    "osm_type": "N",
+    "osm_id": 13158049502,
+    "basis": "Individually reviewed source 'Podziemne Trasy Szczecina', subregion 'SZCZECIN', against OSM 'Podziemne Trasy Szczecina' (tourism=museum) at Szczecin, . Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0972": {
+    "osm_type": "W",
+    "osm_id": 208601151,
+    "basis": "Individually reviewed source 'Latarnia Morska Niechorze', subregion 'TRZĘSACZ / NIECHORZE', against OSM 'Latarnia Morska Niechorze' (man_made=lighthouse) at Niechorze, powiat gryficki. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0977": {
+    "osm_type": "N",
+    "osm_id": 1316106029,
+    "basis": "Individually reviewed source 'Kawcza Góra', subregion 'WOLIŃSKI PARK NARODOWY', against OSM 'Kawcza Góra' (natural=peak) at Biała Góra, powiat kamieński. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0980": {
+    "osm_type": "W",
+    "osm_id": 293801287,
+    "basis": "Individually reviewed source 'Fort Anioła', subregion 'ŚWINOUJŚCIE', against OSM 'Fort Anioła' (tourism=attraction) at Świnoujście, . Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0981": {
+    "osm_type": "W",
+    "osm_id": 481828274,
+    "basis": "Individually reviewed source 'Fort Gerharda', subregion 'ŚWINOUJŚCIE', against OSM 'Fort Gerharda' (tourism=attraction) at Świnoujście, . Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0982": {
+    "osm_type": "W",
+    "osm_id": 313462461,
+    "basis": "Individually reviewed source 'Fort Zachodni', subregion 'ŚWINOUJŚCIE', against OSM 'Fort Zachodni' (tourism=attraction) at Świnoujście, . Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0983": {
+    "osm_type": "W",
+    "osm_id": 300375463,
+    "basis": "Individually reviewed source 'Latarnia Morska Świnoujście', subregion 'ŚWINOUJŚCIE', against OSM 'Latarnia morska Świnoujście' (man_made=lighthouse) at Świnoujście, . Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0017": {
+    "osm_type": "N",
+    "osm_id": 277514469,
+    "basis": "Individually reviewed source 'Aggertalhöhle', subregion 'BERGISCHES LAND - DHÜNN / AGGER', against OSM 'Aggertalhöhle' (natural=cave_entrance) at Engelskirchen, Oberbergischer Kreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0031": {
+    "osm_type": "R",
+    "osm_id": 2486458,
+    "basis": "Individually reviewed source 'Brückenpark Müngsten', subregion 'BERGISCHES LAND - WUPPER', against OSM 'Brückenpark Müngsten' (landuse=recreation_ground) at Solingen, . Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0029": {
+    "osm_type": "W",
+    "osm_id": 519119935,
+    "basis": "Individually reviewed source 'Müngstener Brücke', subregion 'BERGISCHES LAND - WUPPER', against OSM 'Müngstener Brücke' (man_made=bridge) at Solingen, . Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0030": {
+    "osm_type": "R",
+    "osm_id": 10223099,
+    "basis": "Individually reviewed source 'Schloss Burg', subregion 'BERGISCHES LAND - WUPPER', against OSM 'Schloss Burg' (historic=castle) at Solingen, . Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0036": {
+    "osm_type": "W",
+    "osm_id": 27999096,
+    "basis": "Individually reviewed source 'Altenberger Dom', subregion 'BERGISCHES LAND - BURGEN / TÄLER', against OSM 'Altenberger Dom' (amenity=place_of_worship) at Odenthal, Rheinisch-Bergischer Kreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0037": {
+    "osm_type": "W",
+    "osm_id": 44875081,
+    "basis": "Individually reviewed source 'Schloss Bensberg', subregion 'BERGISCHES LAND - BURGEN / TÄLER', against OSM 'Schloss Bensberg' (historic=castle) at Bergisch Gladbach, Rheinisch-Bergischer Kreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0039": {
+    "osm_type": "W",
+    "osm_id": 329842130,
+    "basis": "Individually reviewed source 'Schloss Gimborn', subregion 'BERGISCHES LAND - BURGEN / TÄLER', against OSM 'Schloss Gimborn' (building=yes) at Marienheide, Oberbergischer Kreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0040": {
+    "osm_type": "W",
+    "osm_id": 136387362,
+    "basis": "Individually reviewed source 'Schloss Homburg', subregion 'BERGISCHES LAND - BURGEN / TÄLER', against OSM 'Schloss Homburg' (building=yes) at Nümbrecht, Oberbergischer Kreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0053": {
+    "osm_type": "N",
+    "osm_id": 153146181,
+    "basis": "Individually reviewed source 'Petersberg', subregion 'SIEBENGEBIRGE - KÖNIGSWINTER', against OSM 'Petersberg' (natural=peak) at Königswinter, Rhein-Sieg-Kreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0055": {
+    "osm_type": "R",
+    "osm_id": 11198453,
+    "basis": "Individually reviewed source 'Burgruine Drachenfels', subregion 'SIEBENGEBIRGE - KÖNIGSWINTER', against OSM 'Burgruine Drachenfels' (historic=castle) at Königswinter, Rhein-Sieg-Kreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0070": {
+    "osm_type": "R",
+    "osm_id": 1560503,
+    "basis": "Individually reviewed source 'Burg Linz', subregion 'SIEBENGEBIRGE - WEITERE GIPFEL', against OSM 'Burg Linz' (building=yes) at Linz am Rhein, Landkreis Neuwied. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0071": {
+    "osm_type": "W",
+    "osm_id": 208093170,
+    "basis": "Individually reviewed source 'Burg Ockenfels', subregion 'SIEBENGEBIRGE - WEITERE GIPFEL', against OSM 'Burg Ockenfels' (building=yes) at Linz am Rhein, Landkreis Neuwied. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0078": {
+    "osm_type": "N",
+    "osm_id": 622143442,
+    "basis": "Individually reviewed source 'Michelsberg', subregion 'BAD MÜNSTEREIFEL', against OSM 'Michelsberg' (natural=peak) at Bad Münstereifel, Kreis Euskirchen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0079": {
+    "osm_type": "N",
+    "osm_id": 673477440,
+    "basis": "Individually reviewed source 'Stockert', subregion 'BAD MÜNSTEREIFEL', against OSM 'Stockert' (natural=peak) at Bad Münstereifel, Kreis Euskirchen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0081": {
+    "osm_type": "N",
+    "osm_id": 282825766,
+    "basis": "Individually reviewed source 'Hardtburg', subregion 'BAD MÜNSTEREIFEL', against OSM 'Hardtburg' (historic=castle) at Euskirchen, Kreis Euskirchen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0082": {
+    "osm_type": "W",
+    "osm_id": 26116629,
+    "basis": "Individually reviewed source 'Radioteleskop Effelsberg', subregion 'BAD MÜNSTEREIFEL', against OSM 'Radioteleskop Effelsberg' (tourism=attraction) at Bad Münstereifel, Kreis Euskirchen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0087": {
+    "osm_type": "N",
+    "osm_id": 4583713747,
+    "basis": "Individually reviewed source 'Vogelsang Ip', subregion 'NATIONALPARK EIFEL - RURSEE', against OSM 'Vogelsang IP' (tourism=museum) at Schleiden, Kreis Euskirchen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0096": {
+    "osm_type": "W",
+    "osm_id": 51100941,
+    "basis": "Individually reviewed source 'Burg Hengebach', subregion 'HEIMBACH / RURSEE - KULTUR', against OSM 'Burg Hengebach' (tourism=attraction) at Heimbach, Kreis Düren. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0098": {
+    "osm_type": "R",
+    "osm_id": 2550392,
+    "basis": "Individually reviewed source 'Kloster Mariawald', subregion 'HEIMBACH / RURSEE - KULTUR', against OSM 'Kloster Mariawald' (building=monastery) at Heimbach, Kreis Düren. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0105": {
+    "osm_type": "W",
+    "osm_id": 72867658,
+    "basis": "Individually reviewed source 'Bruder-Klaus-Feldkapelle', subregion 'MECHERNICH / NETTERSHEIM', against OSM 'Bruder-Klaus-Feldkapelle' (amenity=place_of_worship) at Mechernich, Kreis Euskirchen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0107": {
+    "osm_type": "R",
+    "osm_id": 1789878,
+    "basis": "Individually reviewed source 'Kloster Steinfeld', subregion 'MECHERNICH / NETTERSHEIM', against OSM 'Kloster Steinfeld' (amenity=monastery) at Kall, Kreis Euskirchen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0110": {
+    "osm_type": "N",
+    "osm_id": 253506136,
+    "basis": "Individually reviewed source 'Kaiser Karls Bettstatt', subregion 'MONSCHAU - HOHES VENN', against OSM 'Kaiser Karls Bettstatt' (natural=stone) at Monschau, Städteregion Aachen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0117": {
+    "osm_type": "N",
+    "osm_id": 3938631263,
+    "basis": "Individually reviewed source 'Krausberg', subregion 'AHRGEBIRGE', against OSM 'Krausberg' (natural=peak) at Dernau, Ahrweiler. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0118": {
+    "osm_type": "N",
+    "osm_id": 671499753,
+    "basis": "Individually reviewed source 'Steinerberg', subregion 'AHRGEBIRGE', against OSM 'Steinerberg' (natural=peak) at Kesseling, Ahrweiler. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0122": {
+    "osm_type": "W",
+    "osm_id": 219242359,
+    "basis": "Individually reviewed source 'Krausbergturm', subregion 'AHRGEBIRGE', against OSM 'Krausbergturm' (tourism=viewpoint) at Dernau, Ahrweiler. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0135": {
+    "osm_type": "W",
+    "osm_id": 238862685,
+    "basis": "Individually reviewed source 'Wingertsbergwand', subregion 'LAACHER SEE / OSTEIFEL', against OSM 'Wingertsbergwand' (natural=cliff) at Mendig, Landkreis Mayen-Koblenz. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0143": {
+    "osm_type": "W",
+    "osm_id": 651995501,
+    "basis": "Individually reviewed source 'Genovevaburg', subregion 'MAYEN / VULKANPARK', against OSM 'Genovevaburg' (tourism=attraction) at Mayen, Landkreis Mayen-Koblenz. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0162": {
+    "osm_type": "N",
+    "osm_id": 4111225433,
+    "basis": "Individually reviewed source 'Gräbersberg', subregion 'HOHER WESTERWALD', against OSM 'Gräbersberg' (natural=peak) at Alpenrod, Westerwaldkreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0166": {
+    "osm_type": "W",
+    "osm_id": 25348135,
+    "basis": "Individually reviewed source 'Druidenstein', subregion 'HOHER WESTERWALD', against OSM 'Druidenstein' (natural=cliff) at Kirchen (Sieg), Landkreis Altenkirchen (Westerwald). Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0179": {
+    "osm_type": "N",
+    "osm_id": 274252896,
+    "basis": "Individually reviewed source 'Ottoturm', subregion 'DRUIDENSTEIN / SIEGTAL', against OSM 'Ottoturm' (man_made=tower) at Kirchen (Sieg), Landkreis Altenkirchen (Westerwald). Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0180": {
+    "osm_type": "R",
+    "osm_id": 7114451,
+    "basis": "Individually reviewed source 'Schloss Crottorf', subregion 'DRUIDENSTEIN / SIEGTAL', against OSM 'Schloss Crottorf' (building=yes) at Friesenhagen, Landkreis Altenkirchen (Westerwald). Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0184": {
+    "osm_type": "N",
+    "osm_id": 870879722,
+    "basis": "Individually reviewed source 'Hunau', subregion 'BIGGE / HOMERT', against OSM 'Hunau' (natural=peak) at Schmallenberg, Hochsauerlandkreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0188": {
+    "osm_type": "N",
+    "osm_id": 321792615,
+    "basis": "Individually reviewed source 'Wilzenbergturm', subregion 'BIGGE / HOMERT', against OSM 'Wilzenbergturm' (tourism=viewpoint) at Schmallenberg, Hochsauerlandkreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0193": {
+    "osm_type": "N",
+    "osm_id": 194177073,
+    "basis": "Individually reviewed source 'Atta-Höhle', subregion 'ATTENDORN / BIGGESEE', against OSM 'Atta-Höhle' (natural=cave_entrance) at Attendorn, Kreis Olpe. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0196": {
+    "osm_type": "W",
+    "osm_id": 254468257,
+    "basis": "Individually reviewed source 'Gilberginsel', subregion 'ATTENDORN / BIGGESEE', against OSM 'Gilberginsel' (leisure=nature_reserve) at Attendorn, Kreis Olpe. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0198": {
+    "osm_type": "N",
+    "osm_id": 296335101,
+    "basis": "Individually reviewed source 'Balver Höhle', subregion 'ISERLOHN / BALVE / HEMER', against OSM 'Balver Höhle' (natural=cave_entrance) at Balve, Märkischer Kreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0199": {
+    "osm_type": "N",
+    "osm_id": 1371975516,
+    "basis": "Individually reviewed source 'Dechenhöhle', subregion 'ISERLOHN / BALVE / HEMER', against OSM 'Dechenhöhle' (natural=cave_entrance) at Iserlohn, Märkischer Kreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0207": {
+    "osm_type": "N",
+    "osm_id": 664201332,
+    "basis": "Individually reviewed source 'Kappe', subregion 'SAUERLAND - WINTERBERG', against OSM 'Kappe' (natural=peak) at Winterberg, Hochsauerlandkreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0213": {
+    "osm_type": "R",
+    "osm_id": 8276781,
+    "basis": "Individually reviewed source 'Hochheide Kahler Asten', subregion 'SAUERLAND - WINTERBERG', against OSM 'Hochheide Kahler Asten' (natural=heath) at Winterberg, Hochsauerlandkreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0209": {
+    "osm_type": "W",
+    "osm_id": 172333037,
+    "basis": "Individually reviewed source 'Astenturm', subregion 'SAUERLAND - WINTERBERG', against OSM 'Astenturm' (man_made=tower) at Winterberg, Hochsauerlandkreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0211": {
+    "osm_type": "W",
+    "osm_id": 189582370,
+    "basis": "Individually reviewed source 'St.-Georg-Schanze', subregion 'SAUERLAND - WINTERBERG', against OSM 'St.-Georg-Schanze' (building=yes) at Winterberg, Hochsauerlandkreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0217": {
+    "osm_type": "N",
+    "osm_id": 316047226,
+    "basis": "Individually reviewed source 'Hoppernkopf', subregion 'ROTHAARGEBIRGE - LANGENBERG', against OSM 'Hoppernkopf' (natural=peak) at Brilon, Hochsauerlandkreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0219": {
+    "osm_type": "N",
+    "osm_id": 105941409,
+    "basis": "Individually reviewed source 'Ederquelle', subregion 'ROTHAARGEBIRGE - LANGENBERG', against OSM 'Ederquelle' (natural=spring) at Netphen, Kreis Siegen-Wittgenstein. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0220": {
+    "osm_type": "N",
+    "osm_id": 105941402,
+    "basis": "Individually reviewed source 'Lahnquelle', subregion 'ROTHAARGEBIRGE - LANGENBERG', against OSM 'Lahnquelle' (natural=spring) at Netphen, Kreis Siegen-Wittgenstein. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0221": {
+    "osm_type": "N",
+    "osm_id": 1469616266,
+    "basis": "Individually reviewed source 'Ruhrquelle', subregion 'ROTHAARGEBIRGE - LANGENBERG', against OSM 'Ruhrquelle' (natural=spring) at Winterberg, Hochsauerlandkreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0222": {
+    "osm_type": "N",
+    "osm_id": 105572715,
+    "basis": "Individually reviewed source 'Siegquelle', subregion 'ROTHAARGEBIRGE - LANGENBERG', against OSM 'Siegquelle' (natural=spring) at Netphen, Kreis Siegen-Wittgenstein. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0223": {
+    "osm_type": "W",
+    "osm_id": 1418639994,
+    "basis": "Individually reviewed source 'Neuer Hagen', subregion 'ROTHAARGEBIRGE - LANGENBERG', against OSM 'Neuer Hagen' (leisure=nature_reserve) at Winterberg, Hochsauerlandkreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0227": {
+    "osm_type": "N",
+    "osm_id": 212959032,
+    "basis": "Individually reviewed source 'Istenberg', subregion 'BRUCHHAUSER STEINE', against OSM 'Istenberg' (natural=peak) at Olsberg, Hochsauerlandkreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0233": {
+    "osm_type": "N",
+    "osm_id": 316035203,
+    "basis": "Individually reviewed source 'Ettelsberg', subregion 'WILLINGEN', against OSM 'Ettelsberg' (natural=peak) at Willingen (Upland), Waldeck-Frankenberg. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0235": {
+    "osm_type": "N",
+    "osm_id": 414094477,
+    "basis": "Individually reviewed source 'Diemelquelle', subregion 'WILLINGEN', against OSM 'Diemelquelle' (natural=spring) at Usseln, Waldeck-Frankenberg. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0236": {
+    "osm_type": "W",
+    "osm_id": 30247132,
+    "basis": "Individually reviewed source 'Hochheideturm', subregion 'WILLINGEN', against OSM 'Hochheideturm' (man_made=tower) at Willingen (Upland), Waldeck-Frankenberg. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0245": {
+    "osm_type": "W",
+    "osm_id": 239218674,
+    "basis": "Individually reviewed source 'Rhein-Weser-Turm', subregion 'WITTGENSTEIN / SIEGERLAND', against OSM 'Rhein-Weser-Turm' (man_made=tower) at Kirchhundem, Kreis Olpe. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0256": {
+    "osm_type": "R",
+    "osm_id": 10524800,
+    "basis": "Individually reviewed source 'Externsteine', subregion 'TEUTOBURGER WALD / EGGE', against OSM 'Externsteine' (natural=bare_rock) at Horn, Kreis Lippe. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0257": {
+    "osm_type": "W",
+    "osm_id": 837346659,
+    "basis": "Individually reviewed source 'Silberbachtal', subregion 'TEUTOBURGER WALD / EGGE', against OSM 'Silberbachtal' (natural=valley) at Veldrom, Kreis Lippe. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0253": {
+    "osm_type": "W",
+    "osm_id": 129413870,
+    "basis": "Individually reviewed source 'Eggeturm', subregion 'TEUTOBURGER WALD / EGGE', against OSM 'Eggeturm' (man_made=tower) at Feldrom, Kreis Lippe. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0254": {
+    "osm_type": "N",
+    "osm_id": 241929305,
+    "basis": "Individually reviewed source 'Hermannsdenkmal', subregion 'TEUTOBURGER WALD / EGGE', against OSM 'Hermannsdenkmal' (tourism=attraction) at Detmold, Kreis Lippe. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0262": {
+    "osm_type": "W",
+    "osm_id": 25798071,
+    "basis": "Individually reviewed source 'Adlerwarte Berlebeck', subregion 'DETMOLD / EXTERNSTEINE', against OSM 'Adlerwarte Berlebeck' (tourism=zoo) at Detmold, Kreis Lippe. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0267": {
+    "osm_type": "W",
+    "osm_id": 99750022,
+    "basis": "Individually reviewed source 'Burg Trendelburg', subregion 'WESER-SKYWALK / BAD KARLSHAFEN', against OSM 'Burg Trendelburg' (historic=castle) at Trendelburg, Landkreis Kassel. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0269": {
+    "osm_type": "W",
+    "osm_id": 39483922,
+    "basis": "Individually reviewed source 'Krukenburg', subregion 'WESER-SKYWALK / BAD KARLSHAFEN', against OSM 'Krukenburg' (historic=castle) at Helmarshausen, Landkreis Kassel. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0272": {
+    "osm_type": "W",
+    "osm_id": 1221536430,
+    "basis": "Individually reviewed source 'Burg Polle', subregion 'WESERBERGLAND - BURGENSTRASSE', against OSM 'Burg Polle' (historic=castle) at Polle, Holzminden. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0273": {
+    "osm_type": "N",
+    "osm_id": 31417051,
+    "basis": "Individually reviewed source 'Burg Schaumburg', subregion 'WESERBERGLAND - BURGENSTRASSE', against OSM 'Burg Schaumburg' (tourism=attraction) at Rinteln, Landkreis Schaumburg. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0274": {
+    "osm_type": "W",
+    "osm_id": 96634517,
+    "basis": "Individually reviewed source 'Paschenburg', subregion 'WESERBERGLAND - BURGENSTRASSE', against OSM 'Paschenburg' (building=yes) at Rinteln, Landkreis Schaumburg. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0276": {
+    "osm_type": "W",
+    "osm_id": 31341377,
+    "basis": "Individually reviewed source 'Schloss Hämelschenburg', subregion 'WESERBERGLAND - BURGENSTRASSE', against OSM 'Schloss Hämelschenburg' (building=yes) at Emmerthal, Landkreis Hameln-Pyrmont. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0289": {
+    "osm_type": "W",
+    "osm_id": 1130633888,
+    "basis": "Individually reviewed source 'Loreley-Felsen', subregion 'LORELEY / ST. GOAR', against OSM 'Loreley-Felsen' (natural=bare_rock) at Sankt Goarshausen, Rhein-Lahn-Kreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0290": {
+    "osm_type": "N",
+    "osm_id": 2614613353,
+    "basis": "Individually reviewed source 'Burg Katz', subregion 'LORELEY / ST. GOAR', against OSM 'Burg Katz' (historic=castle) at Sankt Goarshausen, Rhein-Lahn-Kreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0292": {
+    "osm_type": "R",
+    "osm_id": 13573437,
+    "basis": "Individually reviewed source 'Burg Reichenberg', subregion 'LORELEY / ST. GOAR', against OSM 'Burg Reichenberg' (building=yes) at Reichenberg, Rhein-Lahn-Kreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0296": {
+    "osm_type": "W",
+    "osm_id": 1270365376,
+    "basis": "Individually reviewed source 'Burg Fürstenberg', subregion 'BACHARACH / BINGEN', against OSM 'Burg Fürstenberg' (historic=castle) at Oberdiebach, Mainz-Bingen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0299": {
+    "osm_type": "W",
+    "osm_id": 37593630,
+    "basis": "Individually reviewed source 'Burg Sooneck', subregion 'BACHARACH / BINGEN', against OSM 'Burg Sooneck' (historic=castle) at Niederheimbach, Mainz-Bingen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0300": {
+    "osm_type": "W",
+    "osm_id": 400990556,
+    "basis": "Individually reviewed source 'Burg Stahleck', subregion 'BACHARACH / BINGEN', against OSM 'Burg Stahleck' (historic=castle) at Bacharach, Mainz-Bingen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0311": {
+    "osm_type": "W",
+    "osm_id": 89232143,
+    "basis": "Individually reviewed source 'Winninger Uhlen', subregion 'WINNINGEN', against OSM 'Winninger Uhlen' (landuse=vineyard) at Winningen, Landkreis Mayen-Koblenz. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0318": {
+    "osm_type": "W",
+    "osm_id": 360162426,
+    "basis": "Individually reviewed source 'Schloss Von Der Leyen', subregion 'KOBERN-GONDORF', against OSM 'Schloss von der Leyen' (building=yes) at Kobern-Gondorf, Landkreis Mayen-Koblenz. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0321": {
+    "osm_type": "W",
+    "osm_id": 38077411,
+    "basis": "Individually reviewed source 'Burg Thurant', subregion 'BRODENBACH / ALKEN', against OSM 'Burg Thurant' (historic=castle) at Alken, Landkreis Mayen-Koblenz. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0322": {
+    "osm_type": "W",
+    "osm_id": 107952575,
+    "basis": "Individually reviewed source 'Ehrenburg', subregion 'BRODENBACH / ALKEN', against OSM 'Ehrenburg' (historic=castle) at Brodenbach, Landkreis Mayen-Koblenz. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0330": {
+    "osm_type": "N",
+    "osm_id": 10606264018,
+    "basis": "Individually reviewed source 'Mönch-Felix-Hütte', subregion 'UNTERMOSEL - BURGEN & AUSSICHT', against OSM 'Mönch-Felix-Hütte' (tourism=viewpoint) at Niederfell, Landkreis Mayen-Koblenz. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0323": {
+    "osm_type": "W",
+    "osm_id": 1547924652,
+    "basis": "Individually reviewed source 'Burg Bischofstein', subregion 'UNTERMOSEL - BURGEN & AUSSICHT', against OSM 'Burg Bischofstein' (historic=castle) at Münstermaifeld, Landkreis Mayen-Koblenz. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0338": {
+    "osm_type": "W",
+    "osm_id": 183871327,
+    "basis": "Individually reviewed source 'Burg Pyrmont', subregion 'PYRMONT', against OSM 'Burg Pyrmont' (tourism=attraction) at Roes, Cochem-Zell. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0342": {
+    "osm_type": "W",
+    "osm_id": 238981197,
+    "basis": "Individually reviewed source 'Burg Eltz', subregion 'PYRMONT / ELZBACHTAL', against OSM 'Burg Eltz' (tourism=attraction) at Wierschem, Landkreis Mayen-Koblenz. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0361": {
+    "osm_type": "N",
+    "osm_id": 747493555,
+    "basis": "Individually reviewed source 'Pinnerkreuz', subregion 'COCHEM', against OSM 'Pinnerkreuz' (tourism=viewpoint) at Cochem, Cochem-Zell. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0367": {
+    "osm_type": "W",
+    "osm_id": 464084450,
+    "basis": "Individually reviewed source 'Bundesbank-Bunker Cochem', subregion 'COCHEM / ENDERTTAL - ERWEITERUNG', against OSM 'Bundesbank-Bunker Cochem' (tourism=museum) at Cochem, Cochem-Zell. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0378": {
+    "osm_type": "N",
+    "osm_id": 4477855758,
+    "basis": "Individually reviewed source 'Eller Todesangst', subregion 'EDIGER-ELLER', against OSM 'Eller Todesangst' (tourism=viewpoint) at Bremm, Cochem-Zell. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0384": {
+    "osm_type": "N",
+    "osm_id": 8033254182,
+    "basis": "Individually reviewed source 'Amphitrion Aussichtspunkt', subregion 'CALMONT', against OSM 'Amphitrion-Aussichtspunkt' (tourism=viewpoint) at Bremm, Cochem-Zell. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0387": {
+    "osm_type": "N",
+    "osm_id": 336376491,
+    "basis": "Individually reviewed source 'Gipfelkreuz Calmont', subregion 'CALMONT', against OSM 'Gipfelkreuz Calmont' (historic=memorial) at Bremm, Cochem-Zell. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0388": {
+    "osm_type": "R",
+    "osm_id": 6698855,
+    "basis": "Individually reviewed source 'Klosterruine Stuben', subregion 'CALMONT', against OSM 'Klosterruine Stuben' (historic=ruins) at Bremm, Cochem-Zell. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0391": {
+    "osm_type": "N",
+    "osm_id": 8810664202,
+    "basis": "Individually reviewed source 'Calmontblick', subregion 'ST. ALDEGUND / NEEF', against OSM 'Calmontblick' (tourism=viewpoint) at Sankt Aldegund, Cochem-Zell. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0394": {
+    "osm_type": "N",
+    "osm_id": 1010847178,
+    "basis": "Individually reviewed source 'Mäuseberg', subregion 'DAUNER MAARE', against OSM 'Mäuseberg' (natural=peak) at Schalkenmehren, Landkreis Vulkaneifel. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0397": {
+    "osm_type": "W",
+    "osm_id": 216248346,
+    "basis": "Individually reviewed source 'Dronketurm', subregion 'DAUNER MAARE', against OSM 'Dronketurm' (tourism=viewpoint) at Schalkenmehren, Landkreis Vulkaneifel. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0410": {
+    "osm_type": "N",
+    "osm_id": 974080124,
+    "basis": "Individually reviewed source 'Vulkanhaus Strohn', subregion 'PULVERMAAR / STROHN', against OSM 'Vulkanhaus Strohn' (tourism=museum) at Strohn, Landkreis Vulkaneifel. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0412": {
+    "osm_type": "W",
+    "osm_id": 144726755,
+    "basis": "Individually reviewed source 'Jungferweiher', subregion 'ULMEN / MAAR-STOLLEN', against OSM 'Jungferweiher' (natural=water) at Ulmen, Cochem-Zell. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0421": {
+    "osm_type": "N",
+    "osm_id": 7252927635,
+    "basis": "Individually reviewed source 'Kasselburg', subregion 'GEROLSTEIN / DOLOMITEN', against OSM 'Kasselburg' (historic=castle) at Pelm, Landkreis Vulkaneifel. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0433": {
+    "osm_type": "R",
+    "osm_id": 4120974,
+    "basis": "Individually reviewed source 'Nationalpark Hunsrück-Hochwald', subregion 'ERBESKOPF / NATIONALPARK', against OSM 'Nationalpark Hunsrück-Hochwald' (boundary=national_park) at , Landkreis Birkenfeld. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0440": {
+    "osm_type": "W",
+    "osm_id": 1070322242,
+    "basis": "Individually reviewed source 'Burg Balduinseck', subregion 'HUNSRÜCK - BURGEN / KELTEN', against OSM 'Burg Balduinseck' (historic=castle) at Mastershausen, Rhein-Hunsrück-Kreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0441": {
+    "osm_type": "W",
+    "osm_id": 58849444,
+    "basis": "Individually reviewed source 'Burg Dill', subregion 'HUNSRÜCK - BURGEN / KELTEN', against OSM 'Burg Dill' (tourism=attraction) at Dill, Rhein-Hunsrück-Kreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0442": {
+    "osm_type": "N",
+    "osm_id": 7653007494,
+    "basis": "Individually reviewed source 'Keltenpark Otzenhausen', subregion 'HUNSRÜCK - BURGEN / KELTEN', against OSM 'Keltenpark Otzenhausen' (tourism=museum) at Nonnweiler, Landkreis St. Wendel. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0444": {
+    "osm_type": "N",
+    "osm_id": 3636360283,
+    "basis": "Individually reviewed source 'Kyrburg', subregion 'HUNSRÜCK - BURGEN / KELTEN', against OSM 'Kyrburg' (historic=castle) at Kirn, Landkreis Bad Kreuznach. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0445": {
+    "osm_type": "W",
+    "osm_id": 417626238,
+    "basis": "Individually reviewed source 'Schmidtburg', subregion 'HUNSRÜCK - BURGEN / KELTEN', against OSM 'Schmidtburg' (tourism=attraction) at Schneppenbach, Landkreis Bad Kreuznach. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0463": {
+    "osm_type": "W",
+    "osm_id": 29549640,
+    "basis": "Individually reviewed source 'Grosser Zacken', subregion 'HOCHTAUNUS', against OSM 'Großer Zacken' (natural=cliff) at Glashütten, Hochtaunuskreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0464": {
+    "osm_type": "W",
+    "osm_id": 145400103,
+    "basis": "Individually reviewed source 'Kleiner Zacken', subregion 'HOCHTAUNUS', against OSM 'Kleiner Zacken' (natural=cliff) at Glashütten, Hochtaunuskreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0461": {
+    "osm_type": "W",
+    "osm_id": 156777696,
+    "basis": "Individually reviewed source 'Herzbergturm', subregion 'HOCHTAUNUS', against OSM 'Herzbergturm' (man_made=tower) at Bad Homburg vor der Höhe, Hochtaunuskreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0478": {
+    "osm_type": "W",
+    "osm_id": 111571393,
+    "basis": "Individually reviewed source 'Schloss Johannisberg', subregion 'RHEINGAU / NIEDERWALD', against OSM 'Schloss Johannisberg' (building=yes) at Geisenheim, Rheingau-Taunus-Kreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0481": {
+    "osm_type": "W",
+    "osm_id": 230617826,
+    "basis": "Individually reviewed source 'Burg Laurenburg', subregion 'LAHN - BURGEN & SCHLÖSSER', against OSM 'Burg Laurenburg' (historic=castle) at Dörnberg, Rhein-Lahn-Kreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0488": {
+    "osm_type": "N",
+    "osm_id": 33533898,
+    "basis": "Individually reviewed source 'Burg Vetzberg', subregion 'LAHN - BURGEN & SCHLÖSSER', against OSM 'Burg Vetzberg' (historic=castle) at Biebertal, Landkreis Gießen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0489": {
+    "osm_type": "N",
+    "osm_id": 6706947359,
+    "basis": "Individually reviewed source 'Kubacher Kristallhöhle', subregion 'WEILBURG / KUBACH', against OSM 'Kubacher Kristallhöhle' (natural=cave_entrance) at Weilburg, Landkreis Limburg-Weilburg. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0512": {
+    "osm_type": "W",
+    "osm_id": 942819744,
+    "basis": "Individually reviewed source 'Grevenburg', subregion 'TRABEN-TRARBACH', against OSM 'Grevenburg' (historic=castle) at Traben-Trarbach, Bernkastel-Wittlich. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0520": {
+    "osm_type": "W",
+    "osm_id": 477491293,
+    "basis": "Individually reviewed source 'Starkenburg', subregion 'TRABEN-TRARBACH - BURGENROUTE', against OSM 'Starkenburg' (historic=ruins) at Starkenburg, Bernkastel-Wittlich. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0549": {
+    "osm_type": "W",
+    "osm_id": 804297386,
+    "basis": "Individually reviewed source 'Minheimer Kreuz', subregion 'PIESPORT / NEUMAGEN', against OSM 'Minheimer Kreuz' (historic=memorial) at Piesport, Bernkastel-Wittlich. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0553": {
+    "osm_type": "N",
+    "osm_id": 9026525647,
+    "basis": "Individually reviewed source 'Moselkino Leiwen', subregion 'MEHRING / LEIWEN', against OSM 'Moselkino Leiwen' (tourism=viewpoint) at Leiwen, Landkreis Trier-Saarburg. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0554": {
+    "osm_type": "N",
+    "osm_id": 5633512524,
+    "basis": "Individually reviewed source 'Zummethöhe', subregion 'MEHRING / LEIWEN', against OSM 'Zummethöhe' (tourism=viewpoint) at Trittenheim, Landkreis Trier-Saarburg. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0571": {
+    "osm_type": "N",
+    "osm_id": 202918873,
+    "basis": "Individually reviewed source 'Markusberg', subregion 'TRIER', against OSM 'Markusberg' (natural=peak) at Trier, . Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0580": {
+    "osm_type": "N",
+    "osm_id": 321349168,
+    "basis": "Individually reviewed source 'Igeler Säule', subregion 'TRIER / SAARMÜNDUNG - KULTUR', against OSM 'Igeler Säule' (tourism=attraction) at Igel, Landkreis Trier-Saarburg. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0582": {
+    "osm_type": "W",
+    "osm_id": 50283505,
+    "basis": "Individually reviewed source 'Konstantinbasilika', subregion 'TRIER / SAARMÜNDUNG - KULTUR', against OSM 'Konstantinbasilika' (amenity=place_of_worship) at Trier, . Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0596": {
+    "osm_type": "W",
+    "osm_id": 529626797,
+    "basis": "Individually reviewed source 'Klause Kastel', subregion 'KASTEL-STAADT / SAARFELSEN', against OSM 'Klause Kastel' (building=church) at Kastel-Staadt, Landkreis Trier-Saarburg. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0603": {
+    "osm_type": "W",
+    "osm_id": 92084676,
+    "basis": "Individually reviewed source 'Römische Villa Borg', subregion 'OBERMOSEL - PERL', against OSM 'Römische Villa Borg' (tourism=museum) at Perl, Landkreis Merzig-Wadern. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0606": {
+    "osm_type": "N",
+    "osm_id": 269178388,
+    "basis": "Individually reviewed source 'Saarschleife / Cloef', subregion 'SAARSCHLEIFE / METTLACH', against OSM 'Saarschleife / Cloef' (tourism=viewpoint) at Mettlach, Landkreis Merzig-Wadern. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0613": {
+    "osm_type": "N",
+    "osm_id": 1226966033,
+    "basis": "Individually reviewed source 'Burgruine Hohenburg', subregion 'HOMBURG / KIRKEL', against OSM 'Burgruine Hohenburg' (historic=castle) at Homburg, Saarpfalz-Kreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0615": {
+    "osm_type": "W",
+    "osm_id": 117536530,
+    "basis": "Individually reviewed source 'Stausee Losheim', subregion 'LOSHEIM / SAARLAND NATUR', against OSM 'Stausee Losheim' (natural=water) at Losheim am See, Landkreis Merzig-Wadern. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0627": {
+    "osm_type": "R",
+    "osm_id": 12048753,
+    "basis": "Individually reviewed source 'Nationalpark Kellerwald-Edersee', subregion 'EDERSEE / KELLERWALD', against OSM 'Nationalpark Kellerwald-Edersee' (boundary=national_park) at Altenlotheim, Waldeck-Frankenberg. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0629": {
+    "osm_type": "R",
+    "osm_id": 16202671,
+    "basis": "Individually reviewed source 'Schloss Waldeck', subregion 'EDERSEE / KELLERWALD', against OSM 'Schloß Waldeck' (historic=castle) at Waldeck, Waldeck-Frankenberg. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0633": {
+    "osm_type": "R",
+    "osm_id": 7760866,
+    "basis": "Individually reviewed source 'Burg Hanstein', subregion 'GRIMMHEIMAT - BURGEN', against OSM 'Burg Hanstein' (historic=castle) at Bornhagen, Landkreis Eichsfeld. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0637": {
+    "osm_type": "W",
+    "osm_id": 117402822,
+    "basis": "Individually reviewed source 'Schloss Berlepsch', subregion 'GRIMMHEIMAT - BURGEN', against OSM 'Schloss Berlepsch' (building=castle) at Witzenhausen, Werra-Meißner-Kreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0646": {
+    "osm_type": "N",
+    "osm_id": 75099933,
+    "basis": "Individually reviewed source 'Niddaquelle', subregion 'HOHER VOGELSBERG', against OSM 'Niddaquelle' (natural=spring) at Rudingshain, Vogelsbergkreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0643": {
+    "osm_type": "W",
+    "osm_id": 73848938,
+    "basis": "Individually reviewed source 'Burg Ulrichstein', subregion 'HOHER VOGELSBERG', against OSM 'Burg Ulrichstein' (historic=castle) at Ulrichstein, Vogelsbergkreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0644": {
+    "osm_type": "W",
+    "osm_id": 47280010,
+    "basis": "Individually reviewed source 'Schloss Eisenbach', subregion 'HOHER VOGELSBERG', against OSM 'Schloss Eisenbach' (building=yes) at Frischborn, Vogelsbergkreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0663": {
+    "osm_type": "R",
+    "osm_id": 21095473,
+    "basis": "Individually reviewed source 'Schwarzes Moor', subregion 'WASSERKUPPE / KREUZBERG', against OSM 'Schwarzes Moor' (natural=wetland) at Hausen, Landkreis Rhön-Grabfeld. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0657": {
+    "osm_type": "N",
+    "osm_id": 4970228228,
+    "basis": "Individually reviewed source 'Noahs Segel', subregion 'WASSERKUPPE / KREUZBERG', against OSM 'Noahs Segel' (man_made=tower) at Oberweid, Landkreis Schmalkalden-Meiningen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0677": {
+    "osm_type": "W",
+    "osm_id": 464916267,
+    "basis": "Individually reviewed source 'Hambacher Schloss', subregion 'HAMBACH / KALMIT', against OSM 'Hambacher Schloss' (tourism=attraction) at Neustadt an der Weinstraße, . Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0678": {
+    "osm_type": "W",
+    "osm_id": 1340138248,
+    "basis": "Individually reviewed source 'Kalmithaus', subregion 'HAMBACH / KALMIT', against OSM 'Kalmithaus' (tourism=alpine_hut) at Maikammer, Südliche Weinstraße. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0680": {
+    "osm_type": "W",
+    "osm_id": 55084612,
+    "basis": "Individually reviewed source 'Asselstein', subregion 'TRIFELS / ANNWEILER', against OSM 'Asselstein' (natural=bare_rock) at Annweiler am Trifels, Südliche Weinstraße. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0685": {
+    "osm_type": "W",
+    "osm_id": 55385085,
+    "basis": "Individually reviewed source 'Burg Altdahn', subregion 'DAHNER FELSENLAND - BURGEN', against OSM 'Burg Altdahn' (historic=castle) at Dahn, Südwestpfalz. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0688": {
+    "osm_type": "W",
+    "osm_id": 983017696,
+    "basis": "Individually reviewed source 'Burg Grafendahn', subregion 'DAHNER FELSENLAND - BURGEN', against OSM 'Burg Grafendahn' (historic=castle) at Dahn, Südwestpfalz. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0690": {
+    "osm_type": "W",
+    "osm_id": 983017697,
+    "basis": "Individually reviewed source 'Burg Tanstein', subregion 'DAHNER FELSENLAND - BURGEN', against OSM 'Burg Tanstein' (historic=castle) at Dahn, Südwestpfalz. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0691": {
+    "osm_type": "R",
+    "osm_id": 13430159,
+    "basis": "Individually reviewed source 'Burgruine Neudahn', subregion 'DAHNER FELSENLAND - BURGEN', against OSM 'Burgruine Neudahn' (building=yes) at Dahn, Südwestpfalz. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0696": {
+    "osm_type": "W",
+    "osm_id": 74202857,
+    "basis": "Individually reviewed source 'Jungfernsprung', subregion 'DAHNER FELSENLAND - FELSEN', against OSM 'Jungfernsprung' (natural=bare_rock) at Dahn, Südwestpfalz. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0707": {
+    "osm_type": "N",
+    "osm_id": 800626543,
+    "basis": "Individually reviewed source 'Weisser Stein', subregion 'ODENWALD', against OSM 'Weißer Stein' (natural=peak) at Dossenheim, Rhein-Neckar-Kreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0710": {
+    "osm_type": "N",
+    "osm_id": 5885172472,
+    "basis": "Individually reviewed source 'Eberstadter Tropfsteinhöhle', subregion 'ODENWALD', against OSM 'Eberstadter Tropfsteinhöhle' (natural=cave_entrance) at Buchen (Odenwald), Neckar-Odenwald-Kreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0711": {
+    "osm_type": "W",
+    "osm_id": 617761767,
+    "basis": "Individually reviewed source 'Margarethenschlucht', subregion 'ODENWALD', against OSM 'Margarethenschlucht' (natural=gorge) at Neckargerach, Neckar-Odenwald-Kreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0716": {
+    "osm_type": "W",
+    "osm_id": 162622523,
+    "basis": "Individually reviewed source 'Starkenburg', subregion 'BERGSTRASSE - BURGENSTEIG', against OSM 'Starkenburg' (historic=castle) at Heppenheim, Kreis Bergstraße. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0730": {
+    "osm_type": "W",
+    "osm_id": 255025508,
+    "basis": "Individually reviewed source 'Hafenlohrtal', subregion 'SPESSART', against OSM 'Hafenlohrtal' (leisure=nature_reserve) at Rothenbuch, Landkreis Aschaffenburg. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0736": {
+    "osm_type": "W",
+    "osm_id": 53204193,
+    "basis": "Individually reviewed source 'Burgruine Wildenstein', subregion 'SPESSART - BURGEN / TÄLER', against OSM 'Burgruine Wildenstein' (historic=archaeological_site) at Eschau, Landkreis Miltenberg. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0749": {
+    "osm_type": "W",
+    "osm_id": 111511699,
+    "basis": "Individually reviewed source 'Misselhorner Heide', subregion 'SCHNEVERDINGEN / PIETZMOOR', against OSM 'Misselhorner Heide' (natural=heath) at Südheide, Landkreis Celle. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0754": {
+    "osm_type": "W",
+    "osm_id": 60363622,
+    "basis": "Individually reviewed source 'Brockengarten', subregion 'BROCKEN', against OSM 'Brockengarten' (leisure=garden) at Wernigerode, Landkreis Harz. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0767": {
+    "osm_type": "W",
+    "osm_id": 24866840,
+    "basis": "Individually reviewed source 'Okertalsperre', subregion 'OKERTAL', against OSM 'Okertalsperre' (waterway=dam) at Harz (LK Goslar), Landkreis Goslar. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0768": {
+    "osm_type": "N",
+    "osm_id": 325107188,
+    "basis": "Individually reviewed source 'Romkerhaller Wasserfall', subregion 'OKERTAL', against OSM 'Romkerhaller Wasserfall' (waterway=waterfall) at Harz (LK Goslar), Landkreis Goslar. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0779": {
+    "osm_type": "N",
+    "osm_id": 631766293,
+    "basis": "Individually reviewed source 'Prinzensicht', subregion 'BODETAL', against OSM 'Prinzensicht' (tourism=viewpoint) at Thale, Landkreis Harz. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0775": {
+    "osm_type": "W",
+    "osm_id": 1491819328,
+    "basis": "Individually reviewed source 'Teufelsbrücke', subregion 'BODETAL', against OSM 'Teufelsbrücke' (man_made=bridge) at Thale, Landkreis Harz. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0789": {
+    "osm_type": "N",
+    "osm_id": 937200408,
+    "basis": "Individually reviewed source 'Heimkehle', subregion 'HARZ - HÖHLEN', against OSM 'Heimkehle' (natural=cave_entrance) at Südharz, Mansfeld-Südharz. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0790": {
+    "osm_type": "N",
+    "osm_id": 282663687,
+    "basis": "Individually reviewed source 'Hermannshöhle', subregion 'HARZ - HÖHLEN', against OSM 'Hermannshöhle' (natural=cave_entrance) at Neuwerk, Landkreis Harz. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0795": {
+    "osm_type": "W",
+    "osm_id": 26350241,
+    "basis": "Individually reviewed source 'Burg und Festung Regenstein', subregion 'HARZ - BURGEN / SCHLÖSSER / KLÖSTER', against OSM 'Burg und Festung Regenstein' (tourism=attraction) at Blankenburg (Harz), Landkreis Harz. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0797": {
+    "osm_type": "N",
+    "osm_id": 1785749318,
+    "basis": "Individually reviewed source 'Kloster Ilsenburg', subregion 'HARZ - BURGEN / SCHLÖSSER / KLÖSTER', against OSM 'Kloster Ilsenburg' (amenity=monastery) at Ilsenburg (Harz), Landkreis Harz. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0798": {
+    "osm_type": "R",
+    "osm_id": 150258,
+    "basis": "Individually reviewed source 'Kloster Michaelstein', subregion 'HARZ - BURGEN / SCHLÖSSER / KLÖSTER', against OSM 'Kloster Michaelstein' (amenity=place_of_worship) at Blankenburg, Landkreis Harz. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0805": {
+    "osm_type": "N",
+    "osm_id": 365533054,
+    "basis": "Individually reviewed source '19-Lachter-Stollen', subregion 'HARZ - BERGBAU / WASSER', against OSM '19-Lachter-Stollen' (tourism=museum) at Wildemann, Landkreis Goslar. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0807": {
+    "osm_type": "R",
+    "osm_id": 2468275,
+    "basis": "Individually reviewed source 'Rammelsberg', subregion 'HARZ - BERGBAU / WASSER', against OSM 'Rammelsberg' (historic=mine) at Goslar, Landkreis Goslar. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0811": {
+    "osm_type": "W",
+    "osm_id": 38336210,
+    "basis": "Individually reviewed source 'Knollenturm', subregion 'SÜDHARZ / HERAUSFORDERUNGEN', against OSM 'Knollenturm' (man_made=tower) at Harz (Landkreis Göttingen), Landkreis Göttingen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0817": {
+    "osm_type": "W",
+    "osm_id": 766205783,
+    "basis": "Individually reviewed source 'Drachenschlucht', subregion 'EISENACH / WARTBURG / SCHLUCHTEN', against OSM 'Drachenschlucht' (natural=gorge) at Eisenach, Wartburgkreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0818": {
+    "osm_type": "W",
+    "osm_id": 876453668,
+    "basis": "Individually reviewed source 'Landgrafenschlucht', subregion 'EISENACH / WARTBURG / SCHLUCHTEN', against OSM 'Landgrafenschlucht' (natural=gorge) at Eisenach, Wartburgkreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0824": {
+    "osm_type": "N",
+    "osm_id": 205186452,
+    "basis": "Individually reviewed source 'Grosser Inselsberg', subregion 'RENNSTEIG / INSELSBERG', against OSM 'Großer Inselsberg' (natural=peak) at Bad Tabarz, Landkreis Gotha. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0826": {
+    "osm_type": "N",
+    "osm_id": 293330542,
+    "basis": "Individually reviewed source 'Ruppberg', subregion 'RENNSTEIG / INSELSBERG', against OSM 'Ruppberg' (natural=peak) at Steinbach-Hallenberg, Landkreis Schmalkalden-Meiningen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0831": {
+    "osm_type": "N",
+    "osm_id": 253875887,
+    "basis": "Individually reviewed source 'Trusetaler Wasserfall', subregion 'RENNSTEIG / INSELSBERG', against OSM 'Trusetaler Wasserfall' (waterway=waterfall) at Brotterode-Trusetal, Landkreis Schmalkalden-Meiningen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0839": {
+    "osm_type": "W",
+    "osm_id": 41670115,
+    "basis": "Individually reviewed source 'Veste Heldburg', subregion 'THÜRINGER WALD - KULTUR / NATUR', against OSM 'Veste Heldburg' (tourism=attraction) at Heldburg, Landkreis Hildburghausen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0842": {
+    "osm_type": "R",
+    "osm_id": 3650072,
+    "basis": "Individually reviewed source 'Nationalpark Hainich', subregion 'HAINICH', against OSM 'Nationalpark Hainich' (boundary=national_park) at Unstrut-Hainich, Unstrut-Hainich-Kreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0843": {
+    "osm_type": "W",
+    "osm_id": 1462682645,
+    "basis": "Individually reviewed source 'Burg Creuzburg', subregion 'HAINICH', against OSM 'Burg Creuzburg' (historic=castle) at Amt Creuzburg, Wartburgkreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0847": {
+    "osm_type": "W",
+    "osm_id": 234932599,
+    "basis": "Individually reviewed source 'Burg Bodenstein', subregion 'EICHSFELD / WERRA', against OSM 'Burg Bodenstein' (tourism=attraction) at Leinefelde-Worbis, Landkreis Eichsfeld. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0849": {
+    "osm_type": "W",
+    "osm_id": 36117815,
+    "basis": "Individually reviewed source 'Burg Normannstein', subregion 'EICHSFELD / WERRA', against OSM 'Burg Normannstein' (historic=castle) at Treffurt, Wartburgkreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0852": {
+    "osm_type": "N",
+    "osm_id": 3547622946,
+    "basis": "Individually reviewed source 'Barbarossahöhle', subregion 'KYFFHÄUSER / SÜDHARZ', against OSM 'Barbarossahöhle' (natural=cave_entrance) at Kyffhäuserland, Kyffhäuserkreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0853": {
+    "osm_type": "R",
+    "osm_id": 2320968,
+    "basis": "Individually reviewed source 'Kyffhäuserdenkmal', subregion 'KYFFHÄUSER / SÜDHARZ', against OSM 'Kyffhäuserdenkmal' (building=yes) at Kyffhäuserland, Kyffhäuserkreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0855": {
+    "osm_type": "W",
+    "osm_id": 204245288,
+    "basis": "Individually reviewed source 'Reichsburg Kyffhausen', subregion 'KYFFHÄUSER / SÜDHARZ', against OSM 'Reichsburg Kyffhausen' (historic=castle) at Kyffhäuserland, Kyffhäuserkreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0859": {
+    "osm_type": "W",
+    "osm_id": 168342777,
+    "basis": "Individually reviewed source 'Burg Saaleck', subregion 'SAALE-UNSTRUT - BURGEN', against OSM 'Burg Saaleck' (tourism=attraction) at Naumburg (Saale), Burgenlandkreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0861": {
+    "osm_type": "W",
+    "osm_id": 266723887,
+    "basis": "Individually reviewed source 'Leuchtenburg', subregion 'SAALE-UNSTRUT - BURGEN', against OSM 'Leuchtenburg' (tourism=attraction) at Seitenroda, Saale-Holzland-Kreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0869": {
+    "osm_type": "W",
+    "osm_id": 333464729,
+    "basis": "Individually reviewed source 'Dornburger Schlösser', subregion 'JENA / SAALETAL', against OSM 'Dornburger Schlösser' (leisure=park) at Dornburg-Camburg, Saale-Holzland-Kreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0868": {
+    "osm_type": "N",
+    "osm_id": 1340966291,
+    "basis": "Individually reviewed source 'Burg Ranis', subregion 'JENA / SAALETAL', against OSM 'Burg Ranis' (historic=castle) at Ranis, Saale-Orla-Kreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0874": {
+    "osm_type": "W",
+    "osm_id": 1309650976,
+    "basis": "Individually reviewed source 'Prinz-Luitpold-Turm', subregion 'FRANKENWALD', against OSM 'Prinz-Luitpold-Turm' (tourism=viewpoint) at Schwarzenbach am Wald, Landkreis Hof. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0888": {
+    "osm_type": "N",
+    "osm_id": 24557721,
+    "basis": "Individually reviewed source 'Backöfele', subregion 'FICHTELGEBIRGE', against OSM 'Backöfele' (man_made=tower) at Bad Weißenstadt, Landkreis Wunsiedel im Fichtelgebirge. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0899": {
+    "osm_type": "N",
+    "osm_id": 895300970,
+    "basis": "Individually reviewed source 'Burgruine Weißenstein', subregion 'FICHTELGEBIRGE - FELSEN / BURGEN', against OSM 'Burgruine Weißenstein' (tourism=viewpoint) at Waldershof, Landkreis Tirschenreuth. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0917": {
+    "osm_type": "N",
+    "osm_id": 280390982,
+    "basis": "Individually reviewed source 'Riesenburg', subregion 'FRÄNKISCHE SCHWEIZ', against OSM 'Riesenburg' (natural=cave_entrance) at Wiesenttal, Landkreis Forchheim. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0920": {
+    "osm_type": "N",
+    "osm_id": 294782254,
+    "basis": "Individually reviewed source 'Druidenhain', subregion 'FRÄNKISCHE SCHWEIZ', against OSM 'Druidenhain' (natural=rock) at Wiesenttal, Landkreis Forchheim. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0909": {
+    "osm_type": "N",
+    "osm_id": 280821625,
+    "basis": "Individually reviewed source 'Burgruine Neideck', subregion 'FRÄNKISCHE SCHWEIZ', against OSM 'Burgruine Neideck' (tourism=attraction) at Wiesenttal, Landkreis Forchheim. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0911": {
+    "osm_type": "N",
+    "osm_id": 393842810,
+    "basis": "Individually reviewed source 'Streitburg', subregion 'FRÄNKISCHE SCHWEIZ', against OSM 'Streitburg' (tourism=viewpoint) at Wiesenttal, Landkreis Forchheim. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0924": {
+    "osm_type": "W",
+    "osm_id": 38928814,
+    "basis": "Individually reviewed source 'Burg Pottenstein', subregion 'FRÄNKISCHE SCHWEIZ - BURGEN', against OSM 'Burg Pottenstein' (building=yes) at Pottenstein, Landkreis Bayreuth. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0936": {
+    "osm_type": "W",
+    "osm_id": 24719324,
+    "basis": "Individually reviewed source 'Befreiungshalle Kelheim', subregion 'ALTMÜHLTAL / DONAUDURCHBRUCH', against OSM 'Befreiungshalle Kelheim' (historic=monument) at Kelheim, Landkreis Kelheim. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0937": {
+    "osm_type": "N",
+    "osm_id": 11810081672,
+    "basis": "Individually reviewed source 'Burg Kipfenberg', subregion 'ALTMÜHLTAL / DONAUDURCHBRUCH', against OSM 'Burg Kipfenberg' (historic=castle) at Kipfenberg, Landkreis Eichstätt. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0939": {
+    "osm_type": "N",
+    "osm_id": 312593240,
+    "basis": "Individually reviewed source 'Burg Prunn', subregion 'ALTMÜHLTAL / DONAUDURCHBRUCH', against OSM 'Burg Prunn' (tourism=attraction) at Riedenburg, Landkreis Kelheim. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0941": {
+    "osm_type": "W",
+    "osm_id": 273360348,
+    "basis": "Individually reviewed source 'Willibaldsburg', subregion 'ALTMÜHLTAL / DONAUDURCHBRUCH', against OSM 'Willibaldsburg' (historic=castle) at Eichstätt, Landkreis Eichstätt. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0945": {
+    "osm_type": "N",
+    "osm_id": 7882008876,
+    "basis": "Individually reviewed source 'Burg Colmberg', subregion 'FRANKEN - GROSSE BURGEN / RESIDENZEN', against OSM 'Burg Colmberg' (historic=castle) at Colmberg, Landkreis Ansbach. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0949": {
+    "osm_type": "R",
+    "osm_id": 7074,
+    "basis": "Individually reviewed source 'Residenz Würzburg', subregion 'FRANKEN - GROSSE BURGEN / RESIDENZEN', against OSM 'Residenz Würzburg' (building=castle) at Würzburg, Würzburg. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0952": {
+    "osm_type": "N",
+    "osm_id": 302425389,
+    "basis": "Individually reviewed source 'Dreifürstenstein', subregion 'SCHWÄBISCHE ALB', against OSM 'Dreifürstenstein' (natural=peak) at Burladingen, Zollernalbkreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0963": {
+    "osm_type": "N",
+    "osm_id": 317254665,
+    "basis": "Individually reviewed source 'Uracher Wasserfall', subregion 'SCHWÄBISCHE ALB', against OSM 'Uracher Wasserfall' (waterway=waterfall) at Bad Urach, Landkreis Reutlingen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0968": {
+    "osm_type": "N",
+    "osm_id": 277599902,
+    "basis": "Individually reviewed source 'Eichfelsen', subregion 'SCHWÄBISCHE ALB', against OSM 'Eichfelsen' (tourism=viewpoint) at Beuron, Landkreis Sigmaringen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0969": {
+    "osm_type": "N",
+    "osm_id": 361390622,
+    "basis": "Individually reviewed source 'Knopfmacherfelsen', subregion 'SCHWÄBISCHE ALB', against OSM 'Knopfmacherfelsen' (tourism=viewpoint) at Fridingen an der Donau, Landkreis Tuttlingen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0970": {
+    "osm_type": "W",
+    "osm_id": 1350381495,
+    "basis": "Individually reviewed source 'Oberes Donautal', subregion 'SCHWÄBISCHE ALB', against OSM 'Oberes Donautal' (natural=valley) at , . Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0958": {
+    "osm_type": "W",
+    "osm_id": 102360050,
+    "basis": "Individually reviewed source 'Burg Wildenstein', subregion 'SCHWÄBISCHE ALB', against OSM 'Burg Wildenstein' (historic=castle) at Leibertingen, Landkreis Sigmaringen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0960": {
+    "osm_type": "W",
+    "osm_id": 232788331,
+    "basis": "Individually reviewed source 'Schloss Werenwag', subregion 'SCHWÄBISCHE ALB', against OSM 'Schloss Werenwag' (building=yes) at Beuron, Landkreis Sigmaringen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0981": {
+    "osm_type": "N",
+    "osm_id": 295444342,
+    "basis": "Individually reviewed source 'Hohle Fels', subregion 'SCHWÄBISCHE ALB - SCHAUHÖHLEN', against OSM 'Hohle Fels' (natural=cave_entrance) at Blaubeuren, Alb-Donau-Kreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0983": {
+    "osm_type": "N",
+    "osm_id": 1781280026,
+    "basis": "Individually reviewed source 'Olgahöhle', subregion 'SCHWÄBISCHE ALB - SCHAUHÖHLEN', against OSM 'Olgahöhle' (natural=cave_entrance) at Honau, Landkreis Reutlingen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0985": {
+    "osm_type": "N",
+    "osm_id": 290752618,
+    "basis": "Individually reviewed source 'Sontheimer Höhle', subregion 'SCHWÄBISCHE ALB - SCHAUHÖHLEN', against OSM 'Sontheimer Höhle' (natural=cave_entrance) at Heroldstatt, Alb-Donau-Kreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0988": {
+    "osm_type": "N",
+    "osm_id": 1894767505,
+    "basis": "Individually reviewed source 'Kolbinger Höhle', subregion 'SCHWÄBISCHE ALB - SCHAUHÖHLEN', against OSM 'Kolbinger Höhle' (natural=cave_entrance) at Kolbingen, Landkreis Tuttlingen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0989": {
+    "osm_type": "N",
+    "osm_id": 4302887157,
+    "basis": "Individually reviewed source 'Wimsener Höhle', subregion 'SCHWÄBISCHE ALB - SCHAUHÖHLEN', against OSM 'Wimsener Höhle / Friedrichshöhle' (natural=cave_entrance) at Zwiefalten, Landkreis Reutlingen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0992": {
+    "osm_type": "W",
+    "osm_id": 26573952,
+    "basis": "Individually reviewed source 'Brenztopf', subregion 'SCHWÄBISCHE ALB - QUELLEN / WASSERFÄLLE', against OSM 'Brenztopf' (natural=water) at Königsbronn, Landkreis Heidenheim. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0995": {
+    "osm_type": "N",
+    "osm_id": 410580618,
+    "basis": "Individually reviewed source 'Neidlinger Wasserfall', subregion 'SCHWÄBISCHE ALB - QUELLEN / WASSERFÄLLE', against OSM 'Neidlinger Wasserfall' (waterway=waterfall) at Neidlingen, Landkreis Esslingen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0997": {
+    "osm_type": "N",
+    "osm_id": 3994022360,
+    "basis": "Individually reviewed source 'Zillhauser Wasserfall', subregion 'SCHWÄBISCHE ALB - QUELLEN / WASSERFÄLLE', against OSM 'Zillhauser Wasserfall' (waterway=waterfall) at Balingen, Zollernalbkreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1002": {
+    "osm_type": "W",
+    "osm_id": 1301326204,
+    "basis": "Individually reviewed source 'Kloster Beuron', subregion 'OBERES DONAUTAL / BEURON', against OSM 'Kloster Beuron' (amenity=monastery) at Beuron, Landkreis Sigmaringen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0178": {
+    "osm_type": "N",
+    "osm_id": 226153423,
+    "basis": "Individually reviewed source 'Kopiec Kościuszki', subregion 'KRAKÓW', against OSM 'Kopiec Kościuszki' (natural=peak) at Kraków, . Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0190": {
+    "osm_type": "W",
+    "osm_id": 661329738,
+    "basis": "Individually reviewed source 'Zamek Tenczyn', subregion 'RUDNO / TENCZYN', against OSM 'Zamek Tenczyn' (tourism=attraction) at Rudno, powiat krakowski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0245": {
+    "osm_type": "N",
+    "osm_id": 253737989,
+    "basis": "Individually reviewed source 'Trzy Korony - Okrąglica', subregion 'TRZY KORONY - SOKOLICA', against OSM 'Trzy Korony (Okrąglica)' (natural=peak) at Sromowce Niżne, powiat nowotarski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0750": {
+    "osm_type": "W",
+    "osm_id": 31305779,
+    "basis": "Individually reviewed source 'Osterheide', subregion 'SCHNEVERDINGEN / PIETZMOOR', against OSM 'Osterheide' (natural=heath) at Schneverdingen, Heidekreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1006": {
+    "osm_type": "N",
+    "osm_id": 310949398,
+    "basis": "Individually reviewed source 'Bocksteinhöhle', subregion 'UNESCO HÖHLEN / LONETAL / ACHTAL', against OSM 'Bocksteinhöhle' (natural=cave_entrance) at Herbrechtingen, Landkreis Heidenheim. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1007": {
+    "osm_type": "N",
+    "osm_id": 324345032,
+    "basis": "Individually reviewed source 'Brillenhöhle', subregion 'UNESCO HÖHLEN / LONETAL / ACHTAL', against OSM 'Brillenhöhle' (natural=cave_entrance) at Blaubeuren, Alb-Donau-Kreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1011": {
+    "osm_type": "N",
+    "osm_id": 310949405,
+    "basis": "Individually reviewed source 'Hohlenstein-Stadel', subregion 'UNESCO HÖHLEN / LONETAL / ACHTAL', against OSM 'Hohlenstein-Stadel' (natural=cave_entrance) at Herbrechtingen, Landkreis Heidenheim. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1012": {
+    "osm_type": "N",
+    "osm_id": 2952347434,
+    "basis": "Individually reviewed source 'Sirgensteinhöhle', subregion 'UNESCO HÖHLEN / LONETAL / ACHTAL', against OSM 'Sirgensteinhöhle' (natural=cave_entrance) at Blaubeuren, Alb-Donau-Kreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1027": {
+    "osm_type": "W",
+    "osm_id": 216625971,
+    "basis": "Individually reviewed source 'Burg Liebenzell', subregion 'NORDSCHWARZWALD - BURGEN / KULTUR', against OSM 'Burg Liebenzell' (building=yes) at Bad Liebenzell, Landkreis Calw. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1030": {
+    "osm_type": "W",
+    "osm_id": 27692541,
+    "basis": "Individually reviewed source 'Kloster Hirsau', subregion 'NORDSCHWARZWALD - BURGEN / KULTUR', against OSM 'Kloster Hirsau' (tourism=attraction) at Calw, Landkreis Calw. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1033": {
+    "osm_type": "N",
+    "osm_id": 3797134304,
+    "basis": "Individually reviewed source 'Allerheiligen-Wasserfälle', subregion 'NORDSCHWARZWALD - WASSER / SCHLUCHTEN', against OSM 'Allerheiligen-Wasserfälle' (waterway=waterfall) at Oppenau, Ortenaukreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1034": {
+    "osm_type": "N",
+    "osm_id": 5654081229,
+    "basis": "Individually reviewed source 'Gertelbach-Wasserfälle', subregion 'NORDSCHWARZWALD - WASSER / SCHLUCHTEN', against OSM 'Gertelbach-Wasserfälle' (waterway=waterfall) at Bühl, Landkreis Rastatt. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1037": {
+    "osm_type": "R",
+    "osm_id": 3998123,
+    "basis": "Individually reviewed source 'Wildseemoor', subregion 'NORDSCHWARZWALD - WASSER / SCHLUCHTEN', against OSM 'Wildseemoor' (natural=wetland) at Bad Wildbad, Landkreis Calw. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1042": {
+    "osm_type": "W",
+    "osm_id": 20472298,
+    "basis": "Individually reviewed source 'Schwarzenbachtalsperre', subregion 'WASSERFÄLLE / MITTLERER SCHWARZWALD', against OSM 'Schwarzenbachtalsperre' (waterway=dam) at Forbach, Landkreis Rastatt. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1044": {
+    "osm_type": "N",
+    "osm_id": 2679501614,
+    "basis": "Individually reviewed source 'Triberger Wasserfälle', subregion 'WASSERFÄLLE / MITTLERER SCHWARZWALD', against OSM 'Triberger Wasserfälle' (waterway=waterfall) at Triberg, Schwarzwald-Baar-Kreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1043": {
+    "osm_type": "W",
+    "osm_id": 26693890,
+    "basis": "Individually reviewed source 'Klosterruine Allerheiligen', subregion 'WASSERFÄLLE / MITTLERER SCHWARZWALD', against OSM 'Klosterruine Allerheiligen' (historic=ruins) at Oppenau, Ortenaukreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1051": {
+    "osm_type": "N",
+    "osm_id": 495438400,
+    "basis": "Individually reviewed source 'Burgbachwasserfall', subregion 'MITTLERER SCHWARZWALD - BURGEN / TÄLER', against OSM 'Burgbachwasserfall' (waterway=waterfall) at Bad Rippoldsau-Schapbach, Landkreis Freudenstadt. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1052": {
+    "osm_type": "N",
+    "osm_id": 272858364,
+    "basis": "Individually reviewed source 'Sankenbachwasserfall', subregion 'MITTLERER SCHWARZWALD - BURGEN / TÄLER', against OSM 'Sankenbachwasserfall' (waterway=waterfall) at Baiersbronn, Landkreis Freudenstadt. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1048": {
+    "osm_type": "W",
+    "osm_id": 279421356,
+    "basis": "Individually reviewed source 'Burg Husen', subregion 'MITTLERER SCHWARZWALD - BURGEN / TÄLER', against OSM 'Burg Husen' (tourism=attraction) at Hausach, Ortenaukreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1055": {
+    "osm_type": "N",
+    "osm_id": 26862857,
+    "basis": "Individually reviewed source 'Feldberg', subregion 'FELDBERG', against OSM 'Feldberg' (natural=peak) at Feldberg (Schwarzwald), Breisgau-Hochschwarzwald. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1065": {
+    "osm_type": "N",
+    "osm_id": 1627565628,
+    "basis": "Individually reviewed source 'Todtnauer Wasserfall', subregion 'BELCHEN / SCHAUINSLAND', against OSM 'Todtnauer Wasserfall' (waterway=waterfall) at Todtnau, Landkreis Lörrach. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1069": {
+    "osm_type": "N",
+    "osm_id": 391377312,
+    "basis": "Individually reviewed source 'Bildstein', subregion 'SCHLUCHTEN / HERAUSFORDERUNGEN', against OSM 'Bildstein' (tourism=viewpoint) at Schluchsee, Breisgau-Hochschwarzwald. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1070": {
+    "osm_type": "W",
+    "osm_id": 858152843,
+    "basis": "Individually reviewed source 'Lotenbachklamm', subregion 'SCHLUCHTEN / HERAUSFORDERUNGEN', against OSM 'Lotenbachklamm' (natural=valley) at Bonndorf im Schwarzwald, Landkreis Waldshut. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1072": {
+    "osm_type": "W",
+    "osm_id": 858146417,
+    "basis": "Individually reviewed source 'Haslachschlucht', subregion 'SCHLUCHTEN / HERAUSFORDERUNGEN', against OSM 'Haslachschlucht' (natural=valley) at Lenzkirch, Breisgau-Hochschwarzwald. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1073": {
+    "osm_type": "W",
+    "osm_id": 886395663,
+    "basis": "Individually reviewed source 'Ravennaschlucht', subregion 'SCHLUCHTEN / HERAUSFORDERUNGEN', against OSM 'Ravennaschlucht' (natural=valley) at Breitnau, Breisgau-Hochschwarzwald. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1074": {
+    "osm_type": "W",
+    "osm_id": 858151915,
+    "basis": "Individually reviewed source 'Rötenbachschlucht', subregion 'SCHLUCHTEN / HERAUSFORDERUNGEN', against OSM 'Rötenbachschlucht' (natural=valley) at Friedenweiler, Breisgau-Hochschwarzwald. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1082": {
+    "osm_type": "W",
+    "osm_id": 911882600,
+    "basis": "Individually reviewed source 'Teichschlucht', subregion 'SÜDSCHWARZWALD - SCHLUCHTEN', against OSM 'Teichschlucht' (natural=valley) at Simonswald, Landkreis Emmendingen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1083": {
+    "osm_type": "W",
+    "osm_id": 1361201434,
+    "basis": "Individually reviewed source 'Wehraschlucht', subregion 'SÜDSCHWARZWALD - SCHLUCHTEN', against OSM 'Wehraschlucht' (natural=valley) at Herrischried, Landkreis Waldshut. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1087": {
+    "osm_type": "W",
+    "osm_id": 616548036,
+    "basis": "Individually reviewed source 'Dom St. Blasien', subregion 'SÜDSCHWARZWALD - WASSER / KULTUR', against OSM 'Dom St. Blasien' (amenity=place_of_worship) at St. Blasien, Landkreis Waldshut. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1089": {
+    "osm_type": "R",
+    "osm_id": 1400415,
+    "basis": "Individually reviewed source 'Schloss Bürgeln', subregion 'SÜDSCHWARZWALD - WASSER / KULTUR', against OSM 'Schloss Bürgeln' (building=yes) at Schliengen, Landkreis Lörrach. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1097": {
+    "osm_type": "N",
+    "osm_id": 473115740,
+    "basis": "Individually reviewed source 'Festungsruine Hohentwiel', subregion 'HEGAU - VULKANBERGE', against OSM 'Festungsruine Hohentwiel' (tourism=museum) at Singen (Hohentwiel), Landkreis Konstanz. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1098": {
+    "osm_type": "W",
+    "osm_id": 118445798,
+    "basis": "Individually reviewed source 'Schloss Langenstein', subregion 'HEGAU - VULKANBERGE', against OSM 'Schloss Langenstein' (building=yes) at Orsingen-Nenzingen, Landkreis Konstanz. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1104": {
+    "osm_type": "W",
+    "osm_id": 858156524,
+    "basis": "Individually reviewed source 'Marienschlucht', subregion 'BODENSEE - BURGEN / SCHLÖSSER', against OSM 'Marienschlucht' (natural=gorge) at Allensbach, Landkreis Konstanz. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1103": {
+    "osm_type": "R",
+    "osm_id": 1448382,
+    "basis": "Individually reviewed source 'Schloss Salem', subregion 'BODENSEE - BURGEN / SCHLÖSSER', against OSM 'Schloss Salem' (building=yes) at Salem, Bodenseekreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1117": {
+    "osm_type": "W",
+    "osm_id": 334667152,
+    "basis": "Individually reviewed source 'Schwarzwassertal', subregion 'ERZGEBIRGE', against OSM 'Schwarzwassertal' (leisure=nature_reserve) at Olbernhau, Erzgebirgskreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1120": {
+    "osm_type": "W",
+    "osm_id": 256861684,
+    "basis": "Individually reviewed source 'Bergbaumuseum Altenberg', subregion 'ERZGEBIRGE - BERGWERKE', against OSM 'Bergbaumuseum Altenberg' (tourism=museum) at Altenberg, Sächsische Schweiz-Osterzgebirge. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1131": {
+    "osm_type": "N",
+    "osm_id": 1284734108,
+    "basis": "Individually reviewed source 'Blauenthaler Wasserfall', subregion 'ERZGEBIRGE - BURGEN / NATUR', against OSM 'Blauenthaler Wasserfall' (waterway=waterfall) at Eibenstock, Erzgebirgskreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1133": {
+    "osm_type": "W",
+    "osm_id": 50993869,
+    "basis": "Individually reviewed source 'Kleiner Kranichsee', subregion 'ERZGEBIRGE - BURGEN / NATUR', against OSM 'Kleiner Kranichsee' (natural=wetland) at Johanngeorgenstadt, Erzgebirgskreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1127": {
+    "osm_type": "W",
+    "osm_id": 214841582,
+    "basis": "Individually reviewed source 'Burg Scharfenstein', subregion 'ERZGEBIRGE - BURGEN / NATUR', against OSM 'Burg Scharfenstein' (tourism=attraction) at Drebach, Erzgebirgskreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1128": {
+    "osm_type": "W",
+    "osm_id": 297707487,
+    "basis": "Individually reviewed source 'Schloss Augustusburg', subregion 'ERZGEBIRGE - BURGEN / NATUR', against OSM 'Schloss Augustusburg' (tourism=attraction) at Augustusburg, Mittelsachsen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1129": {
+    "osm_type": "W",
+    "osm_id": 84207337,
+    "basis": "Individually reviewed source 'Schloss Schwarzenberg', subregion 'ERZGEBIRGE - BURGEN / NATUR', against OSM 'Schloss Schwarzenberg' (tourism=museum) at Schwarzenberg/Erzgeb., Erzgebirgskreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1130": {
+    "osm_type": "W",
+    "osm_id": 40524507,
+    "basis": "Individually reviewed source 'Schloss Wolkenstein', subregion 'ERZGEBIRGE - BURGEN / NATUR', against OSM 'Schloss Wolkenstein' (building=yes) at Wolkenstein, Erzgebirgskreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1141": {
+    "osm_type": "W",
+    "osm_id": 485185148,
+    "basis": "Individually reviewed source 'Wehlgrund', subregion 'BASTEI / RATHEN', against OSM 'Wehlgrund' (natural=valley) at Kurort Rathen, Sächsische Schweiz-Osterzgebirge. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1146": {
+    "osm_type": "N",
+    "osm_id": 30114707,
+    "basis": "Individually reviewed source 'Felsenburg Neurathen', subregion 'BASTEI / RATHEN - ERWEITERUNG', against OSM 'Felsenburg Neurathen' (historic=ruins) at Lohmen, Sächsische Schweiz-Osterzgebirge. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1154": {
+    "osm_type": "N",
+    "osm_id": 251875058,
+    "basis": "Individually reviewed source 'Schrammsteinaussicht', subregion 'SCHRAMMSTEINE', against OSM 'Schrammsteinaussicht' (tourism=viewpoint) at Bad Schandau, Sächsische Schweiz-Osterzgebirge. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1165": {
+    "osm_type": "N",
+    "osm_id": 1162404733,
+    "basis": "Individually reviewed source 'Lichtenhainer Wasserfall', subregion 'KIRNITZSCHTAL', against OSM 'Lichtenhainer Wasserfall' (waterway=waterfall) at Sebnitz, Sächsische Schweiz-Osterzgebirge. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1172": {
+    "osm_type": "N",
+    "osm_id": 6643522169,
+    "basis": "Individually reviewed source 'Königstein', subregion 'TAFELBERGE', against OSM 'Königstein' (natural=peak) at Königstein, Sächsische Schweiz-Osterzgebirge. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1180": {
+    "osm_type": "W",
+    "osm_id": 36973311,
+    "basis": "Individually reviewed source 'Festung Königstein', subregion 'TAFELBERGE', against OSM 'Festung Königstein' (tourism=attraction) at Königstein, Sächsische Schweiz-Osterzgebirge. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1202": {
+    "osm_type": "W",
+    "osm_id": 30651836,
+    "basis": "Individually reviewed source 'Lingnerschloss', subregion 'DRESDEN / ELBSCHLÖSSER', against OSM 'Lingnerschloss' (building=yes) at Dresden, . Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1203": {
+    "osm_type": "W",
+    "osm_id": 23246768,
+    "basis": "Individually reviewed source 'Schloss Albrechtsberg', subregion 'DRESDEN / ELBSCHLÖSSER', against OSM 'Schloss Albrechtsberg' (amenity=events_venue) at Dresden, . Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1208": {
+    "osm_type": "R",
+    "osm_id": 13255313,
+    "basis": "Individually reviewed source 'Burg Stolpen', subregion 'MEISSEN / MORITZBURG', against OSM 'Burg Stolpen' (tourism=attraction) at Stolpen, Sächsische Schweiz-Osterzgebirge. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1210": {
+    "osm_type": "W",
+    "osm_id": 21867983,
+    "basis": "Individually reviewed source 'Schloss Wackerbarth', subregion 'MEISSEN / MORITZBURG', against OSM 'Schloss Wackerbarth' (historic=castle) at Radebeul, Meißen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1211": {
+    "osm_type": "W",
+    "osm_id": 297553212,
+    "basis": "Individually reviewed source 'Schloss Weesenstein', subregion 'MEISSEN / MORITZBURG', against OSM 'Schloss Weesenstein' (tourism=attraction) at Müglitztal, Sächsische Schweiz-Osterzgebirge. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1282": {
+    "osm_type": "N",
+    "osm_id": 912161031,
+    "basis": "Individually reviewed source 'Gaisalphorn', subregion 'OBERSTDORF / NEBELHORN', against OSM 'Gaisalphorn' (natural=peak) at Oberstdorf, Landkreis Oberallgäu. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1289": {
+    "osm_type": "N",
+    "osm_id": 480760326,
+    "basis": "Individually reviewed source 'Kanzelwand', subregion 'FELLHORN / HOCHGRAT', against OSM 'Kanzelwand' (natural=peak) at Oberstdorf, Landkreis Oberallgäu. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1292": {
+    "osm_type": "N",
+    "osm_id": 10779295304,
+    "basis": "Individually reviewed source 'Steineberg', subregion 'FELLHORN / HOCHGRAT', against OSM 'Steineberg' (natural=peak) at Immenstadt im Allgäu, Landkreis Oberallgäu. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1304": {
+    "osm_type": "W",
+    "osm_id": 1218604696,
+    "basis": "Individually reviewed source 'Starzlachklamm', subregion 'ALLGÄU - SCHLUCHTEN / BURGEN', against OSM 'Starzlachklamm' (natural=gorge) at Sonthofen, Landkreis Oberallgäu. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1299": {
+    "osm_type": "N",
+    "osm_id": 2134928460,
+    "basis": "Individually reviewed source 'Burgruine Eisenberg', subregion 'ALLGÄU - SCHLUCHTEN / BURGEN', against OSM 'Burgruine Eisenberg' (tourism=attraction) at Eisenberg, Landkreis Ostallgäu. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1301": {
+    "osm_type": "N",
+    "osm_id": 2134928461,
+    "basis": "Individually reviewed source 'Burgruine Hohenfreyberg', subregion 'ALLGÄU - SCHLUCHTEN / BURGEN', against OSM 'Burgruine Hohenfreyberg' (tourism=attraction) at Eisenberg, Landkreis Ostallgäu. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1311": {
+    "osm_type": "N",
+    "osm_id": 517227749,
+    "basis": "Individually reviewed source 'Branderschrofen', subregion 'AMMERGAUER ALPEN', against OSM 'Branderschrofen' (natural=peak) at Schwangau, Landkreis Ostallgäu. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1314": {
+    "osm_type": "N",
+    "osm_id": 296034076,
+    "basis": "Individually reviewed source 'Kofel', subregion 'AMMERGAUER ALPEN', against OSM 'Kofel' (natural=peak) at Oberammergau, Landkreis Garmisch-Partenkirchen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1324": {
+    "osm_type": "N",
+    "osm_id": 9430935766,
+    "basis": "Individually reviewed source 'Kenzenwasserfall', subregion 'AMMERGAUER ALPEN', against OSM 'Kenzenwasserfall' (waterway=waterfall) at Halblech, Landkreis Ostallgäu. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1329": {
+    "osm_type": "W",
+    "osm_id": 1548196027,
+    "basis": "Individually reviewed source 'Graswangtal', subregion 'LINDERHOF / ETTAL', against OSM 'Graswangtal' (natural=valley) at Ettal, Landkreis Garmisch-Partenkirchen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1326": {
+    "osm_type": "R",
+    "osm_id": 570249,
+    "basis": "Individually reviewed source 'Kloster Ettal', subregion 'LINDERHOF / ETTAL', against OSM 'Kloster Ettal' (amenity=monastery) at Ettal, Landkreis Garmisch-Partenkirchen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1332": {
+    "osm_type": "W",
+    "osm_id": 200283292,
+    "basis": "Individually reviewed source 'Schneeferner', subregion 'ZUGSPITZE', against OSM 'Schneeferner' (natural=glacier) at Garmisch-Partenkirchen, Landkreis Garmisch-Partenkirchen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1335": {
+    "osm_type": "W",
+    "osm_id": 173682244,
+    "basis": "Individually reviewed source 'Reintalangerhütte', subregion 'ZUGSPITZE', against OSM 'Reintalangerhütte' (tourism=alpine_hut) at Garmisch-Partenkirchen, Landkreis Garmisch-Partenkirchen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1337": {
+    "osm_type": "N",
+    "osm_id": 286790301,
+    "basis": "Individually reviewed source 'Bernadeinkopf', subregion 'ALPSPITZE / HÖLLENTAL', against OSM 'Bernadeinkopf' (natural=peak) at Garmisch-Partenkirchen, Landkreis Garmisch-Partenkirchen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1343": {
+    "osm_type": "N",
+    "osm_id": 7546679749,
+    "basis": "Individually reviewed source 'Riffelscharte', subregion 'ALPSPITZE / HÖLLENTAL', against OSM 'Riffelscharte' (mountain_pass=yes) at Grainau, Landkreis Garmisch-Partenkirchen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1340": {
+    "osm_type": "W",
+    "osm_id": 223409147,
+    "basis": "Individually reviewed source 'Höllentalklamm', subregion 'ALPSPITZE / HÖLLENTAL', against OSM 'Höllentalklamm' (natural=gorge) at Grainau, Landkreis Garmisch-Partenkirchen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1349": {
+    "osm_type": "W",
+    "osm_id": 223452455,
+    "basis": "Individually reviewed source 'Partnachklamm', subregion 'PARTNACH / KRAMER / WANK', against OSM 'Partnachklamm' (natural=gorge) at Garmisch-Partenkirchen, Landkreis Garmisch-Partenkirchen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1355": {
+    "osm_type": "N",
+    "osm_id": 259479929,
+    "basis": "Individually reviewed source 'Burgruine Werdenfels', subregion 'GARMISCH - KLAMMEN / KULTUR', against OSM 'Burgruine Werdenfels' (historic=castle) at Garmisch-Partenkirchen, Landkreis Garmisch-Partenkirchen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1356": {
+    "osm_type": "W",
+    "osm_id": 36538401,
+    "basis": "Individually reviewed source 'Königshaus am Schachen', subregion 'GARMISCH - KLAMMEN / KULTUR', against OSM 'Königshaus am Schachen' (building=yes) at Garmisch-Partenkirchen, Landkreis Garmisch-Partenkirchen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1366": {
+    "osm_type": "R",
+    "osm_id": 2557199,
+    "basis": "Individually reviewed source 'Lautersee', subregion 'KARWENDEL', against OSM 'Lautersee' (natural=water) at Mittenwald, Landkreis Garmisch-Partenkirchen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1382": {
+    "osm_type": "N",
+    "osm_id": 1841764370,
+    "basis": "Individually reviewed source 'Jochberg', subregion 'WALCHENSEE', against OSM 'Jochberg' (natural=peak) at Kochel am See, Landkreis Bad Tölz-Wolfratshausen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1381": {
+    "osm_type": "N",
+    "osm_id": 264778079,
+    "basis": "Individually reviewed source 'Hirschhörnlkopf', subregion 'WALCHENSEE', against OSM 'Hirschhörnlkopf' (natural=peak) at Jachenau, Landkreis Bad Tölz-Wolfratshausen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1390": {
+    "osm_type": "N",
+    "osm_id": 5594875706,
+    "basis": "Individually reviewed source 'Neureuth', subregion 'TEGERNSEE', against OSM 'Neureuth' (natural=peak) at Tegernsee, Landkreis Miesbach. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1399": {
+    "osm_type": "N",
+    "osm_id": 26864487,
+    "basis": "Individually reviewed source 'Rotwand', subregion 'WENDELSTEIN', against OSM 'Rotwand' (natural=peak) at Bayrischzell, Landkreis Miesbach. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1402": {
+    "osm_type": "N",
+    "osm_id": 291624383,
+    "basis": "Individually reviewed source 'Wendelsteinhöhle', subregion 'WENDELSTEIN', against OSM 'Wendelsteinhöhle' (natural=cave_entrance) at Brannenburg, Landkreis Rosenheim. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1403": {
+    "osm_type": "N",
+    "osm_id": 3081936014,
+    "basis": "Individually reviewed source 'Josefsthaler Wasserfälle', subregion 'TEGERNSEE / SCHLIERSEE - NATUR', against OSM 'Josefsthaler Wasserfälle' (waterway=waterfall) at Schliersee, Landkreis Miesbach. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1407": {
+    "osm_type": "W",
+    "osm_id": 105215029,
+    "basis": "Individually reviewed source 'Schloss Tegernsee', subregion 'TEGERNSEE / SCHLIERSEE - NATUR', against OSM 'Schloss Tegernsee' (building=yes) at Tegernsee, Landkreis Miesbach. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1416": {
+    "osm_type": "N",
+    "osm_id": 521724724,
+    "basis": "Individually reviewed source 'Rauschberg', subregion 'CHIEMGAUER ALPEN', against OSM 'Rauschberg' (natural=peak) at Ruhpolding, Landkreis Traunstein. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1418": {
+    "osm_type": "N",
+    "osm_id": 269413201,
+    "basis": "Individually reviewed source 'Spitzstein', subregion 'CHIEMGAUER ALPEN', against OSM 'Spitzstein' (natural=peak) at Aschau im Chiemgau, Landkreis Rosenheim. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1423": {
+    "osm_type": "W",
+    "osm_id": 26204302,
+    "basis": "Individually reviewed source 'Schloss Amerang', subregion 'CHIEMSEE / BURGEN / SCHLÖSSER', against OSM 'Schloss Amerang' (amenity=arts_centre) at Amerang, Landkreis Rosenheim. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1430": {
+    "osm_type": "N",
+    "osm_id": 476369741,
+    "basis": "Individually reviewed source 'Röthbachfall', subregion 'KÖNIGSSEE / JENNER', against OSM 'Röthbachfall' (waterway=waterfall) at Schönau am Königssee, Landkreis Berchtesgadener Land. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1439": {
+    "osm_type": "W",
+    "osm_id": 211738951,
+    "basis": "Individually reviewed source 'Watzmannkar', subregion 'WATZMANN', against OSM 'Watzmannkar' (natural=scree) at Ramsau bei Berchtesgaden, Landkreis Berchtesgadener Land. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1440": {
+    "osm_type": "W",
+    "osm_id": 1435198912,
+    "basis": "Individually reviewed source 'Watzmannhaus', subregion 'WATZMANN', against OSM 'Watzmannhaus' (tourism=alpine_hut) at Ramsau bei Berchtesgaden, Landkreis Berchtesgadener Land. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1441": {
+    "osm_type": "N",
+    "osm_id": 26863176,
+    "basis": "Individually reviewed source 'Hochkalter', subregion 'HOCHKALTER', against OSM 'Hochkalter' (natural=peak) at Ramsau bei Berchtesgaden, Landkreis Berchtesgadener Land. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1449": {
+    "osm_type": "N",
+    "osm_id": 5079866695,
+    "basis": "Individually reviewed source 'Hohes Brett', subregion 'HOHER GÖLL / UNTERSBERG', against OSM 'Hohes Brett' (natural=peak) at Schönau am Königssee, Landkreis Berchtesgadener Land. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1450": {
+    "osm_type": "N",
+    "osm_id": 4383662721,
+    "basis": "Individually reviewed source 'Schellenberger Eishöhle', subregion 'HOHER GÖLL / UNTERSBERG', against OSM 'Schellenberger Eishöhle' (natural=cave_entrance) at Schellenberger Forst, Landkreis Berchtesgadener Land. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1452": {
+    "osm_type": "N",
+    "osm_id": 254546886,
+    "basis": "Individually reviewed source 'Purtschellerhaus', subregion 'HOHER GÖLL / UNTERSBERG', against OSM 'Purtschellerhaus' (tourism=alpine_hut) at Berchtesgaden, Landkreis Berchtesgadener Land. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1453": {
+    "osm_type": "W",
+    "osm_id": 150204245,
+    "basis": "Individually reviewed source 'Stöhrhaus', subregion 'HOHER GÖLL / UNTERSBERG', against OSM 'Stöhrhaus' (tourism=alpine_hut) at Schellenberger Forst, Landkreis Berchtesgadener Land. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1466": {
+    "osm_type": "W",
+    "osm_id": 1436123256,
+    "basis": "Individually reviewed source 'Almbachklamm', subregion 'KÖNIGSSEE / RAMSAU - NATUR', against OSM 'Almbachklamm' (natural=gorge) at Marktschellenberg, Landkreis Berchtesgadener Land. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1471": {
+    "osm_type": "W",
+    "osm_id": 1299233233,
+    "basis": "Individually reviewed source 'Dokumentation Obersalzberg', subregion 'OBERSALZBERG / UNTERSBERG', against OSM 'Dokumentation Obersalzberg' (tourism=museum) at Berchtesgaden, Landkreis Berchtesgadener Land. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1473": {
+    "osm_type": "R",
+    "osm_id": 20044120,
+    "basis": "Individually reviewed source 'Königliches Schloss Berchtesgaden', subregion 'OBERSALZBERG / UNTERSBERG', against OSM 'Königliches Schloss Berchtesgaden' (building=yes) at Berchtesgaden, Landkreis Berchtesgadener Land. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1477": {
+    "osm_type": "R",
+    "osm_id": 1015071,
+    "basis": "Individually reviewed source 'Burg Eisenhardt', subregion 'HOHER FLÄMING - BURGEN', against OSM 'Burg Eisenhardt' (building=yes) at Bad Belzig, Potsdam-Mittelmark. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1479": {
+    "osm_type": "W",
+    "osm_id": 88434136,
+    "basis": "Individually reviewed source 'Schloss Wiesenburg', subregion 'HOHER FLÄMING - BURGEN', against OSM 'Schloss Wiesenburg' (building=yes) at Wiesenburg/Mark, Potsdam-Mittelmark. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1489": {
+    "osm_type": "W",
+    "osm_id": 22960067,
+    "basis": "Individually reviewed source 'Schloss Babelsberg', subregion 'POTSDAM - SCHLÖSSERLANDSCHAFT', against OSM 'Schloss Babelsberg' (tourism=attraction) at Potsdam, . Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1490": {
+    "osm_type": "R",
+    "osm_id": 7661,
+    "basis": "Individually reviewed source 'Schloss Cecilienhof', subregion 'POTSDAM - SCHLÖSSERLANDSCHAFT', against OSM 'Schloss Cecilienhof' (historic=castle) at Potsdam, . Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1504": {
+    "osm_type": "R",
+    "osm_id": 2243493,
+    "basis": "Individually reviewed source 'Müritz-Nationalpark', subregion 'MÜRITZ / SERRAHN', against OSM 'Müritz-Nationalpark' (boundary=national_park) at , Mecklenburgische Seenplatte. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1502": {
+    "osm_type": "W",
+    "osm_id": 49930654,
+    "basis": "Individually reviewed source 'Schloss Mirow', subregion 'MÜRITZ / SERRAHN', against OSM 'Schloss Mirow' (building=yes) at Mirow, Mecklenburgische Seenplatte. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1513": {
+    "osm_type": "W",
+    "osm_id": 10152253,
+    "basis": "Individually reviewed source 'Herthasee', subregion 'JASMUND / KREIDEKÜSTE', against OSM 'Herthasee' (natural=water) at Sassnitz, Vorpommern-Rügen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1517": {
+    "osm_type": "N",
+    "osm_id": 290908852,
+    "basis": "Individually reviewed source 'Victoria-Sicht', subregion 'JASMUND / KREIDEKÜSTE', against OSM 'Victoria-Sicht' (tourism=viewpoint) at Sassnitz, Vorpommern-Rügen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1529": {
+    "osm_type": "W",
+    "osm_id": 87534169,
+    "basis": "Individually reviewed source 'Leuchtturm Westerheversand', subregion 'NORDSEE - SYLT / AMRUM / HELGOLAND', against OSM 'Leuchtturm Westerheversand' (man_made=lighthouse) at Westerhever, Nordfriesland. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-ADD-0004": {
+    "osm_type": "N",
+    "osm_id": 6573015175,
+    "basis": "Individually reviewed source 'Gibasów Wierch', subregion 'None', against OSM 'Gibasów Wierch' (natural=peak) at Ślemień, powiat żywiecki. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-ADD-0018": {
+    "osm_type": "W",
+    "osm_id": 983553839,
+    "basis": "Individually reviewed source 'Wieża widokowa na Eliaszówce', subregion 'None', against OSM 'Wieża widokowa na Eliaszówce' (tourism=viewpoint) at Piwniczna-Zdrój, powiat nowosądecki. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-ADD-0019": {
+    "osm_type": "N",
+    "osm_id": 4084576150,
+    "basis": "Individually reviewed source 'Wieża widokowa na Radziejowej', subregion 'None', against OSM 'Wieża widokowa na Radziejowej' (man_made=tower) at Piwniczna-Zdrój, powiat nowosądecki. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-ADD-0026": {
+    "osm_type": "N",
+    "osm_id": 4214971188,
+    "basis": "Individually reviewed source 'Przełęcz Karkoszczonka', subregion 'None', against OSM 'Przełęcz Karkoszczonka' (natural=saddle) at Szczyrk, powiat bielski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-ADD-0029": {
+    "osm_type": "N",
+    "osm_id": 5249901736,
+    "basis": "Individually reviewed source 'Trzy Kopce Wiślańskie', subregion 'None', against OSM 'Trzy Kopce Wiślańskie' (natural=peak) at Wisła, powiat cieszyński. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-ADD-0031": {
+    "osm_type": "R",
+    "osm_id": 13997250,
+    "basis": "Individually reviewed source 'Hala Cudzichowa', subregion 'None', against OSM 'Hala Cudzichowa' (landuse=meadow) at Sopotnia Wielka, powiat żywiecki. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-ADD-0034": {
+    "osm_type": "W",
+    "osm_id": 176911460,
+    "basis": "Individually reviewed source 'Hala Redykalna', subregion 'None', against OSM 'Hala Redykalna' (landuse=meadow) at Złatna, powiat żywiecki. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-ADD-0035": {
+    "osm_type": "W",
+    "osm_id": 103322093,
+    "basis": "Individually reviewed source 'Hala na Małej Raczy', subregion 'None', against OSM 'Hala na Małej Raczy' (landuse=meadow) at Rycerka Górna, powiat żywiecki. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-ADD-0041": {
+    "osm_type": "N",
+    "osm_id": 477984583,
+    "basis": "Individually reviewed source 'Przełęcz Jałowiecka Północna', subregion 'None', against OSM 'Przełęcz Jałowiecka Północna' (natural=saddle) at Zawoja, powiat suski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-ADD-0042": {
+    "osm_type": "N",
+    "osm_id": 304270783,
+    "basis": "Individually reviewed source 'Przełęcz Klekociny', subregion 'None', against OSM 'Przełęcz Klekociny' (natural=saddle) at Zawoja, powiat suski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-ADD-0044": {
+    "osm_type": "W",
+    "osm_id": 202202494,
+    "basis": "Individually reviewed source 'Rezerwat Śrubita', subregion 'None', against OSM 'Rezerwat Śrubita' (leisure=nature_reserve) at Rycerka Górna, powiat żywiecki. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-ADD-0057": {
+    "osm_type": "N",
+    "osm_id": 270967083,
+    "basis": "Individually reviewed source 'Przełęcz Wyżna', subregion 'None', against OSM 'Przełęcz Wyżna' (natural=saddle) at Brzegi Górne, powiat bieszczadzki. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-ADD-0072": {
+    "osm_type": "N",
+    "osm_id": 4174225492,
+    "basis": "Individually reviewed source 'Wieża widokowa na Magurkach', subregion 'None', against OSM 'Wieża widokowa na Magurkach' (tourism=viewpoint) at Ochotnica Górna, powiat nowotarski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-ADD-0093": {
+    "osm_type": "N",
+    "osm_id": 1261079000,
+    "basis": "Individually reviewed source 'Wzgórze Kołoczek', subregion 'None', against OSM 'Wzgórze Kołoczek' (natural=peak) at Podlesice, powiat zawierciański. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-ADD-0109": {
+    "osm_type": "N",
+    "osm_id": 2059627289,
+    "basis": "Individually reviewed source 'Przełęcz Karkonoska', subregion 'None', against OSM 'Przełęcz Karkonoska' (natural=saddle) at gmina Podgórzyn, powiat karkonoski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-ADD-0126": {
+    "osm_type": "N",
+    "osm_id": 3725887847,
+    "basis": "Individually reviewed source 'Bryjarka', subregion 'None', against OSM 'Bryjarka' (natural=peak) at Szczawnica, powiat nowotarski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-ADD-0136": {
+    "osm_type": "N",
+    "osm_id": 420321916,
+    "basis": "Individually reviewed source 'Przełęcz Karpnicka', subregion 'None', against OSM 'Przełęcz Karpnicka' (mountain_pass=yes) at Karpniki, powiat karkonoski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-ADD-0144": {
+    "osm_type": "N",
+    "osm_id": 460928364,
+    "basis": "Individually reviewed source 'Kozia Przełęcz Wyżnia', subregion 'None', against OSM 'Kozia Przełęcz Wyżnia' (natural=saddle) at Brzegi, powiat tatrzański. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-ADD-0146": {
+    "osm_type": "N",
+    "osm_id": 3344854169,
+    "basis": "Individually reviewed source 'Wrota Chałubińskiego', subregion 'None', against OSM 'Vráta Chałubińského / Wrota Chałubińskiego' (mountain_pass=yes) at Brzegi, powiat tatrzański. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-ADD-0149": {
+    "osm_type": "N",
+    "osm_id": 1125062544,
+    "basis": "Individually reviewed source 'Iwaniacka Przełęcz', subregion 'None', against OSM 'Iwaniacka Przełęcz' (natural=saddle) at Kościelisko, powiat tatrzański. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-ADD-0150": {
+    "osm_type": "N",
+    "osm_id": 1295341386,
+    "basis": "Individually reviewed source 'Kondracka Przełęcz', subregion 'None', against OSM 'Kondracka Przełęcz' (natural=saddle) at Zakopane, powiat tatrzański. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-ADD-0003": {
+    "osm_type": "N",
+    "osm_id": 1506831958,
+    "basis": "Individually reviewed source 'Oberjochpass', subregion 'None', against OSM 'Oberjochpass' (mountain_pass=yes) at Bad Hindelang, Landkreis Oberallgäu. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-ADD-0004": {
+    "osm_type": "N",
+    "osm_id": 147951297,
+    "basis": "Individually reviewed source 'Riedbergpass', subregion 'None', against OSM 'Riedbergpass' (mountain_pass=yes) at Bolsterlang, Landkreis Oberallgäu. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-ADD-0011": {
+    "osm_type": "N",
+    "osm_id": 285971638,
+    "basis": "Individually reviewed source 'Fiderepass', subregion 'None', against OSM 'Fiderepass' (mountain_pass=yes) at Oberstdorf, Landkreis Oberallgäu. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-ADD-0014": {
+    "osm_type": "N",
+    "osm_id": 204933637,
+    "basis": "Individually reviewed source 'Ursprungpass', subregion 'None', against OSM 'Ursprungpass' (mountain_pass=yes) at Bayrischzell, Landkreis Miesbach. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-ADD-0017": {
+    "osm_type": "N",
+    "osm_id": 14390072,
+    "basis": "Individually reviewed source 'Spitzingsattel', subregion 'None', against OSM 'Spitzingsattel' (mountain_pass=yes) at Schliersee, Landkreis Miesbach. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-ADD-0018": {
+    "osm_type": "N",
+    "osm_id": 341332662,
+    "basis": "Individually reviewed source 'Sudelfeldpass', subregion 'None', against OSM 'Sudelfeldpass' (mountain_pass=yes) at Bayrischzell, Landkreis Miesbach. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-ADD-0019": {
+    "osm_type": "N",
+    "osm_id": 36758943,
+    "basis": "Individually reviewed source 'Achenpass', subregion 'None', against OSM 'Achenpass' (mountain_pass=yes) at Kreuth, Landkreis Miesbach. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-ADD-0021": {
+    "osm_type": "N",
+    "osm_id": 572492198,
+    "basis": "Individually reviewed source 'Kesselberg', subregion 'None', against OSM 'Kesselberg' (mountain_pass=yes) at Kochel am See, Landkreis Bad Tölz-Wolfratshausen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-ADD-0031": {
+    "osm_type": "N",
+    "osm_id": 1059532546,
+    "basis": "Individually reviewed source 'Eckersattel', subregion 'None', against OSM 'Eckersattel' (natural=saddle) at Eck, Landkreis Berchtesgadener Land. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-ADD-0065": {
+    "osm_type": "N",
+    "osm_id": 1980765763,
+    "basis": "Individually reviewed source 'Ottofelsen', subregion 'None', against OSM 'Ottofelsen' (tourism=viewpoint) at Wernigerode, Landkreis Harz. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0894": {
+    "osm_type": "N",
+    "osm_id": 11079577615,
+    "basis": "Individually reviewed source 'Kamienna Góra', subregion 'GDYNIA', against OSM 'Kamienna Góra' (natural=peak) at Gdynia, . Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-ADD-0077": {
+    "osm_type": "N",
+    "osm_id": 1673688550,
+    "basis": "Individually reviewed source 'Alexanderschanze', subregion 'None', against OSM 'Alexanderschanze' (mountain_pass=yes) at Freudenstadt, Landkreis Freudenstadt. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-ADD-0081": {
+    "osm_type": "N",
+    "osm_id": 305472673,
+    "basis": "Individually reviewed source 'Edelfrauengrab-Wasserfälle', subregion 'None', against OSM 'Edelfrauengrab-Wasserfälle' (waterway=waterfall) at Ottenhöfen, Ortenaukreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-ADD-0097": {
+    "osm_type": "N",
+    "osm_id": 286154926,
+    "basis": "Individually reviewed source 'Kipphornaussicht', subregion 'None', against OSM 'Kipphornaussicht' (tourism=viewpoint) at Bad Schandau, Sächsische Schweiz-Osterzgebirge. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-ADD-0104": {
+    "osm_type": "N",
+    "osm_id": 1628008667,
+    "basis": "Individually reviewed source 'Notschrei', subregion 'None', against OSM 'Notschrei' (mountain_pass=yes) at Todtnau, Landkreis Lörrach. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-ADD-0105": {
+    "osm_type": "N",
+    "osm_id": 267082755,
+    "basis": "Individually reviewed source 'Wiedener Eck', subregion 'None', against OSM 'Wiedener Eck' (mountain_pass=yes) at Wieden, Landkreis Lörrach. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-ADD-0114": {
+    "osm_type": "N",
+    "osm_id": 283065713,
+    "basis": "Individually reviewed source 'Grießkarscharte', subregion 'None', against OSM 'Grießkarscharte' (mountain_pass=yes) at Garmisch-Partenkirchen, Landkreis Garmisch-Partenkirchen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0045": {
+    "osm_type": "W",
+    "osm_id": 171897172,
+    "basis": "Source monastery and palace at Rudy matches museum building in Rudy; representative building point.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0050": {
+    "osm_type": "W",
+    "osm_id": 88383304,
+    "basis": "Source historic silver mine at Tarnowskie Gory matches attraction site; UNESCO suffix is descriptive. Representative site point, not a designated entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0135": {
+    "osm_type": "W",
+    "osm_id": 219811004,
+    "basis": "Source Mirow/Bobolice agrees with Zamek w Mirowie attraction at Mirow; Ksiaz Wielki homonym rejected.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0137": {
+    "osm_type": "N",
+    "osm_id": 12918591283,
+    "basis": "Source Straznica Ryczow matches historic castle named Straznica in Ryczow.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0138": {
+    "osm_type": "R",
+    "osm_id": 19421397,
+    "basis": "Source Zamek Bydlin matches Zamek Rycerski w Bydlinie building at Bydlin; representative building point.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0465": {
+    "osm_type": "W",
+    "osm_id": 333017468,
+    "basis": "OSM cliff near Oberursel matches source Hochtaunus; official tourism confirms the quartzite field at Oberursel: https://www.taunus.info/poi/weisse-mauer . GeoNames candidate 30 km away is a different object.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1028": {
+    "osm_type": "W",
+    "osm_id": 228433793,
+    "basis": "Source Nordschwarzwald castle matches Burg Windeck above Buehl, confirmed by https://www.burg-windeck.de/de/heimat/ . GeoNames Weinheim castle is a homonym.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0149": {
+    "osm_type": "W",
+    "osm_id": 677519003,
+    "basis": "Biaklo bare-rock polygon at Olsztyn matches source rock formation; overlapping cliff and peak features describe same local outcrop. Representative area point.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0154": {
+    "osm_type": "N",
+    "osm_id": 1589520343,
+    "basis": "Jaskinia Towarna (Niedzwiedzia) cave entrance at Olsztyn matches source Jaskinia Towarna in Gory Towarne.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0153": {
+    "osm_type": "W",
+    "osm_id": 166980912,
+    "basis": "Castle attraction in Olsztyn, Silesian Voivodeship matches source Olsztyn/Sokole Gory; not Olsztynek castle.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0161": {
+    "osm_type": "R",
+    "osm_id": 2993332,
+    "basis": "Named natural sand area matches Pustynia Bledowska near Klucze/Chechlo; use representative area point, not nearby information boards.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0168": {
+    "osm_type": "W",
+    "osm_id": 297961564,
+    "basis": "Zamek w Smoleniu attraction matches source Zamek Pilcza w Smoleniu. Representative area point.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0169": {
+    "osm_type": "W",
+    "osm_id": 582905867,
+    "basis": "Named bare-rock polygon in Krzyze near Zloty Potok agrees with source Brama Twardowskiego; overlapping stone node represents same outcrop.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0170": {
+    "osm_type": "W",
+    "osm_id": 1303445253,
+    "basis": "Named bare-rock polygon at Krzyze near Zloty Potok matches source Diabelskie Mosty; representative formation point.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0187": {
+    "osm_type": "W",
+    "osm_id": 228793723,
+    "basis": "Source church of Saint Leonard by Lipnica Murowana matches Saint Leonard church in adjoining Lipnica Dolna, not Saint Simon church.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0231": {
+    "osm_type": "W",
+    "osm_id": 166829014,
+    "basis": "Source Czorsztyn castle matches named castle ruins building in Czorsztyn. Museum node is another representation of same site.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0232": {
+    "osm_type": "W",
+    "osm_id": 166829010,
+    "basis": "Zamek Niedzica is the Dunajec castle in Niedzica; named historic castle footprint matches source locality.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0244": {
+    "osm_type": "N",
+    "osm_id": 441565942,
+    "basis": "Sokolica summit at Kroscienko in source Pieniny matches this peak, not Babia Gora or Jura homonyms.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0241": {
+    "osm_type": "N",
+    "osm_id": 8525920872,
+    "basis": "Czertezik peak at Kroscienko matches source Pieniny; Czertez is a distinct nearby summit.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0242": {
+    "osm_type": "N",
+    "osm_id": 9506689786,
+    "basis": "Czertez peak at Kroscienko matches source Pieniny; other same-name peaks near Izby/Labowiec are outside the source massif.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0268": {
+    "osm_type": "N",
+    "osm_id": 2302916813,
+    "basis": "Bilingual Volovec/Wolowiec is the Tatra border summit in source. OSM assigns Slovakia; catalog membership Poland is preserved separately.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0263": {
+    "osm_type": "N",
+    "osm_id": 3560920780,
+    "basis": "Bilingual Jarzabczy Wierch/Hruby vrch Tatra border summit matches source; Slovak location country is retained.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0266": {
+    "osm_type": "N",
+    "osm_id": 1294543835,
+    "basis": "Bilingual Klin/Starorobocianski Wierch Tatra border peak matches source; guidepost is not selected.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0271": {
+    "osm_type": "N",
+    "osm_id": 496805357,
+    "basis": "Bilingual Ciemniak/Temniak peak in Koscielisko matches source Czerwone Wierchy, not same-name peaks in Piechowice or Sidzina.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0335": {
+    "osm_type": "N",
+    "osm_id": 1294577914,
+    "basis": "Source Jaskinia Mylna in Koscieliska valley matches expressly labelled entrance, not separately mapped exit.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0192": {
+    "osm_type": "R",
+    "osm_id": 4266176,
+    "basis": "Individually reviewed source 'Jezioro Czchowskie', subregion 'ZAMKI NAD DUNAJCEM', against OSM 'Jezioro Czchowskie' (water=reservoir) at Tropie, Nowy Sącz County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0238": {
+    "osm_type": "W",
+    "osm_id": 518889312,
+    "basis": "Individually reviewed source 'Wawoz Homole', subregion 'MAŁE PIENINY - HOMOLE', against OSM 'Wąwóz Homole' (natural=valley) at Jaworki, powiat nowotarski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0282": {
+    "osm_type": "W",
+    "osm_id": 171648212,
+    "basis": "Individually reviewed source 'Smreczynski Staw', subregion 'DOLINA KOŚCIELISKA', against OSM 'Smreczyński Staw' (water=lake) at Kościelisko, Tatra County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0281": {
+    "osm_type": "W",
+    "osm_id": 1169289053,
+    "basis": "Individually reviewed source 'Wawoz Krakow', subregion 'DOLINA KOŚCIELISKA', against OSM 'Wąwóz Kraków' (natural=valley) at Kościelisko, powiat tatrzański. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0286": {
+    "osm_type": "W",
+    "osm_id": 29239574,
+    "basis": "Individually reviewed source 'Czarny Staw Polski', subregion 'DOLINA PIĘCIU STAWÓW - SZPIGLAS', against OSM 'Czarny Staw Polski' (water=lake) at Brzegi, Tatra County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0287": {
+    "osm_type": "W",
+    "osm_id": 29239542,
+    "basis": "Individually reviewed source 'Przedni Staw Polski', subregion 'DOLINA PIĘCIU STAWÓW - SZPIGLAS', against OSM 'Przedni Staw Polski' (water=lake) at Brzegi, Tatra County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0289": {
+    "osm_type": "W",
+    "osm_id": 29239554,
+    "basis": "Individually reviewed source 'Wielki Staw Polski', subregion 'DOLINA PIĘCIU STAWÓW - SZPIGLAS', against OSM 'Wielki Staw Polski' (water=lake) at Brzegi, Tatra County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0300": {
+    "osm_type": "R",
+    "osm_id": 8626083,
+    "basis": "Individually reviewed source 'Czarny Staw Gąsienicowy', subregion 'HALA GĄSIENICOWA - KOŚCIELEC', against OSM 'Czarny Staw Gąsienicowy' (water=lake) at Zakopane, Tatra County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0301": {
+    "osm_type": "R",
+    "osm_id": 9968121,
+    "basis": "Individually reviewed source 'Kurtkowiec', subregion 'HALA GĄSIENICOWA - KOŚCIELEC', against OSM 'Kurtkowiec' (water=lake) at Zakopane, Tatra County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0302": {
+    "osm_type": "W",
+    "osm_id": 95951672,
+    "basis": "Individually reviewed source 'Zielony Staw Gąsienicowy', subregion 'HALA GĄSIENICOWA - KOŚCIELEC', against OSM 'Zielony Staw Gąsienicowy' (water=lake) at Zakopane, Tatra County. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0540": {
+    "osm_type": "W",
+    "osm_id": 26715296,
+    "basis": "Individually reviewed source 'Mały Staw', subregion 'KARPACZ - ŚNIEŻKA', against OSM 'Mały Staw' (water=lake) at Karpacz, powiat karkonoski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0680": {
+    "osm_type": "R",
+    "osm_id": 77239,
+    "basis": "Individually reviewed source 'Zalew Sulejowski', subregion 'SULEJÓW / TOMASZÓW MAZOWIECKI', against OSM 'Zalew Sulejowski' (water=reservoir) at Bronisławów, powiat piotrkowski. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0757": {
+    "osm_type": "W",
+    "osm_id": 179937620,
+    "basis": "Individually reviewed source 'Jezioro Kociołek', subregion 'WIELKOPOLSKI PARK NARODOWY', against OSM 'Jezioro Kociołek' (water=lake) at Jeziory, powiat poznański. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0975": {
+    "osm_type": "W",
+    "osm_id": 395163951,
+    "basis": "Individually reviewed source 'Jezioro Turkusowe', subregion 'WOLIŃSKI PARK NARODOWY', against OSM 'Jezioro Turkusowe' (water=lake) at Wapnica, powiat kamieński. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0016": {
+    "osm_type": "R",
+    "osm_id": 5995943,
+    "basis": "Individually reviewed source 'Grosse Dhünntalsperre', subregion 'BERGISCHES LAND - DHÜNN / AGGER', against OSM 'Große Dhünntalsperre' (water=reservoir) at Wermelskirchen, Rheinisch-Bergischer Kreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0021": {
+    "osm_type": "R",
+    "osm_id": 2378435,
+    "basis": "Individually reviewed source 'Wiehltalsperre', subregion 'BERGISCHES LAND - DHÜNN / AGGER', against OSM 'Wiehltalsperre' (water=reservoir) at Reichshof, Oberbergischer Kreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0026": {
+    "osm_type": "W",
+    "osm_id": 25837029,
+    "basis": "Individually reviewed source 'Eschbachtalsperre', subregion 'BERGISCHES LAND - WUPPER', against OSM 'Eschbachtalsperre' (water=reservoir) at Remscheid, . Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0027": {
+    "osm_type": "W",
+    "osm_id": 154977146,
+    "basis": "Individually reviewed source 'Ronsdorfer Talsperre', subregion 'BERGISCHES LAND - WUPPER', against OSM 'Ronsdorfer Talsperre' (water=reservoir) at Wuppertal, . Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0085": {
+    "osm_type": "R",
+    "osm_id": 65512,
+    "basis": "Individually reviewed source 'Rursee', subregion 'NATIONALPARK EIFEL - RURSEE', against OSM 'Rursee' (water=reservoir) at Simmerath, Städteregion Aachen. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0190": {
+    "osm_type": "W",
+    "osm_id": 28656301,
+    "basis": "Individually reviewed source 'Listertalsperre', subregion 'BIGGE / HOMERT', against OSM 'Listertalsperre' (water=reservoir) at Attendorn, Kreis Olpe. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0626": {
+    "osm_type": "R",
+    "osm_id": 1791385,
+    "basis": "Individually reviewed source 'Edersee', subregion 'EDERSEE / KELLERWALD', against OSM 'Edersee' (water=reservoir) at Hemfurth-Edersee, Waldeck-Frankenberg. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0658": {
+    "osm_type": "W",
+    "osm_id": 42422214,
+    "basis": "Individually reviewed source 'Guckaisee', subregion 'WASSERKUPPE / KREUZBERG', against OSM 'Guckaisee' (water=lake) at Poppenhausen (Wasserkuppe), Landkreis Fulda. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0784": {
+    "osm_type": "W",
+    "osm_id": 896062955,
+    "basis": "Individually reviewed source 'Oderteich', subregion 'HOCHHARZ', against OSM 'Oderteich' (water=reservoir) at Harz (LK Goslar), Landkreis Goslar. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0865": {
+    "osm_type": "W",
+    "osm_id": 118761307,
+    "basis": "Individually reviewed source 'Hohenwarte-Stausee', subregion 'JENA / SAALETAL', against OSM 'Hohenwarte-Stausee' (water=reservoir) at Wilhelmsdorf, Saale-Orla-Kreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0901": {
+    "osm_type": "R",
+    "osm_id": 333905,
+    "basis": "Individually reviewed source 'Fichtelsee', subregion 'FICHTELGEBIRGE - FELSEN / BURGEN', against OSM 'Fichtelsee' (water=lake) at Fichtelberg, Landkreis Bayreuth. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1057": {
+    "osm_type": "W",
+    "osm_id": 180674237,
+    "basis": "Individually reviewed source 'Feldsee', subregion 'FELDBERG', against OSM 'Feldsee' (water=lake) at Feldberg (Schwarzwald), Breisgau-Hochschwarzwald. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1068": {
+    "osm_type": "W",
+    "osm_id": 1421307587,
+    "basis": "Individually reviewed source 'Windgfällweiher', subregion 'SCHLUCHTEN / HERAUSFORDERUNGEN', against OSM 'Windgfällweiher' (water=lake) at Lenzkirch, Breisgau-Hochschwarzwald. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1115": {
+    "osm_type": "W",
+    "osm_id": 319709247,
+    "basis": "Individually reviewed source 'Greifenbachstauweiher', subregion 'ERZGEBIRGE', against OSM 'Greifenbachstauweiher' (water=pond) at Geyer, Erzgebirgskreis. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1245": {
+    "osm_type": "W",
+    "osm_id": 28972038,
+    "basis": "Individually reviewed source 'Kleiner Arbersee', subregion 'GROSSER ARBER', against OSM 'Kleiner Arbersee' (water=lake) at Lohberg, Landkreis Cham. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1294": {
+    "osm_type": "W",
+    "osm_id": 27851840,
+    "basis": "Individually reviewed source 'Schlappoldsee', subregion 'FELLHORN / HOCHGRAT', against OSM 'Schlappoldsee' (water=lake) at Oberstdorf, Landkreis Oberallgäu. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-1404": {
+    "osm_type": "R",
+    "osm_id": 165327,
+    "basis": "Individually reviewed source 'Tegernsee', subregion 'TEGERNSEE / SCHLIERSEE - NATUR', against OSM 'Tegernsee' (water=lake) at Tegernsee, Landkreis Miesbach. Feature and local geographical context agree. Area point is representative, not an entrance.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0312": {
+    "osm_type": "N",
+    "osm_id": 3504629415,
+    "basis": "Bilingual Swinicka Przelecz/Svinicke sedlo is the pass between Kasprowy and Swinica in source; Slovak country retained separately.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0318": {
+    "osm_type": "N",
+    "osm_id": 615589481,
+    "basis": "Bilingual Mengusovske sedlo / Mieguszowiecka Przelecz pod Chlopkiem matches source pass; source Chlopki is a truncated spelling.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0333": {
+    "osm_type": "W",
+    "osm_id": 303740443,
+    "basis": "Named PTTK mountain hut on Polana Chocholowska matches source shelter.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0343": {
+    "osm_type": "W",
+    "osm_id": 250746663,
+    "basis": "Named PTTK hut in Dolina Pieciu Stawow Polskich matches source shelter.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0356": {
+    "osm_type": "W",
+    "osm_id": 174899239,
+    "basis": "Named cemetery at Peksowy Brzyzek in Zakopane matches source historic cemetery; representative area point.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0357": {
+    "osm_type": "W",
+    "osm_id": 296776899,
+    "basis": "Named chapel of Sacred Heart in Jaszczurowka, Zakopane matches source chapel.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0359": {
+    "osm_type": "W",
+    "osm_id": 95108535,
+    "basis": "Wielka Krokiew stadium named after Stanislaw Marusarz is source ski jump complex, not its chairlift or guesthouses.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0366": {
+    "osm_type": "N",
+    "osm_id": 2418877544,
+    "basis": "Bilingual Orlica/Vrchmezi peak near Zieleniec matches source border summit; Czech location country retained separately.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0383": {
+    "osm_type": "N",
+    "osm_id": 3120852162,
+    "basis": "Stara Kopalnia Uranu w Kletnie museum matches source uranium mine near Kletno/Janowa Gora.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0391": {
+    "osm_type": "R",
+    "osm_id": 15353774,
+    "basis": "Named Althann castle building in Miedzylesie matches source Zamek Miedzylesie.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0393": {
+    "osm_type": "W",
+    "osm_id": 715688112,
+    "basis": "Named gold mine museum in Zloty Stok matches source; overlapping theme-park object represents same site.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-0397": {
+    "osm_type": "N",
+    "osm_id": 1997912824,
+    "basis": "Ostra Gora peak at Laskowka matches source Bardo/Klodzka Gora subregion; Pasterka is in a different massif.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-ADD-0005": {
+    "osm_type": "N",
+    "osm_id": 259315971,
+    "basis": "Named Schrofenpass mountain pass on the Allgaeu border matches source; Austrian physical location retained separately.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-ADD-0006": {
+    "osm_type": "N",
+    "osm_id": 14068755672,
+    "basis": "Source explicitly asks for Himmeleck saddle; Himmelecksattel mountain pass at Oberstdorf fits, unlike nearby Himmeleck peak.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-ADD-0010": {
+    "osm_type": "N",
+    "osm_id": 14049540756,
+    "basis": "Named Maedelejoch mountain pass at Oberstdorf matches source; saddle node within one metre is another representation.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-ADD-0029": {
+    "osm_type": "N",
+    "osm_id": 1262528376,
+    "basis": "Hirschbichl-Pass near Weissbach/Hintersee matches source Berchtesgaden border pass; Austria retained as location country.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-ADD-0106": {
+    "osm_type": "N",
+    "osm_id": 1575774733,
+    "basis": "Thurnerpass mountain pass at Breitnau matches source Thurner pass in Suedschwarzwald.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-ADD-0107": {
+    "osm_type": "N",
+    "osm_id": 470332201,
+    "basis": "Rinkensattel mountain pass near Feldberg matches source Rinken saddle; guidepost is not selected.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-ADD-0045": {
+    "osm_type": "N",
+    "osm_id": 1071623810,
+    "basis": "Munczolik (Szczawinka) peak at Sopotnia Wielka matches source Beskid Zywiecki summit; parenthesis is an alternate name.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-ADD-0046": {
+    "osm_type": "N",
+    "osm_id": 1071624337,
+    "basis": "Trzy Kopce peak at Zlatna matches source Beskid Zywiecki qualifier, not other Trzy Kopce massifs.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-ADD-0065": {
+    "osm_type": "N",
+    "osm_id": 1215361515,
+    "basis": "Bulandowa Kapliczka wayside shrine at Ochotnica Gorna matches source Gorce cultural landscape object.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-ADD-0066": {
+    "osm_type": "W",
+    "osm_id": 332042378,
+    "basis": "Polana Podskaly meadow at Lubomierz matches source Gorce clearing. Representative area point.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-ADD-0070": {
+    "osm_type": "N",
+    "osm_id": 6169498814,
+    "basis": "Panska Przehybka saddle at Ochotnica Gorna matches source pass; meadow polygon is distinct feature.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-ADD-0074": {
+    "osm_type": "N",
+    "osm_id": 1511520178,
+    "basis": "Named Zakret Smierci viewpoint at Szklarska Poreba matches source Izerskie viewpoint; information board not selected.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-ADD-0075": {
+    "osm_type": "N",
+    "osm_id": 1424187538,
+    "basis": "Sepia Gora peak in Mirsk municipality matches Izerskie source; other homonyms outside massif excluded.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-ADD-0079": {
+    "osm_type": "N",
+    "osm_id": 2520113981,
+    "basis": "Named Jugowska mountain pass in Jugow matches source Gory Sowie pass.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-ADD-0081": {
+    "osm_type": "N",
+    "osm_id": 1211008290,
+    "basis": "Named Walimska mountain pass at Glinno matches source Gory Sowie pass.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-ADD-0082": {
+    "osm_type": "W",
+    "osm_id": 1497539854,
+    "basis": "Named tower viewpoint on Kalenica matches source Gory Sowie tower.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-ADD-0083": {
+    "osm_type": "W",
+    "osm_id": 323912716,
+    "basis": "Named tower on Wielka Sowa matches source Gory Sowie tower.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-ADD-0086": {
+    "osm_type": "W",
+    "osm_id": 439656949,
+    "basis": "Niknaca Laka wetland at Szczytna matches source Gory Stolowe peatland. Representative area point.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-ADD-0087": {
+    "osm_type": "W",
+    "osm_id": 112757373,
+    "basis": "Named Wielkie Torfowisko Batorowskie reserve at Karlow matches source Gory Stolowe. Representative area point.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-ADD-0091": {
+    "osm_type": "W",
+    "osm_id": 275894380,
+    "basis": "Skala Milosci bare-rock polygon in Mstow matches source named rock and explicit locality.",
+    "reviewed_on": "2026-09-08"
+  },
+  "PL-ADD-0098": {
+    "osm_type": "W",
+    "osm_id": 202212356,
+    "basis": "Zielona Gora protected area in Olsztyn municipality matches source Jura, not Bakowo homonym.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0014": {
+    "osm_type": "W",
+    "osm_id": 24968471,
+    "basis": "Named Aggertalsperre reservoir at Gummersbach matches source; reservoir polygon chosen instead of dam structure.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0048": {
+    "osm_type": "N",
+    "osm_id": 259099281,
+    "basis": "Named Geisberg peak at Bad Honnef matches source Siebengebirge, not Taunus or Eifel homonyms.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0057": {
+    "osm_type": "W",
+    "osm_id": 118449147,
+    "basis": "Named Schloss Drachenburg building at Koenigswinter matches source; overlapping smaller footprint represents same castle complex.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0069": {
+    "osm_type": "N",
+    "osm_id": 53384186,
+    "basis": "Named Leyberg peak at Bad Honnef matches source Siebengebirge; not Huertgenwald or Netphen homonyms.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0091": {
+    "osm_type": "N",
+    "osm_id": 390068639,
+    "basis": "Eifelblick Modenhuebel viewpoint at Schleiden matches source Eifel-Blick Modenhuebel; punctuation variant.",
+    "reviewed_on": "2026-09-08"
+  },
+  "DE-0109": {
+    "osm_type": "W",
+    "osm_id": 28575892,
+    "basis": "Perlenbachtalsperre reservoir at Monschau matches source water feature; reservoir polygon chosen rather than dam structure.",
+    "reviewed_on": "2026-09-08"
   }
 }

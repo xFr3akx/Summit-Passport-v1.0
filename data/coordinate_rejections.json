@@ -61,5 +61,148 @@
       "osm_id": 1765155037,
       "basis": "Parchatka viewpoint is distinct from Góra Trzech Krzyży in source Kazimierz Dolny."
     }
+  ],
+  "PL-0971": [
+    {
+      "osm_type": "N",
+      "osm_id": 9782696149,
+      "basis": "Object in Międzyzdroje cannot be the original castle in Szczecin; likely miniature representation. Source explicitly specifies Szczecin."
+    }
+  ],
+  "DE-0120": [
+    {
+      "osm_type": "N",
+      "osm_id": 9315461775,
+      "basis": "Cave at Kreuzau is not source Teufelsloch rock opening in Ahrgebirge / Altenahr."
+    },
+    {
+      "osm_type": "N",
+      "osm_id": 4568504805,
+      "basis": "Teufelsloch cave at Finnentrop is not source rock opening in Ahrgebirge."
+    }
+  ],
+  "DE-0215": [
+    {
+      "osm_type": "N",
+      "osm_id": 14081946023,
+      "basis": "Peak in Leimbach/Ahrweiler is not source 839 m Clemensberg in Rothaargebirge."
+    }
+  ],
+  "DE-0474": [
+    {
+      "osm_type": "R",
+      "osm_id": 1343310,
+      "basis": "Niederwald at Bensheim is not the source Rheingau / Rüdesheim forest."
+    },
+    {
+      "osm_type": "N",
+      "osm_id": 2518235050,
+      "basis": "Niederwald viewpoint at Boppard is not the source Rheingau/Niederwald forest."
+    }
+  ],
+  "DE-0614": [
+    {
+      "osm_type": "N",
+      "osm_id": 707074814,
+      "basis": "Frauenbrunnen at Sankt Martin / Pfalz is not source spring in Homburg / Kirkel, Saarland."
+    }
+  ],
+  "DE-0781": [
+    {
+      "osm_type": "N",
+      "osm_id": 11160719311,
+      "basis": "Ravensberg at Dassel / Solling is not source 660 m Ravensberg in Harz."
+    }
+  ],
+  "PL-0894": [
+    {
+      "osm_type": "N",
+      "osm_id": 13246521550,
+      "basis": "Kamienna Góra at Jasna / powiat sztumski is not the source Gdynia landmark."
+    }
+  ],
+  "DE-1105": [
+    {
+      "osm_type": "N",
+      "osm_id": 4610518398,
+      "basis": "Auersberg at Lichtentanne / Zwickau is not the source 1019 m Auersberg near Eibenstock."
+    }
+  ],
+  "DE-1296": [
+    {
+      "osm_type": "N",
+      "osm_id": 12300199813,
+      "basis": "Hochvogel at Wertach is not the source 2592 m border summit in the Hinterstein / Hochvogel group."
+    }
+  ],
+  "PL-0462": [
+    {
+      "osm_type": "N",
+      "osm_id": 1862720199,
+      "basis": "Eliaszówka at Gorenice near Olkusz is not source 1024 m peak in Beskid Sądecki."
+    }
+  ],
+  "DE-0063": [
+    {
+      "osm_type": "R",
+      "osm_id": 6065367,
+      "basis": "Nachtigallental at Essen is not source valley at Koenigswinter / Siebengebirge."
+    }
+  ],
+  "PL-0316": [
+    {
+      "osm_type": "W",
+      "osm_id": 294303421,
+      "basis": "Morskie Oko at 49.8079,18.7201 is not Tatra lake in source; independent Tatra point differs by 119 km."
+    }
+  ],
+  "PL-0353": [
+    {
+      "osm_type": "W",
+      "osm_id": 294303421,
+      "basis": "Same incorrect non-Tatra Morskie Oko homonym as PL-0316."
+    }
+  ],
+  "PL-0756": [
+    {
+      "osm_type": "W",
+      "osm_id": 107459902,
+      "basis": "Jezioro Goreckie at 51.93 is not source lake in Wielkopolski National Park at approximately 52.27."
+    }
+  ],
+  "DE-0825": [
+    {
+      "osm_type": "N",
+      "osm_id": 7123897836,
+      "basis": "Kickelhahn near 50.4439 is not source 861 m summit near Ilmenau, corroborated by GeoNames 2891238."
+    }
+  ],
+  "DE-1425": [
+    {
+      "osm_type": "R",
+      "osm_id": 1460257,
+      "basis": "River feature cannot identify the source Chiemsee lake. Lake boundary or suitable lake point required."
+    }
+  ],
+  "DE-0231": [
+    {
+      "osm_type": "N",
+      "osm_id": 13516400412,
+      "basis": "Goldstein at Unter-Wegfurth/Vogelsberg is not source Bruchhauser Steine rock formation in Sauerland."
+    }
+  ],
+  "DE-0956": [
+    {
+      "osm_type": "N",
+      "osm_id": 8913179173,
+      "basis": "Schafberg at Isny in Allgaeu is outside the source Schwaebische Alb massif."
+    }
+  ],
+  "DE-1142": [
+    {
+      "osm_type": "W",
+      "osm_id": 974298001,
+      "basis": "Wolfsschlucht at Wolkenstein/Erzgebirge is not source Bastei/Rathen in Saechsische Schweiz."
+    }
   ]
 }

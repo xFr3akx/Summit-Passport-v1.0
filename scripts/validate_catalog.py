@@ -13,7 +13,7 @@ link_map={r['source_id']:r['stable_id'] for r in links}
 assert all(link_map[i]==r['stable_id'] for r in catalog for i in r['source_ids'])
 redirects=read('entity_id_redirects.json');assert len({r['old_stable_id'] for r in redirects})==len(redirects)
 assert all(r['stable_id'] in ids and r['old_stable_id'] not in ids for r in redirects)
-rejected={f"https://www.openstreetmap.org/{dict(N='node',W='way',R='relation')[x['osm_type']]}/{x['osm_id']}" for rr in read('coordinate_rejections.json').values() for x in rr}
+rejected={i:{f"https://www.openstreetmap.org/{dict(N='node',W='way',R='relation')[x['osm_type']]}/{x['osm_id']}" for x in rr} for i,rr in read('coordinate_rejections.json').items()}
 for r in catalog:
  assert (r['latitude'] is None)==(r['longitude'] is None)
  if r['latitude'] is not None:
@@ -23,8 +23,11 @@ for r in catalog:
  if r['map_ready']:
   assert r['latitude'] is not None and r['record_kind']=='place'
   assert r['verification_status'] in ['cross_checked_osm_geonames','reviewed_source_context']
-  assert r.get('coordinate_review') and r['coordinate_source']['url'] not in rejected
- if r['record_kind']=='route_or_experience':assert r['latitude'] is None and not r['map_ready']
+  assert r.get('coordinate_review')
+  assert all(r['coordinate_source']['url'] not in rejected.get(i,set()) for i in r['source_ids'])
+ if r['record_kind']=='suggested_visit_group':
+  assert r['latitude'] is None and not r['map_ready']
+  assert r['group_status']=='draft_from_source_requires_curation' and r['ordered_place_ids']==[]
 status=read('completion_status.json')
 assert status['source_records']==len(source) and status['working_entities']==len(catalog)
 assert status['merged_occurrences']==len(source)-len(catalog)

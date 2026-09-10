@@ -2,6 +2,9 @@ package com.summitpassport.app;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.content.ContentValues;
+import android.database.Cursor;
+import org.json.*;
 
 public final class PassportDatabase extends SQLiteOpenHelper {
  public PassportDatabase(Context context) { super(context, "passport.db", null, 1); }
@@ -13,4 +16,19 @@ public final class PassportDatabase extends SQLiteOpenHelper {
   db.execSQL("CREATE TABLE achievement_unlocks (country TEXT NOT NULL CHECK(country IN ('PL','DE')), family TEXT NOT NULL, tier INTEGER NOT NULL CHECK(tier BETWEEN 0 AND 11), unlocked_at TEXT NOT NULL, PRIMARY KEY(country, family, tier))");
  }
  @Override public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) { throw new IllegalStateException("Explicit migration required"); }
+ public void importCatalog(JSONObject catalog)throws JSONException {
+  SQLiteDatabase db=getWritableDatabase();db.beginTransaction();
+  try {JSONArray places=catalog.getJSONArray("places");
+   for(int i=0;i<places.length();i++){JSONObject p=places.getJSONObject(i);if(!p.getBoolean("mapReady"))continue;
+    ContentValues v=new ContentValues();v.put("stable_id",p.getString("id"));v.put("country",p.getString("country"));v.put("name",p.getString("name"));v.put("category",p.getString("category"));v.put("latitude",p.getDouble("lat"));v.put("longitude",p.getDouble("lon"));v.put("admin_region_code","");
+    // Never REPLACE a catalog row: existing visit foreign keys must survive refresh.
+    if(db.update("places",v,"stable_id=?",new String[]{p.getString("id")})==0)db.insertOrThrow("places",null,v);
+   }db.setTransactionSuccessful();
+  }finally{db.endTransaction();}
+ }
+ public JSONObject snapshot(JSONObject catalog)throws JSONException {
+  JSONArray visited=new JSONArray();
+  try(Cursor c=getReadableDatabase().rawQuery("SELECT DISTINCT place_id FROM visits",null)){while(c.moveToNext())visited.put(c.getString(0));}
+  catalog.put("visited",visited);return catalog;
+ }
 }

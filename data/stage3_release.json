@@ -1,0 +1,11 @@
+{
+  "version": "stage3-2026-09-09",
+  "map_points": {
+    "PL": 451,
+    "DE": 614
+  },
+  "catalog_sha256": "298a39583194276c8e1821ba22bffb758490453506c6b46c466c51de081c6b67",
+  "frozen": true,
+  "near_me_stage": 7,
+  "catalog_complete": false
+}
