@@ -1,3 +1,11 @@
+# Summit Passport 0.4.2
+
+[Pobierz APK 0.4.2](https://github.com/xFr3akx/Summit-Passport-v1.0/raw/refs/heads/main/downloads/Summit_Passport_0.4.2.apk)
+
+Oceny 1–5 gwiazdek, podsumowanie wizyty z symbolem kategorii, usuwanie pojedynczej wizyty z potwierdzeniem oraz powrót do widoku głównego kolekcji po kliknięciu zakładki. Migracja zachowuje poprzednie wpisy bez przypisywania im oceny. Szczegóły kontroli: TESTING.md. Motyw System, konflikt instalacji i filtry edytora list pozostają na później.
+
+---
+
 # Summit Passport 0.4.1 — poprawka uruchamiania
 
 [Pobierz aktualizację 0.4.1](https://github.com/xFr3akx/Summit-Passport-v1.0/raw/refs/heads/main/downloads/Summit_Passport_0.4.1.apk)

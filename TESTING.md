@@ -1,3 +1,17 @@
+# Poprawki dziennika 0.4.2 — 10.09.2026
+
+Kosz z potwierdzeniem usuwa pojedynczą wizytę. Ocena 1–5 jest opcjonalna; 0 oznacza brak oceny. Dziennik pokazuje symbol kategorii, nazwę, datę i gwiazdki. Kolekcje otwierają widok główny po kliknięciu zakładki.
+
+Kontrole PASS: test_journal.cjs (ocena/zapis/edycja/wyczyszczenie/trwałość, ikona i data, anulowanie usunięcia, błąd zapisu bez utraty UI, usunięcie jednej z wielu i ostatniej wizyty, przeliczenie postępu i filtra, reset nawigacji, 320 px), test_collections.cjs, test_startup.cjs i test_visits.cjs. Kontrola wizualna podsumowania dziennika. test_migration.py: migracje SQL v1→v3 oraz v2→v3 zachowują istniejące dane, rating domyślnie 0, ograniczenie 0–5, poprawne zachowanie po usuwaniu wizyt.
+
+Gradle assembleDebug/testDebugUnitTest/lintDebug: BUILD SUCCESSFUL. Podpis sprawdzony, ten sam lokalny certyfikat co wcześniejsze APK. Poprawki obecne w APK, katalog bez zmian. Test urządzenia tej wersji jeszcze nie został przeprowadzony. Testy UI używają przeglądarki; migracje sprawdzono na SQLite, a natywne usuwanie kopii zdjęć wymaga sprawdzenia na urządzeniu. Usuwane są tylko kopie w pamięci aplikacji, które nie są używane przez inne wizyty; oryginały w galerii pozostają nietknięte.
+
+SHA-256 APK 0.4.2: `ca082dde0e7ed5a15ed7e99340e49be7e1f2e9bad7eac707054bc5e68c31908d`.
+
+Zgłoszony konflikt instalacji i motyw System pozostają do późniejszej diagnozy/poprawki zgodnie z instrukcją użytkownika. Nie obiecujemy rozwiązania konfliktu w tej wersji. Filtry edytora list również odłożono; zakres zapisano w ROADMAP.md.
+
+---
+
 # Poprawka 0.4.1 — błąd startu katalogu
 
 W 0.4.0 `start()` wywoływano podczas wykonywania app.js, przed kolejnymi skryptami visits.js i collections.js. Szybki odczyt lokalnych danych mógł zakończyć się przed inicjalizacją collectionData. Błąd odtworzono przez opóźnienie collections.js przy symulowanym synchronicznym mostku Androida: ReferenceError: collectionData is not defined, a następnie zgłoszony komunikat o katalogu.

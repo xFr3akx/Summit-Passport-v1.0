@@ -29,4 +29,24 @@ fresh = sqlite3.connect(':memory:')
 for sql in creates:
     fresh.execute(sql)
 assert db.execute('PRAGMA table_info(visits)').fetchall() == fresh.execute('PRAGMA table_info(visits)').fetchall()
-print('PASS: v1 visit preserved by v2 migration; new fields, multiple visits, edit, FK integrity, fresh schema parity')
+assert db.execute("SELECT rating FROM visits WHERE id='v1'").fetchone()[0] == 0
+# A v2 database already contains weather, link and photos; add only rating.
+v2 = sqlite3.connect(':memory:')
+for sql in creates:
+    v2.execute(sql.replace(", rating INTEGER NOT NULL DEFAULT 0 CHECK(rating BETWEEN 0 AND 5)", ""))
+v2.execute("INSERT INTO places VALUES ('PL-test','PL','Test','','peak',50,19,0)")
+v2.execute("INSERT INTO visits (id,place_id,visited_on,notes,photos) VALUES ('existing','PL-test','2026-09-01','Keep me','[]')")
+v2.execute(next(s for s in upgrades if 'ADD COLUMN rating' in s))
+assert v2.execute('SELECT notes,rating FROM visits').fetchone() == ('Keep me',0)
+v2.execute("UPDATE visits SET rating=5 WHERE id='existing'")
+assert v2.execute('SELECT rating FROM visits').fetchone()[0] == 5
+try:
+    v2.execute('UPDATE visits SET rating=6')
+    raise AssertionError('Out of range rating accepted')
+except sqlite3.IntegrityError:
+    pass
+db.execute("DELETE FROM visits WHERE id='v1'")
+assert db.execute('SELECT count(DISTINCT place_id) FROM visits').fetchone()[0] == 1
+db.execute("DELETE FROM visits WHERE id='v2'")
+assert db.execute('SELECT count(DISTINCT place_id) FROM visits').fetchone()[0] == 0
+print('PASS: v1/v2 migration to v3 preserves data, ratings/default/range, multiple vs last visit deletion, fresh schema parity')

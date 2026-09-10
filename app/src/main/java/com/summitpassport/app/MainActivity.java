@@ -57,6 +57,7 @@ public final class MainActivity extends Activity {
   }catch(Exception e){return "{\"ok\":false}";}}
 
   @JavascriptInterface public String saveVisit(String input){try{JSONObject v=database.saveVisit(new JSONObject(input));snapshot=database.snapshot(new JSONObject(snapshot)).toString();return new JSONObject().put("ok",true).put("visit",v).toString();}catch(Exception e){return "{\"ok\":false,\"error\":\"Nie udało się zapisać wizyty. Sprawdź datę, link i wartości formularza.\"}";}}
+  @JavascriptInterface public String deleteVisit(String id){try{JSONArray unused=database.deleteVisit(id);snapshot=database.snapshot(new JSONObject(snapshot)).toString();for(int i=0;i<unused.length();i++){String name=unused.getString(i);if(name.matches("[a-f0-9-]{36}\\.jpg"))new File(getFilesDir(),"photos/"+name).delete();}return "{\"ok\":true}";}catch(Exception e){return "{\"ok\":false}";}}
   @JavascriptInterface public void pickPhoto(){runOnUiThread(()->{Intent i=new Intent(Intent.ACTION_OPEN_DOCUMENT);i.setType("image/*");i.addCategory(Intent.CATEGORY_OPENABLE);try{startActivityForResult(i,91);}catch(android.content.ActivityNotFoundException e){photoError();}});}
   @JavascriptInterface public String getCountry(){return getPreferences(MODE_PRIVATE).getString("country","");}
   @JavascriptInterface public void setCountry(String value){if("PL".equals(value)||"DE".equals(value)||"".equals(value))getPreferences(MODE_PRIVATE).edit().putString("country",value).apply();}

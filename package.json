@@ -4,7 +4,8 @@
     "test:ui": "node scripts/test_ui.cjs",
     "test:visits": "node scripts/test_visits.cjs",
     "test:collections": "node scripts/test_collections.cjs",
-    "test:startup": "node scripts/test_startup.cjs"
+    "test:startup": "node scripts/test_startup.cjs",
+    "test:journal": "node scripts/test_journal.cjs"
   },
   "devDependencies": {
     "playwright": "1.62.1"

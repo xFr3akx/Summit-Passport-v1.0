@@ -33,3 +33,13 @@ Osobna baza dla każdego kraju: **Niemcy — Overath; Polska — Jastrzębie-Zdr
 Wersja 0.4.0 zawiera 31 kolekcji PL i 48 DE: 24 tematyczne i 55 grup szczytów według pasm/regionów źródłowych. Kolekcje obejmują 1065 istniejących punktów i nie oznaczają kompletnego wykazu szczytów czy oficjalnego programu odznak. Źródłowe grupy tras pozostają szkicami; nie zamieniono ich automatycznie na opublikowane propozycje. Użytkownik może tworzyć własne listy, zmieniać ich kolejność i usuwać listę bez usuwania wizyt.
 
 Następny etap: odznaki (11 poziomów zgodnie z ustaleniem: po 2 Bronze/Silver/Gold/Diamond + Master 1/2/3 gwiazdki), języki oraz eksport/import. Nie rozpoczęto etapu 5.
+
+## Uwagi po odbiorze 0.4.1 — zakres 0.4.2
+
+Użytkownik potwierdził ponowne działanie aplikacji. W 0.4.2: kosz obok edycji wpisu w dzienniku, potwierdzenie usunięcia pojedynczej wizyty, ocena 1–5 gwiazdek (opcjonalna, edytowalna), symbol kategorii + nazwa + data + ocena w podsumowaniu. Ponowne kliknięcie zakładki Kolekcje otwiera widok główny, resetuje podkolekcję, wyszukiwanie i podzakładkę. Usunięcie ostatniej wizyty cofa odwiedzenie i postęp; pozostałe wizyty tego miejsca zachowują odwiedzenie.
+
+### Zapisane na później — wyraźnie odłożone przez użytkownika
+
+- Usunąć wybór motywu System (zgłoszony jako niedziałający). Docelowo Dark domyślny, z przełącznikiem Light. W 0.4.2 motywu nie zmieniano.
+- Zdiagnozować konflikt aktualizacji Androida, który u użytkownika blokuje instalację bez odinstalowania. Mimo jednakowego lokalnego certyfikatu dostarczanych APK nie ustalono przyczyny konfliktu na urządzeniu. Nie uznajemy problemu za rozwiązany; nie zalecamy usuwania danych.
+- W edytorze własnej kolejności odwiedzin dodać filtry i wybieranie z listy oprócz wyszukiwania nazw. Funkcja odłożona na później.
