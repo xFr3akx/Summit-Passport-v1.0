@@ -37,7 +37,7 @@ public final class MainActivity extends Activity {
    @Override public WebResourceResponse shouldInterceptRequest(WebView view,WebResourceRequest request){
     Uri u=request.getUrl();if(!"appassets.androidplatform.net".equals(u.getHost()))return null;String p=u.getPath();
     if(p==null||!p.startsWith("/ui/")||p.contains(".."))return new WebResourceResponse("text/plain","UTF-8",new ByteArrayInputStream(new byte[0]));
-    try{String mime=p.endsWith(".js")?"text/javascript":p.endsWith(".css")?"text/css":p.endsWith(".json")?"application/json":p.endsWith(".png")?"image/png":p.endsWith(".svg")?"image/svg+xml":"text/html";return new WebResourceResponse(mime,"UTF-8",getAssets().open(p.substring(1)));}
+    try{if(p.startsWith("/ui/photos/")){String name=p.substring(11);if(!name.matches("[a-f0-9-]{36}\\.jpg"))throw new IOException();return new WebResourceResponse("image/jpeg",null,new FileInputStream(new File(getFilesDir(),"photos/"+name)));}String mime=p.endsWith(".js")?"text/javascript":p.endsWith(".css")?"text/css":p.endsWith(".json")?"application/json":p.endsWith(".png")?"image/png":p.endsWith(".svg")?"image/svg+xml":"text/html";return new WebResourceResponse(mime,"UTF-8",getAssets().open(p.substring(1)));}
     catch(IOException e){return new WebResourceResponse("text/plain","UTF-8",404,"Not Found",null,new ByteArrayInputStream(new byte[0]));}
    }
    @Override public boolean shouldOverrideUrlLoading(WebView view,WebResourceRequest request){
@@ -48,6 +48,8 @@ public final class MainActivity extends Activity {
  }
  public final class Bridge {
   @JavascriptInterface public String getSnapshot(){return snapshot;}
+  @JavascriptInterface public String saveVisit(String input){try{JSONObject v=database.saveVisit(new JSONObject(input));snapshot=database.snapshot(new JSONObject(snapshot)).toString();return new JSONObject().put("ok",true).put("visit",v).toString();}catch(Exception e){return "{\"ok\":false,\"error\":\"Nie udało się zapisać wizyty. Sprawdź datę, link i wartości formularza.\"}";}}
+  @JavascriptInterface public void pickPhoto(){runOnUiThread(()->{Intent i=new Intent(Intent.ACTION_OPEN_DOCUMENT);i.setType("image/*");i.addCategory(Intent.CATEGORY_OPENABLE);try{startActivityForResult(i,91);}catch(android.content.ActivityNotFoundException e){photoError();}});}
   @JavascriptInterface public String getCountry(){return getPreferences(MODE_PRIVATE).getString("country","");}
   @JavascriptInterface public void setCountry(String value){if("PL".equals(value)||"DE".equals(value)||"".equals(value))getPreferences(MODE_PRIVATE).edit().putString("country",value).apply();}
   @JavascriptInterface public void setTheme(String value){if(!"light".equals(value)&&!"dark".equals(value))return;runOnUiThread(()->{
@@ -56,6 +58,16 @@ public final class MainActivity extends Activity {
    getWindow().getDecorView().setSystemUiVisibility(dark?0:android.view.View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR|android.view.View.SYSTEM_UI_FLAG_LIGHT_NAVIGATION_BAR);
   });}
  }
+ private void photoError(){if(web!=null)web.evaluateJavascript("window.photoFailed && window.photoFailed()",null);}
+ @Override protected void onActivityResult(int request,int result,Intent data){super.onActivityResult(request,result,data);if(request!=91)return;if(result!=RESULT_OK||data==null||data.getData()==null){photoError();return;}Uri uri=data.getData();worker.execute(()->{try{
+  android.graphics.BitmapFactory.Options options=new android.graphics.BitmapFactory.Options();options.inJustDecodeBounds=true;try(InputStream in=getContentResolver().openInputStream(uri)){android.graphics.BitmapFactory.decodeStream(in,null,options);}
+  if(options.outWidth<=0||options.outHeight<=0)throw new IOException();options.inSampleSize=1;while(Math.max(options.outWidth,options.outHeight)/options.inSampleSize>1600)options.inSampleSize*=2;options.inJustDecodeBounds=false;
+  android.graphics.Bitmap bitmap;try(InputStream in=getContentResolver().openInputStream(uri)){bitmap=android.graphics.BitmapFactory.decodeStream(in,null,options);}if(bitmap==null)throw new IOException();
+  android.graphics.Matrix transform=new android.graphics.Matrix();try(InputStream in=getContentResolver().openInputStream(uri)){int orientation=new android.media.ExifInterface(in).getAttributeInt(android.media.ExifInterface.TAG_ORIENTATION,1);switch(orientation){case 2:transform.setScale(-1,1);break;case 3:transform.setRotate(180);break;case 4:transform.setScale(1,-1);break;case 5:transform.setRotate(90);transform.postScale(-1,1);break;case 6:transform.setRotate(90);break;case 7:transform.setRotate(-90);transform.postScale(-1,1);break;case 8:transform.setRotate(-90);break;default:break;}}catch(IOException ignored){}
+  if(!transform.isIdentity()){android.graphics.Bitmap rotated=android.graphics.Bitmap.createBitmap(bitmap,0,0,bitmap.getWidth(),bitmap.getHeight(),transform,true);if(rotated!=bitmap)bitmap.recycle();bitmap=rotated;}
+  File dir=new File(getFilesDir(),"photos");dir.mkdirs();String name=java.util.UUID.randomUUID()+".jpg";try(FileOutputStream out=new FileOutputStream(new File(dir,name))){bitmap.compress(android.graphics.Bitmap.CompressFormat.JPEG,88,out);}finally{bitmap.recycle();}
+  runOnUiThread(()->{if(web!=null&&!isDestroyed())web.evaluateJavascript("window.addVisitPhoto && window.addVisitPhoto("+JSONObject.quote(name)+")",null);});
+ }catch(Exception e){runOnUiThread(()->photoError());}});}
  @Override public void onBackPressed(){if(web!=null)web.evaluateJavascript("window.handleBack && window.handleBack()",value->{if(!"true".equals(value))finish();});else super.onBackPressed();}
  @Override protected void onDestroy(){if(web!=null){web.removeJavascriptInterface("Passport");web.destroy();}worker.execute(()->database.close());worker.shutdown();super.onDestroy();}
 }

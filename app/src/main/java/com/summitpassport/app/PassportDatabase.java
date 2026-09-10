@@ -7,15 +7,31 @@ import android.database.Cursor;
 import org.json.*;
 
 public final class PassportDatabase extends SQLiteOpenHelper {
- public PassportDatabase(Context context) { super(context, "passport.db", null, 1); }
+ public PassportDatabase(Context context) { super(context, "passport.db", null, 2); }
  @Override public void onConfigure(SQLiteDatabase db) { db.setForeignKeyConstraintsEnabled(true); }
  @Override public void onCreate(SQLiteDatabase db) {
   db.execSQL("CREATE TABLE places (stable_id TEXT PRIMARY KEY NOT NULL, country TEXT NOT NULL CHECK(country IN ('PL','DE')), name TEXT NOT NULL, admin_region_code TEXT NOT NULL, category TEXT NOT NULL, latitude REAL NOT NULL CHECK(latitude BETWEEN -90 AND 90), longitude REAL NOT NULL CHECK(longitude BETWEEN -180 AND 180), must_see INTEGER NOT NULL DEFAULT 0 CHECK(must_see IN (0,1)))");
-  db.execSQL("CREATE TABLE visits (id TEXT PRIMARY KEY NOT NULL, place_id TEXT NOT NULL REFERENCES places(stable_id), visited_on TEXT NOT NULL, distance_m INTEGER NOT NULL DEFAULT 0 CHECK(distance_m >= 0), duration_minutes INTEGER NOT NULL DEFAULT 0 CHECK(duration_minutes >= 0), elevation_gain_m INTEGER NOT NULL DEFAULT 0 CHECK(elevation_gain_m >= 0), notes TEXT NOT NULL DEFAULT '')");
+  db.execSQL("CREATE TABLE visits (id TEXT PRIMARY KEY NOT NULL, place_id TEXT NOT NULL REFERENCES places(stable_id), visited_on TEXT NOT NULL, distance_m INTEGER NOT NULL DEFAULT 0 CHECK(distance_m >= 0), duration_minutes INTEGER NOT NULL DEFAULT 0 CHECK(duration_minutes >= 0), elevation_gain_m INTEGER NOT NULL DEFAULT 0 CHECK(elevation_gain_m >= 0), notes TEXT NOT NULL DEFAULT '', weather TEXT NOT NULL DEFAULT '', trail_url TEXT NOT NULL DEFAULT '', photos TEXT NOT NULL DEFAULT '[]')");
   db.execSQL("CREATE INDEX visits_place ON visits(place_id)");
   db.execSQL("CREATE TABLE achievement_unlocks (country TEXT NOT NULL CHECK(country IN ('PL','DE')), family TEXT NOT NULL, tier INTEGER NOT NULL CHECK(tier BETWEEN 0 AND 11), unlocked_at TEXT NOT NULL, PRIMARY KEY(country, family, tier))");
  }
- @Override public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) { throw new IllegalStateException("Explicit migration required"); }
+ @Override public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+  if(oldVersion<2){db.execSQL("ALTER TABLE visits ADD COLUMN weather TEXT NOT NULL DEFAULT ''");db.execSQL("ALTER TABLE visits ADD COLUMN trail_url TEXT NOT NULL DEFAULT ''");db.execSQL("ALTER TABLE visits ADD COLUMN photos TEXT NOT NULL DEFAULT '[]'");}
+ }
+ public synchronized JSONObject saveVisit(JSONObject v)throws Exception {
+  String date=v.getString("date");java.time.LocalDate.parse(date);
+  String link=v.optString("trailUrl");if(!link.isEmpty()){android.net.Uri u=android.net.Uri.parse(link);String host=u.getHost();if(!"https".equals(u.getScheme())||host==null||!(host.equals("alltrails.com")||host.endsWith(".alltrails.com")))throw new IllegalArgumentException("Podaj link HTTPS do AllTrails.");}
+  String id=v.optString("id");if(id.isEmpty())id=java.util.UUID.randomUUID().toString();
+  ContentValues values=new ContentValues();values.put("id",id);values.put("place_id",v.getString("placeId"));values.put("visited_on",date);values.put("weather",v.optString("weather"));values.put("trail_url",link);values.put("notes",v.optString("notes"));
+  for(String key:new String[]{"distance_m","duration_minutes","elevation_gain_m"}){int n=v.optInt(key,0);if(n<0)throw new IllegalArgumentException("Wartości nie mogą być ujemne.");values.put(key,n);}
+  JSONArray photos=v.optJSONArray("photos");if(photos==null)photos=new JSONArray();if(photos.length()>10)throw new IllegalArgumentException("Maksymalnie 10 zdjęć.");for(int i=0;i<photos.length();i++)if(!photos.getString(i).matches("[a-f0-9-]{36}\\.jpg"))throw new IllegalArgumentException("Nieprawidłowe zdjęcie.");values.put("photos",photos.toString());
+  SQLiteDatabase db=getWritableDatabase();if(db.update("visits",values,"id=? AND place_id=?",new String[]{id,v.getString("placeId")})==0)db.insertOrThrow("visits",null,values);v.put("id",id);return v;
+ }
+ public JSONArray visitList()throws JSONException {
+  JSONArray result=new JSONArray();try(Cursor c=getReadableDatabase().rawQuery("SELECT id,place_id,visited_on,weather,trail_url,notes,distance_m,duration_minutes,elevation_gain_m,photos FROM visits ORDER BY visited_on DESC,id DESC",null)){
+   while(c.moveToNext())result.put(new JSONObject().put("id",c.getString(0)).put("placeId",c.getString(1)).put("date",c.getString(2)).put("weather",c.getString(3)).put("trailUrl",c.getString(4)).put("notes",c.getString(5)).put("distance_m",c.getInt(6)).put("duration_minutes",c.getInt(7)).put("elevation_gain_m",c.getInt(8)).put("photos",new JSONArray(c.getString(9))));
+  }return result;
+ }
  public void importCatalog(JSONObject catalog)throws JSONException {
   SQLiteDatabase db=getWritableDatabase();db.beginTransaction();
   try {JSONArray places=catalog.getJSONArray("places");
@@ -29,6 +45,6 @@ public final class PassportDatabase extends SQLiteOpenHelper {
  public JSONObject snapshot(JSONObject catalog)throws JSONException {
   JSONArray visited=new JSONArray();
   try(Cursor c=getReadableDatabase().rawQuery("SELECT DISTINCT place_id FROM visits",null)){while(c.moveToNext())visited.put(c.getString(0));}
-  catalog.put("visited",visited);return catalog;
+  catalog.put("visits",visitList());catalog.put("visited",visited);return catalog;
  }
 }

@@ -1,3 +1,11 @@
+# Aktualizacja 0.3.1
+
+[Pobierz aktualny APK](https://github.com/xFr3akx/Summit-Passport-v1.0/raw/refs/heads/main/downloads/Summit_Passport_0.3.1.apk)
+
+Mapa tylko wybranego kraju, HOME Overath / Jastrzębie-Zdrój, zapisywanie wielu wizyt, pogoda, data, link AllTrails, dystans, czas, suma podejść, notatki i zdjęcia. Edycja wizyt w Dzienniku. Źródła w osobnym podpunkcie ustawień. Katalog atrakcji pozostaje zamrożony. Raport i ograniczenia: TESTING.md.
+
+---
+
 # Summit Passport
 
 Etap 3 — Android, lokalny katalog Polski i Niemiec, motywy i mapa.

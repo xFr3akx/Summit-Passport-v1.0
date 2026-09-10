@@ -1,0 +1,32 @@
+"""Exercise the application's SQL on SQLite, including an existing v1 visit.
+
+This verifies schema/data preservation, not Android UI or the Java bridge.
+"""
+import re
+import sqlite3
+from pathlib import Path
+
+source = (Path(__file__).resolve().parents[1] / 'app/src/main/java/com/summitpassport/app/PassportDatabase.java').read_text(encoding='utf-8')
+statements = re.findall(r'db.execSQL\("([^"]+)"\)', source)
+creates = [s for s in statements if s.startswith('CREATE')]
+upgrades = [s for s in statements if s.startswith('ALTER')]
+old_visits = "CREATE TABLE visits (id TEXT PRIMARY KEY NOT NULL, place_id TEXT NOT NULL REFERENCES places(stable_id), visited_on TEXT NOT NULL, distance_m INTEGER NOT NULL DEFAULT 0 CHECK(distance_m >= 0), duration_minutes INTEGER NOT NULL DEFAULT 0 CHECK(duration_minutes >= 0), elevation_gain_m INTEGER NOT NULL DEFAULT 0 CHECK(elevation_gain_m >= 0), notes TEXT NOT NULL DEFAULT '')"
+db = sqlite3.connect(':memory:')
+db.execute('PRAGMA foreign_keys=ON')
+for sql in creates:
+    db.execute(old_visits if sql.startswith('CREATE TABLE visits') else sql)
+db.execute("INSERT INTO places VALUES ('PL-test','PL','Test','','peak',50,19,0)")
+db.execute("INSERT INTO visits (id,place_id,visited_on,notes) VALUES ('v1','PL-test','2026-09-01','Zachowana notatka')")
+for sql in upgrades:
+    db.execute(sql)
+assert db.execute('SELECT id,notes,weather,trail_url,photos FROM visits').fetchone() == ('v1','Zachowana notatka','','','[]')
+db.execute("INSERT INTO visits (id,place_id,visited_on,weather,trail_url,photos) VALUES ('v2','PL-test','2026-09-10','Deszcz','https://www.alltrails.com/trail/test','[\"test.jpg\"]')")
+db.execute("UPDATE visits SET notes='Edycja' WHERE id='v1' AND place_id='PL-test'")
+assert db.execute('SELECT count(*) FROM visits').fetchone()[0] == 2
+assert db.execute('SELECT count(DISTINCT place_id) FROM visits').fetchone()[0] == 1
+assert not db.execute('PRAGMA foreign_key_check').fetchall()
+fresh = sqlite3.connect(':memory:')
+for sql in creates:
+    fresh.execute(sql)
+assert db.execute('PRAGMA table_info(visits)').fetchall() == fresh.execute('PRAGMA table_info(visits)').fetchall()
+print('PASS: v1 visit preserved by v2 migration; new fields, multiple visits, edit, FK integrity, fresh schema parity')
