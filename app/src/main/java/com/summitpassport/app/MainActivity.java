@@ -48,6 +48,14 @@ public final class MainActivity extends Activity {
  }
  public final class Bridge {
   @JavascriptInterface public String getSnapshot(){return snapshot;}
+  @JavascriptInterface public String getPlans(){return getPreferences(MODE_PRIVATE).getString("plans","[]");}
+  @JavascriptInterface public String savePlans(String input){try{
+   JSONArray plans=new JSONArray(input);if(plans.length()>200)throw new IllegalArgumentException();JSONObject lookup=new JSONObject();JSONArray places=new JSONObject(snapshot).getJSONArray("places");for(int i=0;i<places.length();i++){JSONObject p=places.getJSONObject(i);if(p.optBoolean("mapReady"))lookup.put(p.getString("id"),p.getString("country"));}
+   java.util.HashSet<String> ids=new java.util.HashSet<>();JSONArray cleaned=new JSONArray();
+   for(int i=0;i<plans.length();i++){JSONObject p=plans.getJSONObject(i);String id=p.getString("id"),country=p.getString("country"),title=p.getString("title").trim();if(!id.matches("user-[a-f0-9-]{36}")||!ids.add(id)||!(country.equals("PL")||country.equals("DE"))||title.isEmpty()||title.length()>100)throw new IllegalArgumentException();JSONArray members=p.getJSONArray("placeIds");if(members.length()<2||members.length()>100)throw new IllegalArgumentException();java.util.HashSet<String> unique=new java.util.HashSet<>();for(int k=0;k<members.length();k++){String member=members.getString(k);if(!country.equals(lookup.optString(member))||!unique.add(member))throw new IllegalArgumentException();}cleaned.put(new JSONObject().put("id",id).put("country",country).put("title",title).put("placeIds",members).put("editable",true));}
+   boolean ok=getPreferences(MODE_PRIVATE).edit().putString("plans",cleaned.toString()).commit();return ok?"{\"ok\":true}":"{\"ok\":false}";
+  }catch(Exception e){return "{\"ok\":false}";}}
+
   @JavascriptInterface public String saveVisit(String input){try{JSONObject v=database.saveVisit(new JSONObject(input));snapshot=database.snapshot(new JSONObject(snapshot)).toString();return new JSONObject().put("ok",true).put("visit",v).toString();}catch(Exception e){return "{\"ok\":false,\"error\":\"Nie udało się zapisać wizyty. Sprawdź datę, link i wartości formularza.\"}";}}
   @JavascriptInterface public void pickPhoto(){runOnUiThread(()->{Intent i=new Intent(Intent.ACTION_OPEN_DOCUMENT);i.setType("image/*");i.addCategory(Intent.CATEGORY_OPENABLE);try{startActivityForResult(i,91);}catch(android.content.ActivityNotFoundException e){photoError();}});}
   @JavascriptInterface public String getCountry(){return getPreferences(MODE_PRIVATE).getString("country","");}

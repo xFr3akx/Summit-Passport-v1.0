@@ -31,7 +31,7 @@ function openVisit(placeId,existing){
    if(window.Passport){const result=JSON.parse(window.Passport.saveVisit(JSON.stringify(entry)));if(!result.ok)throw Error(result.error);entry.id=result.visit.id;}
    else{if(!entry.id)entry.id=crypto.randomUUID();const next=visits.filter(x=>x.id!==entry.id).concat(entry);localStorage.setItem('visits',JSON.stringify(next));}
    visits=visits.filter(x=>x.id!==entry.id).concat(entry);visited.add(placeId);visitDialog.close();
-   if(activeTab==='journal')renderJournal();else{map.closePopup();updateResults();}
+   refreshVisitViews();
   }catch(err){document.querySelector('#visitError').textContent=err.message||'Nie udało się zapisać wizyty. Spróbuj ponownie.';}
  };
  paintPhotos();visitDialog.showModal();

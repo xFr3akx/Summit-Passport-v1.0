@@ -1,3 +1,23 @@
+# Etap 4 / 0.4.0 — 10.09.2026
+
+Gotowe: 79 kolekcji (31 PL / 48 DE), 24 grupy tematyczne i 55 grup szczytów według regionów źródłowych. Postęp liczy unikalne odwiedzone miejsca. Kolekcje mają klikane karty, wyszukiwarkę i sortowanie odwiedzone najpierw. Propozycje pokazują stałą kolejność (nie są sortowane według odwiedzin). Własne listy mają zapis, edycję, przestawianie, usuwanie elementów i całych list z potwierdzeniem. Kliknięcie punktu otwiera kartę i umożliwia wizytę lub przejście do mapy.
+
+Kontrole zakończone powodzeniem:
+
+- `test_ui.cjs` — regresja map, motywów i filtrów.
+- `test_visits.cjs` — regresja wizyt, zdjęć przeglądarkowych i dziennika.
+- `test_collections.cjs` — zapis wizyty z kolekcji, przeniesienie odwiedzonego elementu z końca na początek, licznik, wyszukiwanie, przejście do mapy, pasma, dokładna kolejność przykładu użytkownika, kopiowanie/edycja/przestawianie/usuwanie elementów, zapis po odświeżeniu, brak duplikatów, separacja PL/DE, usunięcie listy zachowujące wizyty, 320 px i działanie kolekcji bez sieci.
+- `validate_collections.py` — pełne pokrycie istniejącego katalogu kategoriami, pełne pokrycie szczytów regionami, unikalne identyfikatory i kraj, poprawne referencje propozycji; niezmieniony SHA-256 katalogu.
+- Gradle assembleDebug, testDebugUnitTest i lintDebug: BUILD SUCCESSFUL. Brak błędów Lint.
+- Kontrola wizualna kolekcji Light, list Dark i propozycji Malinów.
+- Podpis APK zweryfikowany, certyfikat zgodny z 0.3.0/0.3.1. Katalog i 79 kolekcji sprawdzone wewnątrz APK.
+
+SHA-256 APK: `d8671ee43e216207b09e6f26eb448ef154eb4eb651fcbf5bce8d869c1c7c116e`.
+
+Nie wykonano jeszcze instalacji 0.4.0 na fizycznym telefonie. Trwałość list sprawdzono w przeglądarce; natywna ścieżka SharedPreferences została skompilowana i sprawdzona statycznie, ale wymaga testu urządzenia. Zdjęcia i aktualizacja aplikacji także pozostają do sprawdzenia na telefonie. Odznaki, języki i eksport/import to etap 5. Katalog nadal ma 1065 punktów; nie uzupełniano współrzędnych. Źródłowe szkice tras nie są publikowane jako gotowe propozycje.
+
+---
+
 # Aktualizacja 0.3.1 — 10.09.2026
 
 Zrealizowano uwagi po teście etapu 3: maska kraju i ograniczenie przesuwania, osobne HOME, uproszczona karta, formularz wizyty, zapis i edycja w dzienniku, zdjęcia, ustawienia źródeł oraz More countries coming soon. Poprzednią wersję użytkownik uruchomił na swoim telefonie.

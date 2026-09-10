@@ -1,3 +1,11 @@
+# Summit Passport 0.4.0 — etap 4
+
+[Pobierz APK 0.4.0](https://github.com/xFr3akx/Summit-Passport-v1.0/raw/refs/heads/main/downloads/Summit_Passport_0.4.0.apk)
+
+Kolekcje z postępem (31 PL / 48 DE), lista odwiedzonych na górze, kolekcje szczytów według pasm i regionów, propozycje kolejności odwiedzin i własne edytowalne listy. Wizyty i zdjęcia pozostają w lokalnym dzienniku. Baza zamrożona: 451 PL + 614 DE. Podkład mapy wymaga internetu; kolekcje i listy są lokalne. Testy i ograniczenia opisano w TESTING.md.
+
+---
+
 # Aktualizacja 0.3.1
 
 [Pobierz aktualny APK](https://github.com/xFr3akx/Summit-Passport-v1.0/raw/refs/heads/main/downloads/Summit_Passport_0.3.1.apk)
