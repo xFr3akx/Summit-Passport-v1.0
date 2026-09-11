@@ -1,0 +1,33 @@
+const {chromium}=require('playwright');
+const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),http=require('node:http');
+const assets=path.resolve(__dirname,'../app/src/main/assets/ui'),out=path.resolve(__dirname,'../build/ui-qa');
+const server=http.createServer((req,res)=>{const file=path.resolve(assets,'.'+(req.url==='/'?'/index.html':req.url));if(!file.startsWith(assets+path.sep)){res.writeHead(403).end();return;}try{res.setHeader('Content-Type',({'.html':'text/html','.js':'text/javascript','.json':'application/json','.css':'text/css','.png':'image/png'})[path.extname(file)]||'text/plain');res.end(fs.readFileSync(file));}catch{res.writeHead(404).end();}});
+(async()=>{
+ await new Promise(resolve=>server.listen(8765,'127.0.0.1',resolve));const browser=await chromium.launch({channel:'msedge',headless:true});
+ for(const lang of ['pl','de','en']){
+  const context=await browser.newContext({viewport:{width:390,height:844}});await context.addInitScript(l=>{if(!localStorage.getItem('language'))localStorage.setItem('language',l);},lang);
+  const page=await context.newPage(),errors=[];page.on('pageerror',e=>errors.push(e.message));await page.route('https://tile.openstreetmap.org/**',r=>r.abort());
+  await page.goto('http://127.0.0.1:8765');await page.locator('[data-country=PL]').waitFor();assert.equal(await page.locator('html').getAttribute('lang'),lang);
+  const texts=await page.evaluate(()=>({poland:t('Polska'),map:t('Mapa'),weather:t('Słonecznie'),settings:t('Ustawienia'),save:t('Zapisz wizytę')}));
+  assert.equal(await page.locator('[data-country=PL] .country-name').innerText(),texts.poland);
+  await page.locator('[data-country=PL]').click();assert.match(await page.locator('[data-tab=map]').innerText(),new RegExp(texts.map));
+  await page.locator('#listToggle').click();await page.locator('[data-place]').first().click();await page.locator('.leaflet-popup [data-visit-place]').click();
+  await page.locator('[name=weather]').selectOption('Słonecznie');assert.equal(await page.locator('[name=weather] option:checked').innerText(),texts.weather);
+  const note='Pogoda <b>Notatki</b> — Übernachtung';await page.locator('[name=notes]').fill(note);await page.locator('[data-rating="4"]').click();await page.locator('[name=distance]').fill('12.5');
+  await page.locator('#visitForm [type=submit]').click();await page.locator('[data-tab=journal]').click();assert.match(await page.locator('.journal').innerText(),new RegExp(texts.weather));assert(await page.locator('.journal').innerText().then(s=>s.includes(note)));assert.equal(await page.locator('.journal b').count(),0);
+  await page.locator('[data-edit-visit]').click();assert.equal(await page.locator('[name=weather]').inputValue(),'Słonecznie');assert.equal(await page.locator('[name=notes]').inputValue(),note);await page.locator('#cancelVisit').click();
+  await page.screenshot({path:path.join(out,`language-${lang}-journal.png`)});
+  await page.locator('[data-tab=collections]').click();assert.equal(await page.locator('[data-collection="PL-peak"] h3').innerText(),await page.evaluate(()=>t('Szczyty')));
+  await page.locator('[data-collection-mode=plans]').click();await page.locator('#newPlan').click();await page.locator('#planTitle').fill('Pogoda');await page.locator('#planSearch').fill('Skrzyczne');await page.locator('[data-add-plan]').first().click();await page.locator('[data-add-plan]').first().click();await page.locator('#savePlan').click();assert.equal(await page.locator('#exploreDialog h2').innerText(),'Pogoda');await page.locator('[data-detail-close]').click();
+  await page.locator('[data-tab=achievements]').click();await page.locator('[data-badge=collections]').waitFor();assert.equal(await page.locator('[data-badge=collections] h3').innerText(),'Collection Master Poland');await page.locator('[data-badge=collections]').click();await page.locator('[data-tier="10"]').click();assert.match(await page.locator('#exploreDialog').innerText(),/50/);await page.locator('[data-detail-close]').click();
+  await page.locator('.settings-button').click();await page.locator('[data-theme-choice=light]').click();await page.locator('#openLegal').click();assert.equal(await page.locator('#legal h2').innerText(),await page.evaluate(()=>t('Źródła i informacje prawne')));await page.screenshot({path:path.join(out,`language-${lang}-legal.png`)});await page.locator('#closeLegal').click();
+  await page.locator('#openBackup').click();await page.evaluate(()=>backupEvent({type:'preview',newVisits:3,newPlans:2,photos:4,skippedVisits:1,skippedPlans:0,theme:'light',country:'DE',language:'de',token:'test'}));assert.match(await page.locator('#backupStatus').innerText(),/Deutsch/);await page.setViewportSize({width:320,height:740});await page.screenshot({path:path.join(out,`language-${lang}-backup.png`)});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));await page.locator('#closeBackup').click();
+  // Switching language reloads UI but must preserve local visits, values and custom names.
+  const next=lang==='en'?'de':'en';await Promise.all([page.waitForEvent('load'),page.locator(`[data-language-choice=${next}]`).click()]);await page.locator('[data-tab=journal]').click();assert.equal(await page.locator('html').getAttribute('lang'),next);assert.equal(await page.evaluate(()=>visits[0].weather),'Słonecznie');assert.equal(await page.evaluate(()=>plans[0].title),'Pogoda');assert.equal(await page.locator('.journal article').count(),1);
+  await page.reload();await page.locator('[data-tab=map]').waitFor();assert.equal(await page.locator('html').getAttribute('lang'),next);assert.equal(await page.locator('html').getAttribute('data-theme'),'light');assert.deepEqual(errors,[]);await context.close();
+ }
+ // Android's persisted choice takes precedence; invalid browser values fall back safely.
+ const p=await browser.newPage();await p.addInitScript(()=>{localStorage.setItem('language','invalid');window.Passport={getLanguage:()=> 'de',setLanguage:v=>window.savedLanguage=v};});await p.goto('http://127.0.0.1:8765/i18n.js'); // Use a script-only fixture to avoid unrelated bridge methods.
+ await p.setContent('<html><body></body></html>');await p.addScriptTag({path:path.join(assets,'i18n.js')});assert.equal(await p.evaluate(()=>language),'de');assert.equal(await p.evaluate(()=>window.savedLanguage),'de');await p.close();
+ await browser.close();server.close();console.log('PASS: PL/DE/EN navigation, forms, weather storage, ratings, notes escaping, collection labels, custom list preservation, legal/backup text, language persistence and 320px layout');
+})().catch(e=>{console.error(e);process.exit(1);});

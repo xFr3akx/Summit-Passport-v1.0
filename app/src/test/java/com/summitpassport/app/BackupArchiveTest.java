@@ -12,6 +12,12 @@ public class BackupArchiveTest {
  private JSONObject catalog()throws Exception{return new JSONObject().put("places",new JSONArray().put(new JSONObject().put("id","p1").put("country","PL").put("mapReady",true)));}
  private interface Run{void run()throws Exception;}
  private void rejects(Run run)throws Exception{try{run.run();fail("Invalid backup accepted");}catch(IOException|JSONException|IllegalArgumentException expected){}}
+ @Test public void languageIsOptionalForLegacyBackupsAndValidatedForNewOnes()throws Exception{
+  JSONObject data=fixture();BackupArchive.validate(data,catalog());assertFalse(data.getJSONObject("settings").has("language"));
+  for(String lang:new String[]{"pl","de","en"}){data.getJSONObject("settings").put("language",lang);BackupArchive.validate(data,catalog());ByteArrayOutputStream bytes=new ByteArrayOutputStream();BackupArchive.write(bytes,data,Files.createTempDirectory("language-export").toFile());BackupArchive.Loaded restored=BackupArchive.read(new ByteArrayInputStream(bytes.toByteArray()),Files.createTempDirectory("language-import").toFile());assertEquals(lang,restored.data.getJSONObject("settings").getString("language"));assertEquals("Śnieg",restored.data.getJSONArray("visits").getJSONObject(0).getString("weather"));}
+  data.getJSONObject("settings").put("language","invalid");rejects(()->BackupArchive.validate(data,catalog()));
+  data.getJSONObject("settings").put("language",JSONObject.NULL);rejects(()->BackupArchive.validate(data,catalog()));
+ }
  @Test public void zipRoundTripIncludesPhotoAndUnicode()throws Exception{
   File dir=Files.createTempDirectory("backup-test").toFile();String photo=UUID.randomUUID()+".jpg";Files.write(new File(dir,photo).toPath(),new byte[]{1,2,3});JSONObject data=fixture();data.getJSONArray("visits").getJSONObject(0).getJSONArray("photos").put(photo);BackupArchive.validate(data,catalog());ByteArrayOutputStream bytes=new ByteArrayOutputStream();BackupArchive.write(bytes,data,dir);BackupArchive.Loaded loaded=BackupArchive.read(new ByteArrayInputStream(bytes.toByteArray()),Files.createTempDirectory("restore-test").toFile());BackupArchive.validate(loaded.data,catalog());assertEquals("Zażółć gęślą jaźń",loaded.data.getJSONArray("visits").getJSONObject(0).getString("notes"));assertEquals(5,loaded.data.getJSONArray("visits").getJSONObject(0).getInt("rating"));assertArrayEquals(new byte[]{1,2,3},Files.readAllBytes(loaded.photos.get(photo).toPath()));
  }

@@ -1,3 +1,13 @@
+# Summit Passport 0.6.0 — języki PL / DE / EN
+
+[Pobierz APK](https://github.com/xFr3akx/Summit-Passport-v1.0/raw/refs/heads/main/downloads/Summit_Passport_0.6.0.apk)
+
+Ustawienia → Język aplikacji: Polski, Deutsch, English. Wybór zapamiętywany i uwzględniony w nowych kopiach danych. Nazwy miejsc, regionów, własne listy i notatki pozostają w oryginale. Nazwy rodzin odznak pozostają nazwami ustalonymi w projekcie; ich opisy, postęp i drabinki są tłumaczone.
+
+APK zawiera też uzgodnione zmiany progów odznak oraz Collection Master Poland / Germany z progami do 50. Odznaki nadal stanowią podgląd — trwałe przyznawanie i daty zdobycia są osobnym, niedokończonym zakresem punktu 4. Katalog miejsc pozostaje zamrożony. Testy na telefonie: punkt 6. Szczegóły: LANGUAGES.md, TESTING.md.
+
+---
+
 # Summit Passport 0.5.1
 
 [Pobierz APK](https://github.com/xFr3akx/Summit-Passport-v1.0/raw/refs/heads/main/downloads/Summit_Passport_0.5.1.apk)

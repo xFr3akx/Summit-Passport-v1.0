@@ -58,6 +58,6 @@ public final class BackupArchive {
   }
   photoNames(data);ids.clear();
   for(int i=0;i<plans.length();i++){JSONObject p=plans.getJSONObject(i);String id=p.getString("id"),country=p.getString("country");require(id.matches("user-[a-f0-9-]{36}")&&ids.add(id)&&(country.equals("PL")||country.equals("DE"))&&!p.getString("title").trim().isEmpty()&&p.getString("title").length()<=100);JSONArray ps=p.getJSONArray("placeIds");Set<String> unique=new HashSet<>();require(ps.length()>=2&&ps.length()<=100);for(int j=0;j<ps.length();j++){String place=ps.getString(j);require(country.equals(places.get(place))&&unique.add(place));}}
-  JSONObject settings=data.getJSONObject("settings");require(Arrays.asList("light","dark").contains(settings.getString("theme"))&&Arrays.asList("","PL","DE").contains(settings.getString("country")));
+  JSONObject settings=data.getJSONObject("settings");require(!settings.has("language")||Arrays.asList("pl","de","en").contains(settings.getString("language")));require(Arrays.asList("light","dark").contains(settings.getString("theme"))&&Arrays.asList("","PL","DE").contains(settings.getString("country")));
  }
 }

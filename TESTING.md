@@ -1,3 +1,15 @@
+# 0.6.0 — etap 5: PL / DE / EN
+
+Gradle assembleDebug, testDebugUnitTest i lintDebug: BUILD SUCCESSFUL. Test JVM potwierdził opcjonalny język w starszych kopiach, ZIP round-trip pl/de/en, zachowanie pogody i odrzucenie błędnej wartości języka.
+
+PASS: test_languages.cjs oraz regresje test_ui, test_visits, test_collections, test_startup, test_journal, test_backup_ui, test_achievements. Nowy test sprawdza trzy języki, formularz wizyty, przełączanie i restart, zachowanie pogodowych wartości, ocen, notatek z HTML oraz własnej nazwy listy, tłumaczenia kolekcji tematycznych, informacji prawnych i podsumowania kopii. Sprawdzono widoki 390px i 320px oraz natywne pierwszeństwo zapisanego języka. Wizualnie sprawdzono niemieckie podsumowanie kopii i angielski dziennik; długie okna przewijają się pionowo.
+
+Katalog wewnątrz APK ma niezmienioną sumę SHA-256. Podpis APK zgodny z dotychczasowym lokalnym certyfikatem; versionCode 10. SHA-256 APK: 89ed4eac0fe79867078f3581bdb288fcdcf469f5defcc42726a107d6afde26c4.
+
+Pełny proces Android SAF, aktualizacja istniejącej instalacji i odbiór na fizycznym telefonie pozostają w punkcie 6. Testy przeglądarkowe nie zastępują tych prób. Zakres trwałego przyznawania odznak pozostaje niedokończony w punkcie 4.
+
+---
+
 # Podgląd odznak 0.5.1
 
 Zawiera gotowy zakres 0.5.0 (eksport/import i Dark/Light) oraz podgląd 12 rodzin po 11 poziomów. Obliczenia: unikalne miejsca, sumy dystansu/czasu/podejść, ukończone kolekcje, procent aktualnego katalogu kraju. Must See i regiony administracyjne pozostają nieaktywne wobec braku zweryfikowanych oznaczeń. Nie ma przyznawania ani zapisu dat zdobycia; to podgląd do uzgodnienia, nie zakończony etap odznak.

@@ -20,12 +20,13 @@ public final class MainActivity extends Activity {
  private volatile String snapshot="{}";
  @Override public void onCreate(Bundle state) {
   super.onCreate(state); database=new PassportDatabase(this);
-  TextView loading=new TextView(this);loading.setText("Summit Passport · przygotowanie mapy…");loading.setPadding(24,64,24,24);setContentView(loading);
+  TextView loading=new TextView(this);loading.setText("Summit Passport…");loading.setPadding(24,64,24,24);setContentView(loading);
   worker.execute(()->{try {
    database.initState(getPreferences(MODE_PRIVATE));JSONObject catalog=new JSONObject(readAsset("ui/catalog.json"));database.importCatalog(catalog);snapshot=database.snapshot(catalog).toString();
    runOnUiThread(()->{if(!isFinishing()&&!isDestroyed())showApp();});
-  }catch(Exception e){runOnUiThread(()->loading.setText("Nie udało się otworzyć katalogu. Uruchom aplikację ponownie."));}});
+  }catch(Exception e){runOnUiThread(()->loading.setText(catalogError()));}});
  }
+ private String catalogError(){String lang="pl";try{lang=database.state("language","pl");}catch(Exception ignored){}return "de".equals(lang)?"Der Katalog konnte nicht geöffnet werden. Starte die App erneut.":"en".equals(lang)?"Could not open the catalog. Restart the app.":"Nie udało się otworzyć katalogu. Uruchom aplikację ponownie.";}
  private String readAsset(String path)throws IOException {try(InputStream in=getAssets().open(path);ByteArrayOutputStream out=new ByteArrayOutputStream()){byte[] b=new byte[8192];int n;while((n=in.read(b))!=-1)out.write(b,0,n);return out.toString(StandardCharsets.UTF_8.name());}}
  @android.annotation.SuppressLint("SetJavaScriptEnabled")
  private void showApp(){
@@ -49,6 +50,8 @@ public final class MainActivity extends Activity {
   });web.loadUrl(ORIGIN+"/ui/index.html");
  }
  public final class Bridge {
+  @JavascriptInterface public String getLanguage(){return database.state("language","");}
+  @JavascriptInterface public void setLanguage(String value){if("pl".equals(value)||"de".equals(value)||"en".equals(value))database.setState("language",value);}
   @JavascriptInterface public String getTheme(){return database.state("theme","");}
   @JavascriptInterface public void exportBackup(){runOnUiThread(()->backups.exportFile());}
   @JavascriptInterface public void importBackup(){runOnUiThread(()->backups.chooseFile());}
