@@ -1,3 +1,7 @@
+# Prezentacja 0.6.2
+
+Lista pokazuje liczbę zdobytych progów / 11, niezależnie od bieżącej wartości metryki. Szczegóły zawierają opis reguły, grafikę po lewej, postęp i status/datę po prawej. Peak/Castle/Cave/Waterfall mają własne jednostki z odmianą PL i tłumaczeniami DE/EN. Progi i trwały rejestr przyznań nie zmieniły się.
+
 # Odznaki — 0.6.1
 
 Każda z 12 rodzin ma 11 poziomów: po 2 Bronze, Silver, Gold i Diamond, następnie Master z 1/2/3 gwiazdkami. Wyniki i nagrody liczymy osobno dla kraju. Collection Master ma nazwy Poland / Germany i progi do 50. Pełna tabela: ACHIEVEMENTS_PROPOSAL.md.

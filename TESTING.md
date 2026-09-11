@@ -1,3 +1,9 @@
+# Kontrole 0.6.2
+
+PASS: formularz nie-szczytu z wyborem dnia; zachowanie starszych ukrytych parametrów i załączników; trasa tekstowa i bezpieczne wyświetlanie znaków HTML; ikony pogody i parametrów; filtry dnia/oceny, sortowanie; nowa sesja zaczyna od kraju; przeładowanie języka zachowuje kraj; nawigacja; odznaki x/11 i jednostki.
+
+PASS: regresje wizyt, Dziennika, kolekcji, przyznawania odznak, startu z opóźnionym skryptem, kopii UI i PL/DE/EN. Nowy test JVM sprawdza zapis/odczyt tekstu trasy w ZIP i limit 4000 znaków; dotychczasowe testy kopii ze zdjęciami zachowane. Android assembleDebug, testDebugUnitTest i lintDebug PASS. Obejrzano Light/Dark i szerokość 320 px. Nie wykonywano testu na fizycznym Androidzie.
+
 # 0.6.1 — trwałe odznaki i Niemcy 1000
 
 Gradle assembleDebug/testDebugUnitTest/lintDebug: BUILD SUCCESSFUL. 9 testów JVM: 7 BackupArchiveTest, 1 AchievementRecordsTest i 1 AchievementTierTest — bez błędów.

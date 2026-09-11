@@ -1,3 +1,9 @@
+# Aktualizacja 0.6.2
+
+Zmiany formularzy, Dziennika, nawigacji i prezentacji odznak zakończone. Wszystkie kategorie mają wybór dnia odwiedzin. Zdjęcia ukryte; zachowujemy dane i kopie. Następny krok: odbiór 0.6.2 na telefonie (punkt 6). Near Me i edytor list z filtrami pozostają w punkcie 7.
+
+---
+
 # Aktualna kolejność — 11.09.2026
 
 1. Dawne sprawdzenie 0.4.2 zostało przeniesione do punktu 6 decyzją użytkownika.

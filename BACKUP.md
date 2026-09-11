@@ -1,3 +1,7 @@
+# Zgodność 0.6.2
+
+Pole trailUrl zachowuje nazwę w formacie danych, ale zawiera teraz dowolny tekst trasy do 4000 znaków. 0.6.2 przyjmuje także dotychczasowe linki. Kopia nadal ma wersję 2 i zachowuje wcześniejsze zdjęcia mimo ukrycia ich interfejsu. Starsze aplikacje mogą odrzucić kopię z trasą tekstową: do jej odczytu użyj 0.6.2 lub nowszej.
+
 # Kopia v2 — 0.6.1
 
 Nowe eksporty zawierają także trwałe odznaki: kraj, rodzina, poziom, data zdobycia i moment zapisu. Nagrody i pozostałe dane łączą się w jednej transakcji SQLite. Powtarzający się klucz nagrody zachowuje lokalną datę; import nie usuwa istniejących odznak. Kopie v1 z poprzednich wersji nadal są obsługiwane. Starsze aplikacje odrzucą nowy format v2, zamiast pomijać nagrody.

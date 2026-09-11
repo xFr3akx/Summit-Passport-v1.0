@@ -1,0 +1,12 @@
+{
+  "version": "0.6.2",
+  "versionCode": 12,
+  "apkSha256": "a913e85284e169a31e921da2372a591d2b83c46f6aa77dc177a1098cd7db7753",
+  "apkBytes": 5351815,
+  "catalogUnchangedFrom": "0.6.1",
+  "mapPlaces": {
+    "PL": 451,
+    "DE": 1000
+  },
+  "notes": "Forms, journal filters/icons, badge presentation and cold-session country selection. Existing hidden fields and photos retained."
+}

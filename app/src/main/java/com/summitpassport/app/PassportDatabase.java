@@ -43,7 +43,7 @@ public final class PassportDatabase extends SQLiteOpenHelper {
  public synchronized JSONObject saveVisit(JSONObject v)throws Exception {
   int rating=v.optInt("rating",0);if(rating<0||rating>5||v.optDouble("rating",0)!=rating)throw new IllegalArgumentException("Ocena musi być od 0 do 5.");
   String date=v.getString("date");java.time.LocalDate.parse(date);
-  String link=v.optString("trailUrl");if(!link.isEmpty()){android.net.Uri u=android.net.Uri.parse(link);String host=u.getHost();if(!"https".equals(u.getScheme())||host==null||!(host.equals("alltrails.com")||host.endsWith(".alltrails.com")))throw new IllegalArgumentException("Podaj link HTTPS do AllTrails.");}
+  String link=v.optString("trailUrl");if(link.length()>4000)throw new IllegalArgumentException("Trasa: maksymalnie 4000 znaków.");
   String id=v.optString("id");if(id.isEmpty())id=java.util.UUID.randomUUID().toString();
   ContentValues values=new ContentValues();values.put("id",id);values.put("place_id",v.getString("placeId"));values.put("visited_on",date);values.put("weather",v.optString("weather"));values.put("trail_url",link);values.put("notes",v.optString("notes"));values.put("rating",rating);
   for(String key:new String[]{"distance_m","duration_minutes","elevation_gain_m"}){int n=v.optInt(key,0);if(n<0)throw new IllegalArgumentException("Wartości nie mogą być ujemne.");values.put(key,n);}

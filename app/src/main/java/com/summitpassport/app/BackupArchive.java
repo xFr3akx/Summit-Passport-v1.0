@@ -54,7 +54,7 @@ public final class BackupArchive {
   JSONArray visits=data.getJSONArray("visits"),plans=data.getJSONArray("plans");require(visits.length()<=10000&&plans.length()<=200);Set<String> ids=new HashSet<>();
   for(int i=0;i<visits.length();i++){JSONObject v=visits.getJSONObject(i);require(v.getString("id").matches("[a-f0-9-]{36}")&&ids.add(v.getString("id"))&&places.containsKey(v.getString("placeId")));LocalDate.parse(v.getString("date"));require(v.getString("notes").length()<=20000&&v.getString("weather").length()<=100);
    for(String key:new String[]{"rating","distance_m","duration_minutes","elevation_gain_m"}){double n=v.optDouble(key,0);require(Double.isFinite(n)&&n>=0&&n==Math.floor(n)&&n<=(key.equals("rating")?5:100000000));}
-   String url=v.getString("trailUrl");require(url.length()<=4000);if(!url.isEmpty()){URI u=new URI(url);String host=u.getHost();require("https".equals(u.getScheme())&&host!=null&&(host.equals("alltrails.com")||host.endsWith(".alltrails.com")));}
+   String url=v.getString("trailUrl");require(url.length()<=4000);
   }
   if(data.optInt("version")==2)require(data.has("achievements"));if(data.has("achievements"))AchievementRecords.validate(data.getJSONArray("achievements"));
   photoNames(data);ids.clear();
