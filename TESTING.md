@@ -1,3 +1,17 @@
+# 0.6.1 — trwałe odznaki i Niemcy 1000
+
+Gradle assembleDebug/testDebugUnitTest/lintDebug: BUILD SUCCESSFUL. 9 testów JVM: 7 BackupArchiveTest, 1 AchievementRecordsTest i 1 AchievementTierTest — bez błędów.
+
+PASS: test_awards (daty historycznych wizyt, wszystkie przekroczone progi, unikalne miejsca vs sumy, kraje, trwałość po usunięciu wizyt i rozbudowie katalogu); test_achievements (zapis, restart, daty, usunięcie wizyt, Light/Dark); test_languages; regresje mapy, wizyt, kolekcji, startu, dziennika i kopii danych. Testy SQL potwierdziły migrację dat v4→v5, zachowanie dat przy duplikatach importu i wycofanie nagród/wizyt przy błędzie transakcji.
+
+validate_release_061: 386 unikalnych nowych identyfikatorów, zgodne nazwy i pozycje OSM/GeoNames do 500 m, wykluczenie punktów bliższych niż 400 m, 1000 DE / 451 PL. Wszystkie 2263 oryginalne rekordy zachowane bez zmian. validate_collections: pełne pokrycie kategoriami i grupami szczytów, zgodność kraju i brak duplikatów członków. Dawne validate_catalog / validate_stage3 nadal sprawdzają historyczną bazę źródłową; nowy runtime i rozszerzenie mają osobny gate release_061.
+
+Wizualnie sprawdzono zapisane odznaki z datą w Light; wcześniejsze testy Light/Dark i 320px przeszły. W APK potwierdzono 1451 metadanych punktów, aktywne odznaki i sumę kontrolną nowego katalogu. SHA-256 APK: 3e067fa276563ff69c69433055070a89d09b1a2fd97b6423d23e7aea2af7c19f. Podpis zgodny z poprzednimi lokalnymi wydaniami.
+
+Nie wykonywano testu aktualizacji ani pełnego systemowego importu na fizycznym telefonie — pozostają w punkcie 6. Nie ogłaszamy naprawienia wcześniej zgłoszonego konfliktu istniejącej instalacji bez testu urządzenia.
+
+---
+
 # 0.6.0 — etap 5: PL / DE / EN
 
 Gradle assembleDebug, testDebugUnitTest i lintDebug: BUILD SUCCESSFUL. Test JVM potwierdził opcjonalny język w starszych kopiach, ZIP round-trip pl/de/en, zachowanie pogody i odrzucenie błędnej wartości języka.

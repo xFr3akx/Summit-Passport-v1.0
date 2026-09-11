@@ -15,7 +15,7 @@ const server=http.createServer((req,res)=>{const file=path.resolve(assets,'.'+(n
   const failure=await page.locator('#app').innerText();console.log(JSON.stringify({country,errors,failed:failure.includes('Nie udało się wczytać')}));
   assert(!failure.includes('Nie udało się wczytać'),'startup failed with slow feature script');
   if(country)await page.locator('#search').waitFor();else await page.locator('[data-country=PL]').waitFor();
-  assert.equal(await page.evaluate(()=>visits[0].notes),'Zachowane');assert.equal(await page.evaluate(()=>plans[0].title),'Zachowana lista');assert.equal(await page.evaluate(()=>visited.size),1);assert.equal(await page.evaluate(()=>collectionData.collections.length),79);assert.deepEqual(errors,[]);await page.close();
+  assert.equal(await page.evaluate(()=>visits[0].notes),'Zachowane');assert.equal(await page.evaluate(()=>plans[0].title),'Zachowana lista');assert.equal(await page.evaluate(()=>visited.size),1);assert.equal(await page.evaluate(()=>collectionData.collections.length),JSON.parse(fs.readFileSync(path.join(assets,'collections.json'),'utf8')).collections.length);assert.deepEqual(errors,[]);await page.close();
  }
  console.log('PASS: native-bridge startup with delayed feature script, home/PL/DE, preserved visits and lists');await browser.close();server.close();
 })().catch(e=>{console.error(e);process.exit(1)});

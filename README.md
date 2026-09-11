@@ -1,3 +1,15 @@
+# Summit Passport 0.6.1
+
+[Pobierz APK 0.6.1](https://github.com/xFr3akx/Summit-Passport-v1.0/raw/refs/heads/main/downloads/Summit_Passport_0.6.1.apk)
+
+Etap 4 aktualnej roadmapy: trwałe odznaki z datami zdobycia, 12 rodzin po 11 poziomów, niezależnie dla Polski i Niemiec. Must See i Regional Explorer działają; na mapie jest filtr wyróżnionych Must See. Odznaki i daty są objęte kopią danych ZIP v2.
+
+Niemcy: 1000 punktów na mapie (+386). Polska: 451, bez zmian. Kolekcje: PL 31 / DE 58. Wszystkie dotychczasowe identyfikatory i rekordy pozostają zachowane. Zachowane PL/DE/EN, Dark/Light, wizyty, zdjęcia, oceny i własne listy.
+
+Szczegóły odznak: ACHIEVEMENTS.md. Zestawienie 386 nowych miejsc: data/GERMANY_1000.md. Kontrole: TESTING.md. Testy na fizycznym telefonie pozostają w etapie 6.
+
+---
+
 # Summit Passport 0.6.0 — języki PL / DE / EN
 
 [Pobierz APK](https://github.com/xFr3akx/Summit-Passport-v1.0/raw/refs/heads/main/downloads/Summit_Passport_0.6.0.apk)

@@ -3,10 +3,10 @@
 1. Dawne sprawdzenie 0.4.2 zostało przeniesione do punktu 6 decyzją użytkownika.
 2. Eksport/import: zaimplementowany w 0.5.0. ZIP zawiera wizyty, oceny, zdjęcia, własne listy i ustawienia. Import z podsumowaniem łączy dane, zachowując lokalne rekordy przy powtarzających się ID.
 3. Dark domyślny / Light: gotowe, wybór System usunięty. Konflikt aktualizacji: wyłączono dystrybucję APK podpisywanych tymczasowo przez CI; dostarczane APK mają stały lokalny podpis. Konkretna przyczyna konfliktu na telefonie nadal wymaga komunikatu i wskazania źródła poprzedniej instalacji — zadano pytanie użytkownikowi.
-4. Odznaki: podgląd 12 rodzin × 11 poziomów. Progi wskazane przez użytkownika i Collection Master Poland / Germany (1–50) zapisane; Must See nadal bez decyzji o progach. Trwałe przyznawanie, daty zdobycia i backup odblokowań pozostają do wdrożenia. Must See / Regional Explorer wymagają też zweryfikowanych oznaczeń. Etap odznak nie jest zakończony.
+4. Odznaki: zakończone w 0.6.1 — 12 rodzin × 11 poziomów, trwały zapis i daty, oddzielne PL/DE, Must See i regiony, backup v2. Zasady: ACHIEVEMENTS.md.
 5. Języki PL/DE/EN: zaimplementowane w 0.6.0. Wybór w ustawieniach, trwały zapis, tłumaczenia interfejsu i komunikatów, język w nowych ZIP-ach, zgodność ze starszymi kopiami. Testy automatyczne PASS; odbiór na telefonie w punkcie 6.
 6. Testy całej aplikacji na urządzeniu, w tym przeniesiony odbiór 0.4.2, aktualizacja, eksport/import i zdjęcia.
-7. Filtry i lista wyboru w edytorze kolejności, Near Me i późniejsza rozbudowa katalogu.
+7. Filtry i lista wyboru w edytorze kolejności oraz Near Me pozostają później. Użytkownik przyspieszył rozbudowę Niemiec: w 0.6.1 osiągnięto 1000 punktów (+386), Polska bez zmian.
 
 ---
 

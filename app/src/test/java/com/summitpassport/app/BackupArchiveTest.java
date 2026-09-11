@@ -18,6 +18,10 @@ public class BackupArchiveTest {
   data.getJSONObject("settings").put("language","invalid");rejects(()->BackupArchive.validate(data,catalog()));
   data.getJSONObject("settings").put("language",JSONObject.NULL);rejects(()->BackupArchive.validate(data,catalog()));
  }
+ @Test public void versionTwoPreservesAwardsAndRejectsMissingLedger()throws Exception {
+  JSONObject data=fixture().put("version",2);rejects(()->BackupArchive.validate(data,catalog()));
+  JSONObject award=new JSONObject().put("country","PL").put("family","peak").put("tier",0).put("earnedOn","2026-09-01").put("unlockedAt","2026-09-11T12:00:00Z");data.put("achievements",new JSONArray().put(award));BackupArchive.validate(data,catalog());ByteArrayOutputStream bytes=new ByteArrayOutputStream();BackupArchive.write(bytes,data,Files.createTempDirectory("award-export").toFile());BackupArchive.Loaded loaded=BackupArchive.read(new ByteArrayInputStream(bytes.toByteArray()),Files.createTempDirectory("award-import").toFile());BackupArchive.validate(loaded.data,catalog());assertEquals(award.toString(),loaded.data.getJSONArray("achievements").getJSONObject(0).toString());award.put("tier",11);rejects(()->BackupArchive.validate(data,catalog()));
+ }
  @Test public void zipRoundTripIncludesPhotoAndUnicode()throws Exception{
   File dir=Files.createTempDirectory("backup-test").toFile();String photo=UUID.randomUUID()+".jpg";Files.write(new File(dir,photo).toPath(),new byte[]{1,2,3});JSONObject data=fixture();data.getJSONArray("visits").getJSONObject(0).getJSONArray("photos").put(photo);BackupArchive.validate(data,catalog());ByteArrayOutputStream bytes=new ByteArrayOutputStream();BackupArchive.write(bytes,data,dir);BackupArchive.Loaded loaded=BackupArchive.read(new ByteArrayInputStream(bytes.toByteArray()),Files.createTempDirectory("restore-test").toFile());BackupArchive.validate(loaded.data,catalog());assertEquals("Zażółć gęślą jaźń",loaded.data.getJSONArray("visits").getJSONObject(0).getString("notes"));assertEquals(5,loaded.data.getJSONArray("visits").getJSONObject(0).getInt("rating"));assertArrayEquals(new byte[]{1,2,3},Files.readAllBytes(loaded.photos.get(photo).toPath()));
  }

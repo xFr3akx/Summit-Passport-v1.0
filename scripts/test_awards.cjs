@@ -1,0 +1,12 @@
+const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path');
+const ui=path.resolve(__dirname,'../app/src/main/assets/ui'),engine=require(path.join(ui,'achievement-engine.js')),config=JSON.parse(fs.readFileSync(path.join(ui,'achievements.json')));
+const places=Array.from({length:12},(_,i)=>({id:'p'+i,country:i<10?'PL':'DE',mapReady:true,category:'peak',regionCode:i<5?'PL-SL':i<10?'PL-MA':'DE-BY',mustSee:i<6}));
+const visits=places.map((p,i)=>({id:'v'+i,placeId:p.id,date:'2026-09-'+String(i+1).padStart(2,'0'),distance_m:100000,duration_minutes:300,elevation_gain_m:1000}));
+const collections=[{id:'cPL',country:'PL',placeIds:places.slice(0,5).map(p=>p.id)},{id:'cDE',country:'DE',placeIds:places.slice(10).map(p=>p.id)}];
+const now='2026-09-20T12:00:00Z',awards=engine.unlocks(config,places,visits.slice().reverse(),collections,[],now);
+assert(config.approved);assert.equal(new Set(awards.map(a=>`${a.country}/${a.family}/${a.tier}`)).size,awards.length);
+const find=(family,tier=0,country='PL')=>awards.find(a=>a.family===family&&a.tier===tier&&a.country===country);
+assert.equal(find('peak').earnedOn,'2026-09-05');assert.equal(find('peak',1).earnedOn,'2026-09-10');assert.equal(find('explorer').earnedOn,'2026-09-10');assert.equal(find('collections').earnedOn,'2026-09-05');assert.equal(find('regional',1).earnedOn,'2026-09-06');assert.equal(find('mustsee',2).earnedOn,'2026-09-05');assert.equal(find('distance').earnedOn,'2026-09-01');assert(!find('peak',0,'DE'));assert.equal(find('collections',0,'DE').earnedOn,'2026-09-12');assert(awards.every(a=>a.unlockedAt===now));
+const repeat=engine.unlocks(config,places,visits.concat({...visits[0],id:'repeat',date:'2026-09-15'}),collections,awards,'2026-10-01T00:00:00Z');assert.deepEqual(repeat.filter(a=>a.family==='peak'),awards.filter(a=>a.family==='peak'));
+assert.deepEqual(engine.unlocks(config,places,[],collections,awards),awards);assert.deepEqual(engine.unlocks(config,places.concat({id:'new',country:'PL',mapReady:true,category:'peak'}),visits,collections,awards).filter(a=>a.family==='country'),awards.filter(a=>a.family==='country'));
+assert.deepEqual(engine.unlocks(config,places,visits,collections,awards),awards);assert.equal(visits[0].date,'2026-09-01');console.log('PASS: retrospective award dates, country isolation, every crossed tier, distinct places vs repeat metrics, immutable dates, deletion/catalog expansion and idempotence');

@@ -8,7 +8,8 @@
     "test:journal": "node scripts/test_journal.cjs",
     "test:backup": "node scripts/test_backup_ui.cjs",
     "test:achievements": "node scripts/test_achievements.cjs",
-    "test:languages": "node scripts/test_languages.cjs"
+    "test:languages": "node scripts/test_languages.cjs",
+    "test:awards": "node scripts/test_awards.cjs"
   },
   "devDependencies": {
     "playwright": "1.62.1"

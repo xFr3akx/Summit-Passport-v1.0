@@ -14,7 +14,7 @@ old_visits = "CREATE TABLE visits (id TEXT PRIMARY KEY NOT NULL, place_id TEXT N
 db = sqlite3.connect(':memory:')
 db.execute('PRAGMA foreign_keys=ON')
 for sql in creates:
-    db.execute(old_visits if sql.startswith('CREATE TABLE visits') else sql)
+    db.execute(old_visits if sql.startswith('CREATE TABLE visits') else sql.replace(', earned_on TEXT NOT NULL',''))
 db.execute("INSERT INTO places VALUES ('PL-test','PL','Test','','peak',50,19,0)")
 db.execute("INSERT INTO visits (id,place_id,visited_on,notes) VALUES ('v1','PL-test','2026-09-01','Zachowana notatka')")
 for sql in upgrades:

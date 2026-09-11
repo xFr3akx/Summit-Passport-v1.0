@@ -1,6 +1,7 @@
 'use strict';
 let collectionData={collections:[],proposals:[]},plans=[],collectionMode='theme',collectionId=null,collectionQuery='',detailRender=null,detailHistory=[],planDraft=null;
 const exploreDialog=document.querySelector('#exploreDialog');
+function collectionTitle(c){return c.extensionRegion?t('Szczyty — {region}',{region:c.extensionRegion}):c.kind==='theme'?t(c.title):c.title;}
 function allPlans(){return [...collectionData.proposals,...plans].filter(p=>p.country===country);}
 function members(ids){return ids.map(id=>catalog.places.find(p=>p.id===id&&p.country===country&&p.mapReady)).filter(Boolean);}
 function progress(ids){const ps=members(ids);return {total:ps.length,done:ps.filter(p=>visited.has(p.id)).length};}
@@ -9,7 +10,7 @@ function collectionMembers(c){return members(c.placeIds).filter(p=>normal(p.name
 function renderCollections(){
  const content=document.querySelector('#content');
  if(collectionId){const c=collectionData.collections.find(c=>c.id===collectionId&&c.country===country);if(!c){collectionId=null;renderCollections();return;}
-  content.innerHTML=`<section class="collections"><button id="backCollections">${t("‹ Wszystkie kolekcje")}</button><h2>${escapeHtml(c.kind==='theme'?t(c.title):c.title)}</h2>${progressHtml(c.placeIds)}<p class="muted">${t("Odwiedzone miejsca na górze")}</p><input id="collectionSearch" class="wide-search" type="search" aria-label="${escapeHtml(t("Szukaj w kolekcji"))}" placeholder="${escapeHtml(t("Szukaj w kolekcji"))}" value="${escapeHtml(collectionQuery)}"><div id="collectionMembers"></div></section>`;
+  content.innerHTML=`<section class="collections"><button id="backCollections">${t("‹ Wszystkie kolekcje")}</button><h2>${escapeHtml(collectionTitle(c))}</h2>${progressHtml(c.placeIds)}<p class="muted">${t("Odwiedzone miejsca na górze")}</p><input id="collectionSearch" class="wide-search" type="search" aria-label="${escapeHtml(t("Szukaj w kolekcji"))}" placeholder="${escapeHtml(t("Szukaj w kolekcji"))}" value="${escapeHtml(collectionQuery)}"><div id="collectionMembers"></div></section>`;
   document.querySelector('#backCollections').onclick=()=>{collectionId=null;collectionQuery='';renderCollections();};document.querySelector('#collectionSearch').oninput=e=>{collectionQuery=e.target.value;paintMembers(c);};paintMembers(c);return;
  }
  content.innerHTML=`<section class="collections"><div class="eyebrow">${t("Twój paszport odkryć")}</div><h2>${t("Kolekcje")}</h2><div class="collection-tabs">${[['theme',t('Tematyczne')],['peaks',t('Pasma i regiony')],['plans',t('Kolejność odwiedzin')]].map(([id,label])=>`<button data-collection-mode="${id}" aria-pressed="${collectionMode===id}">${label}</button>`).join('')}</div><p class="muted">${collectionMode==='plans'?t('Zapisz miejsca w takiej kolejności, w jakiej chcesz je odwiedzić.'):t('Postęp obejmuje miejsca dostępne w obecnej bazie.')}</p><div id="collectionGrid" class="collection-grid"></div></section>`;
@@ -19,7 +20,7 @@ function renderCollections(){
   document.querySelector('#newPlan').onclick=()=>editPlan();document.querySelectorAll('[data-plan]').forEach(b=>b.onclick=()=>showPlan(b.dataset.plan));return;
  }
  const groups=collectionData.collections.filter(c=>c.country===country&&c.kind===collectionMode);
- document.querySelector('#collectionGrid').innerHTML=groups.map(c=>`<button class="collection-card" data-collection="${c.id}">${iconSvg(c.icon)}<h3>${escapeHtml(c.kind==='theme'?t(c.title):c.title)}</h3>${progressHtml(c.placeIds)}</button>`).join('');
+ document.querySelector('#collectionGrid').innerHTML=groups.map(c=>`<button class="collection-card" data-collection="${c.id}">${iconSvg(c.icon)}<h3>${escapeHtml(collectionTitle(c))}</h3>${progressHtml(c.placeIds)}</button>`).join('');
  document.querySelectorAll('[data-collection]').forEach(b=>b.onclick=()=>{collectionId=b.dataset.collection;collectionQuery='';renderCollections();});
 }
 function paintMembers(c){const ps=collectionMembers(c);document.querySelector('#collectionMembers').innerHTML=ps.length?ps.map(p=>`<button class="place-row" data-detail-place="${p.id}">${iconSvg(p.category)}<span>${escapeHtml(p.name)}<small>${visited.has(p.id)?t('✓ Odwiedzone'):t('Nieodwiedzone')}</small></span></button>`).join(''):`<p class="empty">${t("Brak pasujących miejsc.")}</p>`;}
@@ -47,7 +48,7 @@ function paintPlanEditor(){
 function paintDraftOrder(){document.querySelector('#draftOrder').innerHTML=members(planDraft.placeIds).map((p,i)=>`<li><strong>${escapeHtml(p.name)}</strong><div class="order-actions"><button data-move-index="${i}" data-delta="-1" ${i===0?'disabled':''} aria-label="${escapeHtml(t("Przesuń {name} w górę",{name:p.name}))}">↑</button><button data-move-index="${i}" data-delta="1" ${i===planDraft.placeIds.length-1?'disabled':''} aria-label="${escapeHtml(t("Przesuń {name} w dół",{name:p.name}))}">↓</button><button data-remove-index="${i}" aria-label="${escapeHtml(t("Usuń {name} z listy",{name:p.name}))}">${t("Usuń")}</button></div></li>`).join('');}
 function paintPlanMatches(q){const matches=q.trim()?catalog.places.filter(p=>p.country===country&&p.mapReady&&!planDraft.placeIds.includes(p.id)&&normal(p.name).includes(normal(q.trim()))).slice(0,12):[];document.querySelector('#planMatches').innerHTML=matches.map(p=>`<button class="place-row" data-add-plan="${p.id}"><span>${escapeHtml(p.name)}<small>${escapeHtml(p.area)}</small></span><span>+</span></button>`).join('')||(q.trim()?`<p class="muted">${t("Brak nowych pasujących miejsc.")}</p>`:'');}
 function persistPlans(next){if(window.Passport){const r=JSON.parse(window.Passport.savePlans(JSON.stringify(next)));if(!r.ok)throw Error(t('Nie udało się zapisać listy. Spróbuj ponownie.'));}else localStorage.setItem('plans',JSON.stringify(next));}
-function refreshVisitViews(){if(activeTab==='collections')renderCollections();else if(activeTab==='journal')renderJournal();else if(map){map.closePopup();updateResults();}if(exploreDialog.open&&detailRender)detailRender();}
+function refreshVisitViews(){syncAchievements();if(activeTab==='collections')renderCollections();else if(activeTab==='journal')renderJournal();else if(activeTab==='achievements')renderAchievements();else if(map){map.closePopup();updateResults();}if(exploreDialog.open&&detailRender)detailRender();}
 document.addEventListener('click',e=>{
  const b=e.target.closest('button');if(!b)return;
  if(b.hasAttribute('data-detail-close')){exploreDialog.close();return;}

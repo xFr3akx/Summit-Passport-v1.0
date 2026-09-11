@@ -1,0 +1,42 @@
+{
+  "version": "0.6.1",
+  "map_points": {
+    "PL": 451,
+    "DE": 1000
+  },
+  "added_germany": 386,
+  "added_categories": {
+    "castle": 62,
+    "heritage": 16,
+    "nature": 70,
+    "water": 111,
+    "peak": 124,
+    "lighthouse": 3
+  },
+  "added_regions": {
+    "DE-BB": 28,
+    "DE-BE": 16,
+    "DE-BW": 34,
+    "DE-BY": 39,
+    "DE-HB": 11,
+    "DE-HE": 27,
+    "DE-HH": 13,
+    "DE-MV": 14,
+    "DE-NI": 43,
+    "DE-NW": 38,
+    "DE-RP": 22,
+    "DE-SH": 24,
+    "DE-SL": 8,
+    "DE-SN": 34,
+    "DE-ST": 11,
+    "DE-TH": 24
+  },
+  "collections": {
+    "PL": 31,
+    "DE": 58
+  },
+  "catalog_sha256": "823b43ed134803284aac705471553a78c99a4db1b415914eb281aa20c85d72b6",
+  "previous_catalog_sha256": "298a39583194276c8e1821ba22bffb758490453506c6b46c466c51de081c6b67",
+  "catalog_complete": false,
+  "original_places_unchanged": true
+}

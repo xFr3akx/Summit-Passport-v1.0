@@ -22,7 +22,7 @@ public final class MainActivity extends Activity {
   super.onCreate(state); database=new PassportDatabase(this);
   TextView loading=new TextView(this);loading.setText("Summit Passport…");loading.setPadding(24,64,24,24);setContentView(loading);
   worker.execute(()->{try {
-   database.initState(getPreferences(MODE_PRIVATE));JSONObject catalog=new JSONObject(readAsset("ui/catalog.json"));database.importCatalog(catalog);snapshot=database.snapshot(catalog).toString();
+   database.initState(getPreferences(MODE_PRIVATE));JSONObject catalog=new JSONObject(readAsset("ui/catalog.json"));JSONObject metadata=new JSONObject(readAsset("ui/achievement-places.json")).getJSONObject("places");JSONArray points=catalog.getJSONArray("places");for(int i=0;i<points.length();i++){JSONObject point=points.getJSONObject(i),extra=metadata.optJSONObject(point.getString("id"));if(extra!=null){point.put("regionCode",extra.getString("regionCode"));point.put("mustSee",extra.getBoolean("mustSee"));}}database.importCatalog(catalog);snapshot=database.snapshot(catalog).toString();
    runOnUiThread(()->{if(!isFinishing()&&!isDestroyed())showApp();});
   }catch(Exception e){runOnUiThread(()->loading.setText(catalogError()));}});
  }
@@ -50,6 +50,8 @@ public final class MainActivity extends Activity {
   });web.loadUrl(ORIGIN+"/ui/index.html");
  }
  public final class Bridge {
+  @JavascriptInterface public String getAchievements(){try{return database.awards().toString();}catch(Exception e){return "[]";}}
+  @JavascriptInterface public String saveAchievements(String input){try{return new JSONObject().put("ok",true).put("awards",database.mergeAwards(new JSONArray(input))).toString();}catch(Exception e){return "{\"ok\":false}";}}
   @JavascriptInterface public String getLanguage(){return database.state("language","");}
   @JavascriptInterface public void setLanguage(String value){if("pl".equals(value)||"de".equals(value)||"en".equals(value))database.setState("language",value);}
   @JavascriptInterface public String getTheme(){return database.state("theme","");}

@@ -38,7 +38,7 @@ public final class BackupArchive {
    try(OutputStream out=json?bytes:new FileOutputStream(destination)){byte[] b=new byte[8192];int n;while((n=zip.read(b))!=-1){count+=n;total+=n;require(count<=limit&&total<=MAX_TOTAL);out.write(b,0,n);}}
    if(json)manifest=bytes.toByteArray();else photos.put(name.substring(7),destination);zip.closeEntry();
   }}
-  require(manifest!=null);JSONObject data=new JSONObject(new String(manifest,StandardCharsets.UTF_8));require(data.optString("format").equals("summit-passport")&&data.optInt("version")==1);
+  require(manifest!=null);JSONObject data=new JSONObject(new String(manifest,StandardCharsets.UTF_8));require(data.optString("format").equals("summit-passport")&&(data.optInt("version")==1||data.optInt("version")==2));
   Set<String> expected=photoNames(data);require(expected.equals(photos.keySet()));JSONObject hashes=data.getJSONObject("photoHashes");require(hashes.length()==expected.size());
   for(String name:expected)require(hash(photos.get(name)).equals(hashes.getString(name)));
   return new Loaded(data,photos);
@@ -50,12 +50,13 @@ public final class BackupArchive {
  }
  public static JSONArray newEntries(JSONArray current,JSONArray incoming)throws JSONException {Set<String> ids=new HashSet<>();for(int i=0;i<current.length();i++)ids.add(current.getJSONObject(i).getString("id"));JSONArray result=new JSONArray();for(int i=0;i<incoming.length();i++){JSONObject row=incoming.getJSONObject(i);if(ids.add(row.getString("id")))result.put(new JSONObject(row.toString()));}return result;}
  public static void validate(JSONObject data,JSONObject catalog)throws Exception {
-  require(data.optString("format").equals("summit-passport")&&data.optInt("version")==1);Map<String,String> places=new HashMap<>();JSONArray all=catalog.getJSONArray("places");for(int i=0;i<all.length();i++){JSONObject p=all.getJSONObject(i);if(p.optBoolean("mapReady"))places.put(p.getString("id"),p.getString("country"));}
+  require(data.optString("format").equals("summit-passport")&&(data.optInt("version")==1||data.optInt("version")==2));Map<String,String> places=new HashMap<>();JSONArray all=catalog.getJSONArray("places");for(int i=0;i<all.length();i++){JSONObject p=all.getJSONObject(i);if(p.optBoolean("mapReady"))places.put(p.getString("id"),p.getString("country"));}
   JSONArray visits=data.getJSONArray("visits"),plans=data.getJSONArray("plans");require(visits.length()<=10000&&plans.length()<=200);Set<String> ids=new HashSet<>();
   for(int i=0;i<visits.length();i++){JSONObject v=visits.getJSONObject(i);require(v.getString("id").matches("[a-f0-9-]{36}")&&ids.add(v.getString("id"))&&places.containsKey(v.getString("placeId")));LocalDate.parse(v.getString("date"));require(v.getString("notes").length()<=20000&&v.getString("weather").length()<=100);
    for(String key:new String[]{"rating","distance_m","duration_minutes","elevation_gain_m"}){double n=v.optDouble(key,0);require(Double.isFinite(n)&&n>=0&&n==Math.floor(n)&&n<=(key.equals("rating")?5:100000000));}
    String url=v.getString("trailUrl");require(url.length()<=4000);if(!url.isEmpty()){URI u=new URI(url);String host=u.getHost();require("https".equals(u.getScheme())&&host!=null&&(host.equals("alltrails.com")||host.endsWith(".alltrails.com")));}
   }
+  if(data.optInt("version")==2)require(data.has("achievements"));if(data.has("achievements"))AchievementRecords.validate(data.getJSONArray("achievements"));
   photoNames(data);ids.clear();
   for(int i=0;i<plans.length();i++){JSONObject p=plans.getJSONObject(i);String id=p.getString("id"),country=p.getString("country");require(id.matches("user-[a-f0-9-]{36}")&&ids.add(id)&&(country.equals("PL")||country.equals("DE"))&&!p.getString("title").trim().isEmpty()&&p.getString("title").length()<=100);JSONArray ps=p.getJSONArray("placeIds");Set<String> unique=new HashSet<>();require(ps.length()>=2&&ps.length()<=100);for(int j=0;j<ps.length();j++){String place=ps.getString(j);require(country.equals(places.get(place))&&unique.add(place));}}
   JSONObject settings=data.getJSONObject("settings");require(!settings.has("language")||Arrays.asList("pl","de","en").contains(settings.getString("language")));require(Arrays.asList("light","dark").contains(settings.getString("theme"))&&Arrays.asList("","PL","DE").contains(settings.getString("country")));

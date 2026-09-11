@@ -1,3 +1,11 @@
+# Kopia v2 — 0.6.1
+
+Nowe eksporty zawierają także trwałe odznaki: kraj, rodzina, poziom, data zdobycia i moment zapisu. Nagrody i pozostałe dane łączą się w jednej transakcji SQLite. Powtarzający się klucz nagrody zachowuje lokalną datę; import nie usuwa istniejących odznak. Kopie v1 z poprzednich wersji nadal są obsługiwane. Starsze aplikacje odrzucą nowy format v2, zamiast pomijać nagrody.
+
+Podsumowanie importu pokazuje liczbę nagród w kopii. Wszystkie dane przechodzą walidację przed zatwierdzeniem importu. Zakres starszej kopii i limity pozostają opisane poniżej.
+
+---
+
 # Kopia danych — 0.5.0
 
 Ustawienia → Kopia danych — eksport / import. Android otwiera systemowy wybór miejsca zapisu lub pliku. ZIP zawiera data.json oraz photos/*.jpg. Dane pozostają w aplikacji i w miejscu wybranym przez użytkownika; aplikacja nie przesyła ich do własnej chmury. Plik nie jest szyfrowany.
