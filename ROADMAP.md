@@ -3,7 +3,7 @@
 1. Dawne sprawdzenie 0.4.2 zostało przeniesione do punktu 6 decyzją użytkownika.
 2. Eksport/import: zaimplementowany w 0.5.0. ZIP zawiera wizyty, oceny, zdjęcia, własne listy i ustawienia. Import z podsumowaniem łączy dane, zachowując lokalne rekordy przy powtarzających się ID.
 3. Dark domyślny / Light: gotowe, wybór System usunięty. Konflikt aktualizacji: wyłączono dystrybucję APK podpisywanych tymczasowo przez CI; dostarczane APK mają stały lokalny podpis. Konkretna przyczyna konfliktu na telefonie nadal wymaga komunikatu i wskazania źródła poprzedniej instalacji — zadano pytanie użytkownikowi.
-4. Odznaki: użytkownik polecił zacząć po 2/3. Ustalono 11 poziomów; progi liczbowe czekają na uzgodnienie. Prace mogą iść dalej nad grafiką i mechanizmem.
+4. Odznaki: użytkownik polecił zacząć po 2/3. Ustalono 11 poziomów; progi liczbowe czekają na uzgodnienie. W 0.5.1 gotowy podgląd 12 rodzin × 11 poziomów oraz obliczanie bieżących wyników. Progi i uwagi: ACHIEVEMENTS_PROPOSAL.md. Trwałe przyznawanie, daty zdobycia i backup odblokowań pozostają do wdrożenia po uzgodnieniu progów. Must See / Regional Explorer wymagają zweryfikowanych oznaczeń, których zamrożona baza nie zapewnia. Etap odznak nie jest zakończony.
 5. Języki PL/DE/EN.
 6. Testy całej aplikacji na urządzeniu, w tym przeniesiony odbiór 0.4.2, aktualizacja, eksport/import i zdjęcia.
 7. Filtry i lista wyboru w edytorze kolejności, Near Me i późniejsza rozbudowa katalogu.

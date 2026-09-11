@@ -15,3 +15,7 @@ Biblioteki są dołączone do APK: Leaflet 1.9.4 (BSD-2-Clause), Leaflet.markerc
 `app/src/main/assets/ui/boundaries.json`: wybrane geometrie PL/DE z [Geo Countries](https://github.com/datasets/geo-countries/blob/main/data/countries.geojson), pobrane 10.09.2026; źródło [Natural Earth — public domain](https://www.naturalearthdata.com/about/terms-of-use/). Nie modyfikują katalogu atrakcji.
 
 HOME potwierdzone przez użytkownika: Overath (50.9320015, 7.2839042), [OSM relation 173104](https://www.openstreetmap.org/relation/173104); Jastrzębie-Zdrój (49.9519085, 18.6023614), [OSM relation 2415561](https://www.openstreetmap.org/relation/2415561). Współrzędne centrów miast uzyskano z Photon 10.09.2026 w ramach zgody na zapytania.
+
+## Podgląd odznak 0.5.1
+
+`badges-atlas.png` to niezmieniony zaakceptowany `Odznaki_Light_Dark.png`. Wyświetlane fragmenty atlasu zachowują ilustracje rodzin Light/Dark; kod dodaje obramowanie i etykietę poziomu. Nie wygenerowano nowych grafik. Progi pozostają robocze.

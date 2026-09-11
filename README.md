@@ -1,3 +1,11 @@
+# Summit Passport 0.5.1
+
+[Pobierz APK](https://github.com/xFr3akx/Summit-Passport-v1.0/raw/refs/heads/main/downloads/Summit_Passport_0.5.1.apk)
+
+Eksport/import ZIP, Dark domyślny / Light oraz podgląd 12 rodzin odznak po 11 poziomów. Progi do uzgodnienia: ACHIEVEMENTS_PROPOSAL.md. Podgląd liczy wyniki, ale nie przyznaje jeszcze trwałych odznak. Zakres odznak nie jest zakończony. Szczegóły i ograniczenia: TESTING.md, BACKUP.md, UPDATES.md.
+
+---
+
 # Summit Passport 0.5.0
 
 [Pobierz APK](https://github.com/xFr3akx/Summit-Passport-v1.0/raw/refs/heads/main/downloads/Summit_Passport_0.5.0.apk)

@@ -1,3 +1,15 @@
+# Podgląd odznak 0.5.1
+
+Zawiera gotowy zakres 0.5.0 (eksport/import i Dark/Light) oraz podgląd 12 rodzin po 11 poziomów. Obliczenia: unikalne miejsca, sumy dystansu/czasu/podejść, ukończone kolekcje, procent aktualnego katalogu kraju. Must See i regiony administracyjne pozostają nieaktywne wobec braku zweryfikowanych oznaczeń. Nie ma przyznawania ani zapisu dat zdobycia; to podgląd do uzgodnienia, nie zakończony etap odznak.
+
+PASS: test_achievements.cjs — 12 rodzin, 11 rosnących progów, unikalność vs sumy, oddzielenie krajów, granice progów, drabinka Master ★★★, Light/Dark i 320px. JUnit sprawdza teraz 11 poziomów (usunął dawny Master bez gwiazdek); 5 testów BackupArchiveTest nadal PASS. Gradle assembleDebug/testDebugUnitTest/lintDebug: BUILD SUCCESSFUL. Wizualnie sprawdzono karty i drabinkę. Podpis i obecność 11 poziomów wewnątrz APK sprawdzone; katalog niezmieniony.
+
+SHA-256 APK 0.5.1: `dbdbde9138a4501feafea97ab3c4082050ca83c7b33ec0fcd7fcd29083dc248f`.
+
+Progi: ACHIEVEMENTS_PROPOSAL.md. Pytanie o akceptację pozostaje otwarte. Konflikt instalacji wymaga odpowiedzi o komunikacie i źródle poprzedniego APK. Testy telefonu, w tym nowej kopii danych, zaplanowane w punkcie 6.
+
+---
+
 # 0.5.0 — kopia danych i motywy
 
 Gradle assembleDebug/testDebugUnitTest/lintDebug: BUILD SUCCESSFUL. 5 testów BackupArchiveTest PASS (ZIP/photo/Unicode; odrzucenie błędnej wersji/ID/oceny; ścieżki/duży wpis; integralność zdjęcia; deduplikacja zachowująca obecne dane), plus istniejący test szkieletu odznak. Android Lint: 0 błędów, 5 ostrzeżeń dotyczących istniejących EXIF, tekstów i ustawień backupu Androida.
