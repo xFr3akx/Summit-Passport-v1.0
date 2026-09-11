@@ -1,3 +1,7 @@
+# Kontrole 0.6.3
+
+PASS test_release_063.cjs: 24 do 25 szczytów zmienia Bronze II na Silver I i 2/11 na 3/11; pionowe szczegóły; podgląd następnego progu; zapis/reload; dokładnie 1/2/3 ścieżki gwiazdek w każdej z 12 rodzin; Light/Dark i 320 px. Regresje achievements, languages, awards, release_062 PASS. Android assembleDebug, testDebugUnitTest, lintDebug PASS. Podpis zgodny z 0.6.2. Kontrola wizualna listy i szczegółów, w tym Master 2. Test instalacji na fizycznym telefonie pozostaje do wykonania.
+
 # Kontrole 0.6.2
 
 PASS: formularz nie-szczytu z wyborem dnia; zachowanie starszych ukrytych parametrów i załączników; trasa tekstowa i bezpieczne wyświetlanie znaków HTML; ikony pogody i parametrów; filtry dnia/oceny, sortowanie; nowa sesja zaczyna od kraju; przeładowanie języka zachowuje kraj; nawigacja; odznaki x/11 i jednostki.

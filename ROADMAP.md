@@ -1,3 +1,7 @@
+# Aktualizacja 0.6.3
+
+Menu odznak z zaakceptowanego PDF wdrożone, Master 2 poprawiony. Następny krok: odbiór APK na telefonie. Zakres pozostałych etapów bez zmian.
+
 # Aktualizacja 0.6.2
 
 Zmiany formularzy, Dziennika, nawigacji i prezentacji odznak zakończone. Wszystkie kategorie mają wybór dnia odwiedzin. Zdjęcia ukryte; zachowujemy dane i kopie. Następny krok: odbiór 0.6.2 na telefonie (punkt 6). Near Me i edytor list z filtrami pozostają w punkcie 7.

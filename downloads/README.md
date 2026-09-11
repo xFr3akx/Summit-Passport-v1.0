@@ -1,3 +1,13 @@
+# Summit Passport 0.6.3 - menu odznak zgodne z projektem
+
+[Pobierz APK 0.6.3](https://github.com/xFr3akx/Summit-Passport-v1.0/raw/refs/heads/main/downloads/Summit_Passport_0.6.3.apk)
+
+Większe grafiki po lewej na liście, zdobyta ranga i postęp x/11. Szczegóły: duża odznaka, nazwa rangi, numer progu i cel, pasek oraz data zdobycia. Przycisk następnego progu i rozwijana pełna drabinka. Grafika zmienia się ze zdobytą rangą. Peak Hunter używa ilustracji rang z zatwierdzonego projektu A1; pozostałe rodziny zachowują swoje symbole i otrzymują kolor rangi oraz oznaczenie I/II lub gwiazdki. Master 2 ma dwie osobne gwiazdki SVG zamiast nieczytelnego fragmentu obrazu lub znaków zależnych od czcionki.
+
+Progi, zapisane odznaki, wizyty i baza pozostają bez zmian. APK podpisany dotychczasowym kluczem, versionCode 13. Testy automatyczne i kompilacja PASS; odbiór na fizycznym telefonie pozostaje do wykonania.
+
+---
+
 # Summit Passport 0.6.2 — formularze, Dziennik i odznaki
 
 [Pobierz APK 0.6.2](https://github.com/xFr3akx/Summit-Passport-v1.0/raw/refs/heads/main/downloads/Summit_Passport_0.6.2.apk)

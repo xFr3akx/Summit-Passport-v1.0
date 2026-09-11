@@ -1,3 +1,7 @@
+# Prezentacja 0.6.3
+
+Zaakceptowany układ PDF: większe grafiki i nazwa rangi na liście; duży obraz nad celem i paskiem w szczegółach. Wszystkie progi dostępne w rozwijanej drabince. Podgląd następnej rangi nie zmienia zdobytej. 11 rang, oznaczenia I/II oraz 1/2/3 osobne gwiazdki SVG. Oryginalna plansza A1 w badge-ranks-source.png pozostaje niezmieniona; aplikacja wyświetla fragmenty rang Peak, a gwiazdki rysuje osobno. Pozostałe rodziny zachowują ilustracje atlasu z barwą rangi.
+
 # Prezentacja 0.6.2
 
 Lista pokazuje liczbę zdobytych progów / 11, niezależnie od bieżącej wartości metryki. Szczegóły zawierają opis reguły, grafikę po lewej, postęp i status/datę po prawej. Peak/Castle/Cave/Waterfall mają własne jednostki z odmianą PL i tłumaczeniami DE/EN. Progi i trwały rejestr przyznań nie zmieniły się.
