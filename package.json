@@ -5,7 +5,8 @@
     "test:visits": "node scripts/test_visits.cjs",
     "test:collections": "node scripts/test_collections.cjs",
     "test:startup": "node scripts/test_startup.cjs",
-    "test:journal": "node scripts/test_journal.cjs"
+    "test:journal": "node scripts/test_journal.cjs",
+    "test:backup": "node scripts/test_backup_ui.cjs"
   },
   "devDependencies": {
     "playwright": "1.62.1"

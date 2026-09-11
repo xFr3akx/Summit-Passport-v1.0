@@ -14,6 +14,7 @@ import java.util.concurrent.Executors;
 public final class MainActivity extends Activity {
  private static final String ORIGIN="https://appassets.androidplatform.net";
  private WebView web;
+ private BackupController backups;
  private PassportDatabase database;
  private final ExecutorService worker=Executors.newSingleThreadExecutor();
  private volatile String snapshot="{}";
@@ -21,13 +22,14 @@ public final class MainActivity extends Activity {
   super.onCreate(state); database=new PassportDatabase(this);
   TextView loading=new TextView(this);loading.setText("Summit Passport · przygotowanie mapy…");loading.setPadding(24,64,24,24);setContentView(loading);
   worker.execute(()->{try {
-   JSONObject catalog=new JSONObject(readAsset("ui/catalog.json"));database.importCatalog(catalog);snapshot=database.snapshot(catalog).toString();
+   database.initState(getPreferences(MODE_PRIVATE));JSONObject catalog=new JSONObject(readAsset("ui/catalog.json"));database.importCatalog(catalog);snapshot=database.snapshot(catalog).toString();
    runOnUiThread(()->{if(!isFinishing()&&!isDestroyed())showApp();});
   }catch(Exception e){runOnUiThread(()->loading.setText("Nie udało się otworzyć katalogu. Uruchom aplikację ponownie."));}});
  }
  private String readAsset(String path)throws IOException {try(InputStream in=getAssets().open(path);ByteArrayOutputStream out=new ByteArrayOutputStream()){byte[] b=new byte[8192];int n;while((n=in.read(b))!=-1)out.write(b,0,n);return out.toString(StandardCharsets.UTF_8.name());}}
  @android.annotation.SuppressLint("SetJavaScriptEnabled")
  private void showApp(){
+  backups=new BackupController(this,database,worker,snapshot,event->{try{if("imported".equals(event.optString("type")))snapshot=database.snapshot(new JSONObject(snapshot)).toString();}catch(Exception ignored){}runOnUiThread(()->{if(web!=null&&!isDestroyed())web.evaluateJavascript("window.backupEvent && window.backupEvent("+event.toString()+")",null);});});
   web=new WebView(this);setContentView(web);
   web.setOnApplyWindowInsetsListener((v,i)->{v.setPadding(i.getSystemWindowInsetLeft(),i.getSystemWindowInsetTop(),i.getSystemWindowInsetRight(),i.getSystemWindowInsetBottom());return i;});web.requestApplyInsets();
   WebSettings s=web.getSettings();s.setJavaScriptEnabled(true);s.setDomStorageEnabled(true);s.setAllowFileAccess(false);s.setAllowContentAccess(false);s.setGeolocationEnabled(false);s.setMixedContentMode(WebSettings.MIXED_CONTENT_NEVER_ALLOW);
@@ -47,28 +49,32 @@ public final class MainActivity extends Activity {
   });web.loadUrl(ORIGIN+"/ui/index.html");
  }
  public final class Bridge {
+  @JavascriptInterface public String getTheme(){return database.state("theme","");}
+  @JavascriptInterface public void exportBackup(){runOnUiThread(()->backups.exportFile());}
+  @JavascriptInterface public void importBackup(){runOnUiThread(()->backups.chooseFile());}
+  @JavascriptInterface public void confirmImport(String token){backups.confirm(token);}
   @JavascriptInterface public String getSnapshot(){return snapshot;}
-  @JavascriptInterface public String getPlans(){return getPreferences(MODE_PRIVATE).getString("plans","[]");}
+  @JavascriptInterface public String getPlans(){return database.state("plans","[]");}
   @JavascriptInterface public String savePlans(String input){try{
    JSONArray plans=new JSONArray(input);if(plans.length()>200)throw new IllegalArgumentException();JSONObject lookup=new JSONObject();JSONArray places=new JSONObject(snapshot).getJSONArray("places");for(int i=0;i<places.length();i++){JSONObject p=places.getJSONObject(i);if(p.optBoolean("mapReady"))lookup.put(p.getString("id"),p.getString("country"));}
    java.util.HashSet<String> ids=new java.util.HashSet<>();JSONArray cleaned=new JSONArray();
    for(int i=0;i<plans.length();i++){JSONObject p=plans.getJSONObject(i);String id=p.getString("id"),country=p.getString("country"),title=p.getString("title").trim();if(!id.matches("user-[a-f0-9-]{36}")||!ids.add(id)||!(country.equals("PL")||country.equals("DE"))||title.isEmpty()||title.length()>100)throw new IllegalArgumentException();JSONArray members=p.getJSONArray("placeIds");if(members.length()<2||members.length()>100)throw new IllegalArgumentException();java.util.HashSet<String> unique=new java.util.HashSet<>();for(int k=0;k<members.length();k++){String member=members.getString(k);if(!country.equals(lookup.optString(member))||!unique.add(member))throw new IllegalArgumentException();}cleaned.put(new JSONObject().put("id",id).put("country",country).put("title",title).put("placeIds",members).put("editable",true));}
-   boolean ok=getPreferences(MODE_PRIVATE).edit().putString("plans",cleaned.toString()).commit();return ok?"{\"ok\":true}":"{\"ok\":false}";
+   database.setState("plans",cleaned.toString());return "{\"ok\":true}";
   }catch(Exception e){return "{\"ok\":false}";}}
 
   @JavascriptInterface public String saveVisit(String input){try{JSONObject v=database.saveVisit(new JSONObject(input));snapshot=database.snapshot(new JSONObject(snapshot)).toString();return new JSONObject().put("ok",true).put("visit",v).toString();}catch(Exception e){return "{\"ok\":false,\"error\":\"Nie udało się zapisać wizyty. Sprawdź datę, link i wartości formularza.\"}";}}
   @JavascriptInterface public String deleteVisit(String id){try{JSONArray unused=database.deleteVisit(id);snapshot=database.snapshot(new JSONObject(snapshot)).toString();for(int i=0;i<unused.length();i++){String name=unused.getString(i);if(name.matches("[a-f0-9-]{36}\\.jpg"))new File(getFilesDir(),"photos/"+name).delete();}return "{\"ok\":true}";}catch(Exception e){return "{\"ok\":false}";}}
   @JavascriptInterface public void pickPhoto(){runOnUiThread(()->{Intent i=new Intent(Intent.ACTION_OPEN_DOCUMENT);i.setType("image/*");i.addCategory(Intent.CATEGORY_OPENABLE);try{startActivityForResult(i,91);}catch(android.content.ActivityNotFoundException e){photoError();}});}
-  @JavascriptInterface public String getCountry(){return getPreferences(MODE_PRIVATE).getString("country","");}
-  @JavascriptInterface public void setCountry(String value){if("PL".equals(value)||"DE".equals(value)||"".equals(value))getPreferences(MODE_PRIVATE).edit().putString("country",value).apply();}
-  @JavascriptInterface public void setTheme(String value){if(!"light".equals(value)&&!"dark".equals(value))return;runOnUiThread(()->{
+  @JavascriptInterface public String getCountry(){return database.state("country","");}
+  @JavascriptInterface public void setCountry(String value){if("PL".equals(value)||"DE".equals(value)||"".equals(value))database.setState("country",value);}
+  @JavascriptInterface public void setTheme(String value){if(!"light".equals(value)&&!"dark".equals(value))return;database.setState("theme",value);runOnUiThread(()->{
    boolean dark="dark".equals(value);int color=android.graphics.Color.parseColor(dark?"#0c1c21":"#f6f4ed");
    getWindow().setStatusBarColor(color);getWindow().setNavigationBarColor(color);if(web!=null)web.setBackgroundColor(color);
    getWindow().getDecorView().setSystemUiVisibility(dark?0:android.view.View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR|android.view.View.SYSTEM_UI_FLAG_LIGHT_NAVIGATION_BAR);
   });}
  }
  private void photoError(){if(web!=null)web.evaluateJavascript("window.photoFailed && window.photoFailed()",null);}
- @Override protected void onActivityResult(int request,int result,Intent data){super.onActivityResult(request,result,data);if(request!=91)return;if(result!=RESULT_OK||data==null||data.getData()==null){photoError();return;}Uri uri=data.getData();worker.execute(()->{try{
+ @Override protected void onActivityResult(int request,int result,Intent data){super.onActivityResult(request,result,data);if(request==92||request==93){if(backups!=null)backups.result(request,result,data);return;}if(request!=91)return;if(result!=RESULT_OK||data==null||data.getData()==null){photoError();return;}Uri uri=data.getData();worker.execute(()->{try{
   android.graphics.BitmapFactory.Options options=new android.graphics.BitmapFactory.Options();options.inJustDecodeBounds=true;try(InputStream in=getContentResolver().openInputStream(uri)){android.graphics.BitmapFactory.decodeStream(in,null,options);}
   if(options.outWidth<=0||options.outHeight<=0)throw new IOException();options.inSampleSize=1;while(Math.max(options.outWidth,options.outHeight)/options.inSampleSize>1600)options.inSampleSize*=2;options.inJustDecodeBounds=false;
   android.graphics.Bitmap bitmap;try(InputStream in=getContentResolver().openInputStream(uri)){bitmap=android.graphics.BitmapFactory.decodeStream(in,null,options);}if(bitmap==null)throw new IOException();

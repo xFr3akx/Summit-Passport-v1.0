@@ -1,3 +1,15 @@
+# 0.5.0 — kopia danych i motywy
+
+Gradle assembleDebug/testDebugUnitTest/lintDebug: BUILD SUCCESSFUL. 5 testów BackupArchiveTest PASS (ZIP/photo/Unicode; odrzucenie błędnej wersji/ID/oceny; ścieżki/duży wpis; integralność zdjęcia; deduplikacja zachowująca obecne dane), plus istniejący test szkieletu odznak. Android Lint: 0 błędów, 5 ostrzeżeń dotyczących istniejących EXIF, tekstów i ustawień backupu Androida.
+
+PASS: test_backup_ui.cjs, test_startup.cjs, test_journal.cjs, test_collections.cjs, test_migration.py oraz test_backup_transaction.py. Wizualnie sprawdzono podsumowanie importu. Baza katalogu wewnątrz APK bez zmian. Podpis APK sprawdzony, zgodny z dotychczasowym lokalnym certyfikatem.
+
+SHA-256 APK: `9090cc65df581ba44dccaa61eac79e5e84266b1b14a3498cee8c05e477081371`.
+
+Pełnego wyboru plików i odtworzenia danych na telefonie nie testowano — zgodnie z instrukcją testy urządzenia są przeniesione do punktu 6. Test SQLite jest kontrolą transakcji, nie testem natywnego interfejsu Androida. Konflikt instalacji na telefonie nadal nie został potwierdzony ani rozwiązany; usunięto dystrybucję tymczasowo podpisanych APK CI. Szczegóły: BACKUP.md i UPDATES.md.
+
+---
+
 # Poprawki dziennika 0.4.2 — 10.09.2026
 
 Kosz z potwierdzeniem usuwa pojedynczą wizytę. Ocena 1–5 jest opcjonalna; 0 oznacza brak oceny. Dziennik pokazuje symbol kategorii, nazwę, datę i gwiazdki. Kolekcje otwierają widok główny po kliknięciu zakładki.

@@ -8,7 +8,7 @@ from pathlib import Path
 
 source = (Path(__file__).resolve().parents[1] / 'app/src/main/java/com/summitpassport/app/PassportDatabase.java').read_text(encoding='utf-8')
 statements = re.findall(r'db.execSQL\("([^"]+)"\)', source)
-creates = [s for s in statements if s.startswith('CREATE')]
+creates = re.findall(r'db.execSQL\("([^"]+)"\)', source.split('public void onCreate')[1].split('@Override public void onUpgrade')[0])
 upgrades = [s for s in statements if s.startswith('ALTER')]
 old_visits = "CREATE TABLE visits (id TEXT PRIMARY KEY NOT NULL, place_id TEXT NOT NULL REFERENCES places(stable_id), visited_on TEXT NOT NULL, distance_m INTEGER NOT NULL DEFAULT 0 CHECK(distance_m >= 0), duration_minutes INTEGER NOT NULL DEFAULT 0 CHECK(duration_minutes >= 0), elevation_gain_m INTEGER NOT NULL DEFAULT 0 CHECK(elevation_gain_m >= 0), notes TEXT NOT NULL DEFAULT '')"
 db = sqlite3.connect(':memory:')

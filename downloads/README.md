@@ -1,7 +1,7 @@
-# Aktualny APK — 0.4.2
+# APK 0.5.0
 
-[Pobierz APK](https://github.com/xFr3akx/Summit-Passport-v1.0/raw/refs/heads/main/downloads/Summit_Passport_0.4.2.apk)
+[Pobierz](https://github.com/xFr3akx/Summit-Passport-v1.0/raw/refs/heads/main/downloads/Summit_Passport_0.5.0.apk)
 
-Zaloguj się na konto GitHub z dostępem. Aktualizacja dodaje oceny i usuwanie wizyt. Nie odinstalowuj aplikacji ani nie czyść danych w razie konfliktu — zgłoszony problem instalacji czeka na osobną diagnozę.
+Kopia ZIP i Dark/Light. Instaluj wersje z tego katalogu. W razie konfliktu nie usuwaj danych; patrz UPDATES.md.
 
-SHA-256: `ca082dde0e7ed5a15ed7e99340e49be7e1f2e9bad7eac707054bc5e68c31908d`.
+SHA-256: `9090cc65df581ba44dccaa61eac79e5e84266b1b14a3498cee8c05e477081371`.

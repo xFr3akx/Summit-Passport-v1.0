@@ -1,3 +1,11 @@
+# Summit Passport 0.5.0
+
+[Pobierz APK](https://github.com/xFr3akx/Summit-Passport-v1.0/raw/refs/heads/main/downloads/Summit_Passport_0.5.0.apk)
+
+Eksport/import wizyt, ocen, zdjęć, własnych list i ustawień przez lokalny ZIP. Podsumowanie przed importem; istniejące wpisy nie są nadpisywane. Dark domyślny, Light do wyboru, bez System. Instrukcje: BACKUP.md, UPDATES.md. Testy urządzenia są zaplanowane w punkcie 6; konflikt istniejącej instalacji wymaga dalszej diagnozy.
+
+---
+
 # Summit Passport 0.4.2
 
 [Pobierz APK 0.4.2](https://github.com/xFr3akx/Summit-Passport-v1.0/raw/refs/heads/main/downloads/Summit_Passport_0.4.2.apk)

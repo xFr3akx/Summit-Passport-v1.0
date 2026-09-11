@@ -7,9 +7,10 @@ import android.database.Cursor;
 import org.json.*;
 
 public final class PassportDatabase extends SQLiteOpenHelper {
- public PassportDatabase(Context context) { super(context, "passport.db", null, 3); }
+ public PassportDatabase(Context context) { super(context, "passport.db", null, 4); }
  @Override public void onConfigure(SQLiteDatabase db) { db.setForeignKeyConstraintsEnabled(true); }
  @Override public void onCreate(SQLiteDatabase db) {
+  db.execSQL("CREATE TABLE app_state (key TEXT PRIMARY KEY NOT NULL, value TEXT NOT NULL)");
   db.execSQL("CREATE TABLE places (stable_id TEXT PRIMARY KEY NOT NULL, country TEXT NOT NULL CHECK(country IN ('PL','DE')), name TEXT NOT NULL, admin_region_code TEXT NOT NULL, category TEXT NOT NULL, latitude REAL NOT NULL CHECK(latitude BETWEEN -90 AND 90), longitude REAL NOT NULL CHECK(longitude BETWEEN -180 AND 180), must_see INTEGER NOT NULL DEFAULT 0 CHECK(must_see IN (0,1)))");
   db.execSQL("CREATE TABLE visits (id TEXT PRIMARY KEY NOT NULL, place_id TEXT NOT NULL REFERENCES places(stable_id), visited_on TEXT NOT NULL, distance_m INTEGER NOT NULL DEFAULT 0 CHECK(distance_m >= 0), duration_minutes INTEGER NOT NULL DEFAULT 0 CHECK(duration_minutes >= 0), elevation_gain_m INTEGER NOT NULL DEFAULT 0 CHECK(elevation_gain_m >= 0), notes TEXT NOT NULL DEFAULT '', weather TEXT NOT NULL DEFAULT '', trail_url TEXT NOT NULL DEFAULT '', photos TEXT NOT NULL DEFAULT '[]', rating INTEGER NOT NULL DEFAULT 0 CHECK(rating BETWEEN 0 AND 5))");
   db.execSQL("CREATE INDEX visits_place ON visits(place_id)");
@@ -17,7 +18,24 @@ public final class PassportDatabase extends SQLiteOpenHelper {
  }
  @Override public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
   if(oldVersion<2){db.execSQL("ALTER TABLE visits ADD COLUMN weather TEXT NOT NULL DEFAULT ''");db.execSQL("ALTER TABLE visits ADD COLUMN trail_url TEXT NOT NULL DEFAULT ''");db.execSQL("ALTER TABLE visits ADD COLUMN photos TEXT NOT NULL DEFAULT '[]'");}
+  if(oldVersion<4)db.execSQL("CREATE TABLE app_state (key TEXT PRIMARY KEY NOT NULL, value TEXT NOT NULL)");
   if(oldVersion<3)db.execSQL("ALTER TABLE visits ADD COLUMN rating INTEGER NOT NULL DEFAULT 0 CHECK(rating BETWEEN 0 AND 5)");
+ }
+ public synchronized String state(String key,String fallback){try(Cursor c=getReadableDatabase().rawQuery("SELECT value FROM app_state WHERE key=?",new String[]{key})){return c.moveToFirst()?c.getString(0):fallback;}}
+ public synchronized void setState(String key,String value){ContentValues v=new ContentValues();v.put("key",key);v.put("value",value);getWritableDatabase().execSQL("INSERT OR REPLACE INTO app_state (key,value) VALUES (?,?)",new Object[]{key,value});}
+ public synchronized void initState(android.content.SharedPreferences legacy){for(String key:new String[]{"plans","country"}){String fallback=key.equals("plans")?"[]":"";if(state(key,null)==null)setState(key,legacy.getString(key,fallback));}}
+ public synchronized JSONObject backupData()throws JSONException {return new JSONObject().put("format","summit-passport").put("version",1).put("createdAt",java.time.Instant.now().toString()).put("visits",visitList()).put("plans",new JSONArray(state("plans","[]"))).put("settings",new JSONObject().put("theme",state("theme","dark")).put("country",state("country","")));}
+ public synchronized JSONObject previewBackup(JSONObject incoming)throws JSONException {
+  java.util.HashSet<String> existing=new java.util.HashSet<>();JSONArray current=visitList();for(int i=0;i<current.length();i++)existing.add(current.getJSONObject(i).getString("id"));int newVisits=0;JSONArray ins=incoming.getJSONArray("visits");for(int i=0;i<ins.length();i++)if(!existing.contains(ins.getJSONObject(i).getString("id")))newVisits++;
+  existing.clear();JSONArray plans=new JSONArray(state("plans","[]"));for(int i=0;i<plans.length();i++)existing.add(plans.getJSONObject(i).getString("id"));int newPlans=0;JSONArray ips=incoming.getJSONArray("plans");for(int i=0;i<ips.length();i++)if(!existing.contains(ips.getJSONObject(i).getString("id")))newPlans++;
+  return new JSONObject().put("newVisits",newVisits).put("skippedVisits",ins.length()-newVisits).put("newPlans",newPlans).put("skippedPlans",ips.length()-newPlans);
+ }
+ public synchronized void mergeBackup(BackupArchive.Loaded loaded,java.io.File photoDir)throws Exception {
+  JSONObject data=loaded.data;SQLiteDatabase db=getWritableDatabase();java.util.ArrayList<java.io.File> created=new java.util.ArrayList<>();boolean committed=false;db.beginTransaction();
+  try{java.util.HashSet<String> ids=new java.util.HashSet<>();JSONArray old=visitList();for(int i=0;i<old.length();i++)ids.add(old.getJSONObject(i).getString("id"));JSONArray incoming=BackupArchive.newEntries(old,data.getJSONArray("visits"));java.util.HashMap<String,String> remapped=new java.util.HashMap<>();photoDir.mkdirs();
+   for(int i=0;i<incoming.length();i++){JSONObject v=new JSONObject(incoming.getJSONObject(i).toString());if(ids.contains(v.getString("id")))continue;JSONArray photos=v.getJSONArray("photos"),mapped=new JSONArray();for(int k=0;k<photos.length();k++){String original=photos.getString(k);String name=remapped.get(original);if(name==null){name=java.util.UUID.randomUUID()+".jpg";java.io.File dest=new java.io.File(photoDir,name);created.add(dest);java.nio.file.Files.copy(loaded.photos.get(original).toPath(),dest.toPath());remapped.put(original,name);}mapped.put(name);}v.put("photos",mapped);saveVisit(v);}
+   JSONArray plans=new JSONArray(state("plans","[]"));ids.clear();for(int i=0;i<plans.length();i++)ids.add(plans.getJSONObject(i).getString("id"));JSONArray incomingPlans=BackupArchive.newEntries(plans,data.getJSONArray("plans"));for(int i=0;i<incomingPlans.length();i++){JSONObject p=incomingPlans.getJSONObject(i);if(!ids.contains(p.getString("id")))plans.put(p);}if(plans.length()>200)throw new IllegalArgumentException("Zbyt wiele list po połączeniu.");setState("plans",plans.toString());JSONObject settings=data.getJSONObject("settings");setState("country",settings.getString("country"));setState("theme",settings.getString("theme"));db.setTransactionSuccessful();committed=true;
+  }finally{try{db.endTransaction();}catch(Exception e){committed=false;throw e;}finally{if(!committed)for(java.io.File file:created)file.delete();}}
  }
  public synchronized JSONObject saveVisit(JSONObject v)throws Exception {
   int rating=v.optInt("rating",0);if(rating<0||rating>5||v.optDouble("rating",0)!=rating)throw new IllegalArgumentException("Ocena musi być od 0 do 5.");
@@ -36,7 +54,7 @@ public final class PassportDatabase extends SQLiteOpenHelper {
   java.util.HashSet<String> used=new java.util.HashSet<>();try(Cursor c=db.rawQuery("SELECT photos FROM visits",null)){while(c.moveToNext()){JSONArray photos=new JSONArray(c.getString(0));for(int i=0;i<photos.length();i++)used.add(photos.getString(i));}}
   JSONArray unused=new JSONArray();for(int i=0;i<removedPhotos.length();i++)if(!used.contains(removedPhotos.getString(i)))unused.put(removedPhotos.getString(i));return unused;
  }
- public JSONArray visitList()throws JSONException {
+ public synchronized JSONArray visitList()throws JSONException {
   JSONArray result=new JSONArray();try(Cursor c=getReadableDatabase().rawQuery("SELECT id,place_id,visited_on,weather,trail_url,notes,distance_m,duration_minutes,elevation_gain_m,photos,rating FROM visits ORDER BY visited_on DESC,id DESC",null)){
    while(c.moveToNext())result.put(new JSONObject().put("id",c.getString(0)).put("placeId",c.getString(1)).put("date",c.getString(2)).put("weather",c.getString(3)).put("trailUrl",c.getString(4)).put("notes",c.getString(5)).put("distance_m",c.getInt(6)).put("duration_minutes",c.getInt(7)).put("elevation_gain_m",c.getInt(8)).put("photos",new JSONArray(c.getString(9))).put("rating",c.getInt(10)));
   }return result;
@@ -51,7 +69,7 @@ public final class PassportDatabase extends SQLiteOpenHelper {
    }db.setTransactionSuccessful();
   }finally{db.endTransaction();}
  }
- public JSONObject snapshot(JSONObject catalog)throws JSONException {
+ public synchronized JSONObject snapshot(JSONObject catalog)throws JSONException {
   JSONArray visited=new JSONArray();
   try(Cursor c=getReadableDatabase().rawQuery("SELECT DISTINCT place_id FROM visits",null)){while(c.moveToNext())visited.put(c.getString(0));}
   catalog.put("visits",visitList());catalog.put("visited",visited);return catalog;
