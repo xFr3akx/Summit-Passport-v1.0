@@ -1,18 +1,20 @@
-# Summit Passport 0.6.4 – vorhandene Deutschland-Einträge ergänzt
+# Summit Passport 1.1 – uzupełnienie istniejących wpisów Niemiec
 
-[APK 0.6.4 herunterladen](https://github.com/xFr3akx/Summit-Passport-v1.0/raw/refs/heads/main/downloads/Summit_Passport_0.6.4.apk)
+[Pobierz APK wersji 1.1](https://github.com/xFr3akx/Summit-Passport-v1.0/raw/refs/heads/main/downloads/Summit_Passport_0.6.4.apk)
 
-Deutschland: 1.333 Kartenorte (+333 bereits gesammelte Einträge mit Koordinaten). 12 zusätzliche Duplikate verknüpft. Alle 676 zuvor offenen Einträge geprüft; 331 benötigen weitere Klärung. Die Deutschland-Datenbank ist noch nicht vollständig. Es wurden keine neuen, bislang nicht gesammelten Orte angelegt.
+Nowa numeracja wydań: **1.0 odpowiada dotychczasowej wersji 0.6.3**, a **1.1 odpowiada dotychczasowej wersji 0.6.4**. Ta aktualizacja dotyczy opisów na GitHubie. Istniejące pliki APK i ich wewnętrzne oznaczenia zachowują stare numery.
 
-Sammlungen und Odznaken-Metadaten sind ergänzt. Alle bisherigen Kartenorte und Polen-Einträge behalten ihre IDs und Daten. [Prüfbericht und offene Einträge](https://github.com/xFr3akx/Summit-Passport-v1.0/blob/main/GERMANY_COMPLETION_064.md).
+Niemcy: **1 333 miejsca na mapie**, w tym 333 wcześniej zebrane wpisy uzupełnione o współrzędne. Powiązano 12 duplikatów. Sprawdzono wszystkie 676 wcześniej otwartych wpisów; **331 nadal wymaga wyjaśnienia**. Baza Niemiec nie jest jeszcze kompletna. Uzupełniono istniejący katalog, bez dodawania miejsc spoza wcześniej zebranej listy.
 
-VersionCode 14, gleicher Signaturschlüssel wie 0.6.3. Android-Build, Lint und automatische Katalog-/Oberflächenprüfungen erfolgreich. Die Installation auf einem echten Telefon wurde hier nicht getestet.
+Uzupełniono kolekcje i dane potrzebne do naliczania odznak. Wszystkie dotychczasowe miejsca na mapie oraz wpisy Polski zachowują swoje identyfikatory i dane. [Raport weryfikacji i lista otwartych wpisów](https://github.com/xFr3akx/Summit-Passport-v1.0/blob/main/GERMANY_COMPLETION_064.md).
+
+APK ma kod wersji 14 i ten sam klucz podpisu co wydanie 1.0. Kompilacja Androida oraz automatyczne kontrole katalogu i interfejsu zakończyły się pomyślnie. Instalacja na fizycznym telefonie nie została jeszcze sprawdzona.
 
 ---
 
-# Summit Passport 0.6.3 - menu odznak zgodne z projektem
+# Summit Passport 1.0 – menu odznak zgodne z projektem
 
-[Pobierz APK 0.6.3](https://github.com/xFr3akx/Summit-Passport-v1.0/raw/refs/heads/main/downloads/Summit_Passport_0.6.3.apk)
+[Pobierz APK wersji 1.0](https://github.com/xFr3akx/Summit-Passport-v1.0/raw/refs/heads/main/downloads/Summit_Passport_0.6.3.apk)
 
 Większe grafiki po lewej na liście, zdobyta ranga i postęp x/11. Szczegóły: duża odznaka, nazwa rangi, numer progu i cel, pasek oraz data zdobycia. Przycisk następnego progu i rozwijana pełna drabinka. Grafika zmienia się ze zdobytą rangą. Peak Hunter używa ilustracji rang z zatwierdzonego projektu A1; pozostałe rodziny zachowują swoje symbole i otrzymują kolor rangi oraz oznaczenie I/II lub gwiazdki. Master 2 ma dwie osobne gwiazdki SVG zamiast nieczytelnego fragmentu obrazu lub znaków zależnych od czcionki.
 
