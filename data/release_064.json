@@ -1,0 +1,25 @@
+{
+  "version": "0.6.4",
+  "reviewedPreviouslyPending": 676,
+  "completedExistingGermany": 333,
+  "duplicatesLinked": 12,
+  "unresolvedGermany": 331,
+  "map_points": {
+    "PL": 451,
+    "DE": 1333
+  },
+  "catalog_complete": false,
+  "germany_complete": false,
+  "catalog_sha256": "ef554aa7f9de2113c8e35fabf3642f325272b270c64d41ceca7650508e7641c6",
+  "previous_catalog_sha256": "823b43ed134803284aac705471553a78c99a4db1b415914eb281aa20c85d72b6",
+  "existingMappedPlacesPreserved": true,
+  "allPolandRecordsPreserved": true,
+  "collections": {
+    "PL": 31,
+    "DE": 60
+  },
+  "versionCode": 14,
+  "apkSha256": "9ce44c07cdf7fa355df468da13a3dbcd552445bca5cfb5641ca60fe025330de5",
+  "apkBytes": 7536799,
+  "signatureSameAs063": true
+}

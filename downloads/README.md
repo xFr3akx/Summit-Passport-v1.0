@@ -1,3 +1,15 @@
+# Summit Passport 0.6.4 – vorhandene Deutschland-Einträge ergänzt
+
+[APK 0.6.4 herunterladen](https://github.com/xFr3akx/Summit-Passport-v1.0/raw/refs/heads/main/downloads/Summit_Passport_0.6.4.apk)
+
+Deutschland: 1.333 Kartenorte (+333 bereits gesammelte Einträge mit Koordinaten). 12 zusätzliche Duplikate verknüpft. Alle 676 zuvor offenen Einträge geprüft; 331 benötigen weitere Klärung. Die Deutschland-Datenbank ist noch nicht vollständig. Es wurden keine neuen, bislang nicht gesammelten Orte angelegt.
+
+Sammlungen und Odznaken-Metadaten sind ergänzt. Alle bisherigen Kartenorte und Polen-Einträge behalten ihre IDs und Daten. [Prüfbericht und offene Einträge](https://github.com/xFr3akx/Summit-Passport-v1.0/blob/main/GERMANY_COMPLETION_064.md).
+
+VersionCode 14, gleicher Signaturschlüssel wie 0.6.3. Android-Build, Lint und automatische Katalog-/Oberflächenprüfungen erfolgreich. Die Installation auf einem echten Telefon wurde hier nicht getestet.
+
+---
+
 # Summit Passport 0.6.3 - menu odznak zgodne z projektem
 
 [Pobierz APK 0.6.3](https://github.com/xFr3akx/Summit-Passport-v1.0/raw/refs/heads/main/downloads/Summit_Passport_0.6.3.apk)

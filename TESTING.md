@@ -1,3 +1,7 @@
+# Prüfungen 0.6.4
+
+PASS: validate_release_064.py (ID-Erhalt, Ländertrennung, Quellen, Duplikate, offene Fälle), validate_collections.py (vollständige Themen-/Gipfelzuordnung), test_release_064.cjs (1.333 DE-Orte, Suche und Sammlungen), Regressionen release_063, achievements, awards. Android assembleDebug/testDebugUnitTest/lintDebug erfolgreich; unveränderte JVM-Tests von Gradle als aktuell erkannt. APK-Inhalte, Version 14/0.6.4 und Signatur geprüft. Kein Gerätetest.
+
 # Kontrole 0.6.3
 
 PASS test_release_063.cjs: 24 do 25 szczytów zmienia Bronze II na Silver I i 2/11 na 3/11; pionowe szczegóły; podgląd następnego progu; zapis/reload; dokładnie 1/2/3 ścieżki gwiazdek w każdej z 12 rodzin; Light/Dark i 320 px. Regresje achievements, languages, awards, release_062 PASS. Android assembleDebug, testDebugUnitTest, lintDebug PASS. Podpis zgodny z 0.6.2. Kontrola wizualna listy i szczegółów, w tym Master 2. Test instalacji na fizycznym telefonie pozostaje do wykonania.
