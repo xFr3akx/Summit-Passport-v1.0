@@ -10,11 +10,11 @@ def fits(category,p):
  k=p.get('osm_key');v=p.get('osm_value')
  rules={
   'peak': k=='natural' and v=='peak',
-  'pass': k in ('mountain_pass','natural') and v in ('yes','saddle'),
+  'pass': (k=='mountain_pass' and v=='yes') or (k=='natural' and v=='saddle'),
   'castle': (k=='historic' and v in ('castle','ruins','manor')) or (k=='building' and v in ('castle','historic','manor')),
   'waterfall': v=='waterfall',
   'cave': v=='cave_entrance',
-  'rock': (k=='natural' and v in ('rock','stone','cliff')) or (k=='geological','geological_site'),
+  'rock': (k=='natural' and v in ('rock','stone','cliff')) or (k=='geological' and v=='geological_site'),
   'water': (k=='natural' and v=='water') or k=='water' or (k=='landuse' and v=='reservoir'),
   'nature': (k in ('leisure','boundary') and v in ('park','nature_reserve','national_park','protected_area')),
   'viewpoint': k=='tourism' and v=='viewpoint',
@@ -48,7 +48,7 @@ for i,row in enumerate(rows,1):
    matches.append({'name':pname,'lat':coords[1],'lon':coords[0],'osm_type':prop.get('osm_type'),'osm_id':prop.get('osm_id'),'osm_key':prop.get('osm_key'),'osm_value':prop.get('osm_value'),'state':prop.get('state'),'county':prop.get('county'),'city':prop.get('city')})
   identities={(m['osm_type'],m['osm_id']) for m in matches}
   if len(identities)==1:
-   m=matches[0];status='CANDIDATE';reason='one matching PL OSM identity by name and category'
+   status='CANDIDATE';reason='one matching PL OSM identity by name and category'
   elif len(identities)>1:reason=f'{len(identities)} matching OSM identities require review'
  except Exception as e:reason='query error: '+type(e).__name__
  out.append({'stable_id':row['stable_id'],'name':name,'category':cat,'region':row.get('region',''),'status':status,'reason':reason,'matches':matches})
