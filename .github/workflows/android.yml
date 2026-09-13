@@ -12,12 +12,15 @@ jobs:
           python-version: '3.12'
       - run: python3 scripts/test_import_places.py
       - run: python3 scripts/export_poland_backlog.py --limit 100 --offset 0 --output data/poland_backlog_batch_001.csv
-      - name: Show Poland backlog batch
-        run: cat data/poland_backlog_batch_001.csv
+      - run: python3 scripts/geocode_poland_batch.py data/poland_backlog_batch_001.csv --output data/poland_backlog_batch_001_geocoded.json
+      - name: Show Poland backlog audit summary
+        run: python3 -c "import json,collections; d=json.load(open('data/poland_backlog_batch_001_geocoded.json',encoding='utf-8')); print(collections.Counter(x['status'] for x in d)); [print(x['status'],x['name'],x['reason']) for x in d]"
       - uses: actions/upload-artifact@v4
         with:
           name: poland-backlog-batch-001
-          path: data/poland_backlog_batch_001.csv
+          path: |
+            data/poland_backlog_batch_001.csv
+            data/poland_backlog_batch_001_geocoded.json
           if-no-files-found: error
       - uses: actions/setup-java@v4
         with:
