@@ -13,14 +13,17 @@ jobs:
       - run: python3 scripts/test_import_places.py
       - run: python3 scripts/export_poland_backlog.py --limit 100 --offset 0 --output data/poland_backlog_batch_001.csv
       - run: python3 scripts/geocode_poland_batch.py data/poland_backlog_batch_001.csv --output data/poland_backlog_batch_001_geocoded.json
-      - name: Show Poland backlog audit summary
-        run: python3 -c "import json,collections; d=json.load(open('data/poland_backlog_batch_001_geocoded.json',encoding='utf-8')); print(collections.Counter(x['status'] for x in d)); [print(x['status'],x['name'],x['reason']) for x in d]"
+      - run: python3 scripts/validate_poland_geocoded.py data/poland_backlog_batch_001_geocoded.json --output data/poland_backlog_batch_001_validated.json --ready-csv data/poland_backlog_batch_001_ready.csv
+      - name: Show Poland backlog validation summary
+        run: python3 -c "import json,collections; d=json.load(open('data/poland_backlog_batch_001_validated.json',encoding='utf-8')); print(collections.Counter(x['validation_status'] for x in d)); [print(x['validation_status'],x['name'],' | '.join(x['validation_reasons'])) for x in d]"
       - uses: actions/upload-artifact@v4
         with:
           name: poland-backlog-batch-001
           path: |
             data/poland_backlog_batch_001.csv
             data/poland_backlog_batch_001_geocoded.json
+            data/poland_backlog_batch_001_validated.json
+            data/poland_backlog_batch_001_ready.csv
           if-no-files-found: error
       - uses: actions/setup-java@v4
         with:
