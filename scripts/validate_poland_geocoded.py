@@ -27,16 +27,19 @@ def make_inside(boundary):
         return any(ring_contains(lon,lat,p[0]) and not any(ring_contains(lon,lat,h) for h in p[1:]) for p in polys)
     return inside
 
-# Conservative whitelist learned from existing PL runtime records. A pair is auto-safe only
-# when the same source category + GeoNames feature code already maps consistently in production.
+# Conservative whitelist. Most pairs are learned directly from existing PL runtime records.
+# Additional pairs below use unambiguous official GeoNames meanings and the project's existing
+# source-category taxonomy. Ambiguous mappings remain REVIEW.
 PAIR_TO_RUNTIME_CATEGORY={
     ('▲','MT'):'peak', ('▲','PK'):'peak', ('Szczyt','MT'):'peak',
     ('≈','RSV'):'water', ('≈','PND'):'water', ('≈','LK'):'water', ('≈','FLLS'):'waterfall',
     ('◆','PASS'):'pass', ('Przełęcz','PASS'):'pass',
-    ('⬡','CAVE'):'cave', ('⬡','RK'):'rock', ('⬡','MT'):'rock',
+    ('⬡','CAVE'):'cave', ('⬡','RK'):'rock', ('⬡','RKS'):'rock', ('⬡','MT'):'rock',
     ('♧','CLG'):'nature', ('♧','DSRT'):'nature', ('♧','PK'):'viewpoint', ('♧','MDW'):'nature',
     ('♧','MT'):'nature', ('♧','HLL'):'nature', ('♧','PRK'):'nature', ('♧','CNL'):'nature',
-    ('⌂','CSTL'):'castle', ('⌂','TOWR'):'viewpoint', ('⌂','MNMT'):'heritage', ('⌂','HUT'):'heritage',
+    ('♧','VAL'):'nature', ('♧','RESN'):'nature', ('♧','FRST'):'nature',
+    ('⌂','CSTL'):'castle', ('⌂','FT'):'castle', ('⌂','TOWR'):'viewpoint',
+    ('⌂','MNMT'):'heritage', ('⌂','HUT'):'heritage', ('⌂','MUS'):'heritage', ('⌂','LTHSE'):'lighthouse',
     ('Hala / panorama','CLG'):'nature', ('Polana / widok','MDW'):'viewpoint', ('Szczyt / grzbiet','PK'):'peak',
 }
 
@@ -85,7 +88,6 @@ for item in audit:
     else: reasons.append('no_match_payload')
     row['_chosen']=chosen;row['_reasons']=reasons;row['_runtime_category']=runtime_category;rows.append(row)
 
-# Cross-candidate collisions: same identity, exact normalized name, or same runtime-category points within threshold.
 for i,r in enumerate(rows):
     c=r['_chosen']
     if not c: continue
