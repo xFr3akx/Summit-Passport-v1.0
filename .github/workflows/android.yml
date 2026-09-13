@@ -11,27 +11,26 @@ jobs:
         with:
           python-version: '3.12'
       - run: python3 scripts/test_import_places.py
-      - name: Prepare complete Poland + Germany backlog package
-        run: python3 scripts/prepare_catalog_backlog_all.py --output-dir data/full_backlog --photon-delay 0.45 --overpass-delay 0.20
-      - name: Verify complete backlog coverage
+      - name: Process first 10 true PL+DE backlog records
+        run: python3 scripts/process_true_backlog_first10.py
+      - name: Verify first 10 package
         run: |
           python3 - <<'PY'
           import json
           from pathlib import Path
-          p=Path('data/full_backlog/summary.json')
-          s=json.loads(p.read_text(encoding='utf-8'))
-          expected={'PL':522,'DE':331}
-          assert s['backlog_by_country']==expected, (s['backlog_by_country'], expected)
-          assert s['backlog_total']==853, s['backlog_total']
-          assert sum(s['status_counts'].values())==853, s['status_counts']
+          s=json.loads(Path('data/first10_backlog/summary.json').read_text(encoding='utf-8'))
+          assert s['true_backlog_total']==853, s
+          assert s['backlog_by_country']=={'PL':522,'DE':331}, s
+          assert s['processed']==10, s
+          assert sum(s['status_counts'].values())==10, s
           assert s['stable_ids_preserved'] is True
           assert s['production_catalog_overwritten'] is False
           print(json.dumps(s, ensure_ascii=False, indent=2))
           PY
       - uses: actions/upload-artifact@v4
         with:
-          name: full-pl-de-backlog-package
-          path: data/full_backlog/
+          name: first10-true-backlog-package
+          path: data/first10_backlog/
           if-no-files-found: error
       - uses: actions/setup-java@v5
         with:
