@@ -1,0 +1,43 @@
+{
+  "batch": "11-110",
+  "processed": 100,
+  "country": "DE",
+  "ready": 20,
+  "review": 79,
+  "possible_duplicates": 1,
+  "production_overwritten": false,
+  "validation": "PASS",
+  "workflow_run": 34748312619,
+  "artifact_id": 10315195888,
+  "ready_places": [
+    "Soinsee",
+    "Dreisesselfels",
+    "Kreuzfelsen",
+    "Rachelkapelle",
+    "Teufelsloch Lusen",
+    "Grosses Häuselhorn",
+    "Hoher Göll",
+    "Kührointalm",
+    "Schwarzbachwacht (Wachterl)",
+    "Roßfeld-Panoramastraße - Höhenroute",
+    "Fellhorn Chiemgau",
+    "Drei-Brüder-Felsen",
+    "Schloss Mitwitz",
+    "Bodekessel",
+    "Bodetal",
+    "Keltischer Ringwall Otzenhausen",
+    "Lahnschleife Weilburg",
+    "Brauneberger Moselschleife",
+    "Collis-Turm",
+    "Doctorberg"
+  ],
+  "possible_duplicate_places": [
+    "Erbeskopf Gipfelplateau"
+  ],
+  "notes": [
+    "READY requires a single exact country-compatible OSM identity, or a unique exact identity close to an existing GeoNames candidate.",
+    "Runtime category taxonomy is preserved and is not forced to match the OSM feature type.",
+    "REVIEW records remain untouched in the staging catalog.",
+    "The cumulative staging candidate also includes the 9 READY records from the previous first-10 batch, for 29 staged records total."
+  ]
+}
