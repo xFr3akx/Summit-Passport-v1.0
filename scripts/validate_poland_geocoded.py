@@ -27,6 +27,19 @@ def make_inside(boundary):
         return any(ring_contains(lon,lat,p[0]) and not any(ring_contains(lon,lat,h) for h in p[1:]) for p in polys)
     return inside
 
+# Conservative whitelist learned from existing PL runtime records. A pair is auto-safe only
+# when the same source category + GeoNames feature code already maps consistently in production.
+PAIR_TO_RUNTIME_CATEGORY={
+    ('▲','MT'):'peak', ('▲','PK'):'peak', ('Szczyt','MT'):'peak',
+    ('≈','RSV'):'water', ('≈','PND'):'water', ('≈','LK'):'water', ('≈','FLLS'):'waterfall',
+    ('◆','PASS'):'pass', ('Przełęcz','PASS'):'pass',
+    ('⬡','CAVE'):'cave', ('⬡','RK'):'rock', ('⬡','MT'):'rock',
+    ('♧','CLG'):'nature', ('♧','DSRT'):'nature', ('♧','PK'):'viewpoint', ('♧','MDW'):'nature',
+    ('♧','MT'):'nature', ('♧','HLL'):'nature', ('♧','PRK'):'nature', ('♧','CNL'):'nature',
+    ('⌂','CSTL'):'castle', ('⌂','TOWR'):'viewpoint', ('⌂','MNMT'):'heritage', ('⌂','HUT'):'heritage',
+    ('Hala / panorama','CLG'):'nature', ('Polana / widok','MDW'):'viewpoint', ('Szczyt / grzbiet','PK'):'peak',
+}
+
 p=argparse.ArgumentParser()
 p.add_argument('input',type=pathlib.Path)
 p.add_argument('--output',type=pathlib.Path,required=True)
@@ -49,13 +62,18 @@ for r in existing: existing_names[norm(r['name'])].append(r)
 
 rows=[]
 for item in audit:
-    row=dict(item);reasons=[];chosen=None
+    row=dict(item);reasons=[];chosen=None;runtime_category=None
     if item.get('status')!='CANDIDATE': reasons.append('geocoder_not_unambiguous')
     ids={((m.get('osm_type') or ''),str(m.get('osm_id') or '')) for m in item.get('matches',[])}
     ids.discard(('', ''))
-    if len(ids)!=1: reasons.append('osm_identity_count_'+str(len(ids)))
+    if len(ids)!=1: reasons.append('identity_count_'+str(len(ids)))
     if item.get('matches'):
         chosen=item['matches'][0]
+        feature_code=str(chosen.get('osm_value') or '')
+        pair=(str(item.get('category') or ''),feature_code)
+        runtime_category=PAIR_TO_RUNTIME_CATEGORY.get(pair)
+        if chosen.get('osm_type')=='GEONAMES' and not runtime_category:
+            reasons.append('unproven_type_pair:%s+%s'%pair)
         try: lat=float(chosen['lat']);lon=float(chosen['lon'])
         except (TypeError,ValueError,KeyError): reasons.append('invalid_coordinates');lat=lon=None
         if lat is not None and not inside(lat,lon): reasons.append('outside_pl_boundary')
@@ -65,9 +83,9 @@ for item in audit:
             near=[r for r in existing if r['stable_id']!=item.get('stable_id') and distance_m((lat,lon),(r['lat'],r['lon']))<a.near_m]
             if near: reasons.append('existing_within_%dm:%s'%(int(a.near_m),','.join(r['stable_id'] for r in near[:5] if r.get('stable_id'))))
     else: reasons.append('no_match_payload')
-    row['_chosen']=chosen;row['_reasons']=reasons;rows.append(row)
+    row['_chosen']=chosen;row['_reasons']=reasons;row['_runtime_category']=runtime_category;rows.append(row)
 
-# Cross-candidate collisions: same OSM identity, exact normalized name, or same-category points within threshold.
+# Cross-candidate collisions: same identity, exact normalized name, or same runtime-category points within threshold.
 for i,r in enumerate(rows):
     c=r['_chosen']
     if not c: continue
@@ -77,32 +95,37 @@ for i,r in enumerate(rows):
         d=s['_chosen']
         if not d: continue
         if key==(d.get('osm_type'),str(d.get('osm_id'))):
-            r['_reasons'].append('batch_same_osm:'+str(s.get('stable_id')))
+            r['_reasons'].append('batch_same_identity:'+str(s.get('stable_id')))
         elif norm(r.get('name')) and norm(r.get('name'))==norm(s.get('name')):
             r['_reasons'].append('batch_exact_name:'+str(s.get('stable_id')))
-        elif r.get('category')==s.get('category') and distance_m((float(c['lat']),float(c['lon'])),(float(d['lat']),float(d['lon'])))<a.near_m:
+        elif r['_runtime_category'] and r['_runtime_category']==s['_runtime_category'] and distance_m((float(c['lat']),float(c['lon'])),(float(d['lat']),float(d['lon'])))<a.near_m:
             r['_reasons'].append('batch_same_category_near:'+str(s.get('stable_id')))
 
 result=[];ready=[]
 for r in rows:
-    reasons=sorted(set(r.pop('_reasons')));chosen=r.pop('_chosen')
-    status='READY' if not reasons else 'REVIEW'
-    out=dict(r,validation_status=status,validation_reasons=reasons,chosen=chosen)
+    reasons=sorted(set(r.pop('_reasons')));chosen=r.pop('_chosen');runtime_category=r.pop('_runtime_category')
+    status='READY' if not reasons and runtime_category else 'REVIEW'
+    if not runtime_category and 'geocoder_not_unambiguous' not in reasons and not any(x.startswith('unproven_type_pair:') for x in reasons):
+        reasons.append('runtime_category_unresolved')
+    out=dict(r,validation_status=status,validation_reasons=reasons,runtime_category=runtime_category,chosen=chosen)
     result.append(out)
     if status=='READY' and chosen:
+        source_prefix='geonames' if chosen.get('osm_type')=='GEONAMES' else 'osm'
         ready.append({
-            'stable_id':r['stable_id'],'name':r['name'],'category':r['category'],'region':r.get('region',''),
+            'stable_id':r['stable_id'],'name':r['name'],'category':runtime_category,'source_category':r.get('category',''),'region':r.get('region',''),
             'latitude':chosen['lat'],'longitude':chosen['lon'],
-            'source_id':'osm:%s:%s'%(chosen.get('osm_type'),chosen.get('osm_id')),
-            'verification_status':'verified_osm_candidate'
+            'source_id':'%s:%s'%(source_prefix,chosen.get('osm_id')),
+            'feature_code':chosen.get('osm_value'),
+            'verification_status':'verified_coordinate_candidate_type_and_collision'
         })
 a.output.parent.mkdir(parents=True,exist_ok=True)
 a.output.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-fields=['stable_id','name','category','region','latitude','longitude','source_id','verification_status']
+fields=['stable_id','name','category','source_category','region','latitude','longitude','source_id','feature_code','verification_status']
 with a.ready_csv.open('w',encoding='utf-8-sig',newline='') as f:
     w=csv.DictWriter(f,fieldnames=fields);w.writeheader();w.writerows(ready)
 summary=collections.Counter(x['validation_status'] for x in result)
 print('VALIDATION_SUMMARY '+json.dumps(summary,ensure_ascii=False))
 print('READY_COUNT',len(ready))
 for x in result:
-    if x['validation_status']=='REVIEW': print('REVIEW',x['stable_id'],x['name'],' | '.join(x['validation_reasons']))
+    if x['validation_status']=='READY': print('READY',x['stable_id'],x['name'],x['runtime_category'],(x.get('chosen') or {}).get('osm_value'))
+    else: print('REVIEW',x['stable_id'],x['name'],' | '.join(x['validation_reasons']))
