@@ -1,0 +1,2 @@
+country,name,category,lat,lon,region,area,source,coordinate_role,priority,notes
+PL,PRZYKLAD MIEJSCA,nature,50.000000,19.000000,Malopolskie,Przykladowy region,https://www.openstreetmap.org/node/1,exact,A,USUN TEN WIERSZ PRZED PRAWDZIWYM IMPORTEM
