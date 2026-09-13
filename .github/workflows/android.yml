@@ -11,6 +11,12 @@ jobs:
         with:
           python-version: '3.12'
       - run: python3 scripts/test_import_places.py
+      - run: python3 scripts/export_poland_backlog.py --limit 100 --offset 0 --output data/poland_backlog_batch_001.csv
+      - uses: actions/upload-artifact@v4
+        with:
+          name: poland-backlog-batch-001
+          path: data/poland_backlog_batch_001.csv
+          if-no-files-found: error
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
