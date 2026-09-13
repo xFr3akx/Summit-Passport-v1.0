@@ -1,0 +1,116 @@
+{
+  "scope": "First 10 true unresolved records after excluding 12 Germany duplicate links",
+  "reviewed_on": "2026-09-13",
+  "production_catalog_overwritten": false,
+  "decisions": [
+    {
+      "stable_id": "SP-606c62d4-acbd-592f-94d1-9e386ff17311",
+      "name": "Engelsley",
+      "status": "READY",
+      "lat": 50.51157,
+      "lon": 6.99760,
+      "source": "https://www.openstreetmap.org/node/1448266684",
+      "coordinate_role": "osm_point",
+      "verification_status": "reviewed_source_context",
+      "review": "Exact Engelsley identity in Altenahr; OSM natural=peak and GeoNames 2930214 identify the same named landform. Runtime category rock is intentionally preserved rather than silently recategorized."
+    },
+    {
+      "stable_id": "SP-88fd96fb-96db-5889-88bf-f804b189b69d",
+      "name": "Saffenburg-Blick",
+      "status": "REVIEW",
+      "reason": "Several distinct viewpoints around Mayschoss are described as a view toward/from Saffenburg; no single exact OSM identity can be selected safely from the current source name alone.",
+      "candidate_sources": [
+        "https://www.openstreetmap.org/node/308269378",
+        "https://www.openstreetmap.org/node/308269384"
+      ]
+    },
+    {
+      "stable_id": "SP-4d73708f-7781-5b32-bb05-11b999396608",
+      "name": "Burgruine Falkenstein Allgäu",
+      "status": "READY",
+      "lat": 47.56944,
+      "lon": 10.59129,
+      "source": "https://www.openstreetmap.org/way/110547863",
+      "coordinate_role": "representative_point_not_entrance",
+      "verification_status": "reviewed_source_context",
+      "review": "Exact Falkenstein castle ruin at Pfronten in Ostallgaeu; correct regional context and castle identity."
+    },
+    {
+      "stable_id": "SP-7eeda70b-b6f7-52ca-93dd-b5847a8732fb",
+      "name": "Gaisalpsee",
+      "status": "READY",
+      "lat": 47.42735,
+      "lon": 10.32287,
+      "source": "https://www.openstreetmap.org/way/25794128",
+      "coordinate_role": "representative_point_not_entrance",
+      "verification_status": "reviewed_source_context",
+      "review": "Matched to Unterer Gaisalpsee/Geisalpsee near Oberstdorf. OSM way 25794128 is natural=water; the upper lake is separately named Oberer Gaisalpsee, so the unqualified source name is assigned to the lower/main Gaisalpsee."
+    },
+    {
+      "stable_id": "SP-86618ed3-3f58-55d5-be5c-39c394325472",
+      "name": "Hochvogel",
+      "status": "READY",
+      "lat": 47.38036,
+      "lon": 10.43677,
+      "source": "https://www.openstreetmap.org/node/2622553312",
+      "coordinate_role": "osm_point",
+      "verification_status": "reviewed_source_context",
+      "review": "Correct 2592 m Hochvogel in the Allgaeu/Lechtal context; exact OSM peak and GeoNames 2775914. Border summit retained in Germany catalog context; lower homonymous peaks were explicitly rejected."
+    },
+    {
+      "stable_id": "SP-62306367-42c3-51bb-bae1-bd4658bbf13b",
+      "name": "Scheidegger Wasserfälle",
+      "status": "READY",
+      "lat": 47.59127,
+      "lon": 9.83893,
+      "source": "https://www.openstreetmap.org/node/2492813965",
+      "coordinate_role": "osm_point",
+      "verification_status": "reviewed_source_context",
+      "review": "Exact named Scheidegger Wasserfaelle feature in Scheidegg. Information-sign nodes nearby were not used."
+    },
+    {
+      "stable_id": "SP-57331694-8035-5386-a230-bd41be6d6dce",
+      "name": "Schlappoldkopf",
+      "status": "READY",
+      "lat": 47.35851,
+      "lon": 10.22409,
+      "source": "https://www.openstreetmap.org/node/912408377",
+      "coordinate_role": "osm_point",
+      "verification_status": "reviewed_source_context",
+      "review": "Exact Schlappoltkopf peak; Schlappoldkopf is a documented alternate spelling. The summit lies on the Bavaria/Vorarlberg border and is valid in the Allgaeu/Fellhorn source context."
+    },
+    {
+      "stable_id": "SP-4f6665e5-0a88-56f2-bd47-634d2b0edc8c",
+      "name": "Marienbrücke",
+      "status": "READY",
+      "lat": 47.55490,
+      "lon": 10.74940,
+      "source": "https://www.openstreetmap.org/way/41720896",
+      "coordinate_role": "representative_point_not_entrance",
+      "verification_status": "reviewed_source_context",
+      "review": "Exact Marienbruecke footbridge over the Poellat near Neuschwanstein; OSM way 41720896. Runtime category nature is preserved as existing project taxonomy."
+    },
+    {
+      "stable_id": "SP-6428a6fa-87a9-579d-9cae-c300f0eb8359",
+      "name": "Pöllatschlucht",
+      "status": "READY",
+      "lat": 47.55501,
+      "lon": 10.74947,
+      "source": "https://www.openstreetmap.org/node/518609364",
+      "coordinate_role": "representative_point_not_entrance",
+      "verification_status": "reviewed_source_context",
+      "review": "Representative canonical point inside Poellatschlucht: the named Poellatfall directly below Marienbruecke. Official Schwangau/LfU context confirms this feature is within the gorge; source is deliberately marked representative, not an entrance."
+    },
+    {
+      "stable_id": "SP-54e7f2fe-56f6-5619-b83f-aa97400ecef7",
+      "name": "Säuling",
+      "status": "READY",
+      "lat": 47.53499,
+      "lon": 10.75528,
+      "source": "https://www.openstreetmap.org/node/495075191",
+      "coordinate_role": "osm_point",
+      "verification_status": "reviewed_source_context",
+      "review": "Exact 2047 m Saeuling summit; OSM node 495075191 and GeoNames 2841123. Border mountain belongs to both Germany and Austria contexts; Germany catalog assignment is preserved."
+    }
+  ]
+}
