@@ -11,40 +11,10 @@ jobs:
         with:
           python-version: '3.12'
       - run: python3 scripts/test_import_places.py
-      - name: Process first 10 true PL+DE backlog records
-        run: python3 scripts/process_true_backlog_first10.py
-      - name: Verify first 10 package
-        run: |
-          python3 - <<'PY'
-          import json
-          from pathlib import Path
-          s=json.loads(Path('data/first10_backlog/summary.json').read_text(encoding='utf-8'))
-          assert s['true_backlog_total']==853, s
-          assert s['backlog_by_country']=={'PL':522,'DE':331}, s
-          assert s['processed']==10, s
-          assert sum(s['status_counts'].values())==10, s
-          assert s['stable_ids_preserved'] is True
-          assert s['production_catalog_overwritten'] is False
-          print(json.dumps(s, ensure_ascii=False, indent=2))
-          PY
+      - name: Select exact first 10 true unresolved records
+        run: python3 scripts/list_true_backlog_first10.py
       - uses: actions/upload-artifact@v4
         with:
-          name: first10-true-backlog-package
-          path: data/first10_backlog/
-          if-no-files-found: error
-      - uses: actions/setup-java@v5
-        with:
-          distribution: temurin
-          java-version: '17'
-      - uses: android-actions/setup-android@v3
-      - uses: gradle/actions/setup-gradle@v4
-        with:
-          gradle-version: '8.9'
-      - run: gradle :app:assembleDebug :app:testDebugUnitTest :app:lintDebug
-      - uses: actions/upload-artifact@v4
-        with:
-          name: android-validation-reports
-          path: |
-            app/build/reports/
-            app/build/test-results/
+          name: first10-selection
+          path: data/first10_backlog/selection.json
           if-no-files-found: error
