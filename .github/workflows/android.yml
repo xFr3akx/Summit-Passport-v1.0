@@ -15,8 +15,10 @@ jobs:
       - run: python3 scripts/geocode_poland_batch.py data/poland_backlog_batch_001.csv --output data/poland_backlog_batch_001_geocoded.json
       - run: python3 scripts/validate_poland_geocoded.py data/poland_backlog_batch_001_geocoded.json --output data/poland_backlog_batch_001_validated.json --ready-csv data/poland_backlog_batch_001_ready.csv
       - run: python3 scripts/crosscheck_poland_osm.py data/poland_backlog_batch_001_ready.csv --output data/poland_backlog_batch_001_osm.json --crosschecked-csv data/poland_backlog_batch_001_crosschecked.csv
+      - run: python3 scripts/apply_poland_crosschecked.py data/poland_backlog_batch_001_crosschecked.csv --working-output data/catalog_working_poland_next.json --runtime-output data/catalog_runtime_poland_next.json --summary-output data/poland_apply_summary.json
+      - run: python3 scripts/validate_poland_staging.py data/poland_backlog_batch_001_crosschecked.csv --working-next data/catalog_working_poland_next.json --runtime-next data/catalog_runtime_poland_next.json
       - name: Show Poland backlog validation summary
-        run: python3 -c "import json,collections; d=json.load(open('data/poland_backlog_batch_001_validated.json',encoding='utf-8')); o=json.load(open('data/poland_backlog_batch_001_osm.json',encoding='utf-8')); print('candidate',collections.Counter(x['validation_status'] for x in d)); print('osm',collections.Counter(x['status'] for x in o['results'])); [print(x['status'],x['name'],x['reason']) for x in o['results']]"
+        run: python3 -c "import json,collections; d=json.load(open('data/poland_backlog_batch_001_validated.json',encoding='utf-8')); o=json.load(open('data/poland_backlog_batch_001_osm.json',encoding='utf-8')); s=json.load(open('data/poland_apply_summary.json',encoding='utf-8')); print('candidate',collections.Counter(x['validation_status'] for x in d)); print('osm',collections.Counter(x['status'] for x in o['results'])); print('apply', {k:v for k,v in s.items() if k!='changes'}); [print(x['status'],x['name'],x['reason']) for x in o['results']]"
       - uses: actions/upload-artifact@v4
         with:
           name: poland-backlog-batch-001
@@ -27,6 +29,9 @@ jobs:
             data/poland_backlog_batch_001_ready.csv
             data/poland_backlog_batch_001_osm.json
             data/poland_backlog_batch_001_crosschecked.csv
+            data/catalog_working_poland_next.json
+            data/catalog_runtime_poland_next.json
+            data/poland_apply_summary.json
           if-no-files-found: error
       - uses: actions/setup-java@v4
         with:
