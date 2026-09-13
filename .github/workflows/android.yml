@@ -11,21 +11,20 @@ jobs:
         with:
           python-version: '3.12'
       - run: python3 scripts/test_import_places.py
-      - name: Select exact first 10 true unresolved records
-        run: python3 scripts/list_true_backlog_first10.py
-      - name: Generate reviewed first 10 staging package
-        run: python3 scripts/apply_first10_decisions.py
-      - name: Validate reviewed first 10 staging package
-        run: python3 scripts/validate_first10_staging.py
+      - name: Process backlog positions 11-110
+        run: python3 scripts/process_true_backlog_next100.py
+      - name: Validate next 100 staging package
+        run: python3 scripts/validate_next100_staging.py
       - uses: actions/upload-artifact@v4
         with:
-          name: first10-reviewed-staging
+          name: next100-reviewed-staging
           path: |
-            data/first10_backlog/selection.json
-            data/first10_backlog/decisions.json
-            data/first10_backlog/summary.json
-            data/first10_backlog/ready_patch.json
-            data/first10_backlog/needs_review.json
-            data/first10_backlog/catalog_working_next.json
-            data/first10_backlog/catalog_main_candidate.json
+            data/next100_backlog/selection.json
+            data/next100_backlog/results.json
+            data/next100_backlog/summary.json
+            data/next100_backlog/ready_patch.json
+            data/next100_backlog/needs_review.json
+            data/next100_backlog/possible_duplicates.json
+            data/next100_backlog/catalog_working_next.json
+            data/next100_backlog/catalog_main_candidate.json
           if-no-files-found: error
