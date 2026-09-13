@@ -11,12 +11,12 @@ jobs:
         with:
           python-version: '3.12'
       - run: python3 scripts/test_import_places.py
-      - name: Fast live OSM audit for backlog positions 11-110
-        run: python3 scripts/process_next100_fast_live.py
-      - name: Validate fast next-100 staging
-        run: python3 scripts/validate_next100_fast.py
+      - name: Broad exact-identity audit for backlog positions 11-110
+        run: python3 scripts/process_next100_broad_exact.py
+      - name: Validate broad exact next-100 staging
+        run: python3 scripts/validate_next100_broad.py
       - uses: actions/upload-artifact@v4
         with:
-          name: next100-fast-live-staging
-          path: data/next100_fast/
+          name: next100-broad-exact-staging
+          path: data/next100_broad/
           if-no-files-found: error
