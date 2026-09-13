@@ -11,10 +11,12 @@ jobs:
         with:
           python-version: '3.12'
       - run: python3 scripts/test_import_places.py
-      - name: Audit positions 11-110 against existing 0.6.4 evidence
-        run: python3 scripts/process_next100_existing_evidence.py
+      - name: Fast live OSM audit for backlog positions 11-110
+        run: python3 scripts/process_next100_fast_live.py
+      - name: Validate fast next-100 staging
+        run: python3 scripts/validate_next100_fast.py
       - uses: actions/upload-artifact@v4
         with:
-          name: next100-existing-evidence
-          path: data/next100_evidence/
+          name: next100-fast-live-staging
+          path: data/next100_fast/
           if-no-files-found: error
