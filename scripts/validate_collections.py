@@ -5,7 +5,7 @@ from collections import Counter
 
 root = Path(__file__).resolve().parents[1] / 'app/src/main/assets/ui'
 raw = (root / 'catalog.json').read_bytes()
-release=Path(__file__).resolve().parents[1]/'data/release_064.json'
+release=Path(__file__).resolve().parents[1]/'data/release_12.json'
 expected=json.loads(release.read_text(encoding='utf-8'))['catalog_sha256'] if release.exists() else '298a39583194276c8e1821ba22bffb758490453506c6b46c466c51de081c6b67'
 assert hashlib.sha256(raw).hexdigest()==expected
 places = {p['id']: p for p in json.loads(raw)['places'] if p['mapReady']}

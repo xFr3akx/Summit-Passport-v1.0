@@ -827,3 +827,36 @@ Object.assign(TRANSLATIONS,{"Trasa / AllTrails": {"de": "Route / AllTrails", "en
 Object.assign(TRANSLATIONS,{"Wizyty i notatki są zapisywane lokalnie na urządzeniu. Aplikacja nie wysyła ich na serwer. Pobieranie kafelków mapy ujawnia dostawcy adres IP i oglądany obszar. Linki do źródeł otwierają się w zewnętrznej przeglądarce. Usunięcie danych aplikacji usuwa lokalny dziennik; kopię możesz zapisać w ustawieniach aplikacji.": {"de": "Besuche und Notizen werden lokal auf dem Gerät gespeichert und nicht auf einen Server hochgeladen. Beim Laden von Kartenkacheln erhält der Anbieter deine IP-Adresse und den angezeigten Bereich. Quellenlinks öffnen sich im externen Browser. Das Löschen der App-Daten entfernt das lokale Tagebuch; Sicherungen kannst du in den Einstellungen erstellen.", "en": "Visits and notes are stored locally on your device and are not uploaded to a server. Loading map tiles reveals your IP address and viewed area to the provider. Source links open in an external browser. Clearing app data removes the local journal; you can create a backup in settings."}});
 
 Object.assign(TRANSLATIONS,{"Próg {n} - cel:": {"de": "Stufe {n} - Ziel:", "en": "Tier {n} - target:"}, "Następny:": {"de": "Nächste Stufe:", "en": "Next:"}, "Wszystkie progi": {"de": "Alle Stufen", "en": "All tiers"}});
+
+Object.assign(TRANSLATIONS,{
+  "Ocena {n} z 10": {
+    "de": "Bewertung {n} von 10",
+    "en": "Rating {n} out of 10"
+  },
+  "Ocena {n} z {max}": {
+    "de": "Bewertung {n} von {max}",
+    "en": "Rating {n} out of {max}"
+  },
+  "Wycieczki": {
+    "de": "Ausflüge",
+    "en": "Trips"
+  },
+  "Dodaj własną Wycieczkę": {
+    "de": "Eigenen Ausflug hinzufügen",
+    "en": "Add your own trip"
+  },
+  "+ Dodaj własną Wycieczkę": {
+    "de": "+ Eigenen Ausflug hinzufügen",
+    "en": "+ Add your own trip"
+  },
+  "Wycieczka · kolejność odwiedzin": {
+    "de": "Ausflug · Besuchsreihenfolge",
+    "en": "Trip · visiting order"
+  },
+  "Ten wpis pochodzi sprzed zmian formularza. Edytuj go, sprawdź ocenę w nowej skali 1–10 i zapisz ponownie. Dane zostały zachowane.": {
+    "de": "Dieser Eintrag stammt aus dem alten Formular. Bearbeite ihn, prüfe die Bewertung auf der neuen Skala von 1–10 und speichere ihn erneut. Deine Daten wurden beibehalten.",
+    "en": "This entry uses the old form. Edit it, review the rating on the new 1–10 scale and save it again. Your data has been preserved."
+  }
+});
+
+Object.assign(TRANSLATIONS,{'Bieżąca wersja':{de:'Aktuelle Version',en:'Current version'}});

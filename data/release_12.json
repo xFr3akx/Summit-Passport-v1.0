@@ -1,0 +1,24 @@
+{
+  "version": "1.2",
+  "publicationStatus": "work_in_progress",
+  "completedExistingGermany": 143,
+  "newGroupChildren": 35,
+  "duplicatesLinked": 6,
+  "groupsResolved": 17,
+  "unresolvedGermany": 163,
+  "map_points": {
+    "PL": 451,
+    "DE": 1511
+  },
+  "catalog_complete": false,
+  "germany_complete": false,
+  "catalog_sha256": "6738b44056b235938118bce6c9b134f5374af6a3d1afeb9dabc34fafd4529e54",
+  "previous_catalog_sha256": "ef554aa7f9de2113c8e35fabf3642f325272b270c64d41ceca7650508e7641c6",
+  "existingMappedPlacesPreserved": true,
+  "allPolandRecordsPreserved": true,
+  "collections": {
+    "PL": 31,
+    "DE": 60
+  },
+  "excludedOutsideGermany": 2
+}

@@ -1,0 +1,136 @@
+{
+  "version": "1.1.2",
+  "versionCode": 15,
+  "newGermanyMapPoints": 178,
+  "categories": {
+    "nature": 17,
+    "industrial": 5,
+    "cave": 8,
+    "castle": 29,
+    "heritage": 37,
+    "rock": 33,
+    "viewpoint": 6,
+    "waterfall": 11,
+    "peak": 23,
+    "pass": 3,
+    "water": 6
+  },
+  "collections": [
+    {
+      "id": "DE-peak",
+      "title": "Szczyty",
+      "before": 359,
+      "after": 382
+    },
+    {
+      "id": "DE-pass",
+      "title": "Przełęcze",
+      "before": 20,
+      "after": 23
+    },
+    {
+      "id": "DE-castle",
+      "title": "Zamki i pałace",
+      "before": 276,
+      "after": 305
+    },
+    {
+      "id": "DE-waterfall",
+      "title": "Wodospady",
+      "before": 22,
+      "after": 33
+    },
+    {
+      "id": "DE-cave",
+      "title": "Jaskinie",
+      "before": 41,
+      "after": 49
+    },
+    {
+      "id": "DE-rock",
+      "title": "Skały",
+      "before": 59,
+      "after": 92
+    },
+    {
+      "id": "DE-water",
+      "title": "Jeziora i wody",
+      "before": 187,
+      "after": 193
+    },
+    {
+      "id": "DE-nature",
+      "title": "Przyroda",
+      "before": 182,
+      "after": 199
+    },
+    {
+      "id": "DE-viewpoint",
+      "title": "Punkty widokowe",
+      "before": 24,
+      "after": 30
+    },
+    {
+      "id": "DE-heritage",
+      "title": "Zabytki",
+      "before": 150,
+      "after": 187
+    },
+    {
+      "id": "DE-industrial",
+      "title": "Obiekty przemysłowe",
+      "before": 9,
+      "after": 14
+    },
+    {
+      "id": "DE-peaks-extension-DE-BW",
+      "title": "Szczyty — Baden-Württemberg",
+      "before": 22,
+      "after": 23
+    },
+    {
+      "id": "DE-peaks-extension-DE-BY",
+      "title": "Szczyty — Bayern",
+      "before": 33,
+      "after": 48
+    },
+    {
+      "id": "DE-peaks-extension-DE-HE",
+      "title": "Szczyty — Hessen",
+      "before": 14,
+      "after": 15
+    },
+    {
+      "id": "DE-peaks-extension-DE-NI",
+      "title": "Szczyty — Niedersachsen",
+      "before": 15,
+      "after": 16
+    },
+    {
+      "id": "DE-peaks-extension-DE-RP",
+      "title": "Szczyty — Rheinland-Pfalz",
+      "before": 17,
+      "after": 20
+    },
+    {
+      "id": "DE-peaks-extension-DE-SN",
+      "title": "Szczyty — Sachsen",
+      "before": 22,
+      "after": 24
+    }
+  ],
+  "remainingGermany": 163,
+  "publicationStatus": "published",
+  "catalog_sha256": "6738b44056b235938118bce6c9b134f5374af6a3d1afeb9dabc34fafd4529e54",
+  "map_points": {
+    "PL": 451,
+    "DE": 1511
+  },
+  "collections_count": {
+    "PL": 31,
+    "DE": 60
+  },
+  "apk_sha256": "47365204f24410f21c456769cef5c7245981d62e8e17d1936bc9dcdd4361f28d",
+  "signingCertificate": "2c2db6a5d195ec4e7e4c2225d7d022fcc7431e9192025dd80f2fe39c77371b1f",
+  "apk_url": "https://github.com/xFr3akx/Summit-Passport-v1.0/raw/refs/heads/main/downloads/Summit_Passport_1.1.2.apk"
+}

@@ -12,6 +12,18 @@ public class BackupArchiveTest {
  private JSONObject catalog()throws Exception{return new JSONObject().put("places",new JSONArray().put(new JSONObject().put("id","p1").put("country","PL").put("mapReady",true)));}
  private interface Run{void run()throws Exception;}
  private void rejects(Run run)throws Exception{try{run.run();fail("Invalid backup accepted");}catch(IOException|JSONException|IllegalArgumentException expected){}}
+ @Test public void versionThreePreservesLegacyAndTenPointRatings()throws Exception {
+  JSONObject data=fixture().put("version",3).put("achievements",new JSONArray());
+  JSONObject legacy=data.getJSONArray("visits").getJSONObject(0).put("formVersion",1);
+  JSONObject current=new JSONObject(legacy.toString()).put("id",UUID.randomUUID().toString()).put("formVersion",2).put("rating",10);
+  data.getJSONArray("visits").put(current);BackupArchive.validate(data,catalog());
+  ByteArrayOutputStream bytes=new ByteArrayOutputStream();BackupArchive.write(bytes,data,Files.createTempDirectory("rating-export").toFile());
+  BackupArchive.Loaded loaded=BackupArchive.read(new ByteArrayInputStream(bytes.toByteArray()),Files.createTempDirectory("rating-import").toFile());BackupArchive.validate(loaded.data,catalog());
+  assertEquals(5,loaded.data.getJSONArray("visits").getJSONObject(0).getInt("rating"));assertEquals(1,loaded.data.getJSONArray("visits").getJSONObject(0).getInt("formVersion"));
+  assertEquals(10,loaded.data.getJSONArray("visits").getJSONObject(1).getInt("rating"));assertEquals(2,loaded.data.getJSONArray("visits").getJSONObject(1).getInt("formVersion"));
+  for(double rating:new double[]{-1,11,2.5}){current.put("rating",rating);rejects(()->BackupArchive.validate(data,catalog()));}
+  current.put("rating",10).put("formVersion",1);rejects(()->BackupArchive.validate(data,catalog()));current.put("formVersion",2.5);rejects(()->BackupArchive.validate(data,catalog()));
+ }
  @Test public void plainTextRouteRoundTripsAndHasLengthLimit()throws Exception {
   JSONObject data=fixture();String route="Malinów → Skrzyczne <route>";data.getJSONArray("visits").getJSONObject(0).put("trailUrl",route);BackupArchive.validate(data,catalog());ByteArrayOutputStream bytes=new ByteArrayOutputStream();BackupArchive.write(bytes,data,Files.createTempDirectory("route-export").toFile());BackupArchive.Loaded loaded=BackupArchive.read(new ByteArrayInputStream(bytes.toByteArray()),Files.createTempDirectory("route-import").toFile());BackupArchive.validate(loaded.data,catalog());assertEquals(route,loaded.data.getJSONArray("visits").getJSONObject(0).getString("trailUrl"));data.getJSONArray("visits").getJSONObject(0).put("trailUrl",new String(new char[4001]).replace('\0','x'));rejects(()->BackupArchive.validate(data,catalog()));
  }
