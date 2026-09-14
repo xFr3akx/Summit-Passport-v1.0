@@ -1,0 +1,32 @@
+name: Germany manual 54 final staging
+on: [push, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build final staging
+        run: python3 scripts/build_germany_manual_54_final_staging.py
+      - name: Validate final staging
+        run: |
+          python3 - <<'PY'
+          import json
+          d=json.load(open('data/germany_manual_54_final_staging.json',encoding='utf-8'))
+          s=d['summary']
+          assert s['input']==54
+          assert s['stageTotal']+s['duplicateTotal']+s['reviewTotal']==54
+          assert s['productionOverwritten'] is False
+          print('FINAL VALIDATION PASS',s)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: germany-manual-54-final-staging
+          path: |
+            data/germany_manual_54_final_staging.json
+            data/catalog_germany_manual_54_final_candidate.json
+          if-no-files-found: error
