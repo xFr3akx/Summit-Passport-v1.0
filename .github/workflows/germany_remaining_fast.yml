@@ -1,0 +1,21 @@
+name: Germany remaining fast audit
+on: [push, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run fast conservative classifier
+        run: python3 scripts/classify_germany_remaining_fast.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: germany-remaining-fast-review
+          path: |
+            data/germany_remaining_fast_review.json
+            data/germany_remaining_fast_summary.json
+          if-no-files-found: error
