@@ -1,0 +1,32 @@
+name: Germany manual 54 staging
+on: [push, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  stage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build staging candidate
+        run: python3 scripts/stage_germany_manual_54.py
+      - name: Validate staging invariants
+        run: |
+          python3 - <<'PY'
+          import json
+          r=json.load(open('data/germany_manual_54_staging.json',encoding='utf-8'))
+          s=r['summary']
+          assert s['inputResolved']==54
+          assert s['stage']+s['duplicate']+s['review']==54
+          assert s['productionOverwritten'] is False
+          print('VALIDATION PASS',s)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: germany-manual-54-staging
+          path: |
+            data/germany_manual_54_staging.json
+            data/catalog_germany_manual_54_candidate.json
+          if-no-files-found: error
