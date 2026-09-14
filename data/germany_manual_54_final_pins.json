@@ -1,0 +1,492 @@
+{
+  "country": "DE",
+  "batch": "manual-review-54",
+  "productionOverwritten": false,
+  "decisions": [
+    {
+      "id": "SP-4a58a108-ce3b-5e66-a48e-d10d85ad1733",
+      "name": "Hohe Wart",
+      "lat": 49.92125,
+      "lon": 9.26376,
+      "coordinateRole": "representative_point_not_entrance",
+      "source": "https://de.wikipedia.org/wiki/Hohe_Wart_(Spessart)",
+      "note": "Spessart: representative point for the Hohe Wart ridge"
+    },
+    {
+      "id": "SP-548e9424-001c-577a-8b90-59258495276f",
+      "name": "Federath / Bergische Höhen",
+      "lat": 50.943754,
+      "lon": 7.37631,
+      "coordinateRole": "representative_point_not_entrance",
+      "source": "https://de.wikipedia.org/wiki/Federath_(Overath)",
+      "note": "Federath in Overath; representative for the named Bergische Höhen entry"
+    },
+    {
+      "id": "SP-9bfad548-cf45-5a15-bc8f-b199125fd32c",
+      "name": "Kettners Weiher",
+      "lat": 50.9465,
+      "lon": 7.1478,
+      "coordinateRole": "exact_point",
+      "source": "https://www.openstreetmap.org/way/33708436",
+      "note": "OSM waterbody in the Overath/Königsforst context"
+    },
+    {
+      "id": "SP-c2afe4ac-96ea-5bbe-ae6e-151956ba7245",
+      "name": "Wupperberge",
+      "lat": 51.1209344,
+      "lon": 7.0621457,
+      "coordinateRole": "representative_point_not_entrance",
+      "source": "https://www.openstreetmap.org/node/3733352907",
+      "note": "Representative Wupperberg point in Bergisches Land"
+    },
+    {
+      "id": "SP-21b47798-0de0-54bc-8567-29d5abb35491",
+      "name": "Nachtigallental",
+      "lat": 50.675147,
+      "lon": 7.201684,
+      "coordinateRole": "representative_point_not_entrance",
+      "source": "https://www.openstreetmap.org/",
+      "note": "Representative point for Nachtigallental in Siebengebirge/Königswinter"
+    },
+    {
+      "id": "SP-c02c01c1-5721-5838-a2fe-07e794f60d68",
+      "name": "Narzissenwiesen",
+      "lat": 50.5185449,
+      "lon": 6.2500301,
+      "coordinateRole": "representative_point_not_entrance",
+      "source": "https://www.openstreetmap.org/",
+      "note": "Representative point for the narcissus meadows in Monschau/Hohes Venn"
+    },
+    {
+      "id": "SP-44349530-3d91-5757-8be1-984ae06c675e",
+      "name": "Vulkanpark",
+      "lat": 50.38816,
+      "lon": 7.40214,
+      "coordinateRole": "representative_point_not_entrance",
+      "source": "https://www.kuladig.de/Objektansicht/KLD-252410",
+      "note": "Vulkanpark information centre; corrected from a wrong Photon region hit"
+    },
+    {
+      "id": "SP-28fc8f54-d500-5277-b8af-0dfb4023492f",
+      "name": "Mayener Grubenfeld",
+      "lat": 50.3344,
+      "lon": 7.2448,
+      "coordinateRole": "representative_point_not_entrance",
+      "source": "https://www.openstreetmap.org/way/1209853880",
+      "note": "Representative point for the Mayener Grubenfeld area"
+    },
+    {
+      "id": "SP-54a45d82-f2ca-5e6d-80d0-2a6debb5ec72",
+      "name": "Elztal",
+      "lat": 50.236211,
+      "lon": 7.290957,
+      "coordinateRole": "representative_point_not_entrance",
+      "source": "https://www.outdooractive.com/",
+      "note": "Pyrmonter Mühle as a representative/start context for the Elztal entry; corrected from wrong Black Forest hit"
+    },
+    {
+      "id": "SP-cc3ad53b-68e7-58d0-bcbd-238992a27b63",
+      "name": "Gasseschlucht",
+      "lat": 50.6865821,
+      "lon": 8.2043936,
+      "coordinateRole": "exact_point",
+      "source": "https://www.openstreetmap.org/node/9442841201",
+      "note": "OSM Gasseschlucht in Breitscheid karst area"
+    },
+    {
+      "id": "SP-a544e3b6-6c04-5a13-bf3c-ddb5b57ac099",
+      "name": "Giebelwald",
+      "lat": 50.8436389,
+      "lon": 7.9101944,
+      "coordinateRole": "representative_point_not_entrance",
+      "source": "https://www.rlp-tourismus.com/de/ausflugsziele/giebelwald/poi.html",
+      "note": "Representative point for Giebelwald"
+    },
+    {
+      "id": "SP-b1e9026d-c208-5cbd-bc1e-2107ff83caa3",
+      "name": "Erlebnisberg Kappe",
+      "lat": 51.18815,
+      "lon": 8.50913,
+      "coordinateRole": "representative_point_not_entrance",
+      "source": "https://www.erlebnisbergkappe.de/",
+      "note": "Representative point for Erlebnisberg Kappe complex in Winterberg"
+    },
+    {
+      "id": "SP-ea777711-baae-53bd-ad5a-83d3d495dc66",
+      "name": "Clemensberg",
+      "lat": 51.2546,
+      "lon": 8.5672,
+      "coordinateRole": "exact_point",
+      "source": "https://www.openstreetmap.org/node/323202958",
+      "note": "Clemensberg summit"
+    },
+    {
+      "id": "SP-691412d8-c6ca-56b8-b916-b3dd7b8901dd",
+      "name": "Kyrillpfad",
+      "lat": 51.2750794,
+      "lon": 8.5984004,
+      "coordinateRole": "representative_point_not_entrance",
+      "source": "https://www.openstreetmap.org/way/1106031530",
+      "note": "Representative point on Kyrillpfad"
+    },
+    {
+      "id": "SP-1415aa7e-34a2-5863-bfdb-02ee7e2dce79",
+      "name": "Hannoversche Klippen",
+      "lat": 51.6499058,
+      "lon": 9.4334163,
+      "coordinateRole": "representative_point_not_entrance",
+      "source": "https://www.openstreetmap.org/node/1037268630",
+      "note": "Weser Skywalk / Hannoversche Klippen representative point"
+    },
+    {
+      "id": "SP-1790145d-c73d-5f25-9c3c-5dfcb2d14174",
+      "name": "Rheinhöhen Braubach",
+      "lat": 50.25887,
+      "lon": 7.66764,
+      "coordinateRole": "representative_point_not_entrance",
+      "source": "https://www.openstreetmap.org/node/7317214371",
+      "note": "Representative Rhine heights point above Braubach"
+    },
+    {
+      "id": "SP-d8e239a4-0738-58c9-af4f-045fc54b690b",
+      "name": "Bleidenberg",
+      "lat": 50.251692,
+      "lon": 7.45598,
+      "coordinateRole": "representative_point_not_entrance",
+      "source": "https://www.openstreetmap.org/",
+      "note": "Bleidenberg pilgrimage church area as representative point"
+    },
+    {
+      "id": "SP-14d2f675-20cb-5a89-a33e-15c9602e330e",
+      "name": "Moselblick Alken",
+      "lat": 50.24725,
+      "lon": 7.451203,
+      "coordinateRole": "exact_point",
+      "source": "https://www.outdooractive.com/",
+      "note": "Published Moselblick Alken viewpoint coordinate"
+    },
+    {
+      "id": "SP-a9c3cdd7-c321-56e1-ad53-77826b0eb04c",
+      "name": "Schrumpftal",
+      "lat": 50.2275051,
+      "lon": 7.4126836,
+      "coordinateRole": "documented_start",
+      "source": "https://www.openstreetmap.org/way/445394750",
+      "note": "Lower/start area of Schrumpftal near Hatzenport"
+    },
+    {
+      "id": "SP-32f3bbd1-0725-531b-a07d-e0836effd619",
+      "name": "Pyrmonter Felsen",
+      "lat": 50.2375984,
+      "lon": 7.2864525,
+      "coordinateRole": "representative_point_not_entrance",
+      "source": "https://www.openstreetmap.org/node/9548225234",
+      "note": "Representative Pyrmonter Felsensteig rock point"
+    },
+    {
+      "id": "SP-67fa2d8d-bd23-55eb-a2f0-a062338d10ca",
+      "name": "Elzbachtal",
+      "lat": 50.236211,
+      "lon": 7.290957,
+      "coordinateRole": "representative_point_not_entrance",
+      "source": "https://www.outdooractive.com/",
+      "note": "Pyrmonter Mühle as representative Elzbach valley point"
+    },
+    {
+      "id": "SP-3d2ba989-953b-5883-a2fc-89e6ea73c1b6",
+      "name": "Buchsbaum-Wanderpfad",
+      "lat": 50.184699,
+      "lon": 7.301863,
+      "coordinateRole": "documented_start",
+      "source": "https://www.visitmosel.de/",
+      "note": "Published route/start coordinate for Buchsbaum-Wanderpfad"
+    },
+    {
+      "id": "SP-910a3d4f-a1c6-53ee-bae9-c5f394ee8523",
+      "name": "Brauselay",
+      "lat": 50.142536,
+      "lon": 7.183614,
+      "coordinateRole": "representative_point_not_entrance",
+      "source": "https://www.openstreetmap.org/",
+      "note": "Brauselay rock area near Cochem"
+    },
+    {
+      "id": "SP-ca901e37-d31f-59f0-9827-9954be50039d",
+      "name": "Hubertushöhe",
+      "lat": 50.140858,
+      "lon": 7.155444,
+      "coordinateRole": "exact_point",
+      "source": "https://www.openstreetmap.org/node/10770721162",
+      "note": "Hubertushöhe viewpoint on Cochemer Ritterrunde"
+    },
+    {
+      "id": "SP-90516bb7-e5a4-5e49-b0c1-97629c43b9a1",
+      "name": "Beilstein",
+      "lat": 50.1104389,
+      "lon": 7.2393694,
+      "coordinateRole": "representative_point_not_entrance",
+      "source": "https://de.wikipedia.org/wiki/Beilstein_(Mosel)",
+      "note": "Historic Beilstein (Mosel) town centre; corrected from wrong namesake"
+    },
+    {
+      "id": "SP-51859a71-8d48-56d3-978a-c3302a13486c",
+      "name": "Mühlsteinhöhlen",
+      "status": "DUPLICATE",
+      "duplicateOf": "SP-4c731ef9-e5c1-5f7b-b343-8a373090b672",
+      "source": "https://www.openstreetmap.org/node/926982906",
+      "note": "OSM candidate is 12.7 m from existing Nerother Kopf map point; do not create a second map point."
+    },
+    {
+      "id": "SP-bc918a46-79f9-59cc-96d4-b97a830fd32e",
+      "name": "Sandkopf",
+      "lat": 49.7332368,
+      "lon": 7.098109,
+      "coordinateRole": "exact_point",
+      "source": "https://www.openstreetmap.org/",
+      "note": "Sandkopf summit in Erbeskopf/Nationalpark context"
+    },
+    {
+      "id": "SP-762adff8-45cb-5d0e-857b-d7974cb8761e",
+      "name": "Baybachklamm",
+      "lat": 50.134475,
+      "lon": 7.453248,
+      "coordinateRole": "documented_start",
+      "source": "https://www.outdooractive.com/",
+      "note": "Published Baybachklamm access/start coordinate"
+    },
+    {
+      "id": "SP-a4cfca2a-fc69-5138-ad51-daad59a7a537",
+      "name": "Ehrbachklamm",
+      "lat": 50.19943,
+      "lon": 7.48507,
+      "coordinateRole": "documented_start",
+      "source": "https://www.openstreetmap.org/way/315192750",
+      "note": "Parking/start context for Ehrbachklamm"
+    },
+    {
+      "id": "SP-52407579-a7fc-56cc-92f8-b39e3ae13c3c",
+      "name": "Hahnenbachtal",
+      "lat": 49.846963,
+      "lon": 7.385259,
+      "coordinateRole": "documented_start",
+      "source": "https://www.wanderinstitut.de/",
+      "note": "Official Hahnenbachtal-Tour start; corrected from wrong Photon region hit"
+    },
+    {
+      "id": "SP-77f3a83d-1da4-574e-af4a-1dd58bd7773a",
+      "name": "Zeller Schwarze Katz Weinberge",
+      "lat": 50.02823,
+      "lon": 7.18402,
+      "coordinateRole": "representative_point_not_entrance",
+      "source": "https://www.kuladig.de/",
+      "note": "Representative vineyard coordinate for Zeller Schwarze Katz"
+    },
+    {
+      "id": "SP-0fed4d09-2dfa-53bf-be00-b00fa8e8b4f2",
+      "name": "Kanonenbahn",
+      "lat": 50.0389732,
+      "lon": 7.1369296,
+      "coordinateRole": "representative_point_not_entrance",
+      "source": "https://www.openstreetmap.org/node/1422421043",
+      "note": "Local Kanonenbahn marker in Reil/Pünderich/Bullay context"
+    },
+    {
+      "id": "SP-e79ed0ae-8f3b-5935-aebf-2b95e4ad0d75",
+      "name": "Wolfer Schanzen",
+      "lat": 49.9418745,
+      "lon": 7.0915654,
+      "coordinateRole": "exact_point",
+      "source": "https://www.openstreetmap.org/way/325789706",
+      "note": "Wolfer Schanzen earthwork"
+    },
+    {
+      "id": "SP-820cbb27-e3d8-56d3-ad4d-cb27521f62f6",
+      "name": "Himmelspforte",
+      "lat": 49.945927,
+      "lon": 7.117198,
+      "coordinateRole": "exact_point",
+      "source": "https://www.outdooractive.com/",
+      "note": "Published Himmelspforte coordinate"
+    },
+    {
+      "id": "SP-50db4623-bc26-5587-82d2-6fc72e263974",
+      "name": "Ürziger Felsen",
+      "lat": 49.98234,
+      "lon": 7.01066,
+      "coordinateRole": "representative_point_not_entrance",
+      "source": "https://www.openstreetmap.org/node/11752394053",
+      "note": "Ürziger Würzgarten representative point for the Ürziger Felsen landscape entry"
+    },
+    {
+      "id": "SP-492019ea-3290-5a83-8400-431c3744319b",
+      "name": "Piesporter Goldtröpfchen",
+      "lat": 49.8891,
+      "lon": 6.9164,
+      "coordinateRole": "representative_point_not_entrance",
+      "source": "https://de.wikipedia.org/wiki/Piesporter_Goldtr%C3%B6pfchen",
+      "note": "Published vineyard coordinate"
+    },
+    {
+      "id": "SP-c4c5c6a3-0917-5fab-bcdc-c6ce13ee0bf8",
+      "name": "Hammelsberg",
+      "lat": 49.46626,
+      "lon": 6.39627,
+      "coordinateRole": "exact_point",
+      "source": "https://www.openstreetmap.org/",
+      "note": "Hammelsberg near Perl/Obermosel"
+    },
+    {
+      "id": "SP-478f0e25-66fc-5de8-aa32-485ab47f27e6",
+      "name": "Baumwipfelpfad Saarschleife",
+      "lat": 49.502032,
+      "lon": 6.540316,
+      "coordinateRole": "representative_point_not_entrance",
+      "source": "https://www.baumwipfelpfade.de/saarschleife/",
+      "note": "Attraction/viewing tower coordinate; corrected from ticket-shop Photon point"
+    },
+    {
+      "id": "SP-748064c4-1464-5bbb-af5d-8588e4bd73e3",
+      "name": "Steinwand",
+      "lat": 50.5228056,
+      "lon": 9.8648056,
+      "coordinateRole": "exact_point",
+      "source": "https://de.wikipedia.org/wiki/Steinwand_(Rh%C3%B6n)",
+      "note": "Steinwand rock formation in Rhön"
+    },
+    {
+      "id": "SP-0886d30c-fecd-57c6-b37e-58501710525c",
+      "name": "Brockenbahn",
+      "lat": 51.799803,
+      "lon": 10.618098,
+      "coordinateRole": "documented_end",
+      "source": "https://www.openstreetmap.org/",
+      "note": "Bahnhof Brocken endpoint as canonical pin for Brockenbahn"
+    },
+    {
+      "id": "SP-209c6799-49c2-5ea0-a759-b85ee431076c",
+      "name": "Bodetal",
+      "lat": 51.7355556,
+      "lon": 11.0097222,
+      "coordinateRole": "representative_point_not_entrance",
+      "source": "https://de.wikipedia.org/wiki/Bodetal",
+      "note": "Representative point for Bodetal"
+    },
+    {
+      "id": "SP-e33a55a4-dccc-54f8-b702-3898d1b9aef3",
+      "name": "Kernberge",
+      "lat": 50.91383,
+      "lon": 11.603794,
+      "coordinateRole": "representative_point_not_entrance",
+      "source": "https://de.wikipedia.org/wiki/Kernberge",
+      "note": "Representative landform point for Kernberge near Jena"
+    },
+    {
+      "id": "SP-06987432-584a-50d7-b55f-e82dafd25937",
+      "name": "Ruhestein",
+      "lat": 48.5611111,
+      "lon": 8.2213889,
+      "coordinateRole": "exact_point",
+      "source": "https://de.wikipedia.org/wiki/Ruhestein",
+      "note": "Ruhestein pass/locality coordinate"
+    },
+    {
+      "id": "SP-b5b9b97a-53ac-535e-832f-6e714e4c9a87",
+      "name": "Gaishöll-Wasserfälle",
+      "lat": 48.618669,
+      "lon": 8.138938,
+      "coordinateRole": "exact_point",
+      "source": "https://www.openstreetmap.org/",
+      "note": "Gaishöll waterfall system coordinate"
+    },
+    {
+      "id": "SP-bfe6cf4e-428e-5f76-a413-2ebdddc49e21",
+      "name": "Polenztal",
+      "lat": 50.97999,
+      "lon": 14.10345,
+      "coordinateRole": "documented_start",
+      "source": "https://www.openstreetmap.org/node/2577249390",
+      "note": "Access/information point for Polenztal"
+    },
+    {
+      "id": "SP-dac643d2-22a0-5e0e-8cc9-b68967269665",
+      "name": "Dresdner Elbhänge",
+      "lat": 51.01542,
+      "lon": 13.8852,
+      "coordinateRole": "representative_point_not_entrance",
+      "source": "https://de.wikipedia.org/",
+      "note": "Representative coordinate for protected Dresdner Elbtalhänge"
+    },
+    {
+      "id": "SP-a1519e41-14f9-5c43-a921-00484c6134e1",
+      "name": "Oybin",
+      "lat": 50.84449,
+      "lon": 14.74318,
+      "coordinateRole": "representative_point_not_entrance",
+      "source": "https://de.wikipedia.org/wiki/Oybin_(Berg)",
+      "note": "Oybin mountain/heritage complex representative point"
+    },
+    {
+      "id": "SP-20db61d3-4e69-573f-8b9c-a2a9db61176f",
+      "name": "Steinernes Meer",
+      "lat": 48.7683963,
+      "lon": 13.8297697,
+      "coordinateRole": "representative_point_not_entrance",
+      "source": "https://www.openstreetmap.org/node/938830047",
+      "note": "Steinernes Meer in Bayerischer Wald/Dreisessel context"
+    },
+    {
+      "id": "SP-01539bb9-d98a-5264-b8b7-03dcce16d2d7",
+      "name": "Höllental",
+      "lat": 47.448696,
+      "lon": 11.043765,
+      "coordinateRole": "documented_start",
+      "source": "https://www.openstreetmap.org/",
+      "note": "Höllentalklamm entrance as canonical access point"
+    },
+    {
+      "id": "SP-1e6849d1-b9ce-56e7-8ddc-c497fd487196",
+      "name": "Leutaschklamm / Geisterklamm",
+      "lat": 47.4277234,
+      "lon": 11.2537088,
+      "coordinateRole": "documented_start",
+      "source": "https://www.openstreetmap.org/node/13143347237",
+      "note": "German-side Geisterklamm access point"
+    },
+    {
+      "id": "SP-0a5abae4-b75a-532a-bb43-82442f95529c",
+      "name": "Mittenwalder Altstadt",
+      "lat": 47.4406931,
+      "lon": 11.2599769,
+      "coordinateRole": "representative_point_not_entrance",
+      "source": "https://www.wikidata.org/wiki/Q41218974",
+      "note": "Obermarkt heritage ensemble as representative old-town point"
+    },
+    {
+      "id": "SP-5035812c-0d16-59f8-a2c5-1a29408dc527",
+      "name": "Neuendorfer Rummel",
+      "lat": 52.0310035816739,
+      "lon": 12.665090560913086,
+      "coordinateRole": "documented_start",
+      "source": "https://www.openstreetmap.org/",
+      "note": "Officially documented starting point for Neuendorfer Rummel"
+    },
+    {
+      "id": "SP-b49b89d3-b88e-5810-bd0e-2024e57101e7",
+      "name": "Havelhöhenweg",
+      "lat": 52.5091667,
+      "lon": 13.2147222,
+      "coordinateRole": "documented_start",
+      "source": "https://de.wikipedia.org/wiki/Havelh%C3%B6henweg",
+      "note": "Stößenseebrücke published start point for Havelhöhenweg"
+    },
+    {
+      "id": "SP-c29da598-9458-5619-be5c-ca61b59d9297",
+      "name": "Stubbenkammer",
+      "lat": 54.5723565,
+      "lon": 13.658922,
+      "coordinateRole": "representative_point_not_entrance",
+      "source": "https://www.openstreetmap.org/node/583634680",
+      "note": "Stubbenkammer locality/landscape representative point"
+    }
+  ]
+}
