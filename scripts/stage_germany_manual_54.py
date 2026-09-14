@@ -89,13 +89,23 @@ for r in rows:
     if near:
         out.update(status='DUPLICATE',reason='within 80m of existing DE map point',chosen=c,near=sorted(near)[:5]);results.append(out);continue
     out.update(status='STAGE',lat=c['lat'],lon=c['lon'],source=source,coordinateRole=role,confidence=conf,chosen=c);results.append(out)
-stage=[x for x in results if x['status']=='STAGE'];newcat=json.loads(json.dumps(cat));newby={p['id']:p for p in newcat['places']}
+
+stage=[x for x in results if x['status']=='STAGE'];newcat=json.loads(json.dumps(cat));newby={p['id']:p for p in newcat['places']};missing_runtime=[]
 for x in stage:
     p=newby.get(x['id'])
-    if not p:raise SystemExit('missing stable id '+x['id'])
-    if p.get('mapReady'):raise SystemExit('already mapReady '+x['id'])
+    if not p:
+        missing_runtime.append({
+            'id':x['id'],'country':'DE','name':x['name'],'category':x['category'],'lat':x['lat'],'lon':x['lon'],
+            'mapReady':True,'region':'','area':x['area'],'source':x['source'],'coordinateRole':x['coordinateRole'],
+            'note':'staging_only_missing_from_runtime; complete region/collection metadata before production import'
+        })
+        continue
+    if p.get('mapReady'):
+        raise SystemExit('already mapReady '+x['id'])
     p.update(lat=x['lat'],lon=x['lon'],mapReady=True,source=x['source'],coordinateRole=x['coordinateRole'])
-summary={'inputResolved':54,'stage':len(stage),'duplicate':sum(x['status']=='DUPLICATE' for x in results),'review':sum(x['status']=='REVIEW' for x in results),'productionOverwritten':False}
-OUT.write_text(json.dumps({'summary':summary,'results':results},ensure_ascii=False,indent=2)+'\n',encoding='utf-8');OUTCAT.write_text(json.dumps(newcat,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf-8')
+summary={'inputResolved':54,'stage':len(stage),'duplicate':sum(x['status']=='DUPLICATE' for x in results),'review':sum(x['status']=='REVIEW' for x in results),'missingRuntime':len(missing_runtime),'productionOverwritten':False}
+OUT.write_text(json.dumps({'summary':summary,'results':results,'newRuntimeRecords':missing_runtime},ensure_ascii=False,indent=2)+'\n',encoding='utf-8');OUTCAT.write_text(json.dumps(newcat,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf-8')
 print('SUMMARY',json.dumps(summary,ensure_ascii=False))
 for x in results:print(x['status'],x['name'],x.get('reason',''),x.get('lat',''),x.get('lon',''))
+if missing_runtime:
+    print('MISSING_RUNTIME',len(missing_runtime),','.join(x['id'] for x in missing_runtime))
