@@ -7,20 +7,37 @@
     "ADD_DE": 0,
     "DUPLICATE_PL": 0,
     "DUPLICATE_DE": 0,
-    "CONFLICT": 0,
-    "INVALID": 576,
+    "CONFLICT": 49,
+    "INVALID": 527,
     "global_blockers": 2,
     "apply_allowed": false
   },
   "manifest_meta": {
     "PL": {
-      "approval_status": "INCOMPLETE_REVIEW",
+      "schema_version": 1,
+      "country": "PL",
       "manifest_complete": false,
+      "approval_status": "INCOMPLETE_REVIEW",
+      "source_name": "Poland backlog validation artifact 10308354487",
+      "source_note": "Latest successful Poland validation artifact contains 522 unresolved PL runtime records. 45 had validated offline coordinate candidates, but only 17 passed the OSM/GeoNames cross-check. This is not a complete approved import list, so apply must remain blocked.",
+      "expected_scope": 522,
+      "validated_coordinate_candidates": 45,
+      "crosschecked_count": 17,
+      "path": "data/import/poland_candidates.json",
       "candidate_count": 522
     },
     "DE": {
-      "approval_status": "PENDING_METADATA_GATE",
+      "schema_version": 1,
+      "country": "DE",
       "manifest_complete": false,
+      "approval_status": "PENDING_METADATA_GATE",
+      "source_name": "Germany manual 54 final staging artifact 10365355020",
+      "source_note": "Final semantic review resolved 54 records (53 stage candidates and 1 duplicate), but its final report explicitly requires region and collection metadata for the 51 new runtime records before production merge. Apply must remain blocked until that gate is complete.",
+      "expected_scope": 54,
+      "stage_total": 53,
+      "duplicate_total": 1,
+      "missing_runtime_metadata": 51,
+      "path": "data/import/germany_candidates.json",
       "candidate_count": 54
     }
   },
@@ -46,7 +63,6 @@
       "name": "Obserwatorium na Lubomirze",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -60,7 +76,6 @@
       "name": "Chełm",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -72,11 +87,15 @@
       "country": "PL",
       "stable_id": "SP-e13ef334-5e13-5993-8f2f-4ce020e3f049",
       "name": "Łysina",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-e13ef334-5e13-5993-8f2f-4ce020e3f049",
+        "name": "Łysina",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "CANDIDATE_UNCROSSCHECKED"
     },
@@ -87,7 +106,6 @@
       "name": "Wodospad Dusica",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -101,7 +119,6 @@
       "name": "Góra Żar",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -113,11 +130,15 @@
       "country": "PL",
       "stable_id": "SP-06bf7de9-b0b1-5633-bd28-dcb00a329539",
       "name": "Potrójna",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-06bf7de9-b0b1-5633-bd28-dcb00a329539",
+        "name": "Potrójna",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "CROSS_CHECKED_EXISTING"
     },
@@ -128,7 +149,6 @@
       "name": "Wodospad Przy Młynie w Iwli",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -142,7 +162,6 @@
       "name": "Cerkiew w Brunarach",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -156,7 +175,6 @@
       "name": "Cerkiew w Brunarach Wyżnych UNESCO",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -170,7 +188,6 @@
       "name": "Cerkiew w Kwiatoniu",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -184,7 +201,6 @@
       "name": "Cerkiew w Kwiatoniu UNESCO",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -198,7 +214,6 @@
       "name": "Cerkiew w Owczarach UNESCO",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -212,7 +227,6 @@
       "name": "Cerkiew w Powroźniku UNESCO",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -226,7 +240,6 @@
       "name": "Cmentarz Wojenny Nr 51 Rotunda",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -240,7 +253,6 @@
       "name": "Cmentarz wojenny na Rotundzie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -254,7 +266,6 @@
       "name": "Kościół w Bliznem UNESCO",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -268,7 +279,6 @@
       "name": "Kościół w Haczowie UNESCO",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -282,7 +292,6 @@
       "name": "Pustelnia św. Jana z Dukli",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -296,7 +305,6 @@
       "name": "Wieza na Cergowej",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -310,7 +318,6 @@
       "name": "Wysowa-Zdroj",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -324,7 +331,6 @@
       "name": "Zamek Kamieniec w Odrzykoniu",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -338,7 +344,6 @@
       "name": "Zlota Studzienka",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -352,7 +357,6 @@
       "name": "Magura Wątkowska",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -366,7 +370,6 @@
       "name": "Ostry Wierch",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -378,11 +381,15 @@
       "country": "PL",
       "stable_id": "SP-c027cd0d-3d7b-556b-8c76-3082a204aef0",
       "name": "Rotunda",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-c027cd0d-3d7b-556b-8c76-3082a204aef0",
+        "name": "Rotunda",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "CROSS_CHECKED_EXISTING"
     },
@@ -393,7 +400,6 @@
       "name": "Przełęcz Małastowska",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -407,7 +413,6 @@
       "name": "Przełęcz Regetowska",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -421,7 +426,6 @@
       "name": "Ciechania",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -435,7 +439,6 @@
       "name": "Dolina Wisłoki",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -449,7 +452,6 @@
       "name": "Jasiel - ślady dawnej wsi łemkowskiej",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -463,7 +465,6 @@
       "name": "Radocyna",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -477,7 +478,6 @@
       "name": "Regietów Wyzny",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -491,7 +491,6 @@
       "name": "Rezerwat Źródliska Jasiołki",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -505,7 +504,6 @@
       "name": "Diabli Kamień",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -519,7 +517,6 @@
       "name": "Kornuty",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -533,7 +530,6 @@
       "name": "Rezerwat Kornuty",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -547,7 +543,6 @@
       "name": "Rezerwat Prządki",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -561,7 +556,6 @@
       "name": "Skamieniałe Miasto",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -575,7 +569,6 @@
       "name": "Wodospad Wielki w Obidzy",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -587,11 +580,15 @@
       "country": "PL",
       "stable_id": "SP-803b1852-6a7e-56a1-b892-985bce51c39d",
       "name": "Bereśnik",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-803b1852-6a7e-56a1-b892-985bce51c39d",
+        "name": "Bereśnik",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "CROSS_CHECKED_EXISTING"
     },
@@ -602,7 +599,6 @@
       "name": "Eliaszówka",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -614,11 +610,15 @@
       "country": "PL",
       "stable_id": "SP-662ce814-63da-5758-a97a-c112c6dc7db6",
       "name": "Przehyba",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-662ce814-63da-5758-a97a-c112c6dc7db6",
+        "name": "Przehyba",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "CROSS_CHECKED_EXISTING"
     },
@@ -629,7 +629,6 @@
       "name": "Runek",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -643,7 +642,6 @@
       "name": "Jasień",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -655,11 +653,15 @@
       "country": "PL",
       "stable_id": "SP-e1ce1d0e-eed8-5ee8-950b-df9311027f31",
       "name": "Łopień",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-e1ce1d0e-eed8-5ee8-950b-df9311027f31",
+        "name": "Łopień",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "CANDIDATE_UNCROSSCHECKED"
     },
@@ -670,7 +672,6 @@
       "name": "Rotunda św. Mikołaja",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -684,7 +685,6 @@
       "name": "Wzgórze Zamkowe",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -698,7 +698,6 @@
       "name": "Wodospad w Sopotni Wielkiej",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -712,7 +711,6 @@
       "name": "Fort Waligóra",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -726,7 +724,6 @@
       "name": "Fort Wąwóz",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -740,7 +737,6 @@
       "name": "Fort Wędrowiec",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -754,7 +750,6 @@
       "name": "Fort Włóczęga",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -766,11 +761,15 @@
       "country": "PL",
       "stable_id": "SP-d5759a4b-16ea-5ca7-bb8e-07ffbcdbb4d8",
       "name": "Lipowska",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-d5759a4b-16ea-5ca7-bb8e-07ffbcdbb4d8",
+        "name": "Lipowska",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "CANDIDATE_UNCROSSCHECKED"
     },
@@ -781,7 +780,6 @@
       "name": "Sokolica Babiogórska",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -795,7 +793,6 @@
       "name": "Wielka Racza",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -809,7 +806,6 @@
       "name": "Przegibek",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -821,11 +817,15 @@
       "country": "PL",
       "stable_id": "SP-6f6d1f16-3061-5e29-afde-f1dd8a31f72e",
       "name": "Jeziorka Duszatynskie",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-6f6d1f16-3061-5e29-afde-f1dd8a31f72e",
+        "name": "Jeziorka Duszatynskie",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "CROSS_CHECKED_EXISTING"
     },
@@ -834,11 +834,15 @@
       "country": "PL",
       "stable_id": "SP-4e5740a9-cae3-506c-bd7b-6f0969991aca",
       "name": "Jezioro Solińskie",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-4e5740a9-cae3-506c-bd7b-6f0969991aca",
+        "name": "Jezioro Solińskie",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "CANDIDATE_UNCROSSCHECKED"
     },
@@ -849,7 +853,6 @@
       "name": "Wodospad Szepit na Hylatym",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -863,7 +866,6 @@
       "name": "Cerkiew w Łopience",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -877,7 +879,6 @@
       "name": "Muzeum Budownictwa Ludowego w Sanoku",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -891,7 +892,6 @@
       "name": "Muzeum Przemysłu Naftowego i Gazowniczego w Bóbrce",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -905,7 +905,6 @@
       "name": "Powozownia w Łańcucie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -919,7 +918,6 @@
       "name": "Ruiny klasztoru Karmelitów w Zagórzu",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -933,7 +931,6 @@
       "name": "Twierdza Przemyśl - Fort Salis Soglio",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -947,7 +944,6 @@
       "name": "Twierdza Przemyśl - Fort Łętownia",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -961,7 +957,6 @@
       "name": "Zamek Baranów Sandomierski",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -975,7 +970,6 @@
       "name": "Zamek Kazimierzowski w Przemyślu",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -989,7 +983,6 @@
       "name": "Zamek Krasiczyn",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1003,7 +996,6 @@
       "name": "Zamek w Sanoku",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1017,7 +1009,6 @@
       "name": "Zamek w Łańcucie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1031,7 +1022,6 @@
       "name": "Krzemieniec",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1043,11 +1033,15 @@
       "country": "PL",
       "stable_id": "SP-40f8b386-4dca-54e3-8f61-65395992da2b",
       "name": "Krzemień",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-40f8b386-4dca-54e3-8f61-65395992da2b",
+        "name": "Krzemień",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "CROSS_CHECKED_EXISTING"
     },
@@ -1058,7 +1052,6 @@
       "name": "Rozsypaniec",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1072,7 +1065,6 @@
       "name": "Przełęcz Orlowicza",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1086,7 +1078,6 @@
       "name": "Beniowa",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1100,7 +1091,6 @@
       "name": "Dolina dawnej wsi Łopienka",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1114,7 +1104,6 @@
       "name": "Dolina górnego Sanu",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1128,7 +1117,6 @@
       "name": "Kopiec Tatarski",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1140,11 +1128,15 @@
       "country": "PL",
       "stable_id": "SP-1cff2946-fb0a-54b7-945a-b251fefaf7c6",
       "name": "Otryt",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-1cff2946-fb0a-54b7-945a-b251fefaf7c6",
+        "name": "Otryt",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "CANDIDATE_UNCROSSCHECKED"
     },
@@ -1153,11 +1145,15 @@
       "country": "PL",
       "stable_id": "SP-8bda42c9-4d18-5997-9232-c047e9622ddf",
       "name": "Połonina Wetlińska",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-8bda42c9-4d18-5997-9232-c047e9622ddf",
+        "name": "Połonina Wetlińska",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "CANDIDATE_UNCROSSCHECKED"
     },
@@ -1168,7 +1164,6 @@
       "name": "Rezerwat Sine Wiry",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1182,7 +1177,6 @@
       "name": "Sianki",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1196,7 +1190,6 @@
       "name": "Torfowiska Tarnawa",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1210,7 +1203,6 @@
       "name": "Torfowiska Tarnawskie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1224,7 +1216,6 @@
       "name": "Źródła Sanu",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1236,11 +1227,15 @@
       "country": "PL",
       "stable_id": "SP-d4de5ac9-99d8-5c97-993e-87690aa3b533",
       "name": "Kozie Żebro",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-d4de5ac9-99d8-5c97-993e-87690aa3b533",
+        "name": "Kozie Żebro",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "CROSS_CHECKED_EXISTING"
     },
@@ -1251,7 +1246,6 @@
       "name": "Wysokie (Beskid Niski)",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1265,7 +1259,6 @@
       "name": "Przełęcz Obidza",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1279,7 +1272,6 @@
       "name": "Przełęcz Przysłop pod Wielkim Rogaczem",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1293,7 +1285,6 @@
       "name": "Platforma widokowa Wola Krogulecka",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1305,11 +1296,15 @@
       "country": "PL",
       "stable_id": "SP-9554896a-cf78-5bc6-a291-3e71de78554d",
       "name": "Cieńków",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-9554896a-cf78-5bc6-a291-3e71de78554d",
+        "name": "Cieńków",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "REVIEW"
     },
@@ -1320,7 +1315,6 @@
       "name": "Przełęcz Beskidek pod Czantorią",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1334,7 +1328,6 @@
       "name": "Hala Boracza",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1348,7 +1341,6 @@
       "name": "Przełęcz Glinka",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1362,7 +1354,6 @@
       "name": "Przełęcz Głuchaczki",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1376,7 +1367,6 @@
       "name": "Przełęcz pod Orłem",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1390,7 +1380,6 @@
       "name": "Wieża widokowa w Glinnie nad Jeziorskiem",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1404,7 +1393,6 @@
       "name": "Wieża widokowa w Proboszczowicach",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1418,7 +1406,6 @@
       "name": "Kaplica Papieska",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1432,7 +1419,6 @@
       "name": "Stare Wierchy",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1446,7 +1432,6 @@
       "name": "Kiczora",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1460,7 +1445,6 @@
       "name": "Wieża widokowa nad zbiornikiem Afryka",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1474,7 +1458,6 @@
       "name": "Sanktuarium na Górze Świętej Anny",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1488,7 +1471,6 @@
       "name": "Średniowieczne mury Paczkowa",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1502,7 +1484,6 @@
       "name": "Biskupia Kopa",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1516,7 +1497,6 @@
       "name": "Srebrna Kopa",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1530,7 +1510,6 @@
       "name": "Stanowisko paleontologiczne Krasiejów",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1544,7 +1523,6 @@
       "name": "Zrodelko Sw. Franciszka",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1558,7 +1536,6 @@
       "name": "Krzemionki - kopalnie krzemienia UNESCO",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1572,7 +1549,6 @@
       "name": "Mury i Brama Krakowska w Szydłowie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1586,7 +1562,6 @@
       "name": "Opactwo Cystersów w Wąchocku",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1600,7 +1575,6 @@
       "name": "Podziemna Trasa Turystyczna",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1614,7 +1588,6 @@
       "name": "Rekonstrukcja osady neolitycznej",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1628,7 +1601,6 @@
       "name": "Ruiny zamku w Bodzentynie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1642,7 +1614,6 @@
       "name": "Stare Miasto w Sandomierzu",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1656,7 +1627,6 @@
       "name": "Zamek Krzyżtopór",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1670,7 +1640,6 @@
       "name": "Święta Katarzyna",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1684,7 +1653,6 @@
       "name": "Święty Krzyż",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1696,11 +1664,15 @@
       "country": "PL",
       "stable_id": "SP-9b498a38-3188-5672-850b-3b4342d4e942",
       "name": "Bukowa Góra",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-9b498a38-3188-5672-850b-3b4342d4e942",
+        "name": "Bukowa Góra",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "CROSS_CHECKED_EXISTING"
     },
@@ -1711,7 +1683,6 @@
       "name": "Góra Jeleniowska",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1725,7 +1696,6 @@
       "name": "Góra Zamkowa W Chęcinach",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1739,7 +1709,6 @@
       "name": "Góra Żelejowa",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1753,7 +1722,6 @@
       "name": "Łysa Góra - Łysiec",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1765,11 +1733,15 @@
       "country": "PL",
       "stable_id": "SP-010e1161-8787-56e9-88b1-ec78c302d386",
       "name": "Łysica",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-010e1161-8787-56e9-88b1-ec78c302d386",
+        "name": "Łysica",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "CROSS_CHECKED_EXISTING"
     },
@@ -1780,7 +1752,6 @@
       "name": "Dąb Bartek",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1794,7 +1765,6 @@
       "name": "Góry Pieprzowe",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1808,7 +1778,6 @@
       "name": "Wąwóz Królowej Jadwigi",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1822,7 +1791,6 @@
       "name": "Diabelski Kamień",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1836,7 +1804,6 @@
       "name": "Goloborze na Lysej Górze",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1850,7 +1817,6 @@
       "name": "Jaskinia Piekło",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1864,7 +1830,6 @@
       "name": "Kadzielnia i Podziemna Trasa Turystyczna",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1878,7 +1843,6 @@
       "name": "Kamieniolom Miedzianka",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1892,7 +1856,6 @@
       "name": "Rezerwat Gagaty Sołtykowskie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1906,7 +1869,6 @@
       "name": "Rezerwat Zachełmie - ślady tetrapodów",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1920,7 +1882,6 @@
       "name": "Rezerwat Ślichowice",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1934,7 +1895,6 @@
       "name": "Skałki Piekło pod Niekłaniem",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1948,7 +1908,6 @@
       "name": "Tropy dinozaurów w Sołtykowie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1962,7 +1921,6 @@
       "name": "Wietrznia",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1976,7 +1934,6 @@
       "name": "Przełęcz Sokola",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -1990,7 +1947,6 @@
       "name": "Wodospad Szum",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2004,7 +1960,6 @@
       "name": "Kaplica na Wodzie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2018,7 +1973,6 @@
       "name": "Ruiny Zamku Biskupów Krakowskich w Siewierzu",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2032,7 +1986,6 @@
       "name": "Ruiny Zamku Ostrężnik",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2046,7 +1999,6 @@
       "name": "Strażnica Przewodziszowice",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2060,7 +2012,6 @@
       "name": "Zamek Ojców",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2074,7 +2025,6 @@
       "name": "Dolina Kluczwody",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2088,7 +2038,6 @@
       "name": "Dolina Kobylańska",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2100,11 +2049,15 @@
       "country": "PL",
       "stable_id": "SP-e622f031-0169-58de-aad9-dc22b699b963",
       "name": "Dolina Prądnika",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-e622f031-0169-58de-aad9-dc22b699b963",
+        "name": "Dolina Prądnika",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "CANDIDATE_UNCROSSCHECKED"
     },
@@ -2115,7 +2068,6 @@
       "name": "Dolina Racławki",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2129,7 +2081,6 @@
       "name": "Dolina Szklarki",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2143,7 +2094,6 @@
       "name": "Dolina Sąspowska",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2157,7 +2107,6 @@
       "name": "Dolina Wodącej",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2171,7 +2120,6 @@
       "name": "Punkt widokowy Czubatka",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2185,7 +2133,6 @@
       "name": "Róża Wiatrów",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2199,7 +2146,6 @@
       "name": "Brama Bolechowicka",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2213,7 +2159,6 @@
       "name": "Grzęda Mirowska",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2227,7 +2172,6 @@
       "name": "Góry Towarne",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2241,7 +2185,6 @@
       "name": "Jaskinia Biśnik",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2255,7 +2198,6 @@
       "name": "Jaskinia Olsztyńska",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2267,11 +2209,15 @@
       "country": "PL",
       "stable_id": "SP-39f92a02-634b-5fc1-84e3-39210e21cb78",
       "name": "Jaskinia Wierzchowska Górna",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-39f92a02-634b-5fc1-84e3-39210e21cb78",
+        "name": "Jaskinia Wierzchowska Górna",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "CANDIDATE_UNCROSSCHECKED"
     },
@@ -2282,7 +2228,6 @@
       "name": "Skały Góry Zborów",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2296,7 +2241,6 @@
       "name": "Skały Podlesickie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2310,7 +2254,6 @@
       "name": "Skały Podzamcza",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2324,7 +2267,6 @@
       "name": "Skały Rzędkowickie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2338,7 +2280,6 @@
       "name": "Skały Zegarowe",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2352,7 +2293,6 @@
       "name": "Sokole Góry",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2366,7 +2306,6 @@
       "name": "Skały Kroczyckie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2380,7 +2319,6 @@
       "name": "Wzgórze Kromołowiec",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2394,7 +2332,6 @@
       "name": "Góra Apteka",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2408,7 +2345,6 @@
       "name": "Góra Sowia (Jura)",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2422,7 +2358,6 @@
       "name": "Góra Sulmów",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2436,7 +2371,6 @@
       "name": "Góra Łysak",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2450,7 +2384,6 @@
       "name": "Dziki Wodospad",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2464,7 +2397,6 @@
       "name": "Śnieżne Stawki",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2478,7 +2410,6 @@
       "name": "Kopalnia Stanisław",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2492,7 +2423,6 @@
       "name": "Orle",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2506,7 +2436,6 @@
       "name": "Park i pałac w Bukowcu",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2520,7 +2449,6 @@
       "name": "Pałac Karpniki",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2534,7 +2462,6 @@
       "name": "Pałac Staniszów",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2548,7 +2475,6 @@
       "name": "Pałac Łomnica",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2562,7 +2488,6 @@
       "name": "Perła Zachodu",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2576,7 +2501,6 @@
       "name": "Ruiny Zamku Gryf",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2590,7 +2514,6 @@
       "name": "Sztolnie Kowary",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2604,7 +2527,6 @@
       "name": "Zamek Wleń",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2616,11 +2538,15 @@
       "country": "PL",
       "stable_id": "SP-b9fdd8ee-0519-5c29-b055-67544af87b16",
       "name": "Śnieżka",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-b9fdd8ee-0519-5c29-b055-67544af87b16",
+        "name": "Śnieżka",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "REVIEW"
     },
@@ -2629,11 +2555,15 @@
       "country": "PL",
       "stable_id": "SP-d02d9a43-dd19-5c1f-a813-909aff66e9c3",
       "name": "Czarna Przełęcz",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-d02d9a43-dd19-5c1f-a813-909aff66e9c3",
+        "name": "Czarna Przełęcz",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "CANDIDATE_UNCROSSCHECKED"
     },
@@ -2642,11 +2572,15 @@
       "country": "PL",
       "stable_id": "SP-a2b3ae91-98a6-5e53-9ee7-b666bf73efea",
       "name": "Rozdroze pod Cicha Równia",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-a2b3ae91-98a6-5e53-9ee7-b666bf73efea",
+        "name": "Rozdroze pod Cicha Równia",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "CANDIDATE_UNCROSSCHECKED"
     },
@@ -2657,7 +2591,6 @@
       "name": "Hala Szrenicka",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2671,7 +2604,6 @@
       "name": "Polana Jakuszycka",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2685,7 +2617,6 @@
       "name": "Równia pod Śnieżka",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2699,7 +2630,6 @@
       "name": "Torfowiska Doliny Izery",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2713,7 +2643,6 @@
       "name": "Złoty Widok",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2727,7 +2656,6 @@
       "name": "Śnieżne Kotły",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2741,7 +2669,6 @@
       "name": "Czeskie Kamienie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2755,7 +2682,6 @@
       "name": "Trzy Swinki",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2769,7 +2695,6 @@
       "name": "Śląskie Kamienie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2783,7 +2708,6 @@
       "name": "Jeziora Raduńskie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2797,7 +2721,6 @@
       "name": "Jezioro Wdzydze",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2811,7 +2734,6 @@
       "name": "Jezioro Wielkie Gacno",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2825,7 +2747,6 @@
       "name": "Kamienne Kręgi w Węsiorach",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2839,7 +2760,6 @@
       "name": "Kaszubski Park Etnograficzny",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2853,7 +2773,6 @@
       "name": "Rezerwat Kamienne Kręgi w Odrach",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2867,7 +2786,6 @@
       "name": "Ostrzyce",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2881,7 +2799,6 @@
       "name": "Wieża widokowa we Wdzydzach",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2895,7 +2812,6 @@
       "name": "Groty Mechowskie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2907,11 +2823,15 @@
       "country": "PL",
       "stable_id": "SP-8a017e0c-0c95-5150-b5c6-0161265b651b",
       "name": "Jezioro Rożnowskie",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-8a017e0c-0c95-5150-b5c6-0161265b651b",
+        "name": "Jezioro Rożnowskie",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "CANDIDATE_UNCROSSCHECKED"
     },
@@ -2922,7 +2842,6 @@
       "name": "Auschwitz-Birkenau - miejsce pamięci",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2936,7 +2855,6 @@
       "name": "Baszta w Czchowie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2950,7 +2868,6 @@
       "name": "Drewniana zabudowa Lanckorony",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2964,7 +2881,6 @@
       "name": "Kalwaria Zebrzydowska UNESCO",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2978,7 +2894,6 @@
       "name": "Kazimierz",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -2992,7 +2907,6 @@
       "name": "Klasztor Bernardynów",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3006,7 +2920,6 @@
       "name": "Kopalnia Soli Bochnia UNESCO",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3020,7 +2933,6 @@
       "name": "Kopalnia Soli Wieliczka UNESCO",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3034,7 +2946,6 @@
       "name": "Nadwiślański Park Etnograficzny",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3048,7 +2959,6 @@
       "name": "Opactwo Tyniec",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3062,7 +2972,6 @@
       "name": "Ruiny Zamku Rożnów",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3076,7 +2985,6 @@
       "name": "Ruiny zamku w Lanckoronie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3090,7 +2998,6 @@
       "name": "Rynek Główny i Kościół Mariacki",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3104,7 +3011,6 @@
       "name": "Wawel",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3118,7 +3024,6 @@
       "name": "Zamek Nowy Wiśnicz",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3130,11 +3035,15 @@
       "country": "PL",
       "stable_id": "SP-c34cf6ca-cf4d-50bf-b039-f00cfc0e41e3",
       "name": "Zakrzówek",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-c34cf6ca-cf4d-50bf-b039-f00cfc0e41e3",
+        "name": "Zakrzówek",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "REVIEW"
     },
@@ -3143,11 +3052,15 @@
       "country": "PL",
       "stable_id": "SP-76fd6a4e-4ada-5bfd-a45d-273ed143c1d5",
       "name": "Jezioro Gopło",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-76fd6a4e-4ada-5bfd-a45d-273ed143c1d5",
+        "name": "Jezioro Gopło",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "CANDIDATE_UNCROSSCHECKED"
     },
@@ -3158,7 +3071,6 @@
       "name": "Pojezierze Brodnickie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3172,7 +3084,6 @@
       "name": "Cytadela Grudziądz",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3186,7 +3097,6 @@
       "name": "Exploseum",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3200,7 +3110,6 @@
       "name": "Fort IV Twierdzy Toruń",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3214,7 +3123,6 @@
       "name": "Grobowce megalityczne w Sarnowie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3228,7 +3136,6 @@
       "name": "Grobowce megalityczne w Wietrzychowicach",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3242,7 +3149,6 @@
       "name": "Rezerwat Archeologiczny Biskupin",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3256,7 +3162,6 @@
       "name": "Ruiny Zamku Krzyżackiego",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3270,7 +3175,6 @@
       "name": "Ruiny zamku w Radzyniu Chełmińskim",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3284,7 +3188,6 @@
       "name": "Ruiny zamku w Wenecji",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3298,7 +3201,6 @@
       "name": "Spichlerze nad Wisłą w Grudziądzu",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3312,7 +3214,6 @@
       "name": "Stare Miasto w Toruniu UNESCO",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3326,7 +3227,6 @@
       "name": "Tężnie solankowe w Ciechocinku",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3340,7 +3240,6 @@
       "name": "Wieża Zamkowa w Brodnicy",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3354,7 +3253,6 @@
       "name": "Zamek Golubski",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3368,7 +3266,6 @@
       "name": "Zamek w Świeciu",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3382,7 +3279,6 @@
       "name": "Kocioł Łomniczki",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3396,7 +3292,6 @@
       "name": "Wieża widokowa Niechorz",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3410,7 +3305,6 @@
       "name": "Wieża widokowa Sępólno Krajeńskie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3424,7 +3318,6 @@
       "name": "Wieża widokowa Wiele nad Jeziorem Wieleckim",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3438,7 +3331,6 @@
       "name": "Stawy Echo",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3452,7 +3344,6 @@
       "name": "Szumy nad Tanwią",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3466,7 +3357,6 @@
       "name": "Bastion VII i Nadszaniec",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3480,7 +3370,6 @@
       "name": "Fortyfikacje Zamościa",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3494,7 +3383,6 @@
       "name": "Kaplica Trójcy Świętej",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3508,7 +3396,6 @@
       "name": "Pałac Zamoyskich w Kozłówce",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3522,7 +3409,6 @@
       "name": "Ruiny zamku w Kazimierzu Dolnym",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3536,7 +3422,6 @@
       "name": "Stare Miasto w Lublinie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3550,7 +3435,6 @@
       "name": "Stare Miasto w Zamościu UNESCO",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3564,7 +3448,6 @@
       "name": "Zamek Janowiec",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3578,7 +3461,6 @@
       "name": "Zamek Lubelski",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3592,7 +3474,6 @@
       "name": "Bukowa Góra",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3606,7 +3487,6 @@
       "name": "Czahary",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3620,7 +3500,6 @@
       "name": "Czartowe Pole",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3634,7 +3513,6 @@
       "name": "Florianka",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3648,7 +3526,6 @@
       "name": "Góra Trzech Krzyży",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3662,7 +3539,6 @@
       "name": "Spławy",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3676,7 +3552,6 @@
       "name": "Wąwóz Korzeniowy Dół",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3690,7 +3565,6 @@
       "name": "Ścieżka Dąb Dominik",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3704,7 +3578,6 @@
       "name": "Chełmskie Podziemia Kredowe",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3718,7 +3591,6 @@
       "name": "Kamieniołom Babia Dolina w Józefowie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3732,7 +3604,6 @@
       "name": "Kamieniołom w Krasnobrodzie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3746,7 +3617,6 @@
       "name": "Jezioro Trześniowskie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3760,7 +3630,6 @@
       "name": "Kolorowe jeziora pokopalniane",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3774,7 +3643,6 @@
       "name": "Bastion Filip",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3788,7 +3656,6 @@
       "name": "Figura Chrystusa Króla",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3802,7 +3669,6 @@
       "name": "Muzeum Obozów Jenieckich / Stalag Luft III",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3816,7 +3682,6 @@
       "name": "Pałac Książęcy w Żaganiu",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3830,7 +3695,6 @@
       "name": "Podziemna trasa MRU w Pniewie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3844,7 +3708,6 @@
       "name": "Pętla Boryszyńska",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3858,7 +3721,6 @@
       "name": "Ruiny Starego Miasta Kostrzyn",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3872,7 +3734,6 @@
       "name": "Schrony centralnego odcinka MRU",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3886,7 +3747,6 @@
       "name": "Zamek Joannitów w Łagowie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3900,7 +3760,6 @@
       "name": "Chyrzyno",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3914,7 +3773,6 @@
       "name": "Park Mużakowski UNESCO",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3928,7 +3786,6 @@
       "name": "Park Narodowy Ujście Warty",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3942,7 +3799,6 @@
       "name": "Polder Północny",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3956,7 +3812,6 @@
       "name": "Dawna Kopalnia Babina",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3970,7 +3825,6 @@
       "name": "Geopark Łuk Mużakowa UNESCO",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3984,7 +3838,6 @@
       "name": "Cytadela Twierdzy Modlin",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -3996,11 +3849,15 @@
       "country": "PL",
       "stable_id": "SP-99894de8-ef58-5197-b052-41af8d7ab1c0",
       "name": "Muzeum Powstania Warszawskiego",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-99894de8-ef58-5197-b052-41af8d7ab1c0",
+        "name": "Muzeum Powstania Warszawskiego",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "CROSS_CHECKED_EXISTING"
     },
@@ -4011,7 +3868,6 @@
       "name": "Palmiry",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4025,7 +3881,6 @@
       "name": "Spichlerz nad Narwią",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4039,7 +3894,6 @@
       "name": "Stare Miasto i Zamek Królewski UNESCO",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4053,7 +3907,6 @@
       "name": "Wybrane forty pierścienia Modlina",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4067,7 +3920,6 @@
       "name": "Wzgórze Tumskie w Płocku",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4081,7 +3933,6 @@
       "name": "Zamek Książąt Mazowieckich w Czersku",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4095,7 +3946,6 @@
       "name": "Zamek w Liwie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4109,7 +3959,6 @@
       "name": "Łazienki Królewskie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4123,7 +3972,6 @@
       "name": "Wydmy śródlądowe Kampinosu",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4137,7 +3985,6 @@
       "name": "Wieże widokowe nad jeziorem Łuknajno",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4151,7 +3998,6 @@
       "name": "Wieża widokowa nad jeziorem Śniardwy",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4165,7 +4011,6 @@
       "name": "Przełęcz Rozdziela",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4177,11 +4022,15 @@
       "country": "PL",
       "stable_id": "SP-3a2e84d4-e265-58b4-b9de-96af18d02691",
       "name": "Jezioro Czorsztyńskie",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-3a2e84d4-e265-58b4-b9de-96af18d02691",
+        "name": "Jezioro Czorsztyńskie",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "CANDIDATE_UNCROSSCHECKED"
     },
@@ -4192,7 +4041,6 @@
       "name": "Wodospad pod Młynarzką w Kacwinie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4206,7 +4054,6 @@
       "name": "Bacowka pod Durbaszka",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4220,7 +4067,6 @@
       "name": "Frydman - zabytkowy spichlerz i kościół",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4234,7 +4080,6 @@
       "name": "Zamek Dunajec w Niedzicy",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4248,7 +4093,6 @@
       "name": "Góra Zamkowa",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4262,7 +4106,6 @@
       "name": "Palenica",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4276,7 +4119,6 @@
       "name": "Wysoka - Wysokie Skałki",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4288,11 +4130,15 @@
       "country": "PL",
       "stable_id": "SP-fff603c1-a004-5180-8f75-813e773b299a",
       "name": "Wysoki Wierch",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-fff603c1-a004-5180-8f75-813e773b299a",
+        "name": "Wysoki Wierch",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "CANDIDATE_UNCROSSCHECKED"
     },
@@ -4303,7 +4149,6 @@
       "name": "Przełom Białki",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4317,7 +4162,6 @@
       "name": "Dursztyńskie Skałki",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4331,7 +4175,6 @@
       "name": "Wawoz Szopczanski",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4343,11 +4186,15 @@
       "country": "PL",
       "stable_id": "SP-1277aad9-41cc-5f07-a3ea-260bb5868cb3",
       "name": "Jezioro Hańcza",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-1277aad9-41cc-5f07-a3ea-260bb5868cb3",
+        "name": "Jezioro Hańcza",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "CANDIDATE_UNCROSSCHECKED"
     },
@@ -4358,7 +4205,6 @@
       "name": "Jezioro Jaczno",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4370,11 +4216,15 @@
       "country": "PL",
       "stable_id": "SP-fde5c3c5-bf19-5164-8063-3718c58c0ec3",
       "name": "Jezioro Wigry",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-fde5c3c5-bf19-5164-8063-3718c58c0ec3",
+        "name": "Jezioro Wigry",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "CANDIDATE_UNCROSSCHECKED"
     },
@@ -4385,7 +4235,6 @@
       "name": "Cerkiew w Puchłach",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4399,7 +4248,6 @@
       "name": "Klasztor Pokamedulski w Wigrach",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4413,7 +4261,6 @@
       "name": "Meczet i mizar w Bohonikach",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4427,7 +4274,6 @@
       "name": "Meczet i mizar w Kruszynianach",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4441,7 +4287,6 @@
       "name": "Monaster Zwiastowania w Supraślu",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4455,7 +4300,6 @@
       "name": "Puchły",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4469,7 +4313,6 @@
       "name": "Soce",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4483,7 +4326,6 @@
       "name": "Trześcianka",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4497,7 +4339,6 @@
       "name": "Twierdza Osowiec",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4511,7 +4352,6 @@
       "name": "Wielka Synagoga w Tykocinie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4525,7 +4365,6 @@
       "name": "Święta Góra Grabarka",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4539,7 +4378,6 @@
       "name": "Biebrzański Park Narodowy",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4551,11 +4389,15 @@
       "country": "PL",
       "stable_id": "SP-77b9c40a-ab38-54b7-8676-60671e6d0feb",
       "name": "Czerwone Bagno",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-77b9c40a-ab38-54b7-8676-60671e6d0feb",
+        "name": "Czerwone Bagno",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "CANDIDATE_UNCROSSCHECKED"
     },
@@ -4566,7 +4408,6 @@
       "name": "Długa Luka",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4580,7 +4421,6 @@
       "name": "Góra Cisowa",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4594,7 +4434,6 @@
       "name": "Kurowo",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4608,7 +4447,6 @@
       "name": "Rezerwat Pokazowy Żubrów",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4622,7 +4460,6 @@
       "name": "Rozlewiska Narwi",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4636,7 +4473,6 @@
       "name": "Smolniki",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4650,7 +4486,6 @@
       "name": "Turtul",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4664,7 +4499,6 @@
       "name": "Głazowisko Bachanowo",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4678,7 +4512,6 @@
       "name": "Główne Miasto w Gdańsku",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4692,7 +4525,6 @@
       "name": "Modernistyczne Centrum Gdyni UNESCO",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4706,7 +4538,6 @@
       "name": "Twierdza Wisłoujście",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4720,7 +4551,6 @@
       "name": "Westerplatte",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4734,7 +4564,6 @@
       "name": "Zamek Bytów",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4748,7 +4577,6 @@
       "name": "Zamek Gniew",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4762,7 +4590,6 @@
       "name": "Zamek i Katedra w Kwidzynie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4776,7 +4603,6 @@
       "name": "Zamek w Człuchowie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4790,7 +4616,6 @@
       "name": "Zamek w Malborku UNESCO",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4804,7 +4629,6 @@
       "name": "Żuraw",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4818,7 +4642,6 @@
       "name": "Klif Orłowski",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4832,7 +4655,6 @@
       "name": "Kępa Redłowska",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4846,7 +4668,6 @@
       "name": "Grupa Warowna Cegielnia w Wałczu",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4860,7 +4681,6 @@
       "name": "Latarnia Morska Darłowo",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4872,11 +4692,15 @@
       "country": "PL",
       "stable_id": "SP-4845b90b-82ae-5a4e-878c-5364144f5c9a",
       "name": "Latarnia Morska Gąski",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-4845b90b-82ae-5a4e-878c-5364144f5c9a",
+        "name": "Latarnia Morska Gąski",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "CROSS_CHECKED_EXISTING"
     },
@@ -4887,7 +4711,6 @@
       "name": "Podziemne Miasto na Wolinie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4901,7 +4724,6 @@
       "name": "Ruiny kościoła na klifie w Trzęsaczu",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4915,7 +4737,6 @@
       "name": "Zamek Książąt Pomorskich w Darłowie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4929,7 +4750,6 @@
       "name": "Zamek Książąt Pomorskich w Szczecinie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4943,7 +4763,6 @@
       "name": "Dolina Płocicznej",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4957,7 +4776,6 @@
       "name": "Gosań - klif i punkt widokowy",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4971,7 +4789,6 @@
       "name": "Krzywy Las",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4985,7 +4802,6 @@
       "name": "Wzgórze Zielonka",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -4999,7 +4815,6 @@
       "name": "Zagroda Pokazowa Żubrów",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5013,7 +4828,6 @@
       "name": "Głaz narzutowy Trygław",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5027,7 +4841,6 @@
       "name": "Podziemny spływ łodzią w Sztolni Królowa Luiza",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5041,7 +4854,6 @@
       "name": "Pałac w Pławniowicach",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5055,7 +4867,6 @@
       "name": "Stajnie Książęce",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5069,7 +4880,6 @@
       "name": "Zamek w Toszku",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5083,7 +4893,6 @@
       "name": "Ogrody Kapias",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5097,7 +4906,6 @@
       "name": "Pokazowa Zagroda Żubrów",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5111,7 +4919,6 @@
       "name": "Przełęcz Szopka (Chwała Bogu)",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5125,7 +4932,6 @@
       "name": "Lawendowe Wzgórza w Szczawnicy",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5139,7 +4945,6 @@
       "name": "Wieża widokowa w Świętem",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5153,7 +4958,6 @@
       "name": "Wieża widokowa nad jeziorem Chłop",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5167,7 +4971,6 @@
       "name": "Kolorowe Jeziorka",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5181,7 +4984,6 @@
       "name": "Miedzianka",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5193,11 +4995,15 @@
       "country": "PL",
       "stable_id": "SP-631f7e5c-ebd7-52f5-bb29-4631ffe38e78",
       "name": "Krzyżna Góra",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-631f7e5c-ebd7-52f5-bb29-4631ffe38e78",
+        "name": "Krzyżna Góra",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "CROSS_CHECKED_EXISTING"
     },
@@ -5206,11 +5012,15 @@
       "country": "PL",
       "stable_id": "SP-43b2e404-7e61-5d30-aeca-b5fc3b04fca7",
       "name": "Skalnik",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-43b2e404-7e61-5d30-aeca-b5fc3b04fca7",
+        "name": "Skalnik",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "CROSS_CHECKED_EXISTING"
     },
@@ -5219,11 +5029,15 @@
       "country": "PL",
       "stable_id": "SP-cd065ed4-6acc-5784-959f-0b02afbd1a29",
       "name": "Skopiec",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-cd065ed4-6acc-5784-959f-0b02afbd1a29",
+        "name": "Skopiec",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "CROSS_CHECKED_EXISTING"
     },
@@ -5234,7 +5048,6 @@
       "name": "Wilcza Góra",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5248,7 +5061,6 @@
       "name": "Wąwóz Myśliborski",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5262,7 +5074,6 @@
       "name": "Czartowska Skała",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5276,7 +5087,6 @@
       "name": "Husyckie Skały",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5290,7 +5100,6 @@
       "name": "Organy Wielisławskie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5304,7 +5113,6 @@
       "name": "Starościńskie Skały",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5318,7 +5126,6 @@
       "name": "Podziemny Wodospad",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5332,7 +5139,6 @@
       "name": "Muzeum Papiernictwa w Dusznikach-Zdroju",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5346,7 +5152,6 @@
       "name": "Muzeum Ziemi w Kletnie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5360,7 +5165,6 @@
       "name": "Ruiny Zamku Karpień",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5374,7 +5178,6 @@
       "name": "Wieza na Sniezniku",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5388,7 +5191,6 @@
       "name": "Zabytkowa drewniana zabudowa Międzygórza",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5402,7 +5204,6 @@
       "name": "Zakład Przyrodoleczniczy Wojciech",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5414,11 +5215,15 @@
       "country": "PL",
       "stable_id": "SP-b25ccafa-2b02-52dd-970e-49f9405f0444",
       "name": "Śnieżnik",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-b25ccafa-2b02-52dd-970e-49f9405f0444",
+        "name": "Śnieżnik",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "CANDIDATE_UNCROSSCHECKED"
     },
@@ -5429,7 +5234,6 @@
       "name": "Puszcza Śnieżnej Bialki",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5441,11 +5245,15 @@
       "country": "PL",
       "stable_id": "SP-06dd9895-f96e-5f82-a432-775b9f5688ae",
       "name": "Torfowisko pod Zieleńcem",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-06dd9895-f96e-5f82-a432-775b9f5688ae",
+        "name": "Torfowisko pod Zieleńcem",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "CANDIDATE_UNCROSSCHECKED"
     },
@@ -5456,7 +5264,6 @@
       "name": "Zieleniec - Grzbiet",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5470,7 +5277,6 @@
       "name": "Skały Trzy Siostry",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5482,11 +5288,15 @@
       "country": "PL",
       "stable_id": "SP-d44c3e57-4c71-5bae-b430-2dbae4ca0395",
       "name": "Jezioro Bystrzyckie",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-d44c3e57-4c71-5bae-b430-2dbae4ca0395",
+        "name": "Jezioro Bystrzyckie",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "CANDIDATE_UNCROSSCHECKED"
     },
@@ -5497,7 +5307,6 @@
       "name": "Dawna Kopalnia Węgla w Nowej Rudzie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5511,7 +5320,6 @@
       "name": "Kompleks Riese - Osowka",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5525,7 +5333,6 @@
       "name": "Kompleks Riese - Wlodarz",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5539,7 +5346,6 @@
       "name": "Opactwo Cystersów w Krzeszowie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5553,7 +5359,6 @@
       "name": "Podziemia Zamku Książ",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5567,7 +5372,6 @@
       "name": "Projekt Arado",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5581,7 +5385,6 @@
       "name": "Ruiny Zamku Rogowiec",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5595,7 +5398,6 @@
       "name": "Stara Kopalnia w Wałbrzychu",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5609,7 +5411,6 @@
       "name": "Sztolnie Walimskie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5623,7 +5424,6 @@
       "name": "Włodarz",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5637,7 +5437,6 @@
       "name": "Zamek Grodno",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5651,7 +5450,6 @@
       "name": "Zamek Książ",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5663,11 +5461,15 @@
       "country": "PL",
       "stable_id": "SP-17e68ead-b691-5d1e-b223-94a2b432f0b0",
       "name": "Borowa",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-17e68ead-b691-5d1e-b223-94a2b432f0b0",
+        "name": "Borowa",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "CROSS_CHECKED_EXISTING"
     },
@@ -5678,7 +5480,6 @@
       "name": "Zamkowa Góra",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5692,7 +5493,6 @@
       "name": "Przełomy pod Książem",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5706,7 +5506,6 @@
       "name": "Wodogrzmoty Mickiewicza",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5720,7 +5519,6 @@
       "name": "Muzeum Tatrzańskie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5734,7 +5532,6 @@
       "name": "Schronisko Murowaniec",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5748,7 +5545,6 @@
       "name": "Wiktorowki",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5762,7 +5558,6 @@
       "name": "Beskid",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5776,7 +5571,6 @@
       "name": "Grześ",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5790,7 +5584,6 @@
       "name": "Kozie Czuby",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5802,11 +5595,15 @@
       "country": "PL",
       "stable_id": "SP-a5717f39-8311-552e-b2cb-6c6f72b7feb4",
       "name": "Kościelec",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-a5717f39-8311-552e-b2cb-6c6f72b7feb4",
+        "name": "Kościelec",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "CROSS_CHECKED_EXISTING"
     },
@@ -5815,11 +5612,15 @@
       "country": "PL",
       "stable_id": "SP-41f437ac-72ad-5b9e-b70a-2e3cdf443a77",
       "name": "Świnica",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-41f437ac-72ad-5b9e-b70a-2e3cdf443a77",
+        "name": "Świnica",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "CANDIDATE_UNCROSSCHECKED"
     },
@@ -5830,7 +5631,6 @@
       "name": "Krzyżne",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5844,7 +5644,6 @@
       "name": "Liliowe",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5858,7 +5657,6 @@
       "name": "Boczan",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5870,11 +5668,15 @@
       "country": "PL",
       "stable_id": "SP-810ec288-bd6d-5960-a2c2-b5110c3d0c5a",
       "name": "Dolina Chochołowska",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-810ec288-bd6d-5960-a2c2-b5110c3d0c5a",
+        "name": "Dolina Chochołowska",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "CANDIDATE_UNCROSSCHECKED"
     },
@@ -5885,7 +5687,6 @@
       "name": "Dolina Jaworzynki",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5899,7 +5700,6 @@
       "name": "Hala Ornak",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5913,7 +5713,6 @@
       "name": "Polana Chochołowska",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5927,7 +5726,6 @@
       "name": "Jaskinia Dziura",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5941,7 +5739,6 @@
       "name": "Smocza Jama i Wąwóz Kraków",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5955,7 +5752,6 @@
       "name": "Przełęcz pod Chłopkiem",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5969,7 +5765,6 @@
       "name": "Sucha Przełęcz",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -5981,11 +5776,15 @@
       "country": "PL",
       "stable_id": "SP-bad9c9c7-0809-504b-b6b7-d61a99bacdac",
       "name": "Jezioro Jeziorak",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-bad9c9c7-0809-504b-b6b7-d61a99bacdac",
+        "name": "Jezioro Jeziorak",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "CANDIDATE_UNCROSSCHECKED"
     },
@@ -5996,7 +5795,6 @@
       "name": "Bunkry Mamerki",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6010,7 +5808,6 @@
       "name": "Mosty w Stańczykach",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6024,7 +5821,6 @@
       "name": "Muzeum Bitwy pod Grunwaldem",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6038,7 +5834,6 @@
       "name": "Wieża Radziejowskiego",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6052,7 +5847,6 @@
       "name": "Wzgórze Katedralne we Fromborku",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6066,7 +5860,6 @@
       "name": "Zamek Biskupów Warmińskich w Lidzbarku",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6080,7 +5873,6 @@
       "name": "Zamek Kapituły Warmińskiej w Olsztynie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6094,7 +5886,6 @@
       "name": "Zamek Ryn",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6106,11 +5897,15 @@
       "country": "PL",
       "stable_id": "SP-8dcf47e8-b4c1-599d-81dd-039226e48364",
       "name": "Puszcza Piska",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-8dcf47e8-b4c1-599d-81dd-039226e48364",
+        "name": "Puszcza Piska",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "CANDIDATE_UNCROSSCHECKED"
     },
@@ -6121,7 +5916,6 @@
       "name": "Puszcza Romincka",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6135,7 +5929,6 @@
       "name": "Wielka Żuława",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6149,7 +5942,6 @@
       "name": "Jezioro Skrzynka",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6163,7 +5955,6 @@
       "name": "Giecz",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6177,7 +5968,6 @@
       "name": "Gniezno - katedra i Wzgórze Lecha",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6191,7 +5981,6 @@
       "name": "Grzybowo",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6205,7 +5994,6 @@
       "name": "Ostrów Lednicki",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6219,7 +6007,6 @@
       "name": "Ostrów Tumski w Poznaniu",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6233,7 +6020,6 @@
       "name": "Pałac w Rogalinie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6247,7 +6033,6 @@
       "name": "Stary Rynek",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6261,7 +6046,6 @@
       "name": "Zamek Gołuchów",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6275,7 +6059,6 @@
       "name": "Zamek Kórnik",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6289,7 +6072,6 @@
       "name": "Cytadela",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6303,7 +6085,6 @@
       "name": "Dęby Rogalińskie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6317,7 +6098,6 @@
       "name": "Kratery meteorytowe",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6331,7 +6111,6 @@
       "name": "Rezerwat Meteoryt Morasko",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6345,7 +6124,6 @@
       "name": "Hala Stulecia UNESCO",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6359,7 +6137,6 @@
       "name": "Kościół Pokoju w Jaworze UNESCO",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6373,7 +6150,6 @@
       "name": "Kościół Pokoju w Świdnicy UNESCO",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6387,7 +6163,6 @@
       "name": "Krzywa Wieża w Ząbkowicach Śląskich",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6401,7 +6176,6 @@
       "name": "Opactwo Cystersów w Henrykowie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6415,7 +6189,6 @@
       "name": "Opactwo Cystersów w Lubiążu",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6429,7 +6202,6 @@
       "name": "Ostrów Tumski",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6443,7 +6215,6 @@
       "name": "Ruiny Zamku Książęcego",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6457,7 +6228,6 @@
       "name": "Rynek we Wrocławiu",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6471,7 +6241,6 @@
       "name": "Zamek Kliczków",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6485,7 +6254,6 @@
       "name": "Zamek Książęcy w Oleśnicy",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6499,7 +6267,6 @@
       "name": "Wieżyca",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6513,7 +6280,6 @@
       "name": "Ruda Sułowska",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6527,7 +6293,6 @@
       "name": "Stawy Milickie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6541,7 +6306,6 @@
       "name": "Wieża obserwacyjna Grabownica",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6555,7 +6319,6 @@
       "name": "Kamienny Niedzwiedz",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6569,7 +6332,6 @@
       "name": "Panna z Ryba",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6581,11 +6343,15 @@
       "country": "PL",
       "stable_id": "SP-c8c0f93a-c1ab-5c0f-a057-3e3143228dc9",
       "name": "Jezioro Dołgie Wielkie",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-c8c0f93a-c1ab-5c0f-a057-3e3143228dc9",
+        "name": "Jezioro Dołgie Wielkie",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "CANDIDATE_UNCROSSCHECKED"
     },
@@ -6594,11 +6360,15 @@
       "country": "PL",
       "stable_id": "SP-27e400cb-aae3-5716-99e5-6aa90465ad00",
       "name": "Jezioro Łebsko",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-27e400cb-aae3-5716-99e5-6aa90465ad00",
+        "name": "Jezioro Łebsko",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "CANDIDATE_UNCROSSCHECKED"
     },
@@ -6609,7 +6379,6 @@
       "name": "Bateria Schleswig-Holstein",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6623,7 +6392,6 @@
       "name": "Dawna wyrzutnia rakiet",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6637,7 +6405,6 @@
       "name": "Fortyfikacje Ośrodka Oporu Jastarnia",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6651,7 +6418,6 @@
       "name": "Latarnia Morska Hel",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6665,7 +6431,6 @@
       "name": "Latarnia Morska Krynica Morska",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6679,7 +6444,6 @@
       "name": "Latarnia Morska Rozewie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6693,7 +6457,6 @@
       "name": "Muzeum Obrony Wybrzeża",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6707,7 +6470,6 @@
       "name": "Cypel Helski",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6721,7 +6483,6 @@
       "name": "Gwiazda Północy",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6735,7 +6496,6 @@
       "name": "Klif Jastrzębiej Góry",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6749,7 +6509,6 @@
       "name": "Martwy Las",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6763,7 +6522,6 @@
       "name": "Park Krajobrazowy Mierzeja Wiślana",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6777,7 +6535,6 @@
       "name": "Ruchome wydmy",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6791,7 +6548,6 @@
       "name": "Wielbłądzi Garb",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6805,7 +6561,6 @@
       "name": "Klify Wolińskiego Parku Narodowego",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6819,7 +6574,6 @@
       "name": "Bazylika Wambierzycka",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6833,7 +6587,6 @@
       "name": "Fort Ostróg",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6847,7 +6600,6 @@
       "name": "Kalwaria Bardska",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6861,7 +6613,6 @@
       "name": "Kalwaria Wambierzycka",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6875,7 +6626,6 @@
       "name": "Karlow",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6889,7 +6639,6 @@
       "name": "Most św. Jana",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6903,7 +6652,6 @@
       "name": "Podziemna Trasa Turystyczna w Kłodzku",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6917,7 +6665,6 @@
       "name": "Skansen Pstrążna",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6929,11 +6676,15 @@
       "country": "PL",
       "stable_id": "SP-047f1a81-70f7-58f1-a2e3-66c1233156be",
       "name": "Twierdza Kłodzko",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-047f1a81-70f7-58f1-a2e3-66c1233156be",
+        "name": "Twierdza Kłodzko",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "CROSS_CHECKED_EXISTING"
     },
@@ -6944,7 +6695,6 @@
       "name": "Twierdza Srebrna Góra",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6958,7 +6708,6 @@
       "name": "Wiadukty dawnej kolei sowiogórskiej",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6972,7 +6721,6 @@
       "name": "Obryw Skalny nad Bardem",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -6986,7 +6734,6 @@
       "name": "Przełom Nysy Kłodzkiej",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -7000,7 +6747,6 @@
       "name": "Łężyckie Skałki",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -7014,7 +6760,6 @@
       "name": "Białe Skały",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -7026,11 +6771,15 @@
       "country": "PL",
       "stable_id": "SP-9dfcbeda-c772-5bb3-a61f-6b3a854e994a",
       "name": "Błędne Skały",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-9dfcbeda-c772-5bb3-a61f-6b3a854e994a",
+        "name": "Błędne Skały",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "CANDIDATE_UNCROSSCHECKED"
     },
@@ -7041,7 +6790,6 @@
       "name": "Fotel Pradziada",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -7055,7 +6803,6 @@
       "name": "Obryw Skalny w Bardzie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -7069,7 +6816,6 @@
       "name": "Piekielko na Szczelincu",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -7083,7 +6829,6 @@
       "name": "Radkowskie Skały",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -7097,7 +6842,6 @@
       "name": "Skalne Grzyby",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -7111,7 +6855,6 @@
       "name": "Skały Puchacza",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -7123,11 +6866,15 @@
       "country": "PL",
       "stable_id": "SP-1c4284b3-826a-5a7b-850c-032aaf803e19",
       "name": "Szczeliniec Wielki",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-1c4284b3-826a-5a7b-850c-032aaf803e19",
+        "name": "Szczeliniec Wielki",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "CANDIDATE_UNCROSSCHECKED"
     },
@@ -7138,7 +6885,6 @@
       "name": "Niebieskie Źródła",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -7152,7 +6898,6 @@
       "name": "Archikolegiata w Tumie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -7166,7 +6911,6 @@
       "name": "Biała Fabryka - Muzeum Włókiennictwa",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -7180,7 +6924,6 @@
       "name": "Bunkier kolejowy w Konewce",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -7194,7 +6937,6 @@
       "name": "Grodzisko w Tumie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -7208,7 +6950,6 @@
       "name": "Księży Młyn",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -7222,7 +6963,6 @@
       "name": "Manufaktura",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -7236,7 +6976,6 @@
       "name": "Zamek Arcybiskupów Gnieźnieńskich w Uniejowie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -7250,7 +6989,6 @@
       "name": "Zamek Kazimierza Wielkiego w Inowłodzu",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -7264,7 +7002,6 @@
       "name": "Zamek Królewski w Łęczycy",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -7278,7 +7015,6 @@
       "name": "Park Romantyczny w Arkadii",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -7292,7 +7028,6 @@
       "name": "Groty Nagórzyckie",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_COORDINATES"
       ],
       "match": null,
@@ -7304,11 +7039,15 @@
       "country": "DE",
       "stable_id": "SP-4a58a108-ce3b-5e66-a48e-d10d85ad1733",
       "name": "Hohe Wart",
-      "status": "INVALID",
+      "status": "CONFLICT",
       "reasons": [
-        "MISSING_COLLECTIONS"
+        "ID_CONFLICT"
       ],
-      "match": null,
+      "match": {
+        "stable_id": "SP-4a58a108-ce3b-5e66-a48e-d10d85ad1733",
+        "name": "Hohe Wart",
+        "scope": "MASTER"
+      },
       "distance_m": null,
       "decision": "STAGE_EXISTING"
     },
@@ -7319,7 +7058,6 @@
       "name": "Federath / Bergische Höhen",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7333,7 +7071,6 @@
       "name": "Kettners Weiher",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7347,7 +7084,6 @@
       "name": "Wupperberge",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7361,7 +7097,6 @@
       "name": "Nachtigallental",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7375,7 +7110,6 @@
       "name": "Narzissenwiesen",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7389,7 +7123,6 @@
       "name": "Vulkanpark",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7403,7 +7136,6 @@
       "name": "Mayener Grubenfeld",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7417,7 +7149,6 @@
       "name": "Elztal",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7431,7 +7162,6 @@
       "name": "Gasseschlucht",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7445,7 +7175,6 @@
       "name": "Giebelwald",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7459,7 +7188,6 @@
       "name": "Erlebnisberg Kappe",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7473,7 +7201,6 @@
       "name": "Clemensberg",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7487,7 +7214,6 @@
       "name": "Kyrillpfad",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7501,7 +7227,6 @@
       "name": "Hannoversche Klippen",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7515,7 +7240,6 @@
       "name": "Rheinhöhen Braubach",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7529,7 +7253,6 @@
       "name": "Bleidenberg",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7543,7 +7266,6 @@
       "name": "Moselblick Alken",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7557,7 +7279,6 @@
       "name": "Schrumpftal",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7571,7 +7292,6 @@
       "name": "Pyrmonter Felsen",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7585,7 +7305,6 @@
       "name": "Elzbachtal",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7599,7 +7318,6 @@
       "name": "Buchsbaum-Wanderpfad",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7613,7 +7331,6 @@
       "name": "Brauselay",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7627,7 +7344,6 @@
       "name": "Hubertushöhe",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7641,7 +7357,6 @@
       "name": "Beilstein",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7655,7 +7370,6 @@
       "name": "Mühlsteinhöhlen",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7669,7 +7383,6 @@
       "name": "Sandkopf",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7683,7 +7396,6 @@
       "name": "Baybachklamm",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7697,7 +7409,6 @@
       "name": "Ehrbachklamm",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7711,7 +7422,6 @@
       "name": "Hahnenbachtal",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7725,7 +7435,6 @@
       "name": "Zeller Schwarze Katz Weinberge",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7739,7 +7448,6 @@
       "name": "Kanonenbahn",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7753,7 +7461,6 @@
       "name": "Wolfer Schanzen",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7767,7 +7474,6 @@
       "name": "Himmelspforte",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7781,7 +7487,6 @@
       "name": "Ürziger Felsen",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7795,7 +7500,6 @@
       "name": "Piesporter Goldtröpfchen",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7809,7 +7513,6 @@
       "name": "Hammelsberg",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7823,7 +7526,6 @@
       "name": "Baumwipfelpfad Saarschleife",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7837,7 +7539,6 @@
       "name": "Steinwand",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7851,7 +7552,6 @@
       "name": "Brockenbahn",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7865,7 +7565,6 @@
       "name": "Bodetal",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7879,7 +7578,6 @@
       "name": "Kernberge",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7893,7 +7591,6 @@
       "name": "Ruhestein",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7907,7 +7604,6 @@
       "name": "Gaishöll-Wasserfälle",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7921,7 +7617,6 @@
       "name": "Polenztal",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7935,7 +7630,6 @@
       "name": "Dresdner Elbhänge",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7949,7 +7643,6 @@
       "name": "Oybin",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7963,7 +7656,6 @@
       "name": "Steinernes Meer",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7977,7 +7669,6 @@
       "name": "Höllental",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -7991,7 +7682,6 @@
       "name": "Leutaschklamm / Geisterklamm",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -8005,7 +7695,6 @@
       "name": "Mittenwalder Altstadt",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -8019,7 +7708,6 @@
       "name": "Neuendorfer Rummel",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -8033,7 +7721,6 @@
       "name": "Havelhöhenweg",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
@@ -8047,7 +7734,6 @@
       "name": "Stubbenkammer",
       "status": "INVALID",
       "reasons": [
-        "MISSING_COLLECTIONS",
         "MISSING_REGION"
       ],
       "match": null,
