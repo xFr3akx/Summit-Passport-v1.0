@@ -1,0 +1,51 @@
+name: PL-DE mass import validation
+
+on:
+  push:
+    branches:
+      - automation/pl-de-mass-import-20260918
+    paths:
+      - "scripts/import_places.py"
+      - "scripts/test_import_places.py"
+      - "data/import/**"
+      - ".github/workflows/pl-de-mass-import.yml"
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Importer regression tests
+        run: python3 scripts/test_import_places.py
+      - name: Real PL-DE dry-run must remain blocked until manifests are complete
+        shell: bash
+        run: |
+          set +e
+          python3 scripts/import_places.py \
+            --poland data/import/poland_candidates.json \
+            --germany data/import/germany_candidates.json \
+            --dry-run
+          code=$?
+          set -e
+          test "$code" -eq 2
+          python3 - <<'PY'
+          import json
+          r=json.load(open("reports/PL_DE_IMPORT_DRY_RUN.json",encoding="utf-8"))
+          s=r["summary"]
+          assert s["candidates_PL"] == 522, s
+          assert s["candidates_DE"] == 54, s
+          assert s["apply_allowed"] is False, s
+          assert s["CONFLICT"] > 0, s
+          assert s["INVALID"] > 0, s
+          print(s)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pl-de-import-dry-run
+          path: |
+            reports/PL_DE_IMPORT_DRY_RUN.json
+            reports/PL_DE_IMPORT_DRY_RUN.md
