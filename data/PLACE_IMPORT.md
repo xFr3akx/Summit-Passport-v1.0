@@ -1,53 +1,47 @@
-# Szybki import miejsc — Summit Passport
+# Controlled PL + DE place import
 
-Ten pipeline służy do hurtowego przygotowania nowych miejsc bez ręcznej edycji `catalog.json`.
+Production MASTER is `app/src/main/assets/ui/catalog.json`.
 
-## Zasada bezpieczeństwa
+The Poland and Germany expansion is handled as one transaction from two JSON manifests:
 
-`app/src/main/assets/ui/catalog.json` jest źródłem produkcyjnym. Importer go **nie nadpisuje**. Generuje:
+- `data/import/poland_candidates.json`
+- `data/import/germany_candidates.json`
 
-- `data/new_places_report.json` — wynik deduplikacji i walidacji,
-- `data/catalog_next.json` — kopię katalogu z dopisanymi wyłącznie rekordami `NEW`.
+The importer is `scripts/import_places.py`. It validates both manifests together, deduplicates against each other and against MASTER, writes dry-run reports, and refuses `--apply` whenever any candidate is `INVALID`, any conflict remains unresolved, or either manifest is not explicitly marked `manifest_complete: true` and `approval_status: "APPROVED_COMPLETE"`.
 
-Dopiero po przeglądzie raportu można świadomie zastąpić katalog produkcyjny.
-
-## Kolejka
-
-Wpisuj kandydatów do `data/new_places_queue.csv` albo podaj własny CSV/JSON. Kolumny:
-
-`country,name,category,lat,lon,region,area,source,coordinate_role,priority,notes`
-
-Wspierane role współrzędnych:
-
-- `exact` — dokładny POI,
-- `representative` — punkt reprezentatywny większego obszaru,
-- `start` — wejście/start szlaku lub doliny,
-- `review` — wymaga ręcznej decyzji.
-
-Importer rozumie również nazwy roboczej taksonomii, np. `ROCK_GEOLOGY`, `PASS_SADDLE`, `TRAIL_EXPERIENCE`, i mapuje je na typy runtime aplikacji.
-
-## Uruchomienie
+## Dry-run
 
 ```bash
-python3 scripts/import_places.py
+python3 scripts/import_places.py \
+  --poland data/import/poland_candidates.json \
+  --germany data/import/germany_candidates.json \
+  --dry-run
 ```
 
-lub:
+Outputs:
+
+- `reports/PL_DE_IMPORT_DRY_RUN.json`
+- `reports/PL_DE_IMPORT_DRY_RUN.md`
+
+Exit code 0 means the dry-run is clean and apply is permitted. Exit code 2 means the dry-run completed but apply is blocked.
+
+Candidate statuses are `ADD`, `DUPLICATE`, `CONFLICT`, and `INVALID`. The importer checks stable IDs, normalized names, aliases, diacritics/case/hyphen/space variants, simple type words in Polish/German/English, and coordinates. A coordinate-only match within 80 m is a `CONFLICT` with `NEAR_COORDINATE_MATCH`, never an automatic duplicate.
+
+## Apply
+
+Only after a clean dry-run:
 
 ```bash
-python3 scripts/import_places.py moja_paczka.csv
+python3 scripts/import_places.py \
+  --poland data/import/poland_candidates.json \
+  --germany data/import/germany_candidates.json \
+  --apply
 ```
 
-## Statusy
+Apply re-reads and re-validates MASTER, prepares the complete result in memory, creates a timestamped backup under `backups/import/`, and replaces `catalog.json` once with an atomic rename. Existing records are deep-compared before and after; existing IDs cannot be changed or removed. The importer does not touch visits, user data, badges, achievements, or achievement place conditions.
 
-- `NEW` — bezpieczny kandydat dopisany do `catalog_next.json`,
-- `EXISTS` — rekord już istnieje,
-- `POSSIBLE_DUPLICATE` — podobna nazwa / bardzo bliski punkt; sprawdzić ręcznie,
-- `REVIEW` — lokalizacja świadomie niejednoznaczna,
-- `INVALID` — brak wymaganych danych albo błędny format.
+After a successful apply it writes `reports/PL_DE_IMPORT_FINAL.md`.
 
-## Reguły szybkości
+## Current gate
 
-Pracujemy paczkami 100–200 rekordów. Ręcznie sprawdzamy tylko `POSSIBLE_DUPLICATE`, `REVIEW` i `INVALID`. Nie weryfikujemy drugi raz rekordów `EXISTS` i nie przepisujemy ręcznie rekordów `NEW`.
-
-Po zatwierdzeniu paczki uruchamiamy istniejące walidatory katalogu, kolekcji oraz testy aplikacji.
+The checked-in manifests intentionally preserve the latest verified repository state rather than pretending that review is complete. The Poland workflow artifact contains 522 unresolved runtime records, but only 17 have a completed OSM/GeoNames cross-check. The Germany final 54 review resolves semantic identity, but its own report says 51 new runtime records still require region/collection metadata. Therefore both manifests are currently marked incomplete and `--apply` must refuse to modify MASTER.
